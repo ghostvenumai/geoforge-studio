@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoforge-studio"
+version = "0.1.0"
+description = "Offline-first address, geo, and data transformation platform"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "polars>=1.25,<2",
+  "pyarrow>=23.0.1,<24",
+  "duckdb>=1.2,<2",
+  "pyproj>=3.7,<4",
+  "rapidfuzz>=3.12,<4",
+  "SQLAlchemy>=2.0.38,<3",
+  "psutil>=6.1,<8",
+  "structlog>=24.4,<26",
+  "uvicorn[standard]>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+  "PyYAML>=6.0.2,<7",
+  "charset-normalizer>=3.4,<4",
+  "openpyxl>=3.1.5,<4",
+]
+
+[project.optional-dependencies]
+dev = [
+  "bandit>=1.8,<2",
+  "hypothesis>=6.125,<7",
+  "httpx>=0.28,<1",
+  "mypy>=1.15,<2",
+  "pip-audit>=2.8,<3",
+  "pytest>=9.0.3,<10",
+  "pytest-asyncio>=1,<2",
+  "pytest-cov>=6,<8",
+  "ruff>=0.9,<1",
+  "types-PyYAML>=6.0.12,<7",
+]
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend", "."]
+testpaths = ["backend/tests", "tests"]
+addopts = "--strict-markers --strict-config -ra"
+markers = [
+  "integration: API and persistence integration tests",
+  "slow: opt-in long-running tests",
+]
+
+[tool.coverage.run]
+source = ["backend/geoforge"]
+branch = true
+omit = ["backend/geoforge/main.py"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["backend", "scripts", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "S", "RUF"]
+ignore = ["S101"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "backend"
+exclude = ["frontend", ".venv"]
+
+[[tool.mypy.overrides]]
+module = ["polars.*", "pyarrow.*", "duckdb.*", "pyproj.*", "rapidfuzz.*", "psutil.*", "openpyxl.*"]
+ignore_missing_imports = true
+
+[tool.bandit]
+exclude_dirs = ["backend/tests", "tests", ".venv"]
+skips = ["B101"]

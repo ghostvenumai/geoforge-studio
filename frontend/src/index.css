@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; font-synthesis: none; text-rendering: optimizeLegibility; }
+:root.dark { color-scheme: dark; }
+* { scrollbar-width: thin; scrollbar-color: #9ca3af transparent; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+::selection { background: #99e3d5; color: #111827; }
+.focus-ring { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:ring-offset-gray-950; }
+.field { @apply focus-ring min-h-10 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm placeholder:text-gray-400 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100; }
+.data-table { @apply w-full min-w-[680px] border-collapse text-left text-sm; }
+.data-table th { @apply border-b border-gray-200 bg-gray-50 px-4 py-3 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-400; }
+.data-table td { @apply border-b border-gray-100 px-4 py-3 align-top dark:border-gray-800; }
+.data-table tr:last-child td { @apply border-b-0; }
+.react-flow__attribution a { color: #374151 !important; }
+.dark .react-flow__attribution a { color: #d1d5db !important; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; } }

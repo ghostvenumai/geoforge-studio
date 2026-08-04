@@ -1,0 +1,51 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      GEOFORGE_ENV: production
+      GEOFORGE_DATABASE_URL: sqlite:////app/data/geoforge.db
+      GEOFORGE_DATA_DIR: /app/data
+      GEOFORGE_ARTIFACT_DIR: /app/artifacts/runs
+      GEOFORGE_ALLOWED_ORIGINS: '["http://localhost:5173","http://127.0.0.1:5173"]'
+    volumes:
+      - geoforge-data:/app/data
+      - geoforge-artifacts:/app/artifacts/runs
+    ports:
+      - "127.0.0.1:${GEOFORGE_BACKEND_PORT:-8000}:8000"
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,noexec,nosuid
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 15s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${GEOFORGE_FRONTEND_PORT:-5173}:8080"
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,noexec,nosuid
+      - /var/cache/nginx:size=32m,noexec,nosuid
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+volumes:
+  geoforge-data:
+  geoforge-artifacts:

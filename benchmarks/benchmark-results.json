@@ -1,0 +1,67 @@
+{
+  "measured_at": "2026-08-04T16:11:23.832726+00:00",
+  "machine": {
+    "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu_count": 4,
+    "memory_total_bytes": 16639713280
+  },
+  "results": [
+    {
+      "rows": 10000,
+      "seed": 42,
+      "generation_seconds": 0.176845,
+      "pipeline_seconds": 1.008581,
+      "pipeline_rows_per_second": 9914.92,
+      "pipeline_peak_observed_rss_bytes": 160251904,
+      "output_rows": 10000,
+      "quarantine_rows": 0,
+      "duplicate_records": 1197,
+      "formats": {
+        "csv": {
+          "size_bytes": 1190169,
+          "write_seconds": 0.011274,
+          "read_seconds": 0.026045,
+          "read_rows_per_second": 383955.85,
+          "peak_observed_rss_bytes": 98959360
+        },
+        "parquet": {
+          "size_bytes": 249905,
+          "write_seconds": 0.010091,
+          "read_seconds": 0.005138,
+          "read_rows_per_second": 1946264.03,
+          "peak_observed_rss_bytes": 100769792
+        }
+      },
+      "generation_peak_observed_rss_bytes": 78983168
+    },
+    {
+      "rows": 100000,
+      "seed": 42,
+      "generation_seconds": 1.782205,
+      "pipeline_seconds": 43.470355,
+      "pipeline_rows_per_second": 2300.42,
+      "pipeline_peak_observed_rss_bytes": 642822144,
+      "output_rows": 100000,
+      "quarantine_rows": 0,
+      "duplicate_records": 15725,
+      "formats": {
+        "csv": {
+          "size_bytes": 12010757,
+          "write_seconds": 0.027179,
+          "read_seconds": 0.055555,
+          "read_rows_per_second": 1800004.78,
+          "peak_observed_rss_bytes": 263819264
+        },
+        "parquet": {
+          "size_bytes": 2003163,
+          "write_seconds": 0.046529,
+          "read_seconds": 0.032238,
+          "read_rows_per_second": 3101916.21,
+          "peak_observed_rss_bytes": 268812288
+        }
+      },
+      "generation_peak_observed_rss_bytes": 205361152
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Portfolio-Beschreibung
+
+GeoForge Studio ist eine produktionsnahe, offline-fähige Data-Engineering-Plattform für Adress-, Geo- und Qualitätsdaten. Das Projekt verbindet FastAPI, Pydantic, Polars, PyArrow, DuckDB, pyproj, RapidFuzz, SQLAlchemy und React/TypeScript. Es demonstriert sichere Dateiimporte, skalierbares Profiling, reproduzierbare visuelle/YAML-Pipelines, Blocking-basierte Dublettenerkennung, Quarantäne, echte Performance-Metriken sowie auditierbare Exporte. 82 Python-Tests erreichten 92,54% Coverage; der vollständige Playwright-/axe-Workflow lief auf Desktop, Tablet und Mobile erfolgreich.

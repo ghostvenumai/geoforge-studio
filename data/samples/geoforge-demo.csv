@@ -1,0 +1,1001 @@
+record_id,source_row,street,city,postal_code,country,latitude,longitude,event_date,category,quality_note
+syn-000000000,0,Pipelineweg 1A, Nordhafen ,ABCDE,DE,52.9357838,8.0530051,2020/01/01,segment-00,+SUM(A1:A2)
+syn-000000001,1,  Datenstraße   2,Datenheim,17919,Deutschland,48.8111661,11.7789368,2020-01-02,segment-01,synthetic-normal
+syn-000000002,2,Prüfsummenstr. 3,Westbogen,25838,D,49.4118222,7.7808866,2020-01-03,segment-02,synthetic-normal
+syn-000000003,3,  Schemaweg   4,Nordhafen,33757,Deutschland,52.8459616,10.7332984,04/01/2020,segment-03,synthetic-normal
+syn-000000004,4,Datenstraße 5,Vektorstetten,41676,DE,49.0320269,8.4623693,2020/01/05,segment-04,synthetic-normal
+syn-000000005,5,Koordinatenplatz 6,Südwinkel,49595,DE,50.1133754,7.7274647,06.01.2020,segment-05,synthetic-normal
+syn-000000006,6,Spaltenweg 7,Ostfeld,57514,DE,49.3516035,14.3135989,07.01.2020,segment-06,synthetic-normal
+syn-000000007,7,Prüfsummenstr. 8D,Westbogen,65433,D,47.8030334,14.2008523,2020/01/08,segment-07,synthetic-normal
+syn-000000008,8,Vektorallee 9,Westbogen,73352,D,48.3611904,12.6538986,2020/01/09,segment-08,synthetic-normal
+syn-000000009,9,Vektorallee 10, Datenheim ,81271,deu,51.0507203,12.7531958,2020/01/10,segment-09,synthetic-normal
+syn-000000010,10,Spaltenweg 11,Datenheim,89190,DE,49.2107473,10.8896782,11/01/2020,segment-10,synthetic-normal
+syn-000000011,11,Schemaweg 12,Ostfeld,17109,deu,48.5019989,5.8298569,2020-01-12,segment-11,synthetic-normal
+syn-000000012,12,Qualitätsring 13,Südwinkel,25028,D,7.2862511,50.1417453,2020-01-13,segment-00,synthetic-error
+syn-000000013,13,Schemaweg 14,Südwinkel,32947,D,47.7402313,13.8776883,2020-01-14,segment-01,synthetic-normal
+syn-000000014,14,Vektorallee 15C,Südwinkel,40866,D,52.3141063,14.5110079,15.01.2020,segment-02,synthetic-normal
+syn-000000015,15,Qualitätsring 16,Vektorstetten,48785,D,49.6690438,14.9553741,2020-01-16,segment-03,synthetic-normal
+syn-000000016,16,Pipelineweg 1A, Nordhafen ,ABCDE,DE,52.9357838,8.0530051,2020/01/01,segment-00,+SUM(A1:A2)
+syn-000000017,17,Qualitätsring 18,Nordhafen,64623,DE,not-a-number,11.6061472,18/01/2020,segment-05,synthetic-error
+syn-000000018,18,  Qualitätsring   19, Datenheim ,72542,D,48.3055701,14.406731,2020/01/19,segment-06,synthetic-normal
+syn-000000019,19,Prüfsummenstraße 20,Westbogen,80461,DE,50.5191975,10.0966269,2020-01-20,segment-07,synthetic-normal
+syn-000000020,20,Pipelineweg 21,Südwinkel,88380,Deutschland,48.7560845,10.7338289,2020/01/21,segment-08,synthetic-normal
+syn-000000021,21,Spaltenweg 22B,Datenheim,16299,deu,48.0441063,11.799733,22.01.2020,segment-09,synthetic-normal
+syn-000000022,22,  Prüfsummenstraße   23,Nordhafen,24218,D,48.5512421,5.8198295,23/01/2020,segment-10,synthetic-normal
+syn-000000023,23,Spaltenweg 24,,32137,DE,48.7432238,7.8028483,24/01/2020,segment-11,synthetic-error
+syn-000000024,24,Vektorallee 25,Nordhafen,40056,DE,54.6019197,6.5370255,25.01.2020,segment-00,synthetic-normal
+syn-000000025,25,  Qualitätsring   26,Datenheim,47975,Deutschland,51.8183456,11.4983099,26/01/2020,segment-01,synthetic-normal
+syn-000000026,26,Qualitätsring 27,Westbogen,55894,DE,50.3079724,11.9795501,2020-01-27,segment-02,synthetic-normal
+syn-000000027,27,Pipelineweg 28, Nordhafen ,63813,DE,51.3860215,10.4541392,28.01.2020,segment-03,synthetic-normal
+syn-000000028,28,Schemaweg 29A,Datenheim,71732,Deutschland,54.7772852,13.2253195,2020-01-29,segment-04,synthetic-normal
+syn-000000029,29,Pipelineweg 30,Nordhafen,79651,Deutschland,52.9423668,7.2301208,30.01.2020,segment-05,synthetic-normal
+syn-000000030,30,Spaltenweg 31,Westbogen,87570,Deutschland,54.1805573,13.5841542,31-31-not-a-date,segment-06,synthetic-error
+syn-000000031,31,  Schemaweg   32,Südwinkel,15489,DE,52.9333549,10.8754599,2020-02-01,segment-07,synthetic-normal
+syn-000000032,32,Vektorallee 33,Datenheim,23408,DE,47.5738138,9.1967871,02/02/2020,segment-08,synthetic-normal
+syn-000000033,33,Datenstraße 34,Westbogen,31327,D,48.8965817,8.0956736,03.02.2020,segment-09,synthetic-normal
+syn-000000034,34,Vektorallee 35,Südwinkel,39246,D,53.9987632,6.0280345,04.02.2020,segment-10,synthetic-normal
+syn-000000035,35,Pipelineweg 36D,Ostfeld,47165,D,53.9284676,13.6990579,05/02/2020,segment-11,synthetic-normal
+syn-000000036,36,Qualitätsring 37, Südwinkel ,55084,DE,47.4798497,7.5767941,06/02/2020,segment-00,synthetic-normal
+syn-000000037,37,Koordinatenplatz 38,Nordhafen,63003,Deutschland,48.1765973,-220.0,2020-02-07,segment-01,synthetic-error
+syn-000000038,38,  Koordinatenplatz   39,Ostfeld,70922,deu,51.9071873,200.0,08/02/2020,segment-02,synthetic-error
+syn-000000039,39,Qualitätsring 40,Westbogen,78841,DE,50.5778602,14.5296453,09/02/2020,segment-03,synthetic-normal
+syn-000000040,40,Koordinatenplatz 41,Ostfeld,86760,D,52.5987839,10.9005948,10.02.2020,segment-04,synthetic-normal
+syn-000000041,41,Datenstr. 42,Westbogen,14679,D,49.4805442,9.754971,11.02.2020,segment-05,synthetic-normal
+syn-000000042,42,Vektorallee 43C,Vektorstetten,22598,deu,47.9444461,10.5421585,12/02/2020,segment-06,synthetic-normal
+syn-000000043,43,Datenstraße 44,Nordhafen,30517,deu,49.1608033,10.1712544,2020/02/13,segment-07,synthetic-normal
+syn-000000044,44,  Datenstraße   45,Nordhafen,38436,deu,53.2159951,7.8133385,2020-02-14,segment-08,synthetic-normal
+syn-000000045,45,  Koordinatenplatz   46, Ostfeld ,46355,D,51.9561577,12.4173204,15.02.2020,segment-09,synthetic-normal
+syn-000000046,46,  Schemaweg   47,Südwinkel,54274,Deutschland,8.3512644,53.6829579,2020/02/16,segment-10,synthetic-error
+syn-000000047,47,Koordinatenplatz 48,Westbogen,62193,deu,54.0870039,-220.0,17.02.2020,segment-11,synthetic-error
+syn-000000048,48,Prüfsummenstraße 49,Nordhafen,70112,D,9.6653204,48.8719414,2020/02/18,segment-00,synthetic-error
+syn-000000049,49,Prüfsummenstrasse 50B,Ostfeld,78031,Deutschland,51.3904763,12.5586334,2020/02/19,segment-01,synthetic-normal
+syn-000000050,50,Prüfsummenstrasse 51,Vektorstetten,85950,DE,48.55434,10.0999894,2020/02/20,segment-02,synthetic-normal
+syn-000000051,51,Pipelineweg 52,Vektorstetten,13869,D,50.557457,13.7750325,21/02/2020,segment-03,synthetic-normal
+syn-000000052,52,Prüfsummenstr. 53,Westbogen,21788,D,53.0152747,13.4537034,2020-02-22,segment-04,synthetic-normal
+syn-000000053,53,  Prüfsummenstrasse   23 ,NORDHAFEN,24218,D,48.5512421,5.8198295,23/01/2020,segment-10,synthetic-normal
+syn-000000054,54,Datenstr. 42 ,WESTBOGEN,14679,D,49.4805442,9.754971,11.02.2020,segment-05,synthetic-normal
+syn-000000055,55,Qualitätsring 16 ,VEKTORSTETTEN,48785,D,49.6690438,14.9553741,2020-01-16,segment-03,synthetic-normal
+syn-000000056,56,Vektorallee 10 , DATENHEIM ,81271,deu,51.0507203,12.7531958,2020/01/10,segment-09,synthetic-normal
+syn-000000057,57,Pipelineweg 58,Datenheim,61383,deu,54.5029534,10.0783126,2020-02-27,segment-09,synthetic-normal
+syn-000000058,58,  Schemaweg   59,Nordhafen,69302,deu,51.698004,14.3457619,2020-02-28,segment-10,synthetic-normal
+syn-000000059,59,Qualitätsring 60,Nordhafen,77221,DE,52.5986668,8.5745607,29/02/2020,segment-11,synthetic-normal
+syn-000000060,60,  Pipelineweg   61,Datenheim,85140,DE,52.2213287,5.9163998,2020/03/01,segment-00,synthetic-normal
+syn-000000061,61,Spaltenweg 62,Vektorstetten,13059,D,48.4627327,7.42046,2020/03/02,segment-01,synthetic-normal
+syn-000000062,62,Schemaweg 63,Westbogen,20978,D,53.77302,13.4427254,03.03.2020,segment-02,synthetic-normal
+syn-000000063,63,Prüfsummenstrasse 64D, Westbogen ,28897,Deutschland,47.51812,13.6287661,04/03/2020,segment-03,synthetic-normal
+syn-000000064,64,Schemaweg 65,Datenheim,36816,D,47.3771485,14.5221757,2020/03/05,segment-04,synthetic-normal
+syn-000000065,65,Spaltenweg 66,Vektorstetten,44735,deu,52.7100023,9.9232059,2020/03/06,segment-05,synthetic-normal
+syn-000000066,66,Koordinatenplatz 67,Ostfeld,52654,D,51.5063945,8.962568,07/03/2020,segment-06,synthetic-normal
+syn-000000067,67,Qualitätsring 68,Westbogen,60573,D,48.208616,10.7299485,08/03/2020,segment-07,synthetic-normal
+syn-000000068,68,Schemaweg 69,Nordhafen,68492,DE,53.6279756,8.5254675,09.03.2020,segment-08,synthetic-normal
+syn-000000069,69,  Schemaweg   70,Vektorstetten,76411,DE,54.4750811,11.6684008,10/03/2020,segment-09,synthetic-normal
+syn-000000070,70," 	Vektorallee 71C  , ",Nordhafen,84330,D,49.2188358,13.7278513,2020/03/11,segment-10,synthetic-error
+syn-000000071,71,Vektorallee 72,Südwinkel,12249,DE,53.4646798,14.5319559,2020/03/12,segment-11,synthetic-normal
+syn-000000072,72,Qualitätsring 73, Datenheim ,20168,D,50.190873,14.1582403,13/03/2020,segment-00,synthetic-normal
+syn-000000073,73,Qualitätsring 13,Südwinkel,25028,D,7.2862511,50.1417453,2020-01-13,segment-00,synthetic-error
+syn-000000074,74,Qualitätsring 75,Westbogen,36006,deu,52.3192538,7.2449253,2020-03-15,segment-02,synthetic-normal
+syn-000000075,75,Spaltenweg 76,Westbogen,43925,D,47.5480629,8.450565,2020-03-16,segment-03,synthetic-normal
+syn-000000076,76,Qualitätsring 77,Ostfeld,51844,deu,48.1722999,7.8682469,31-31-not-a-date,segment-04,synthetic-error
+syn-000000077,77,  Schemaweg   78B,Ostfeld,,D,48.2450878,12.1358375,2020/03/18,segment-05,synthetic-error
+syn-000000078,78,Schemaweg 79,Nordhafen,67682,Deutschland,47.9940843,14.6495821,2020-03-19,segment-06,synthetic-normal
+syn-000000079,79,  Spaltenweg   80,Westbogen,75601,D,48.6793175,11.1850326,20/03/2020,segment-07,synthetic-normal
+syn-000000080,80,Pipelineweg 81,Südwinkel,83520,D,49.8065078,12.1817978,2020-03-21,segment-08,synthetic-normal
+syn-000000081,81,Koordinatenplatz 82,,11439,D,54.6734039,9.5184105,2020/03/22,segment-09,synthetic-error
+syn-000000082,82,Spaltenweg 83,Vektorstetten,19358,Deutschland,50.6595113,6.2748283,2020/03/23,segment-10,synthetic-normal
+syn-000000083,83,Datenstrasse 84,Vektorstetten,27277,DE,51.9274247,8.0015367,31-31-not-a-date,segment-11,synthetic-error
+syn-000000084,84,Spaltenweg 85A,Nordhafen,35196,Deutschland,52.2225936,7.2165343,2020/03/25,segment-00,synthetic-normal
+syn-000000085,85,Qualitätsring 86,Ostfeld,43115,Deutschland,51.4896146,9.3289913,2020/03/26,segment-01,synthetic-normal
+syn-000000086,86,  Schemaweg   87,Nordhafen,51034,D,49.4495763,8.5467138,2020/03/27,segment-02,synthetic-normal
+syn-000000087,87," 	Prüfsummenstrasse 88  , ",Ostfeld,58953,deu,54.3896771,13.8003355,2020/03/28,segment-03,synthetic-error
+syn-000000088,88,Prüfsummenstrasse 89,Ostfeld,66872,DE,54.8119464,13.0900217,29.03.2020,segment-04,synthetic-normal
+syn-000000089,89,Pipelineweg 90,Ostfeld,74791,D,48.0578089,14.1760634,31-31-not-a-date,segment-05,synthetic-error
+syn-000000090,90,Koordinatenplatz 91, Datenheim ,82710,D,52.5645549,11.7784972,31/03/2020,segment-06,synthetic-normal
+syn-000000091,91,Spaltenweg 92D,Datenheim,10629,DE,47.5728332,6.4294709,2020/04/01,segment-07,synthetic-normal
+syn-000000092,92,Pipelineweg 93,Ostfeld,18548,DE,48.5643724,8.5550879,02/04/2020,segment-08,synthetic-normal
+syn-000000093,93,Qualitätsring 94,Datenheim,26467,DE,50.4315933,12.0725634,2020/04/03,segment-09,synthetic-normal
+syn-000000094,94,Vektorallee 95,Südwinkel,34386,D,50.8047393,8.1365915,04/04/2020,segment-10,synthetic-normal
+syn-000000095,95,  Spaltenweg   96,Westbogen,42305,D,54.8061529,8.5522191,05/04/2020,segment-11,synthetic-normal
+syn-000000096,96,Spaltenweg 97,Nordhafen,50224,Deutschland,49.1027633,11.0616888,2020-04-06,segment-00,synthetic-normal
+syn-000000097,97,Schemaweg 98,Nordhafen,58143,D,51.6010605,12.1093553,07/04/2020,segment-01,synthetic-normal
+syn-000000098,98,Koordinatenplatz 99C,Südwinkel,66062,DE,52.1382959,11.5121987,08/04/2020,segment-02,synthetic-normal
+syn-000000099,99,  Schemaweg   47,Südwinkel,54274,Deutschland,8.3512644,53.6829579,2020/02/16,segment-10,synthetic-error
+syn-000000100,100,Schemaweg 101,Westbogen,81900,Deutschland,52.9808546,7.4158886,10/04/2020,segment-04,synthetic-normal
+syn-000000101,101,Spaltenweg 102,Westbogen,89819,DE,52.9738511,8.9161803,11.04.2020,segment-05,synthetic-normal
+syn-000000102,102,Prüfsummenstraße 103,Datenheim,17738,DE,50.0798904,13.0742741,2020/04/12,segment-06,synthetic-normal
+syn-000000103,103,Schemaweg 104,,25657,deu,50.1957938,11.6746533,2020/04/13,segment-07,synthetic-error
+syn-000000104,104,Qualitätsring 105,Vektorstetten,999999,DE,47.7804495,13.3794692,14.04.2020,segment-08,synthetic-error
+syn-000000105,105,  Pipelineweg   106B,Nordhafen,41495,D,49.0844802,10.7454288,15.04.2020,segment-09,synthetic-normal
+syn-000000106,106,Spaltenweg 107,Datenheim,49414,deu,50.4016807,14.553998,2020/04/16,segment-10,synthetic-normal
+syn-000000107,107,Koordinatenplatz 108,Nordhafen,57333,Deutschland,54.7550507,9.1794816,17.04.2020,segment-11,synthetic-normal
+syn-000000108,108,Spaltenweg 109, Nordhafen ,65252,Deutschland,52.3370424,11.7036811,18.04.2020,segment-00,synthetic-normal
+syn-000000109,109,Qualitätsring 110,Nordhafen,73171,deu,53.6066156,10.8987117,19/04/2020,segment-01,synthetic-normal
+syn-000000110,110,Datenstrasse 111,Westbogen,81090,deu,53.8238866,7.1311294,2020-04-20,segment-02,synthetic-normal
+syn-000000111,111,  Datenstrasse   2 ,DATENHEIM,17919,Deutschland,48.8111661,11.7789368,2020-01-02,segment-01,synthetic-normal
+syn-000000112,112,  Koordinatenplatz   113A,Nordhafen,16928,DE,48.6242711,6.282071,2020/04/22,segment-04,synthetic-normal
+syn-000000113,113,Pipelineweg 114,Ostfeld,24847,Deutschland,51.129174,14.4978239,2020/04/23,segment-05,synthetic-normal
+syn-000000114,114,Spaltenweg 62,Vektorstetten,13059,D,48.4627327,7.42046,2020/03/02,segment-01,synthetic-normal
+syn-000000115,115,Pipelineweg 116,Ostfeld,40685,deu,52.71425,9.8807734,2020-04-25,segment-07,synthetic-normal
+syn-000000116,116,  Koordinatenplatz   117,Ostfeld,48604,D,54.8591709,10.6811229,2020-04-26,segment-08,synthetic-normal
+syn-000000117,117,Qualitätsring 118, Ostfeld ,56523,D,50.7318174,7.9021409,2020/04/27,segment-09,synthetic-normal
+syn-000000118,118,  Koordinatenplatz   119,Vektorstetten,64442,DE,49.2371625,14.5730512,2020-04-28,segment-10,synthetic-normal
+syn-000000119,119,Koordinatenplatz 120D,Südwinkel,72361,D,51.5284176,11.1954788,29/04/2020,segment-11,synthetic-normal
+syn-000000120,120,Prüfsummenstr. 121,Vektorstetten,80280,deu,47.6909902,8.4461906,30.04.2020,segment-00,synthetic-normal
+syn-000000121,121,Pipelineweg 122,Westbogen,88199,D,53.724838,9.1815617,2020-05-01,segment-01,synthetic-normal
+syn-000000122,122,Schemaweg 123,Nordhafen,16118,Deutschland,48.6711621,12.2648287,2020-05-02,segment-02,synthetic-normal
+syn-000000123,123,Prüfsummenstraße 124,Nordhafen,24037,deu,48.3782474,11.6251825,2020/05/03,segment-03,synthetic-normal
+syn-000000124,124,Koordinatenplatz 125,Westbogen,31956,deu,52.7841294,12.9468877,04.05.2020,segment-04,synthetic-normal
+syn-000000125,125,Spaltenweg 11 ,DATENHEIM,89190,DE,49.2107473,10.8896782,11/01/2020,segment-10,synthetic-normal
+syn-000000126,126,Spaltenweg 127C, Datenheim ,47794,DE,50.6595358,8.313135,06/05/2020,segment-06,synthetic-normal
+syn-000000127,127,Schemaweg 128,Nordhafen,55713,Deutschland,48.9759401,14.8569001,07.05.2020,segment-07,synthetic-normal
+syn-000000128,128,  Schemaweg   129,Westbogen,63632,D,48.211881,10.375945,08.05.2020,segment-08,synthetic-normal
+syn-000000129,129,  Koordinatenplatz   130,Nordhafen,71551,DE,50.3177409,12.6267802,09/05/2020,segment-09,synthetic-normal
+syn-000000130,130,Prüfsummenstr. 131,Westbogen,79470,D,48.1753176,5.9918803,31-31-not-a-date,segment-10,synthetic-error
+syn-000000131,131,Prüfsummenstr. 132,Datenheim,87389,deu,50.3434186,6.5235532,11/05/2020,segment-11,synthetic-normal
+syn-000000132,132,Pipelineweg 30,Nordhafen,79651,Deutschland,52.9423668,7.2301208,30.01.2020,segment-05,synthetic-normal
+syn-000000133,133,Koordinatenplatz 134B,Westbogen,23227,deu,52.8280812,13.3343271,13/05/2020,segment-01,synthetic-normal
+syn-000000134,134,  Pipelineweg   135,Südwinkel,31146,D,54.5298203,11.5771287,14/05/2020,segment-02,synthetic-normal
+syn-000000135,135,Vektorallee 136, Ostfeld ,39065,DE,47.8189756,9.8683142,15/05/2020,segment-03,synthetic-normal
+syn-000000136,136,Spaltenweg 137,Nordhafen,46984,DE,47.7323644,13.451609,2020/05/16,segment-04,synthetic-normal
+syn-000000137,137,Datenstrasse 138,Ostfeld,54903,D,54.2087797,11.0592415,17.05.2020,segment-05,synthetic-normal
+syn-000000138,138,Koordinatenplatz 139,Vektorstetten,62822,D,47.9409014,11.7443692,2020/05/18,segment-06,synthetic-normal
+syn-000000139,139,Koordinatenplatz 140,Westbogen,,DE,54.2763196,9.3642323,19/05/2020,segment-07,synthetic-error
+syn-000000140,140,Vektorallee 141A,Westbogen,78660,D,47.9194151,11.9052314,20.05.2020,segment-08,synthetic-normal
+syn-000000141,141,Schemaweg 142,Datenheim,86579,DE,50.1627627,13.08329,2020/05/21,segment-09,synthetic-normal
+syn-000000142,142,  Spaltenweg   80 ,WESTBOGEN,75601,D,48.6793175,11.1850326,20/03/2020,segment-07,synthetic-normal
+syn-000000143,143,Spaltenweg 144,Südwinkel,22417,DE,49.0217272,7.0656012,2020-05-23,segment-11,synthetic-normal
+syn-000000144,144,Vektorallee 145, Datenheim ,30336,DE,50.163071,7.2926744,2020/05/24,segment-00,synthetic-normal
+syn-000000145,145,  Spaltenweg   146,Datenheim,38255,deu,49.4654523,12.686536,25/05/2020,segment-01,synthetic-normal
+syn-000000146,146,  Qualitätsring   147,Westbogen,46174,Deutschland,52.4551319,11.0478584,2020/05/26,segment-02,synthetic-normal
+syn-000000147,147,Vektorallee 148D,Südwinkel,54093,D,53.3895701,7.0732665,27/05/2020,segment-03,synthetic-normal
+syn-000000148,148,  Pipelineweg   149,Westbogen,62012,deu,,7.2748735,2020/05/28,segment-04,synthetic-error
+syn-000000149,149,Datenstrasse 150,Ostfeld,69931,DE,47.7047523,10.4184655,29/05/2020,segment-05,synthetic-normal
+syn-000000150,150,Pipelineweg 151,Vektorstetten,77850,D,52.2397012,13.0807019,30.05.2020,segment-06,synthetic-normal
+syn-000000151,151,Datenstrasse 152,Nordhafen,85769,D,47.4444295,7.7840236,2020-05-31,segment-07,synthetic-normal
+syn-000000152,152,  Pipelineweg   153,Nordhafen,13688,D,49.1121402,11.6783559,2020-06-01,segment-08,synthetic-normal
+syn-000000153,153,Vektorallee 154, Westbogen ,21607,deu,50.5622156,11.4562482,2020-06-02,segment-09,synthetic-normal
+syn-000000154,154,  Datenstraße   155C,Ostfeld,29526,Deutschland,53.9373189,6.2005167,2020-06-03,segment-10,synthetic-normal
+syn-000000155,155,Spaltenweg 62,Vektorstetten,13059,D,48.4627327,7.42046,2020/03/02,segment-01,synthetic-normal
+syn-000000156,156,Koordinatenplatz 157,Südwinkel,45364,D,47.6369512,10.8233265,2020/06/05,segment-00,synthetic-normal
+syn-000000157,157,Pipelineweg 158,Vektorstetten,53283,deu,53.199047,10.0106521,2020-06-06,segment-01,synthetic-normal
+syn-000000158,158,Prüfsummenstrasse 159,Datenheim,61202,DE,50.8978382,6.1369111,07/06/2020,segment-02,synthetic-normal
+syn-000000159,159,  Prüfsummenstraße   160,Ostfeld,69121,deu,52.9491386,14.030665,2020/06/08,segment-03,synthetic-normal
+syn-000000160,160," 	Schemaweg 161  , ",Nordhafen,77040,Deutschland,52.8258181,6.5261285,2020-06-09,segment-04,synthetic-error
+syn-000000161,161,  Spaltenweg   162B,Datenheim,84959,DE,52.7542381,7.3331319,10/06/2020,segment-05,synthetic-normal
+syn-000000162,162,Datenstrasse 163, Nordhafen ,ABCDE,deu,52.4009976,9.5371341,2020/06/11,segment-06,synthetic-error
+syn-000000163,163,Koordinatenplatz 164,Westbogen,20797,Deutschland,50.2096935,11.0186507,12/06/2020,segment-07,synthetic-normal
+syn-000000164,164,Pipelineweg 36D,Ostfeld,47165,D,53.9284676,13.6990579,05/02/2020,segment-11,synthetic-normal
+syn-000000165,165,Schemaweg 166,Südwinkel,36635,D,54.5999524,6.0384027,2020-06-14,segment-09,synthetic-normal
+syn-000000166,166,  Spaltenweg   167,Südwinkel,44554,deu,54.8723749,8.4273073,2020-06-15,segment-10,synthetic-normal
+syn-000000167,167,Spaltenweg 168,Nordhafen,52473,DE,53.4599005,14.7015634,16/06/2020,segment-11,synthetic-normal
+syn-000000168,168,Vektorallee 169A,,60392,deu,51.1665437,6.9165346,2020/06/17,segment-00,synthetic-error
+syn-000000169,169,Spaltenweg 170,Datenheim,68311,D,48.2862613,13.9350673,2020/06/18,segment-01,synthetic-normal
+syn-000000170,170,  Pipelineweg   171,Südwinkel,76230,Deutschland,54.690086,11.709515,19.06.2020,segment-02,synthetic-normal
+syn-000000171,171,Vektorallee 172, Südwinkel ,84149,deu,50.587899,14.1785529,20/06/2020,segment-03,synthetic-normal
+syn-000000172,172,Qualitätsring 173,Westbogen,12068,Deutschland,54.5008718,10.5738597,21.06.2020,segment-04,synthetic-normal
+syn-000000173,173,Vektorallee 174,Vektorstetten,19987,deu,49.601467,10.7079979,22.06.2020,segment-05,synthetic-normal
+syn-000000174,174,Koordinatenplatz 175,Datenheim,27906,Deutschland,47.6130767,13.746787,23.06.2020,segment-06,synthetic-normal
+syn-000000175,175,Datenstr. 176D,Ostfeld,35825,D,54.0563763,10.8193128,24/06/2020,segment-07,synthetic-normal
+syn-000000176,176,Vektorallee 177,Ostfeld,43744,Deutschland,50.4587253,10.0728679,25/06/2020,segment-08,synthetic-normal
+syn-000000177,177,Prüfsummenstraße 178,Südwinkel,51663,D,53.081054,10.5378172,2020-06-26,segment-09,synthetic-normal
+syn-000000178,178,  Pipelineweg   179,Nordhafen,59582,deu,49.5056112,9.3341785,27/06/2020,segment-10,synthetic-normal
+syn-000000179,179,  Qualitätsring   180,Südwinkel,67501,D,51.0868181,,2020-06-28,segment-11,synthetic-error
+syn-000000180,180,Qualitätsring 181, Südwinkel ,75420,D,51.7334153,6.2476548,29/06/2020,segment-00,synthetic-normal
+syn-000000181,181,  Prüfsummenstraße   182,Südwinkel,83339,D,54.0066636,12.4930742,2020-06-30,segment-01,synthetic-normal
+syn-000000182,182,Schemaweg 183C,Nordhafen,11258,DE,50.2362511,9.9432603,01.07.2020,segment-02,synthetic-normal
+syn-000000183,183,Koordinatenplatz 184,Datenheim,19177,D,not-a-number,12.7456796,2020-07-02,segment-03,synthetic-error
+syn-000000184,184,Spaltenweg 185,Südwinkel,27096,Deutschland,51.90758,10.5426527,03.07.2020,segment-04,synthetic-normal
+syn-000000185,185,  Schemaweg   186,Datenheim,35015,Deutschland,49.8564382,13.4202624,2020/07/04,segment-05,synthetic-normal
+syn-000000186,186,Pipelineweg 187,Ostfeld,42934,Deutschland,51.7361363,13.1301443,05.07.2020,segment-06,synthetic-normal
+syn-000000187,187,  Vektorallee   188,Datenheim,50853,deu,52.0805918,11.5015694,2020-07-06,segment-07,synthetic-normal
+syn-000000188,188,  Qualitätsring   189,Nordhafen,58772,D,50.6518931,9.6527787,2020/07/07,segment-08,synthetic-normal
+syn-000000189,189,Datenstr. 190B, Vektorstetten ,66691,D,48.3494269,7.7075437,2020/07/08,segment-09,synthetic-normal
+syn-000000190,190,Koordinatenplatz 191,Datenheim,74610,deu,49.9925811,12.902306,09.07.2020,segment-10,synthetic-normal
+syn-000000191,191,  Schemaweg   192,Westbogen,82529,Deutschland,52.6572471,12.1502072,10/07/2020,segment-11,synthetic-normal
+syn-000000192,192,Prüfsummenstrasse 193,Ostfeld,10448,Deutschland,53.5196687,14.5824015,2020-07-11,segment-00,synthetic-normal
+syn-000000193,193," 	Schemaweg 194  , ",Vektorstetten,18367,Deutschland,50.9410024,7.6590257,12.07.2020,segment-01,synthetic-error
+syn-000000194,194,Qualitätsring 195,Nordhafen,26286,D,52.3907381,10.6855817,13/07/2020,segment-02,synthetic-normal
+syn-000000195,195,Vektorallee 196,Nordhafen,34205,D,54.6303426,14.7967785,2020/07/14,segment-03,synthetic-normal
+syn-000000196,196,Schemaweg 197A,Westbogen,42124,deu,49.4691566,6.3442958,2020-07-15,segment-04,synthetic-normal
+syn-000000197,197,  Vektorallee   198,,50043,Deutschland,54.8785057,9.4523501,2020-07-16,segment-05,synthetic-error
+syn-000000198,198,  Koordinatenplatz   199, Westbogen ,57962,deu,50.753053,11.7000742,2020/07/17,segment-06,synthetic-normal
+syn-000000199,199,Koordinatenplatz 200,Südwinkel,65881,Deutschland,52.8565062,11.7642251,18/07/2020,segment-07,synthetic-normal
+syn-000000200,200,  Vektorallee   201,Datenheim,73800,DE,53.8067134,14.0527934,2020/07/19,segment-08,synthetic-normal
+syn-000000201,201,Vektorallee 202,Ostfeld,81719,D,49.7593727,8.0820332,20/07/2020,segment-09,synthetic-normal
+syn-000000202,202,Datenstraße 203,Westbogen,89638,D,52.2679936,12.173471,21/07/2020,segment-10,synthetic-normal
+syn-000000203,203,Schemaweg 204D,Vektorstetten,17557,deu,48.1923597,14.2283995,22.07.2020,segment-11,synthetic-normal
+syn-000000204,204,  Spaltenweg   205,Vektorstetten,25476,deu,54.8151685,9.2373485,23.07.2020,segment-00,synthetic-normal
+syn-000000205,205,Pipelineweg 206,Datenheim,33395,DE,50.6952846,12.2746484,2020-07-24,segment-01,synthetic-normal
+syn-000000206,206,  Qualitätsring   207,,41314,deu,51.3786172,7.3137418,2020/07/25,segment-02,synthetic-error
+syn-000000207,207,Datenstraße 208, Ostfeld ,49233,Deutschland,48.302777,9.6219061,2020-07-26,segment-03,synthetic-normal
+syn-000000208,208,Qualitätsring 209,Datenheim,57152,DE,47.8550244,9.6980159,2020-07-27,segment-04,synthetic-normal
+syn-000000209,209,  Schemaweg   210,Ostfeld,65071,D,48.6678581,7.0459456,2020/07/28,segment-05,synthetic-normal
+syn-000000210,210,Prüfsummenstrasse 211C,Nordhafen,72990,Deutschland,52.4887507,11.8884914,2020-07-29,segment-06,synthetic-normal
+syn-000000211,211,Vektorallee 212,Vektorstetten,80909,D,54.7383053,13.4803588,2020/07/30,segment-07,synthetic-normal
+syn-000000212,212,Qualitätsring 213,Ostfeld,88828,D,49.930814,8.3359775,2020-07-31,segment-08,synthetic-normal
+syn-000000213,213,  Pipelineweg   153 ,NORDHAFEN,13688,D,49.1121402,11.6783559,2020-06-01,segment-08,synthetic-normal
+syn-000000214,214,Datenstrasse 215,Südwinkel,24666,DE,52.9281122,9.5008412,02.08.2020,segment-10,synthetic-normal
+syn-000000215,215,Koordinatenplatz 216,Datenheim,32585,deu,51.8441743,11.9872935,03.08.2020,segment-11,synthetic-normal
+syn-000000216,216,Vektorallee 217, Vektorstetten ,40504,D,52.4585009,10.9138261,04/08/2020,segment-00,synthetic-normal
+syn-000000217,217,Schemaweg 218B,Ostfeld,48423,Deutschland,48.6974802,10.74894,05.08.2020,segment-01,synthetic-normal
+syn-000000218,218,Prüfsummenstrasse 219,Ostfeld,56342,Deutschland,51.5353794,7.0336533,2020-08-06,segment-02,synthetic-normal
+syn-000000219,219,Pipelineweg 220,Datenheim,64261,DE,52.8068438,7.5524309,2020-08-07,segment-03,synthetic-normal
+syn-000000220,220,Qualitätsring 1,Ostfeld,72180,DE,48.8875571,14.144702,08.08.2020,segment-04,synthetic-normal
+syn-000000221,221,Pipelineweg 2,Vektorstetten,80099,deu,54.8967473,10.2060721,2020/08/09,segment-05,synthetic-normal
+syn-000000222,222," 	Schemaweg 3  , ",Ostfeld,88018,D,50.8435035,11.7682363,2020/08/10,segment-06,synthetic-error
+syn-000000223,223,Koordinatenplatz 4,Südwinkel,15937,DE,50.1173574,9.6081576,11/08/2020,segment-07,synthetic-normal
+syn-000000224,224,  Prüfsummenstraße   5A,Westbogen,23856,deu,48.4583267,8.8347606,2020/08/12,segment-08,synthetic-normal
+syn-000000225,225,  Koordinatenplatz   6, Westbogen ,31775,Deutschland,53.1015408,10.2953141,13.08.2020,segment-09,synthetic-normal
+syn-000000226,226,Vektorallee 7,Datenheim,39694,DE,54.8264589,14.6065794,2020-08-14,segment-10,synthetic-normal
+syn-000000227,227,  Qualitätsring   8,,47613,D,52.6744887,5.8841014,2020/08/15,segment-11,synthetic-error
+syn-000000228,228,Datenstr. 9,Nordhafen,ABCDE,D,51.3235741,8.3276148,16.08.2020,segment-00,synthetic-error
+syn-000000229,229,Schemaweg 10,Westbogen,63451,D,49.331668,9.4514471,17.08.2020,segment-01,synthetic-normal
+syn-000000230,230,Pipelineweg 11,Vektorstetten,71370,D,54.8367278,11.779029,2020/08/18,segment-02,synthetic-normal
+syn-000000231,231,Prüfsummenstr. 3,Westbogen,25838,D,49.4118222,7.7808866,2020-01-03,segment-02,synthetic-normal
+syn-000000232,232,Prüfsummenstraße 13,Vektorstetten,87208,DE,53.26126,11.005881,20.08.2020,segment-04,synthetic-normal
+syn-000000233,233,Spaltenweg 14,Westbogen,15127,DE,47.653871,6.4840022,21.08.2020,segment-05,synthetic-normal
+syn-000000234,234,  Qualitätsring   15, Datenheim ,23046,Deutschland,48.3958559,13.3503548,22.08.2020,segment-06,synthetic-normal
+syn-000000235,235,Prüfsummenstrasse 16,Vektorstetten,30965,DE,54.1135958,200.0,23/08/2020,segment-07,synthetic-error
+syn-000000236,236,  Koordinatenplatz   17,Datenheim,38884,Deutschland,53.144443,14.5846973,2020-08-24,segment-08,synthetic-normal
+syn-000000237,237,  Spaltenweg   18,Ostfeld,46803,D,49.0338518,10.8879471,2020-08-25,segment-09,synthetic-normal
+syn-000000238,238,  Qualitätsring   19C,Vektorstetten,54722,deu,47.8586508,8.2653427,2020/08/26,segment-10,synthetic-normal
+syn-000000239,239,Datenstraße 20,Westbogen,62641,deu,50.6799926,12.8043877,2020/08/27,segment-11,synthetic-normal
+syn-000000240,240,Prüfsummenstraße 21,Nordhafen,70560,Deutschland,47.4995905,-220.0,2020/08/28,segment-00,synthetic-error
+syn-000000241,241,Qualitätsring 22,Datenheim,78479,Deutschland,51.2603944,12.1049071,29/08/2020,segment-01,synthetic-normal
+syn-000000242,242,  Datenstrasse   2  ,DATENHEIM,17919,Deutschland,48.8111661,11.7789368,2020-01-02,segment-01,synthetic-normal
+syn-000000243,243,  Pipelineweg   24, Westbogen ,14317,deu,8.0686286,49.212918,2020/08/31,segment-03,synthetic-error
+syn-000000244,244,Spaltenweg 102 ,WESTBOGEN,89819,DE,52.9738511,8.9161803,11.04.2020,segment-05,synthetic-normal
+syn-000000245,245,Koordinatenplatz 26B,Ostfeld,30155,deu,49.8439953,13.3023743,2020/09/02,segment-05,synthetic-normal
+syn-000000246,246,Koordinatenplatz 27,Westbogen,38074,Deutschland,52.8850452,11.6227027,2020/09/03,segment-06,synthetic-normal
+syn-000000247,247,Qualitätsring 28,Datenheim,45993,D,54.8792134,7.4553304,04.09.2020,segment-07,synthetic-normal
+syn-000000248,248,Pipelineweg 29,Ostfeld,53912,deu,52.4146302,7.0804479,2020/09/05,segment-08,synthetic-normal
+syn-000000249,249,Vektorallee 154 , WESTBOGEN ,21607,deu,50.5622156,11.4562482,2020-06-02,segment-09,synthetic-normal
+syn-000000250,250,Prüfsummenstraße 31,Datenheim,69750,deu,47.5794152,14.709538,07/09/2020,segment-10,synthetic-normal
+syn-000000251,251,Prüfsummenstraße 32,Westbogen,77669,deu,54.6394475,9.760191,08.09.2020,segment-11,synthetic-normal
+syn-000000252,252,Vektorallee 33A, Westbogen ,85588,DE,54.8825407,10.241494,2020-09-09,segment-00,synthetic-normal
+syn-000000253,253,  Koordinatenplatz   34,Westbogen,13507,DE,49.9073068,13.015284,2020/09/10,segment-01,synthetic-normal
+syn-000000254,254,Pipelineweg 35,Westbogen,21426,DE,47.6395912,12.3391667,11.09.2020,segment-02,synthetic-normal
+syn-000000255,255,  Vektorallee   36,Datenheim,29345,D,48.5170314,10.9506104,12.09.2020,segment-03,synthetic-normal
+syn-000000256,256,  Prüfsummenstraße   37,Nordhafen,37264,D,52.9041516,13.9244958,2020-09-13,segment-04,synthetic-normal
+syn-000000257,257," 	Pipelineweg 38  , ",Datenheim,45183,deu,48.0733156,13.8222098,2020/09/14,segment-05,synthetic-error
+syn-000000258,258,Koordinatenplatz 39,Datenheim,53102,D,50.2536584,9.4114049,15.09.2020,segment-06,synthetic-normal
+syn-000000259,259,Schemaweg 40D,Datenheim,61021,Deutschland,51.7852796,11.9834128,2020-09-16,segment-07,synthetic-normal
+syn-000000260,260,  Prüfsummenstraße   41,Ostfeld,68940,deu,51.8328362,11.0882156,17.09.2020,segment-08,synthetic-normal
+syn-000000261,261,Koordinatenplatz 42, Ostfeld ,76859,deu,52.0075158,13.7628045,2020/09/18,segment-09,synthetic-normal
+syn-000000262,262,  Spaltenweg   43,Ostfeld,84778,DE,52.5036947,9.6238,2020-09-19,segment-10,synthetic-normal
+syn-000000263,263,  Datenstraße   44,Westbogen,12697,D,49.00881,8.4557669,2020-09-20,segment-11,synthetic-normal
+syn-000000264,264,  Koordinatenplatz   45,Datenheim,20616,D,53.5518431,6.1828168,2020-09-21,segment-00,synthetic-normal
+syn-000000265,265,Qualitätsring 46,Westbogen,28535,DE,53.9485548,6.0965196,2020/09/22,segment-01,synthetic-normal
+syn-000000266,266,Qualitätsring 47C,Südwinkel,36454,D,53.4613406,11.2088999,23.09.2020,segment-02,synthetic-normal
+syn-000000267,267,Qualitätsring 48,Nordhafen,44373,Deutschland,51.632565,10.6969833,24/09/2020,segment-03,synthetic-normal
+syn-000000268,268,Pipelineweg 49,Südwinkel,52292,deu,54.6170672,13.0283576,25.09.2020,segment-04,synthetic-normal
+syn-000000269,269,Qualitätsring 50,Vektorstetten,60211,D,50.2845257,7.107979,31-31-not-a-date,segment-05,synthetic-error
+syn-000000270,270,Pipelineweg 51, Ostfeld ,68130,D,51.2186624,8.3596763,27/09/2020,segment-06,synthetic-normal
+syn-000000271,271,Pipelineweg 52,Vektorstetten,76049,D,54.6883422,11.640533,28.09.2020,segment-07,synthetic-normal
+syn-000000272,272,Spaltenweg 53,Westbogen,83968,D,49.7537751,8.4090563,29/09/2020,segment-08,synthetic-normal
+syn-000000273,273,Datenstraße 54B,Nordhafen,11887,deu,52.0589644,13.49766,2020/09/30,segment-09,synthetic-normal
+syn-000000274,274,Prüfsummenstr. 55,Südwinkel,19806,Deutschland,54.8672749,14.1665464,2020-10-01,segment-10,synthetic-normal
+syn-000000275,275,  Koordinatenplatz   56,Vektorstetten,27725,deu,54.168882,7.3228307,2020/10/02,segment-11,synthetic-normal
+syn-000000276,276,Datenstrasse 57,Südwinkel,35644,D,7.0208381,50.923731,2020-10-03,segment-00,synthetic-error
+syn-000000277,277,  Prüfsummenstraße   58,Vektorstetten,43563,DE,48.3045311,6.4516204,2020-10-04,segment-01,synthetic-normal
+syn-000000278,278,Vektorallee 59,Ostfeld,51482,deu,53.1782997,12.7290518,2020-10-05,segment-02,synthetic-normal
+syn-000000279,279,Spaltenweg 85A ,NORDHAFEN,35196,Deutschland,52.2225936,7.2165343,2020/03/25,segment-00,synthetic-normal
+syn-000000280,280,Vektorallee 61A,Ostfeld,67320,DE,51.9821777,9.8699316,07.10.2020,segment-04,synthetic-normal
+syn-000000281,281,Prüfsummenstrasse 62,Westbogen,75239,DE,54.6206902,8.6934337,08.10.2020,segment-05,synthetic-normal
+syn-000000282,282,Schemaweg 63,Vektorstetten,83158,deu,47.5038655,13.5930442,2020/10/09,segment-06,synthetic-normal
+syn-000000283,283,Schemaweg 123 ,NORDHAFEN,16118,Deutschland,48.6711621,12.2648287,2020-05-02,segment-02,synthetic-normal
+syn-000000284,284,Spaltenweg 65,Vektorstetten,18996,Deutschland,51.8138662,10.6602358,11.10.2020,segment-08,synthetic-normal
+syn-000000285,285,  Prüfsummenstraße   66,Westbogen,26915,DE,51.4523073,7.3894869,2020-10-12,segment-09,synthetic-normal
+syn-000000286,286,Datenstrasse 111 ,WESTBOGEN,81090,deu,53.8238866,7.1311294,2020-04-20,segment-02,synthetic-normal
+syn-000000287,287,Schemaweg 204D,Vektorstetten,17557,deu,48.1923597,14.2283995,22.07.2020,segment-11,synthetic-normal
+syn-000000288,288,Prüfsummenstrasse 69, Ostfeld ,50672,Deutschland,52.6337609,6.5583359,2020-10-15,segment-00,synthetic-normal
+syn-000000289,289,Vektorallee 70,Datenheim,,D,49.7833023,11.1952219,16.10.2020,segment-01,synthetic-error
+syn-000000290,290,Datenstrasse 71,Westbogen,66510,deu,52.3622048,11.8540817,2020-10-17,segment-02,synthetic-normal
+syn-000000291,291,Schemaweg 72,Südwinkel,74429,DE,50.1262077,12.6979427,2020-10-18,segment-03,synthetic-normal
+syn-000000292,292,Pipelineweg 73,Westbogen,82348,Deutschland,52.7136567,11.1051954,2020-10-19,segment-04,synthetic-normal
+syn-000000293,293,Koordinatenplatz 74,Südwinkel,10267,DE,49.2388822,6.7467252,2020-10-20,segment-05,synthetic-normal
+syn-000000294,294,Spaltenweg 24 ,NONE,32137,DE,48.7432238,7.8028483,24/01/2020,segment-11,synthetic-error
+syn-000000295,295,  Vektorallee   76,Südwinkel,26105,deu,54.3768166,13.6888638,2020/10/22,segment-07,synthetic-normal
+syn-000000296,296,Pipelineweg 77,Datenheim,34024,DE,50.1333421,-220.0,2020/10/23,segment-08,synthetic-error
+syn-000000297,297,Schemaweg 78, Westbogen ,41943,Deutschland,47.95653,10.0020648,24.10.2020,segment-09,synthetic-normal
+syn-000000298,298,Spaltenweg 79,Südwinkel,49862,D,52.8667214,10.828345,2020-10-25,segment-10,synthetic-normal
+syn-000000299,299,Datenstr. 80,Westbogen,57781,deu,47.3111115,11.8471954,2020/10/26,segment-11,synthetic-normal
+syn-000000300,300,Qualitätsring 73, Datenheim ,20168,D,50.190873,14.1582403,13/03/2020,segment-00,synthetic-normal
+syn-000000301,301,  Qualitätsring   82B,Datenheim,73619,DE,50.4392317,14.039317,2020-10-28,segment-01,synthetic-normal
+syn-000000302,302,Prüfsummenstrasse 83,Nordhafen,81538,Deutschland,51.7984078,6.3730023,29/10/2020,segment-02,synthetic-normal
+syn-000000303,303,Koordinatenplatz 84,Westbogen,89457,DE,50.7409597,-220.0,30.10.2020,segment-03,synthetic-error
+syn-000000304,304,  Pipelineweg   85,Datenheim,17376,Deutschland,50.0229846,12.8870981,31-31-not-a-date,segment-04,synthetic-error
+syn-000000305,305,Datenstraße 86,Südwinkel,25295,Deutschland,53.6530281,8.8157017,2020/11/01,segment-05,synthetic-normal
+syn-000000306,306,  Schemaweg   87, Südwinkel ,33214,deu,47.5362239,9.5204085,2020-11-02,segment-06,synthetic-normal
+syn-000000307,307,Vektorallee 88,Nordhafen,41133,D,47.3908726,13.4394255,03/11/2020,segment-07,synthetic-normal
+syn-000000308,308,Pipelineweg 89A,Datenheim,49052,DE,51.7545025,14.2403429,04.11.2020,segment-08,synthetic-normal
+syn-000000309,309,Vektorallee 90,Nordhafen,56971,D,54.1785926,13.4300768,2020-11-05,segment-09,synthetic-normal
+syn-000000310,310,Prüfsummenstrasse 91,Ostfeld,64890,deu,47.5240654,12.0855588,06/11/2020,segment-10,synthetic-normal
+syn-000000311,311,Datenstr. 92,Datenheim,72809,D,52.0057418,200.0,2020-11-07,segment-11,synthetic-error
+syn-000000312,312,Qualitätsring 93,Vektorstetten,80728,Deutschland,54.8550633,10.8016415,2020/11/08,segment-00,synthetic-normal
+syn-000000313,313,Koordinatenplatz 94,Ostfeld,88647,Deutschland,49.3553112,6.0397793,2020-11-09,segment-01,synthetic-normal
+syn-000000314,314,Koordinatenplatz 95,Datenheim,16566,deu,54.8970037,14.7606147,10/11/2020,segment-02,synthetic-normal
+syn-000000315,315,  Datenstraße   96D, Südwinkel ,24485,deu,51.67526,14.8405146,11.11.2020,segment-03,synthetic-normal
+syn-000000316,316,Koordinatenplatz 97,Datenheim,32404,deu,47.5143699,12.2451594,2020/11/12,segment-04,synthetic-normal
+syn-000000317,317,Datenstraße 98,Nordhafen,40323,DE,47.7268766,11.3352976,13/11/2020,segment-05,synthetic-normal
+syn-000000318,318,Vektorallee 99,Westbogen,48242,deu,52.748726,14.2527832,14.11.2020,segment-06,synthetic-normal
+syn-000000319,319,  Koordinatenplatz   100,Nordhafen,56161,Deutschland,50.1392899,14.4656936,15/11/2020,segment-07,synthetic-normal
+syn-000000320,320,Prüfsummenstrasse 101,Vektorstetten,64080,Deutschland,54.601032,11.7724584,16.11.2020,segment-08,synthetic-normal
+syn-000000321,321,Prüfsummenstrasse 102,Westbogen,71999,D,52.8783618,8.5095588,2020-11-17,segment-09,synthetic-normal
+syn-000000322,322,Qualitätsring 103C,Vektorstetten,79918,DE,51.5981819,14.4175277,18.11.2020,segment-10,synthetic-normal
+syn-000000323,323,Pipelineweg 104,Vektorstetten,87837,Deutschland,52.3921867,12.5094307,19.11.2020,segment-11,synthetic-normal
+syn-000000324,324,Prüfsummenstr. 132,Datenheim,87389,deu,50.3434186,6.5235532,11/05/2020,segment-11,synthetic-normal
+syn-000000325,325,Datenstrasse 106,Ostfeld,23675,D,50.6304731,9.6608097,2020/11/21,segment-01,synthetic-normal
+syn-000000326,326,Spaltenweg 107,Datenheim,31594,DE,12.1218757,52.2473687,22/11/2020,segment-02,synthetic-error
+syn-000000327,327,Pipelineweg 108,Westbogen,39513,DE,48.5927995,9.2542125,23/11/2020,segment-03,synthetic-normal
+syn-000000328,328,Spaltenweg 109,Vektorstetten,47432,D,14.4704688,47.5355484,24.11.2020,segment-04,synthetic-error
+syn-000000329,329,Qualitätsring 110B,Ostfeld,55351,Deutschland,52.5986949,,25.11.2020,segment-05,synthetic-error
+syn-000000330,330,Spaltenweg 111,Südwinkel,63270,D,-100,5.8351033,26.11.2020,segment-06,synthetic-error
+syn-000000331,331,  Pipelineweg   112,Ostfeld,71189,Deutschland,53.712645,8.6368513,2020-11-27,segment-07,synthetic-normal
+syn-000000332,332,Koordinatenplatz 113,Ostfeld,79108,Deutschland,50.1074527,9.9011325,28.11.2020,segment-08,synthetic-normal
+syn-000000333,333,Vektorallee 114, Vektorstetten ,87027,D,52.3727603,6.5885073,29.11.2020,segment-09,synthetic-normal
+syn-000000334,334,Prüfsummenstrasse 115,Datenheim,14946,DE,52.5217163,14.4145252,2020/11/30,segment-10,synthetic-normal
+syn-000000335,335,Vektorallee 116,Nordhafen,,deu,54.5143366,9.9311656,01.12.2020,segment-11,synthetic-error
+syn-000000336,336,Vektorallee 117A,Datenheim,30784,D,49.2599363,14.1794013,02/12/2020,segment-00,synthetic-normal
+syn-000000337,337,  Datenstraße   118,Vektorstetten,38703,deu,52.0352403,10.6075705,03.12.2020,segment-01,synthetic-normal
+syn-000000338,338,Pipelineweg 119,Nordhafen,46622,Deutschland,51.5763966,6.7291121,2020/12/04,segment-02,synthetic-normal
+syn-000000339,339,  Spaltenweg   120,Nordhafen,54541,Deutschland,48.6087179,-220.0,05.12.2020,segment-03,synthetic-error
+syn-000000340,340,Datenstr. 121,Westbogen,62460,DE,53.512133,8.5881056,06.12.2020,segment-04,synthetic-normal
+syn-000000341,341,Spaltenweg 122,Westbogen,70379,deu,49.3475919,9.6343091,2020/12/07,segment-05,synthetic-normal
+syn-000000342,342,Koordinatenplatz 123, Nordhafen ,78298,D,51.2160497,7.2625465,08.12.2020,segment-06,synthetic-normal
+syn-000000343,343,Datenstraße 124D,Südwinkel,86217,D,48.7650022,13.4629554,2020-12-09,segment-07,synthetic-normal
+syn-000000344,344,Schemaweg 125,Westbogen,14136,deu,53.5586478,10.4471626,10/12/2020,segment-08,synthetic-normal
+syn-000000345,345,Spaltenweg 126,Datenheim,ABCDE,DE,51.4901363,8.9670908,11/12/2020,segment-09,synthetic-error
+syn-000000346,346,Qualitätsring 127,Südwinkel,29974,DE,52.2200872,12.0347963,2020-12-12,segment-10,synthetic-normal
+syn-000000347,347,Vektorallee 128,Datenheim,37893,Deutschland,53.3865725,7.8586843,2020/12/13,segment-11,synthetic-normal
+syn-000000348,348,  Spaltenweg   129,Westbogen,45812,DE,48.9583888,8.5797348,14/12/2020,segment-00,synthetic-normal
+syn-000000349,349,Schemaweg 130,Westbogen,53731,Deutschland,52.5015398,10.2319935,15/12/2020,segment-01,synthetic-normal
+syn-000000350,350,Schemaweg 131C,Südwinkel,61650,D,48.4394627,12.8423644,16/12/2020,segment-02,synthetic-normal
+syn-000000351,351,  Spaltenweg   132, Westbogen ,69569,deu,49.2716397,9.6508043,17/12/2020,segment-03,synthetic-normal
+syn-000000352,352,Spaltenweg 133,Vektorstetten,77488,deu,not-a-number,8.5617924,18/12/2020,segment-04,synthetic-error
+syn-000000353,353,Vektorallee 134,Vektorstetten,85407,Deutschland,54.1368928,11.8207987,2020/12/19,segment-05,synthetic-normal
+syn-000000354,354,  Schemaweg   135,Datenheim,13326,DE,49.5347885,13.6311678,2020/12/20,segment-06,synthetic-normal
+syn-000000355,355,Prüfsummenstrasse 136,Datenheim,21245,deu,49.5675037,6.2973701,21/12/2020,segment-07,synthetic-normal
+syn-000000356,356,Spaltenweg 137,Südwinkel,29164,deu,49.7045143,12.3841498,22/12/2020,segment-08,synthetic-normal
+syn-000000357,357,Vektorallee 141A ,WESTBOGEN,78660,D,47.9194151,11.9052314,20.05.2020,segment-08,synthetic-normal
+syn-000000358,358,Vektorallee 139,Ostfeld,45002,D,53.2676029,12.9737226,2020/12/24,segment-10,synthetic-normal
+syn-000000359,359,Datenstraße 140,Nordhafen,52921,deu,51.3567478,12.5220634,2020-12-25,segment-11,synthetic-normal
+syn-000000360,360,Qualitätsring 141, Südwinkel ,999999,Deutschland,52.5707881,8.9680179,26.12.2020,segment-00,synthetic-error
+syn-000000361,361,  Spaltenweg   142,Vektorstetten,68759,deu,51.2541919,10.6218823,27/12/2020,segment-01,synthetic-normal
+syn-000000362,362,  Qualitätsring   143,Südwinkel,76678,deu,54.5054411,14.2474898,28.12.2020,segment-02,synthetic-normal
+syn-000000363,363,Koordinatenplatz 39 ,DATENHEIM,53102,D,50.2536584,9.4114049,15.09.2020,segment-06,synthetic-normal
+syn-000000364,364,Datenstraße 145A,Ostfeld,12516,DE,53.9617354,8.1532604,2020-12-30,segment-04,synthetic-normal
+syn-000000365,365,Vektorallee 134 ,VEKTORSTETTEN,85407,Deutschland,54.1368928,11.8207987,2020/12/19,segment-05,synthetic-normal
+syn-000000366,366,Pipelineweg 147,Datenheim,28354,DE,49.220811,12.2571876,01/01/2021,segment-06,synthetic-normal
+syn-000000367,367,Schemaweg 148,Datenheim,,DE,51.902821,7.0619044,02/01/2021,segment-07,synthetic-error
+syn-000000368,368,Qualitätsring 149,Westbogen,44192,Deutschland,53.619391,200.0,03.01.2021,segment-08,synthetic-error
+syn-000000369,369,Spaltenweg 150, Westbogen ,52111,D,49.08224,5.9172945,04.01.2021,segment-09,synthetic-normal
+syn-000000370,370,Pipelineweg 151,Vektorstetten,60030,Deutschland,52.7991795,14.1239703,05/01/2021,segment-10,synthetic-normal
+syn-000000371,371,Vektorallee 152D,Nordhafen,67949,DE,53.77709,9.1139749,2021-01-06,segment-11,synthetic-normal
+syn-000000372,372,Datenstr. 153,Südwinkel,75868,Deutschland,52.3414982,7.3687129,2021-01-07,segment-00,synthetic-normal
+syn-000000373,373,  Pipelineweg   154,Ostfeld,83787,D,50.3419017,10.0001559,2021/01/08,segment-01,synthetic-normal
+syn-000000374,374,Pipelineweg 155,Südwinkel,11706,D,52.590891,6.3395468,2021/01/09,segment-02,synthetic-normal
+syn-000000375,375,Koordinatenplatz 156,Datenheim,19625,D,47.5190033,12.09707,2021-01-10,segment-03,synthetic-normal
+syn-000000376,376,Pipelineweg 157,Westbogen,27544,Deutschland,52.2777991,5.913714,2021-01-11,segment-04,synthetic-normal
+syn-000000377,377,Spaltenweg 158,Westbogen,35463,DE,52.3442009,11.700921,2021-01-12,segment-05,synthetic-normal
+syn-000000378,378,  Spaltenweg   159C, Ostfeld ,43382,Deutschland,,6.4887602,13/01/2021,segment-06,synthetic-error
+syn-000000379,379,  Qualitätsring   160,Nordhafen,51301,D,50.7891189,13.1716038,2021/01/14,segment-07,synthetic-normal
+syn-000000380,380,Datenstraße 161,Nordhafen,59220,Deutschland,50.3661414,6.1296538,15.01.2021,segment-08,synthetic-normal
+syn-000000381,381,  Koordinatenplatz   162,Westbogen,67139,D,53.5723635,13.3126159,16/01/2021,segment-09,synthetic-normal
+syn-000000382,382,Qualitätsring 163,Nordhafen,75058,Deutschland,,13.4349317,2021-01-17,segment-10,synthetic-error
+syn-000000383,383,Prüfsummenstraße 164,Nordhafen,82977,D,49.2325988,7.6024775,18.01.2021,segment-11,synthetic-normal
+syn-000000384,384,Koordinatenplatz 165,Nordhafen,10896,D,53.054335,6.2278033,2021/01/19,segment-00,synthetic-normal
+syn-000000385,385,  Vektorallee   166B,Ostfeld,18815,D,47.332966,12.5731682,20.01.2021,segment-01,synthetic-normal
+syn-000000386,386,Vektorallee 167,Nordhafen,26734,D,50.2442824,11.3250234,2021/01/21,segment-02,synthetic-normal
+syn-000000387,387,Qualitätsring 168, Westbogen ,34653,deu,50.323812,8.954301,22.01.2021,segment-03,synthetic-normal
+syn-000000388,388,Schemaweg 169,Vektorstetten,42572,Deutschland,51.4633254,8.6879793,23/01/2021,segment-04,synthetic-normal
+syn-000000389,389,Vektorallee 170,Datenheim,50491,D,51.4229352,11.6592724,2021/01/24,segment-05,synthetic-normal
+syn-000000390,390,Schemaweg 171,Ostfeld,58410,DE,53.4431163,10.6091159,2021-01-25,segment-06,synthetic-normal
+syn-000000391,391,Vektorallee 172,Westbogen,66329,Deutschland,52.4937665,7.1471412,26.01.2021,segment-07,synthetic-normal
+syn-000000392,392,Prüfsummenstr. 3 ,WESTBOGEN,25838,D,49.4118222,7.7808866,2020-01-03,segment-02,synthetic-normal
+syn-000000393,393,Qualitätsring 174,Vektorstetten,82167,DE,52.2181078,9.3777573,2021/01/28,segment-09,synthetic-normal
+syn-000000394,394,Koordinatenplatz 175,Datenheim,10086,D,47.7088967,12.6417637,29.01.2021,segment-10,synthetic-normal
+syn-000000395,395,Koordinatenplatz 176,Datenheim,18005,deu,51.454275,11.3511602,2021-01-30,segment-11,synthetic-normal
+syn-000000396,396,Pipelineweg 177, Ostfeld ,25924,Deutschland,47.6088202,8.3678327,2021-01-31,segment-00,synthetic-normal
+syn-000000397,397,Vektorallee 178,Nordhafen,33843,Deutschland,48.4681457,8.7681963,2021/02/01,segment-01,synthetic-normal
+syn-000000398,398,Pipelineweg 179,Vektorstetten,41762,deu,49.7157284,7.8236505,2021/02/02,segment-02,synthetic-normal
+syn-000000399,399,Koordinatenplatz 180D,Südwinkel,49681,deu,54.0138152,11.9026772,2021/02/03,segment-03,synthetic-normal
+syn-000000400,400,Datenstrasse 181,Nordhafen,57600,Deutschland,52.3839324,9.9001387,2021/02/04,segment-04,synthetic-normal
+syn-000000401,401," 	Prüfsummenstr. 182  , ",Westbogen,65519,D,51.4058036,8.4020267,2021/02/05,segment-05,synthetic-error
+syn-000000402,402,Pipelineweg 183,Nordhafen,73438,deu,48.5722006,14.5977411,06.02.2021,segment-06,synthetic-normal
+syn-000000403,403," 	  Pipelineweg   184  , ",Südwinkel,81357,DE,51.386932,12.2652344,07.02.2021,segment-07,synthetic-error
+syn-000000404,404,Pipelineweg 185,Nordhafen,89276,deu,47.7124373,13.106776,08/02/2021,segment-08,synthetic-normal
+syn-000000405,405,Prüfsummenstraße 186, Ostfeld ,17195,DE,49.7046723,9.3834172,2021-02-09,segment-09,synthetic-normal
+syn-000000406,406," 	Pipelineweg 38  ,  ",DATENHEIM,45183,deu,48.0733156,13.8222098,2020/09/14,segment-05,synthetic-error
+syn-000000407,407,  Schemaweg   188,Datenheim,33033,DE,47.9574397,12.840523,2021/02/11,segment-11,synthetic-normal
+syn-000000408,408,Prüfsummenstr. 189,Datenheim,40952,Deutschland,49.5418364,11.6332202,2021-02-12,segment-00,synthetic-normal
+syn-000000409,409,Pipelineweg 190,Nordhafen,48871,Deutschland,47.3382268,11.289225,13.02.2021,segment-01,synthetic-normal
+syn-000000410,410,Vektorallee 191,Südwinkel,56790,deu,48.6983447,11.4753413,2021-02-14,segment-02,synthetic-normal
+syn-000000411,411,Spaltenweg 192,Vektorstetten,64709,deu,51.477451,8.4740045,2021/02/15,segment-03,synthetic-normal
+syn-000000412,412,Qualitätsring 193,Nordhafen,72628,D,49.4670423,6.4422417,16/02/2021,segment-04,synthetic-normal
+syn-000000413,413,  Vektorallee   194B,Datenheim,80547,Deutschland,51.6081504,13.2308378,17.02.2021,segment-05,synthetic-normal
+syn-000000414,414,Prüfsummenstr. 195, Westbogen ,88466,D,53.6848364,7.0356137,2021/02/18,segment-06,synthetic-normal
+syn-000000415,415,Pipelineweg 196,Südwinkel,16385,deu,52.2061922,6.554158,19.02.2021,segment-07,synthetic-normal
+syn-000000416,416,Pipelineweg 197,Vektorstetten,24304,D,47.8730397,5.9713987,20.02.2021,segment-08,synthetic-normal
+syn-000000417,417,Spaltenweg 198,Vektorstetten,32223,Deutschland,53.191499,9.1655314,21.02.2021,segment-09,synthetic-normal
+syn-000000418,418,Prüfsummenstrasse 199,Westbogen,40142,deu,51.1164712,11.8966421,2021/02/22,segment-10,synthetic-normal
+syn-000000419,419,Vektorallee 200,Vektorstetten,48061,D,14.4404124,52.863234,23.02.2021,segment-11,synthetic-error
+syn-000000420,420,  Qualitätsring   201A,Datenheim,55980,DE,54.1987183,9.1235126,2021-02-24,segment-00,synthetic-normal
+syn-000000421,421,Schemaweg 202,Vektorstetten,63899,D,49.3012021,10.8080206,25/02/2021,segment-01,synthetic-normal
+syn-000000422,422,Pipelineweg 203,Datenheim,71818,Deutschland,49.2120567,14.7486018,26/02/2021,segment-02,synthetic-normal
+syn-000000423,423,Datenstrasse 204, Datenheim ,79737,Deutschland,54.0034602,9.847068,27.02.2021,segment-03,synthetic-normal
+syn-000000424,424,Pipelineweg 205,Vektorstetten,87656,D,49.0506321,13.2627882,2021/02/28,segment-04,synthetic-normal
+syn-000000425,425,Prüfsummenstrasse 206,Nordhafen,15575,DE,6.9765431,49.1518943,01.03.2021,segment-05,synthetic-error
+syn-000000426,426,Prüfsummenstr. 207,Datenheim,23494,deu,54.666252,11.6661289,2021/03/02,segment-06,synthetic-normal
+syn-000000427,427,Spaltenweg 208D,Südwinkel,31413,deu,48.967165,9.579055,03/03/2021,segment-07,synthetic-normal
+syn-000000428,428,  Spaltenweg   209,Datenheim,39332,DE,51.7885295,7.9142868,04.03.2021,segment-08,synthetic-normal
+syn-000000429,429,Prüfsummenstraße 210,Südwinkel,47251,DE,51.9018837,7.4322841,2021-03-05,segment-09,synthetic-normal
+syn-000000430,430,Datenstr. 211,Vektorstetten,55170,D,52.2341612,10.6028069,06.03.2021,segment-10,synthetic-normal
+syn-000000431,431,Prüfsummenstraße 212,Westbogen,63089,Deutschland,51.7767655,12.6208252,2021/03/07,segment-11,synthetic-normal
+syn-000000432,432,Pipelineweg 213, Westbogen ,71008,DE,51.8470219,10.8023254,2021-03-08,segment-00,synthetic-normal
+syn-000000433,433,Qualitätsring 214,Vektorstetten,78927,Deutschland,53.4125824,9.5613747,09/03/2021,segment-01,synthetic-normal
+syn-000000434,434,Koordinatenplatz 215C,Datenheim,86846,D,49.3942601,12.0615725,10.03.2021,segment-02,synthetic-normal
+syn-000000435,435,  Schemaweg   216,Westbogen,14765,DE,51.6901488,12.9225893,11.03.2021,segment-03,synthetic-normal
+syn-000000436,436,Vektorallee 217,Nordhafen,22684,DE,48.9298819,9.4851603,12.03.2021,segment-04,synthetic-normal
+syn-000000437,437,Pipelineweg 218,Südwinkel,,deu,50.8846818,11.3222581,13/03/2021,segment-05,synthetic-error
+syn-000000438,438,Prüfsummenstraße 219,Datenheim,38522,deu,52.2869317,8.435517,2021/03/14,segment-06,synthetic-normal
+syn-000000439,439,Schemaweg 220,Südwinkel,46441,DE,47.5554311,11.3155372,15/03/2021,segment-07,synthetic-normal
+syn-000000440,440,Pipelineweg 81 ,SÜDWINKEL,83520,D,49.8065078,12.1817978,2020-03-21,segment-08,synthetic-normal
+syn-000000441,441,Prüfsummenstrasse 2B, Westbogen ,62279,DE,52.3894316,9.5301489,2021-03-17,segment-09,synthetic-normal
+syn-000000442,442,Koordinatenplatz 3,Westbogen,70198,D,54.6209863,8.3438722,2021-03-18,segment-10,synthetic-normal
+syn-000000443,443,Pipelineweg 4,Datenheim,78117,Deutschland,47.8501334,8.5071168,19/03/2021,segment-11,synthetic-normal
+syn-000000444,444,  Spaltenweg   5,Südwinkel,,DE,53.056797,14.6433963,2021/03/20,segment-00,synthetic-error
+syn-000000445,445,  Qualitätsring   6,Vektorstetten,13955,DE,52.6289384,13.1614848,21/03/2021,segment-01,synthetic-normal
+syn-000000446,446,Koordinatenplatz 7,Nordhafen,21874,Deutschland,51.5145914,7.4420689,22.03.2021,segment-02,synthetic-normal
+syn-000000447,447,Qualitätsring 8,Ostfeld,29793,deu,52.9020531,7.9607246,23.03.2021,segment-03,synthetic-normal
+syn-000000448,448,Koordinatenplatz 9A,Südwinkel,37712,D,53.2199325,6.9028821,2021-03-24,segment-04,synthetic-normal
+syn-000000449,449,Datenstr. 10,Ostfeld,45631,Deutschland,50.1210937,8.7018355,2021/03/25,segment-05,synthetic-normal
+syn-000000450,450,Datenstraße 11, Datenheim ,53550,D,53.3744514,10.2005447,26.03.2021,segment-06,synthetic-normal
+syn-000000451,451,Spaltenweg 12,Westbogen,61469,DE,52.5380002,5.9087438,27/03/2021,segment-07,synthetic-normal
+syn-000000452,452,Vektorallee 13,Datenheim,69388,D,49.2976527,8.2785557,2021/03/28,segment-08,synthetic-normal
+syn-000000453,453,Koordinatenplatz 14,Westbogen,77307,deu,53.7928783,8.3725917,2021-03-29,segment-09,synthetic-normal
+syn-000000454,454,Prüfsummenstrasse 15,Ostfeld,85226,DE,48.7900804,13.1603446,30.03.2021,segment-10,synthetic-normal
+syn-000000455,455,Koordinatenplatz 16D,Ostfeld,13145,deu,49.5802598,10.9716738,2021-03-31,segment-11,synthetic-normal
+syn-000000456,456,Pipelineweg 17,Ostfeld,999999,Deutschland,52.9589085,8.1898759,01/04/2021,segment-00,synthetic-error
+syn-000000457,457,Qualitätsring 18,Datenheim,28983,Deutschland,51.6767979,11.7720048,02/04/2021,segment-01,synthetic-normal
+syn-000000458,458,Spaltenweg 19,Nordhafen,36902,Deutschland,50.1961396,8.4360169,2021/04/03,segment-02,synthetic-normal
+syn-000000459,459,Pipelineweg 20, Nordhafen ,44821,Deutschland,48.5311961,7.899605,2021/04/04,segment-03,synthetic-normal
+syn-000000460,460,  Koordinatenplatz   21,Vektorstetten,52740,DE,51.7605903,14.6828395,05.04.2021,segment-04,synthetic-normal
+syn-000000461,461,Pipelineweg 22,Südwinkel,60659,D,48.5685195,,2021-04-06,segment-05,synthetic-error
+syn-000000462,462,  Pipelineweg   23C,Nordhafen,68578,deu,49.2946372,7.2285241,07/04/2021,segment-06,synthetic-normal
+syn-000000463,463,Vektorallee 24,Nordhafen,76497,D,47.5671779,9.0829394,08/04/2021,segment-07,synthetic-normal
+syn-000000464,464,  Vektorallee   25,Datenheim,84416,Deutschland,51.8416399,11.6056372,09/04/2021,segment-08,synthetic-normal
+syn-000000465,465,Pipelineweg 26,Ostfeld,12335,DE,49.6397982,9.592275,10.04.2021,segment-09,synthetic-normal
+syn-000000466,466,  Datenstraße   27,Vektorstetten,20254,D,54.3078718,14.5120091,11/04/2021,segment-10,synthetic-normal
+syn-000000467,467,  Koordinatenplatz   28,Südwinkel,28173,D,50.4291926,10.9571001,2021/04/12,segment-11,synthetic-normal
+syn-000000468,468,Prüfsummenstrasse 101 ,VEKTORSTETTEN,64080,Deutschland,54.601032,11.7724584,16.11.2020,segment-08,synthetic-normal
+syn-000000469,469,Schemaweg 30B,Westbogen,44011,DE,52.2282735,10.6938872,14.04.2021,segment-01,synthetic-normal
+syn-000000470,470,  Spaltenweg   31,,51930,DE,50.741031,12.2443479,15.04.2021,segment-02,synthetic-error
+syn-000000471,471,Prüfsummenstr. 53 ,WESTBOGEN,21788,D,53.0152747,13.4537034,2020-02-22,segment-04,synthetic-normal
+syn-000000472,472,Spaltenweg 33,Vektorstetten,67768,Deutschland,47.3623511,6.6298122,2021/04/17,segment-04,synthetic-normal
+syn-000000473,473,Koordinatenplatz 34,Ostfeld,75687,deu,52.5967045,6.0919815,2021-04-18,segment-05,synthetic-normal
+syn-000000474,474,  Spaltenweg   35,Südwinkel,83606,DE,48.7606614,13.5421614,19.04.2021,segment-06,synthetic-normal
+syn-000000475,475,Qualitätsring 36,Vektorstetten,11525,deu,54.8584691,7.6324549,2021/04/20,segment-07,synthetic-normal
+syn-000000476,476,Koordinatenplatz 37A,Südwinkel,19444,Deutschland,52.0816483,6.1881104,21.04.2021,segment-08,synthetic-normal
+syn-000000477,477,Spaltenweg 122 ,WESTBOGEN,70379,deu,49.3475919,9.6343091,2020/12/07,segment-05,synthetic-normal
+syn-000000478,478,Prüfsummenstraße 39,Westbogen,35282,deu,47.4145146,13.1083917,2021-04-23,segment-10,synthetic-normal
+syn-000000479,479,Spaltenweg 40,Vektorstetten,43201,D,51.8312134,9.2168677,2021-04-24,segment-11,synthetic-normal
+syn-000000480,480,Datenstraße 41,Nordhafen,51120,deu,50.0019343,7.2160496,25/04/2021,segment-00,synthetic-normal
+syn-000000481,481,  Koordinatenplatz   42,Ostfeld,59039,deu,52.8722351,5.9964461,26/04/2021,segment-01,synthetic-normal
+syn-000000482,482,Spaltenweg 43,Datenheim,66958,Deutschland,49.5398309,12.2127475,27/04/2021,segment-02,synthetic-normal
+syn-000000483,483,Vektorallee 44D,Nordhafen,74877,D,51.3366445,9.9343346,2021-04-28,segment-03,synthetic-normal
+syn-000000484,484,Vektorallee 45,Nordhafen,82796,DE,52.009983,9.1494918,2021/04/29,segment-04,synthetic-normal
+syn-000000485,485,Vektorallee 46,Datenheim,10715,DE,49.451781,9.5702017,2021-04-30,segment-05,synthetic-normal
+syn-000000486,486,Datenstraße 47, Südwinkel ,18634,D,48.1136193,7.5628731,2021/05/01,segment-06,synthetic-normal
+syn-000000487,487,Schemaweg 48,Nordhafen,26553,deu,50.0842906,11.3747733,2021/05/02,segment-07,synthetic-normal
+syn-000000488,488,  Spaltenweg   49,Vektorstetten,34472,DE,47.7613214,10.933783,03/05/2021,segment-08,synthetic-normal
+syn-000000489,489,Schemaweg 50,Nordhafen,42391,deu,54.4789865,14.6373981,2021/05/04,segment-09,synthetic-normal
+syn-000000490,490,  Qualitätsring   51C,Datenheim,50310,Deutschland,52.0524704,7.4458606,2021/05/05,segment-10,synthetic-normal
+syn-000000491,491,Pipelineweg 52,Südwinkel,58229,D,53.3227081,10.8596823,06/05/2021,segment-11,synthetic-normal
+syn-000000492,492,Koordinatenplatz 53,Westbogen,66148,deu,50.433809,11.6258156,2021/05/07,segment-00,synthetic-normal
+syn-000000493,493,  Schemaweg   54,Westbogen,74067,DE,54.6085535,9.9169981,08/05/2021,segment-01,synthetic-normal
+syn-000000494,494,Schemaweg 55,Nordhafen,81986,Deutschland,49.5825381,-220.0,09.05.2021,segment-02,synthetic-error
+syn-000000495,495,Schemaweg 56, Westbogen ,89905,DE,54.0611527,8.0986835,2021/05/10,segment-03,synthetic-normal
+syn-000000496,496,  Pipelineweg   57,Vektorstetten,17824,DE,49.7676596,10.2393052,31-31-not-a-date,segment-04,synthetic-error
+syn-000000497,497,  Pipelineweg   58B,Nordhafen,25743,DE,54.3062234,8.8763847,12.05.2021,segment-05,synthetic-normal
+syn-000000498,498,Datenstr. 59,Vektorstetten,33662,Deutschland,53.2083815,9.3188801,13.05.2021,segment-06,synthetic-normal
+syn-000000499,499,  Vektorallee   60,Nordhafen,41581,DE,52.4196278,14.9757792,14.05.2021,segment-07,synthetic-normal
+syn-000000500,500,Vektorallee 61,Südwinkel,49500,Deutschland,49.8548782,10.1778628,2021-05-15,segment-08,synthetic-normal
+syn-000000501,501,  Vektorallee   62,Südwinkel,57419,deu,50.955011,7.6225985,16.05.2021,segment-09,synthetic-normal
+syn-000000502,502,Prüfsummenstraße 63,Westbogen,65338,D,52.5040086,11.0993678,17/05/2021,segment-10,synthetic-normal
+syn-000000503,503,  Datenstraße   64,Westbogen,73257,D,48.58634,9.0173909,2021-05-18,segment-11,synthetic-normal
+syn-000000504,504,Koordinatenplatz 65A, Südwinkel ,81176,deu,53.0587767,13.6454301,19.05.2021,segment-00,synthetic-normal
+syn-000000505,505,  Datenstraße   66,Westbogen,89095,Deutschland,52.5728437,6.8237575,20.05.2021,segment-01,synthetic-normal
+syn-000000506,506,Schemaweg 67,Datenheim,17014,DE,50.9710001,12.515297,2021/05/21,segment-02,synthetic-normal
+syn-000000507,507,Datenstr. 68,Westbogen,24933,DE,48.5944293,8.4129246,2021-05-22,segment-03,synthetic-normal
+syn-000000508,508,  Koordinatenplatz   69,Nordhafen,32852,D,47.4449953,13.7801761,2021-05-23,segment-04,synthetic-normal
+syn-000000509,509,Pipelineweg 70,Südwinkel,40771,Deutschland,48.8114515,14.6944806,24/05/2021,segment-05,synthetic-normal
+syn-000000510,510,Datenstr. 71,Westbogen,48690,Deutschland,52.5007663,9.0694788,2021-05-25,segment-06,synthetic-normal
+syn-000000511,511,Datenstr. 72D,Datenheim,56609,deu,54.5132848,7.8753608,2021-05-26,segment-07,synthetic-normal
+syn-000000512,512,Qualitätsring 73,Ostfeld,64528,Deutschland,49.1267421,7.2052922,2021/05/27,segment-08,synthetic-normal
+syn-000000513,513,Vektorallee 74, Datenheim ,72447,deu,51.4142891,13.1609665,2021/05/28,segment-09,synthetic-normal
+syn-000000514,514,Vektorallee 75,Vektorstetten,80366,DE,54.3910276,14.2374315,29.05.2021,segment-10,synthetic-normal
+syn-000000515,515,  Datenstraße   76,Westbogen,88285,Deutschland,53.9890024,9.6091694,30.05.2021,segment-11,synthetic-normal
+syn-000000516,516,Vektorallee 77,Nordhafen,16204,deu,53.0946009,11.4302307,31.05.2021,segment-00,synthetic-normal
+syn-000000517,517,Pipelineweg 58,Datenheim,61383,deu,54.5029534,10.0783126,2020-02-27,segment-09,synthetic-normal
+syn-000000518,518,  Spaltenweg   79C,Vektorstetten,32042,deu,52.236721,7.4925836,02.06.2021,segment-02,synthetic-normal
+syn-000000519,519,Vektorallee 191,Südwinkel,56790,deu,48.6983447,11.4753413,2021-02-14,segment-02,synthetic-normal
+syn-000000520,520,Prüfsummenstrasse 81,Südwinkel,47880,D,52.9419866,14.8918394,2021/06/04,segment-04,synthetic-normal
+syn-000000521,521,  Qualitätsring   82,Ostfeld,55799,D,50.3769874,6.1848017,2021-06-05,segment-05,synthetic-normal
+syn-000000522,522,Datenstraße 83, Südwinkel ,63718,DE,51.2421402,9.439623,06.06.2021,segment-06,synthetic-normal
+syn-000000523,523,Schemaweg 84,Westbogen,71637,deu,50.8062384,9.6866521,2021/06/07,segment-07,synthetic-normal
+syn-000000524,524,Pipelineweg 85,Südwinkel,79556,Deutschland,53.2183567,,2021/06/08,segment-08,synthetic-error
+syn-000000525,525,Qualitätsring 86B,Ostfeld,87475,DE,47.9853654,,2021-06-09,segment-09,synthetic-error
+syn-000000526,526,Prüfsummenstrasse 87,Vektorstetten,15394,D,53.3121061,10.5073314,2021-06-10,segment-10,synthetic-normal
+syn-000000527,527,Vektorallee 88,Südwinkel,23313,Deutschland,53.9030209,7.4455742,2021/06/11,segment-11,synthetic-normal
+syn-000000528,528,Vektorallee 89,Südwinkel,31232,D,47.32685,12.8416414,2021-06-12,segment-00,synthetic-normal
+syn-000000529,529,  Qualitätsring   90,Datenheim,39151,DE,52.3119767,9.9743941,13.06.2021,segment-01,synthetic-normal
+syn-000000530,530,Qualitätsring 91,Nordhafen,47070,DE,48.7047839,6.3065882,14/06/2021,segment-02,synthetic-normal
+syn-000000531,531,Pipelineweg 92, Ostfeld ,54989,deu,54.8523874,7.2842841,2021/06/15,segment-03,synthetic-normal
+syn-000000532,532,  Datenstraße   93A,Nordhafen,62908,D,53.1406911,8.769961,2021-06-16,segment-04,synthetic-normal
+syn-000000533,533,Schemaweg 94,Westbogen,70827,DE,51.3056008,10.6267451,2021-06-17,segment-05,synthetic-normal
+syn-000000534,534,Schemaweg 95,Ostfeld,78746,D,51.927219,8.7116947,2021/06/18,segment-06,synthetic-normal
+syn-000000535,535,Qualitätsring 96,Vektorstetten,86665,DE,49.5077093,7.58071,19.06.2021,segment-07,synthetic-normal
+syn-000000536,536,Prüfsummenstrasse 97,Nordhafen,14584,deu,49.8368212,10.9558226,20/06/2021,segment-08,synthetic-normal
+syn-000000537,537,Koordinatenplatz 191,Datenheim,74610,deu,49.9925811,12.902306,09.07.2020,segment-10,synthetic-normal
+syn-000000538,538,Datenstraße 99,Nordhafen,30422,deu,52.512352,8.9405266,22/06/2021,segment-10,synthetic-normal
+syn-000000539,539,  Spaltenweg   100D,Ostfeld,38341,D,53.3591333,11.7400004,23/06/2021,segment-11,synthetic-normal
+syn-000000540,540,Datenstr. 101, Datenheim ,46260,DE,49.5750125,12.4696702,24.06.2021,segment-00,synthetic-normal
+syn-000000541,541,Koordinatenplatz 102,Nordhafen,54179,D,54.669061,8.3802323,25.06.2021,segment-01,synthetic-normal
+syn-000000542,542,Pipelineweg 103,Westbogen,62098,DE,52.660023,8.6933945,2021/06/26,segment-02,synthetic-normal
+syn-000000543,543,Schemaweg 104,Südwinkel,70017,deu,51.2907632,7.4101173,2021-06-27,segment-03,synthetic-normal
+syn-000000544,544,Schemaweg 72,Südwinkel,74429,DE,50.1262077,12.6979427,2020-10-18,segment-03,synthetic-normal
+syn-000000545,545,Koordinatenplatz 106,Ostfeld,85855,DE,52.8665521,10.6173772,29.06.2021,segment-05,synthetic-normal
+syn-000000546,546,Spaltenweg 102 ,WESTBOGEN,89819,DE,52.9738511,8.9161803,11.04.2020,segment-05,synthetic-normal
+syn-000000547,547,Datenstraße 108,Westbogen,21693,DE,54.3857638,12.1208814,2021-07-01,segment-07,synthetic-normal
+syn-000000548,548,Schemaweg 109,Nordhafen,29612,deu,51.6894547,8.6717147,02/07/2021,segment-08,synthetic-normal
+syn-000000549,549,Spaltenweg 110, Vektorstetten ,37531,DE,48.1941464,7.1737506,03.07.2021,segment-09,synthetic-normal
+syn-000000550,550,Schemaweg 111,Südwinkel,45450,Deutschland,54.4689114,13.1968261,04/07/2021,segment-10,synthetic-normal
+syn-000000551,551,Spaltenweg 66 ,VEKTORSTETTEN,44735,deu,52.7100023,9.9232059,2020/03/06,segment-05,synthetic-normal
+syn-000000552,552,Pipelineweg 113,Ostfeld,61288,D,47.7088791,9.7234849,06/07/2021,segment-00,synthetic-normal
+syn-000000553,553,  Pipelineweg   114B,Ostfeld,69207,Deutschland,51.6151987,6.6548288,2021/07/07,segment-01,synthetic-normal
+syn-000000554,554,Vektorallee 115,Datenheim,77126,Deutschland,49.261201,9.143734,08/07/2021,segment-02,synthetic-normal
+syn-000000555,555,Spaltenweg 79 ,SÜDWINKEL,49862,D,52.8667214,10.828345,2020-10-25,segment-10,synthetic-normal
+syn-000000556,556,Vektorallee 117,Westbogen,12964,D,53.1363555,11.3608501,2021-07-10,segment-04,synthetic-normal
+syn-000000557,557,Schemaweg 118,Datenheim,20883,deu,50.8034089,11.2329308,2021/07/11,segment-05,synthetic-normal
+syn-000000558,558,Prüfsummenstrasse 119,,28802,DE,51.6108051,8.9482477,2021/07/12,segment-06,synthetic-error
+syn-000000559,559,Pipelineweg 120,Ostfeld,36721,D,48.6389224,14.5941277,13/07/2021,segment-07,synthetic-normal
+syn-000000560,560,Pipelineweg 121A,Südwinkel,44640,deu,53.5094553,13.9628061,2021/07/14,segment-08,synthetic-normal
+syn-000000561,561,Spaltenweg 122,Südwinkel,52559,Deutschland,48.8630288,13.8723132,2021/07/15,segment-09,synthetic-normal
+syn-000000562,562,  Pipelineweg   123,Datenheim,60478,Deutschland,47.3617063,14.8750792,2021-07-16,segment-10,synthetic-normal
+syn-000000563,563,Datenstr. 124,Nordhafen,68397,Deutschland,52.6454913,13.3509302,2021-07-17,segment-11,synthetic-normal
+syn-000000564,564,  Prüfsummenstraße   125,Vektorstetten,76316,deu,49.7177676,9.3216645,18.07.2021,segment-00,synthetic-normal
+syn-000000565,565,Prüfsummenstrasse 126,Westbogen,84235,DE,53.6837164,7.2192591,2021-07-19,segment-01,synthetic-normal
+syn-000000566,566,  Prüfsummenstraße   127,Südwinkel,12154,D,47.9434422,11.7086347,20.07.2021,segment-02,synthetic-normal
+syn-000000567,567,Spaltenweg 128D, Ostfeld ,20073,deu,50.000335,7.5092775,21/07/2021,segment-03,synthetic-normal
+syn-000000568,568,Koordinatenplatz 129,Nordhafen,27992,D,54.7345742,11.0269761,2021-07-22,segment-04,synthetic-normal
+syn-000000569,569,Schemaweg 130,Ostfeld,35911,DE,51.2288166,10.6148825,23/07/2021,segment-05,synthetic-normal
+syn-000000570,570,Datenstr. 131,Ostfeld,43830,Deutschland,50.7506643,14.1357067,24/07/2021,segment-06,synthetic-normal
+syn-000000571,571,  Schemaweg   132,Vektorstetten,51749,DE,53.2661638,8.1960769,25/07/2021,segment-07,synthetic-normal
+syn-000000572,572,Schemaweg 133,Ostfeld,59668,Deutschland,47.9270773,10.4514842,26/07/2021,segment-08,synthetic-normal
+syn-000000573,573,Prüfsummenstr. 131,Westbogen,79470,D,48.1753176,5.9918803,31-31-not-a-date,segment-10,synthetic-error
+syn-000000574,574,Vektorallee 135C,Vektorstetten,75506,deu,50.6945641,13.2321344,2021/07/28,segment-10,synthetic-normal
+syn-000000575,575,Datenstrasse 136,Westbogen,83425,D,54.7789446,14.6995798,2021/07/29,segment-11,synthetic-normal
+syn-000000576,576,Vektorallee 137, Südwinkel ,11344,DE,51.6909562,13.5448639,2021-07-30,segment-00,synthetic-normal
+syn-000000577,577,Schemaweg 138,Ostfeld,19263,D,52.9707441,12.7223362,2021/07/31,segment-01,synthetic-normal
+syn-000000578,578,  Prüfsummenstraße   139,Nordhafen,27182,DE,49.4948209,13.1352432,2021-08-01,segment-02,synthetic-normal
+syn-000000579,579,Prüfsummenstr. 140,Datenheim,35101,DE,54.2771193,13.6968722,02/08/2021,segment-03,synthetic-normal
+syn-000000580,580,Qualitätsring 141,Vektorstetten,43020,deu,52.4063629,12.888575,03/08/2021,segment-04,synthetic-normal
+syn-000000581,581,  Pipelineweg   142B,Nordhafen,50939,Deutschland,50.4254906,10.6324312,04/08/2021,segment-05,synthetic-normal
+syn-000000582,582,  Koordinatenplatz   130 ,NORDHAFEN,71551,DE,50.3177409,12.6267802,09/05/2020,segment-09,synthetic-normal
+syn-000000583,583,Qualitätsring 144,Datenheim,66777,deu,52.1494299,12.314291,2021/08/06,segment-07,synthetic-normal
+syn-000000584,584,  Vektorallee   145,Nordhafen,74696,DE,52.5869676,8.1306888,2021/08/07,segment-08,synthetic-normal
+syn-000000585,585,Prüfsummenstr. 146, Vektorstetten ,82615,DE,54.1657753,12.8829007,08/08/2021,segment-09,synthetic-normal
+syn-000000586,586,Koordinatenplatz 147,Nordhafen,10534,D,49.2626134,13.2777679,09.08.2021,segment-10,synthetic-normal
+syn-000000587,587,Spaltenweg 148,Nordhafen,18453,DE,48.3934318,12.8721074,2021/08/10,segment-11,synthetic-normal
+syn-000000588,588,  Pipelineweg   149A,Nordhafen,26372,D,51.6422187,8.1054864,11.08.2021,segment-00,synthetic-normal
+syn-000000589,589,Spaltenweg 109, Nordhafen ,65252,Deutschland,52.3370424,11.7036811,18.04.2020,segment-00,synthetic-normal
+syn-000000590,590,  Koordinatenplatz   151,Ostfeld,42210,D,51.6672659,10.5415236,2021-08-13,segment-02,synthetic-normal
+syn-000000591,591,Prüfsummenstr. 140,Datenheim,35101,DE,54.2771193,13.6968722,02/08/2021,segment-03,synthetic-normal
+syn-000000592,592,Pipelineweg 153,Datenheim,58048,D,51.368311,14.9227327,2021-08-15,segment-04,synthetic-normal
+syn-000000593,593,Pipelineweg 154,Westbogen,65967,Deutschland,51.3631599,14.6405148,16.08.2021,segment-05,synthetic-normal
+syn-000000594,594,Datenstrasse 71,Westbogen,66510,deu,52.3622048,11.8540817,2020-10-17,segment-02,synthetic-normal
+syn-000000595,595,Prüfsummenstraße 156D,Nordhafen,81805,D,52.0926896,9.1052023,18.08.2021,segment-07,synthetic-normal
+syn-000000596,596,Qualitätsring 157,Ostfeld,999999,D,50.2546333,13.0932004,2021-08-19,segment-08,synthetic-error
+syn-000000597,597,  Datenstraße   158,Ostfeld,17643,deu,48.198222,13.2253541,20.08.2021,segment-09,synthetic-normal
+syn-000000598,598,  Pipelineweg   171 ,SÜDWINKEL,76230,Deutschland,54.690086,11.709515,19.06.2020,segment-02,synthetic-normal
+syn-000000599,599,Datenstr. 124,Nordhafen,68397,Deutschland,52.6454913,13.3509302,2021-07-17,segment-11,synthetic-normal
+syn-000000600,600,Pipelineweg 20, Nordhafen ,44821,Deutschland,48.5311961,7.899605,2021/04/04,segment-03,synthetic-normal
+syn-000000601,601,Pipelineweg 205 ,VEKTORSTETTEN,87656,D,49.0506321,13.2627882,2021/02/28,segment-04,synthetic-normal
+syn-000000602,602,Pipelineweg 163C,Ostfeld,57238,DE,51.9453168,13.4852398,2021-08-25,segment-02,synthetic-normal
+syn-000000603,603,  Qualitätsring   164, Nordhafen ,65157,deu,53.4138468,9.7211455,26/08/2021,segment-03,synthetic-normal
+syn-000000604,604,Datenstr. 165,Datenheim,73076,D,48.6182021,6.3816414,27.08.2021,segment-04,synthetic-normal
+syn-000000605,605,Spaltenweg 166,Südwinkel,80995,D,54.335134,200.0,28.08.2021,segment-05,synthetic-error
+syn-000000606,606,  Vektorallee   198,,50043,Deutschland,54.8785057,9.4523501,2020-07-16,segment-05,synthetic-error
+syn-000000607,607,  Schemaweg   168,Ostfeld,16833,deu,52.5706268,13.0886146,30.08.2021,segment-07,synthetic-normal
+syn-000000608,608,Prüfsummenstraße 169,Südwinkel,24752,D,54.429481,11.4169495,2021-08-31,segment-08,synthetic-normal
+syn-000000609,609,Koordinatenplatz 170B,Ostfeld,32671,DE,47.3347323,7.9678789,01/09/2021,segment-09,synthetic-normal
+syn-000000610,610,Qualitätsring 171,Ostfeld,40590,DE,53.1545178,11.8658099,02.09.2021,segment-10,synthetic-normal
+syn-000000611,611,Spaltenweg 172,Ostfeld,48509,Deutschland,48.640061,11.9653122,03/09/2021,segment-11,synthetic-normal
+syn-000000612,612,Spaltenweg 173, Nordhafen ,56428,DE,48.0936004,6.2826005,2021/09/04,segment-00,synthetic-normal
+syn-000000613,613,Spaltenweg 14,Westbogen,15127,DE,47.653871,6.4840022,21.08.2020,segment-05,synthetic-normal
+syn-000000614,614,Koordinatenplatz 175,Ostfeld,72266,DE,48.8105106,12.0270434,06/09/2021,segment-02,synthetic-normal
+syn-000000615,615,  Prüfsummenstraße   176,Südwinkel,80185,DE,50.1540461,7.8300974,2021/09/07,segment-03,synthetic-normal
+syn-000000616,616,Spaltenweg 177A,Südwinkel,88104,Deutschland,50.2437103,7.0549225,08.09.2021,segment-04,synthetic-normal
+syn-000000617,617,Prüfsummenstr. 189 ,DATENHEIM,40952,Deutschland,49.5418364,11.6332202,2021-02-12,segment-00,synthetic-normal
+syn-000000618,618,Spaltenweg 179,Ostfeld,23942,deu,50.4785011,12.7951242,10.09.2021,segment-06,synthetic-normal
+syn-000000619,619,Qualitätsring 180,Nordhafen,31861,D,50.4288907,,11/09/2021,segment-07,synthetic-error
+syn-000000620,620,Qualitätsring 181,Westbogen,39780,DE,50.6002903,7.8461408,2021/09/12,segment-08,synthetic-normal
+syn-000000621,621,  Spaltenweg   142,Vektorstetten,68759,deu,51.2541919,10.6218823,27/12/2020,segment-01,synthetic-normal
+syn-000000622,622,Prüfsummenstraße 183,Datenheim,55618,deu,50.2968332,13.249392,2021-09-14,segment-10,synthetic-normal
+syn-000000623,623,  Pipelineweg   58B ,NORDHAFEN,25743,DE,54.3062234,8.8763847,12.05.2021,segment-05,synthetic-normal
+syn-000000624,624,Koordinatenplatz 185,Westbogen,71456,Deutschland,49.1168742,14.9903553,16.09.2021,segment-00,synthetic-normal
+syn-000000625,625,  Datenstraße   186,Ostfeld,79375,Deutschland,50.8245809,7.07534,2021/09/17,segment-01,synthetic-normal
+syn-000000626,626,Qualitätsring 8 ,OSTFELD,29793,deu,52.9020531,7.9607246,23.03.2021,segment-03,synthetic-normal
+syn-000000627,627,Koordinatenplatz 188,Datenheim,15213,deu,47.5486277,9.7183007,2021-09-19,segment-03,synthetic-normal
+syn-000000628,628,Datenstraße 189,Datenheim,23132,Deutschland,54.4844489,12.0068073,2021/09/20,segment-04,synthetic-normal
+syn-000000629,629,Vektorallee 190,Vektorstetten,31051,Deutschland,51.5468075,6.4164544,21.09.2021,segment-05,synthetic-normal
+syn-000000630,630,Qualitätsring 191C, Vektorstetten ,38970,D,8.7482671,53.0827329,22/09/2021,segment-06,synthetic-error
+syn-000000631,631,Spaltenweg 192,Datenheim,46889,Deutschland,51.3027878,6.9289268,2021-09-23,segment-07,synthetic-normal
+syn-000000632,632,Pipelineweg 193,Nordhafen,54808,Deutschland,50.269187,7.4450687,2021-09-24,segment-08,synthetic-normal
+syn-000000633,633,  Qualitätsring   194,Datenheim,62727,deu,54.5359962,6.0087505,2021/09/25,segment-09,synthetic-normal
+syn-000000634,634,Datenstrasse 195,Westbogen,70646,Deutschland,48.736861,6.0027369,2021/09/26,segment-10,synthetic-normal
+syn-000000635,635,  Koordinatenplatz   196,Ostfeld,78565,deu,51.8095151,12.2111449,27/09/2021,segment-11,synthetic-normal
+syn-000000636,636,Spaltenweg 197,Westbogen,86484,Deutschland,54.6775028,12.8816976,2021/09/28,segment-00,synthetic-normal
+syn-000000637,637,Vektorallee 198B,Vektorstetten,14403,deu,51.3684068,7.4769807,29.09.2021,segment-01,synthetic-normal
+syn-000000638,638,Qualitätsring 73, Datenheim ,20168,D,50.190873,14.1582403,13/03/2020,segment-00,synthetic-normal
+syn-000000639,639,Koordinatenplatz 200, Südwinkel ,30241,deu,48.8591808,12.3056363,01/10/2021,segment-03,synthetic-normal
+syn-000000640,640,  Schemaweg   201,Nordhafen,38160,D,54.2952982,9.5219734,02/10/2021,segment-04,synthetic-normal
+syn-000000641,641,Koordinatenplatz 202,Vektorstetten,46079,deu,52.6614303,10.1599782,2021/10/03,segment-05,synthetic-normal
+syn-000000642,642,Spaltenweg 203,Nordhafen,53998,deu,48.359617,10.8688319,2021/10/04,segment-06,synthetic-normal
+syn-000000643,643,Qualitätsring 204,Datenheim,61917,DE,51.3008972,12.9878069,2021/10/05,segment-07,synthetic-normal
+syn-000000644,644,Prüfsummenstraße 205A,Südwinkel,69836,Deutschland,51.0275367,11.3491812,2021/10/06,segment-08,synthetic-normal
+syn-000000645,645,Koordinatenplatz 206,Ostfeld,77755,D,50.1335167,8.4187834,2021-10-07,segment-09,synthetic-normal
+syn-000000646,646,  Prüfsummenstraße   207,Ostfeld,85674,D,49.4936185,13.2121896,08.10.2021,segment-10,synthetic-normal
+syn-000000647,647," 	Vektorallee 208  , ",Südwinkel,13593,D,49.6045567,14.8931183,2021-10-09,segment-11,synthetic-error
+syn-000000648,648,Prüfsummenstrasse 209, Südwinkel ,21512,D,51.5241852,12.3342725,10/10/2021,segment-00,synthetic-normal
+syn-000000649,649,Schemaweg 133 ,OSTFELD,59668,Deutschland,47.9270773,10.4514842,26/07/2021,segment-08,synthetic-normal
+syn-000000650,650,Spaltenweg 211,Datenheim,37350,Deutschland,52.9229058,7.865586,2021/10/12,segment-02,synthetic-normal
+syn-000000651,651,Schemaweg 212D,Ostfeld,45269,Deutschland,48.6632295,14.1424974,2021/10/13,segment-03,synthetic-normal
+syn-000000652,652,Schemaweg 94 ,WESTBOGEN,70827,DE,51.3056008,10.6267451,2021-06-17,segment-05,synthetic-normal
+syn-000000653,653,Prüfsummenstraße 214,Westbogen,61107,DE,52.07277,10.1795746,15/10/2021,segment-05,synthetic-normal
+syn-000000654,654,Datenstrasse 98 ,NORDHAFEN,40323,DE,47.7268766,11.3352976,13/11/2020,segment-05,synthetic-normal
+syn-000000655,655,Koordinatenplatz 216,Südwinkel,76945,Deutschland,47.7019513,9.1227037,2021-10-17,segment-07,synthetic-normal
+syn-000000656,656,Vektorallee 217,Nordhafen,84864,Deutschland,51.8505949,7.3376505,18/10/2021,segment-08,synthetic-normal
+syn-000000657,657,Pipelineweg 218, Datenheim ,12783,Deutschland,51.7083545,13.3744963,19/10/2021,segment-09,synthetic-normal
+syn-000000658,658,Vektorallee 219C,Nordhafen,20702,DE,48.9558592,10.4311226,2021/10/20,segment-10,synthetic-normal
+syn-000000659,659,  Prüfsummenstrasse   139 ,NORDHAFEN,27182,DE,49.4948209,13.1352432,2021-08-01,segment-02,synthetic-normal
+syn-000000660,660,Pipelineweg 119 ,NORDHAFEN,46622,Deutschland,51.5763966,6.7291121,2020/12/04,segment-02,synthetic-normal
+syn-000000661,661,Spaltenweg 2,Datenheim,44459,DE,51.2757204,14.7250254,2021-10-23,segment-01,synthetic-normal
+syn-000000662,662,Vektorallee 3,Vektorstetten,52378,D,49.0219657,6.9531665,31-31-not-a-date,segment-02,synthetic-error
+syn-000000663,663," 	Prüfsummenstraße 4  , ",Nordhafen,60297,Deutschland,48.7922675,6.101693,2021-10-25,segment-03,synthetic-error
+syn-000000664,664,  Pipelineweg   153 ,NORDHAFEN,13688,D,49.1121402,11.6783559,2020-06-01,segment-08,synthetic-normal
+syn-000000665,665,Qualitätsring 6B,Datenheim,76135,deu,54.148929,7.4999928,27/10/2021,segment-05,synthetic-normal
+syn-000000666,666,Vektorallee 7, Datenheim ,84054,DE,53.2340962,11.4391991,28.10.2021,segment-06,synthetic-normal
+syn-000000667,667,Vektorallee 8,Datenheim,11973,D,47.3328999,12.473214,29/10/2021,segment-07,synthetic-normal
+syn-000000668,668,  Pipelineweg   9,Südwinkel,19892,deu,14.8279703,53.6440404,2021/10/30,segment-08,synthetic-error
+syn-000000669,669,Pipelineweg 10,Datenheim,27811,DE,48.332934,12.8129179,2021-10-31,segment-09,synthetic-normal
+syn-000000670,670,  Schemaweg   11,Ostfeld,35730,D,51.8629603,8.6704636,01/11/2021,segment-10,synthetic-normal
+syn-000000671,671,Pipelineweg 12,Ostfeld,43649,D,54.4370232,9.1804608,2021-11-02,segment-11,synthetic-normal
+syn-000000672,672,Pipelineweg 13A,Nordhafen,51568,deu,48.3895935,9.4857434,2021-11-03,segment-00,synthetic-normal
+syn-000000673,673,Qualitätsring 14,Datenheim,59487,D,53.7146242,9.5194591,04/11/2021,segment-01,synthetic-normal
+syn-000000674,674,  Schemaweg   15,Vektorstetten,67406,Deutschland,54.4685104,9.0760952,05.11.2021,segment-02,synthetic-normal
+syn-000000675,675,Schemaweg 16, Ostfeld ,75325,DE,51.0792807,11.5810135,2021-11-06,segment-03,synthetic-normal
+syn-000000676,676,Qualitätsring 48 ,NORDHAFEN,44373,Deutschland,51.632565,10.6969833,24/09/2020,segment-03,synthetic-normal
+syn-000000677,677,Vektorallee 18,Westbogen,11163,D,52.0269474,6.6862694,2021/11/08,segment-05,synthetic-normal
+syn-000000678,678,Spaltenweg 19,Datenheim,19082,DE,49.2886561,8.961264,2021/11/09,segment-06,synthetic-normal
+syn-000000679,679,Spaltenweg 20D,Westbogen,27001,Deutschland,53.7818446,9.8715165,10.11.2021,segment-07,synthetic-normal
+syn-000000680,680,  Prüfsummenstraße   21,Ostfeld,34920,D,53.1064846,11.0334681,2021/11/11,segment-08,synthetic-normal
+syn-000000681,681,  Datenstraße   22,Ostfeld,42839,Deutschland,49.3017715,11.2376151,12/11/2021,segment-09,synthetic-normal
+syn-000000682,682,Pipelineweg 206 ,DATENHEIM,33395,DE,50.6952846,12.2746484,2020-07-24,segment-01,synthetic-normal
+syn-000000683,683,Datenstr. 24,Vektorstetten,58677,D,-100,6.6956205,14/11/2021,segment-11,synthetic-error
+syn-000000684,684,Schemaweg 25, Datenheim ,66596,deu,47.9455572,12.1295196,2021-11-15,segment-00,synthetic-normal
+syn-000000685,685,  Qualitätsring   82,Ostfeld,55799,D,50.3769874,6.1848017,2021-06-05,segment-05,synthetic-normal
+syn-000000686,686,Prüfsummenstraße 27C,Westbogen,82434,D,47.4550573,10.1212391,2021/11/17,segment-02,synthetic-normal
+syn-000000687,687,  Spaltenweg   28,Nordhafen,10353,Deutschland,52.5505661,7.6943565,18.11.2021,segment-03,synthetic-normal
+syn-000000688,688,Prüfsummenstraße 29,Südwinkel,18272,deu,51.076833,13.5954737,19/11/2021,segment-04,synthetic-normal
+syn-000000689,689,Prüfsummenstraße 30,Südwinkel,26191,Deutschland,52.0467494,14.6130578,2021-11-20,segment-05,synthetic-normal
+syn-000000690,690,Prüfsummenstr. 31,Südwinkel,34110,Deutschland,49.9396053,6.5052866,2021/11/21,segment-06,synthetic-normal
+syn-000000691,691,Prüfsummenstrasse 32,Ostfeld,42029,deu,49.2096124,10.5413969,2021/11/22,segment-07,synthetic-normal
+syn-000000692,692,  Spaltenweg   33,Westbogen,49948,DE,54.4224382,10.7010179,23.11.2021,segment-08,synthetic-normal
+syn-000000693,693,  Vektorallee   34B, Vektorstetten ,57867,DE,52.5083304,8.5625362,24.11.2021,segment-09,synthetic-normal
+syn-000000694,694,Schemaweg 35,Vektorstetten,65786,DE,48.5204408,12.1190651,25.11.2021,segment-10,synthetic-normal
+syn-000000695,695,  Schemaweg   36,Ostfeld,73705,DE,50.9889059,14.9198966,26.11.2021,segment-11,synthetic-normal
+syn-000000696,696,Schemaweg 37,Westbogen,999999,D,52.3058974,7.419064,2021-11-27,segment-00,synthetic-error
+syn-000000697,697," 	Pipelineweg 38  , ",Ostfeld,89543,deu,54.1154767,11.9793831,28.11.2021,segment-01,synthetic-error
+syn-000000698,698,Pipelineweg 39,Datenheim,17462,DE,52.3480502,11.1398616,29.11.2021,segment-02,synthetic-normal
+syn-000000699,699,Koordinatenplatz 40,Westbogen,25381,deu,not-a-number,12.5825745,30.11.2021,segment-03,synthetic-error
+syn-000000700,700,Schemaweg 41A,Datenheim,33300,D,47.7250331,10.7079237,2021/12/01,segment-04,synthetic-normal
+syn-000000701,701,Vektorallee 42,Westbogen,41219,DE,50.9116855,9.1832015,2021-12-02,segment-05,synthetic-normal
+syn-000000702,702,Qualitätsring 43, Westbogen ,49138,DE,51.5007321,8.6452702,03.12.2021,segment-06,synthetic-normal
+syn-000000703,703,Prüfsummenstrasse 44,Westbogen,57057,deu,49.58675,14.4141661,2021/12/04,segment-07,synthetic-normal
+syn-000000704,704,  Prüfsummenstraße   45,Nordhafen,64976,D,49.3826776,6.5368699,05/12/2021,segment-08,synthetic-normal
+syn-000000705,705,Pipelineweg 46,Südwinkel,72895,Deutschland,52.6084646,10.4582775,2021/12/06,segment-09,synthetic-normal
+syn-000000706,706,Vektorallee 47,Vektorstetten,80814,Deutschland,50.6698778,11.698109,07/12/2021,segment-10,synthetic-normal
+syn-000000707,707,Qualitätsring 48D,Datenheim,88733,D,52.723086,12.8619877,08/12/2021,segment-11,synthetic-normal
+syn-000000708,708,Vektorallee 49,Westbogen,16652,deu,48.6184406,11.2557878,2021-12-09,segment-00,synthetic-normal
+syn-000000709,709,Prüfsummenstrasse 50,Datenheim,24571,D,49.0061022,14.5226048,10.12.2021,segment-01,synthetic-normal
+syn-000000710,710,Datenstrasse 51,Ostfeld,32490,Deutschland,51.9968308,11.3236131,11.12.2021,segment-02,synthetic-normal
+syn-000000711,711,Prüfsummenstrasse 52, Ostfeld ,40409,deu,53.5871566,10.3461711,12/12/2021,segment-03,synthetic-normal
+syn-000000712,712,Vektorallee 53,Ostfeld,48328,deu,53.8081667,11.3207616,2021/12/13,segment-04,synthetic-normal
+syn-000000713,713,  Datenstraße   54,Westbogen,56247,Deutschland,54.718574,200.0,2021/12/14,segment-05,synthetic-error
+syn-000000714,714,  Prüfsummenstraße   55C,Vektorstetten,12,Deutschland,48.9128542,9.3281582,2021-12-15,segment-06,synthetic-error
+syn-000000715,715,Qualitätsring 56,Ostfeld,72085,D,54.2025217,14.9700028,16/12/2021,segment-07,synthetic-normal
+syn-000000716,716,Vektorallee 57,Datenheim,80004,Deutschland,47.6125499,7.4502245,2021/12/17,segment-08,synthetic-normal
+syn-000000717,717,Prüfsummenstrasse 58,Südwinkel,87923,Deutschland,49.2790857,8.6820804,18/12/2021,segment-09,synthetic-normal
+syn-000000718,718,Schemaweg 59,Datenheim,15842,deu,53.6048778,14.3257953,19/12/2021,segment-10,synthetic-normal
+syn-000000719,719,  Vektorallee   60,Datenheim,23761,deu,53.7830558,11.8482592,2021-12-20,segment-11,synthetic-normal
+syn-000000720,720,Vektorallee 134 ,VEKTORSTETTEN,85407,Deutschland,54.1368928,11.8207987,2020/12/19,segment-05,synthetic-normal
+syn-000000721,721,  Pipelineweg   62B,Ostfeld,39599,DE,47.610017,9.0799851,22.12.2021,segment-01,synthetic-normal
+syn-000000722,722,Schemaweg 63,Südwinkel,47518,deu,53.6456478,12.6994172,2021-12-23,segment-02,synthetic-normal
+syn-000000723,723,Prüfsummenstraße 64,Nordhafen,55437,DE,49.1707965,10.3826191,24/12/2021,segment-03,synthetic-normal
+syn-000000724,724,Prüfsummenstr. 65,Westbogen,63356,DE,51.7865726,14.5512226,2021/12/25,segment-04,synthetic-normal
+syn-000000725,725,Spaltenweg 66,Vektorstetten,71275,DE,54.5595316,11.2666792,2021/12/26,segment-05,synthetic-normal
+syn-000000726,726,Vektorallee 67,Südwinkel,79194,DE,53.8609192,13.1743333,2021-12-27,segment-06,synthetic-normal
+syn-000000727,727,  Pipelineweg   68,Ostfeld,87113,deu,49.2392457,8.0087372,28.12.2021,segment-07,synthetic-normal
+syn-000000728,728,Vektorallee 69A,Nordhafen,15032,deu,49.5689546,13.1701239,29/12/2021,segment-08,synthetic-normal
+syn-000000729,729,Qualitätsring 70, Ostfeld ,22951,D,50.6853624,9.3704236,2021-12-30,segment-09,synthetic-normal
+syn-000000730,730,Vektorallee 71,Ostfeld,30870,deu,52.0932155,6.6551166,31.12.2021,segment-10,synthetic-normal
+syn-000000731,731,  Pipelineweg   72,Westbogen,38789,deu,50.8584657,6.5284848,01/01/2022,segment-11,synthetic-normal
+syn-000000732,732," 	Schemaweg 73  , ",Datenheim,46708,D,47.6627349,6.5040992,2022/01/02,segment-00,synthetic-error
+syn-000000733,733,Schemaweg 74,Westbogen,54627,D,49.2369376,6.55228,03.01.2022,segment-01,synthetic-normal
+syn-000000734,734,Datenstr. 75,Nordhafen,62546,D,50.4635119,12.2802827,2022/01/04,segment-02,synthetic-normal
+syn-000000735,735,Vektorallee 76D,Südwinkel,70465,DE,48.7066642,12.6726697,2022/01/05,segment-03,synthetic-normal
+syn-000000736,736,  Vektorallee   76 ,SÜDWINKEL,26105,deu,54.3768166,13.6888638,2020/10/22,segment-07,synthetic-normal
+syn-000000737,737,  Spaltenweg   78,Vektorstetten,86303,Deutschland,50.3786961,11.8509973,2022/01/07,segment-05,synthetic-normal
+syn-000000738,738,Vektorallee 79, Nordhafen ,14222,deu,48.7500958,13.3069077,2022/01/08,segment-06,synthetic-normal
+syn-000000739,739,Prüfsummenstraße 80,Vektorstetten,22141,D,53.8222391,10.7549593,09.01.2022,segment-07,synthetic-normal
+syn-000000740,740,Datenstrasse 106,Ostfeld,23675,D,50.6304731,9.6608097,2020/11/21,segment-01,synthetic-normal
+syn-000000741,741,Spaltenweg 82,Ostfeld,37979,D,50.8833179,13.7101273,2022-01-11,segment-09,synthetic-normal
+syn-000000742,742,Prüfsummenstr. 83C,Ostfeld,45898,D,53.7494836,12.5811205,2022/01/12,segment-10,synthetic-normal
+syn-000000743,743,  Spaltenweg   84,Südwinkel,53817,DE,52.7286065,10.660441,13/01/2022,segment-11,synthetic-normal
+syn-000000744,744,Spaltenweg 85,Nordhafen,61736,D,51.0603949,14.4384732,2022-01-14,segment-00,synthetic-normal
+syn-000000745,745,Spaltenweg 86,Westbogen,69655,D,50.6296412,10.4702507,15.01.2022,segment-01,synthetic-normal
+syn-000000746,746,Prüfsummenstr. 87,Ostfeld,77574,deu,53.6314137,11.9925871,16.01.2022,segment-02,synthetic-normal
+syn-000000747,747,  Spaltenweg   88, Südwinkel ,85493,D,48.6170124,7.2380897,2022/01/17,segment-03,synthetic-normal
+syn-000000748,748,Datenstrasse 89,Nordhafen,13412,DE,50.0267793,8.1994337,2022-01-18,segment-04,synthetic-normal
+syn-000000749,749,Qualitätsring 90B,Nordhafen,21331,DE,51.571059,10.2745607,19/01/2022,segment-05,synthetic-normal
+syn-000000750,750,  Pipelineweg   91,Vektorstetten,29250,DE,47.6832075,14.5056631,2022-01-20,segment-06,synthetic-normal
+syn-000000751,751,Pipelineweg 92,Datenheim,37169,Deutschland,47.6189677,6.769782,21.01.2022,segment-07,synthetic-normal
+syn-000000752,752,Spaltenweg 93,Vektorstetten,45088,deu,53.9157446,7.2195207,2022-01-22,segment-08,synthetic-normal
+syn-000000753,753,Prüfsummenstr. 94,Nordhafen,53007,deu,49.1644021,13.244136,2022-01-23,segment-09,synthetic-normal
+syn-000000754,754,  Prüfsummenstraße   95,Westbogen,60926,deu,52.0837471,8.0581518,2022/01/24,segment-10,synthetic-normal
+syn-000000755,755,Spaltenweg 96,Datenheim,68845,DE,9.1283242,53.3390158,2022-01-25,segment-11,synthetic-error
+syn-000000756,756,Vektorallee 97A, Ostfeld ,76764,DE,47.7671593,12.7845699,26/01/2022,segment-00,synthetic-normal
+syn-000000757,757,Schemaweg 98,Vektorstetten,84683,deu,52.944501,14.1649238,2022/01/27,segment-01,synthetic-normal
+syn-000000758,758,  Spaltenweg   99,Vektorstetten,12602,Deutschland,13.2688459,49.9239047,2022-01-28,segment-02,synthetic-error
+syn-000000759,759,Vektorallee 100,Datenheim,20521,Deutschland,54.8386222,8.4121363,29/01/2022,segment-03,synthetic-normal
+syn-000000760,760,Datenstr. 101,Datenheim,28440,DE,51.8030274,8.020326,2022-01-30,segment-04,synthetic-normal
+syn-000000761,761,Koordinatenplatz 102,Nordhafen,36359,DE,47.6627698,11.7888543,2022/01/31,segment-05,synthetic-normal
+syn-000000762,762,Qualitätsring 103,Westbogen,44278,deu,49.5739322,11.9356858,2022-02-01,segment-06,synthetic-normal
+syn-000000763,763,  Koordinatenplatz   104D,Ostfeld,52197,DE,48.0447075,12.3470919,2022/02/02,segment-07,synthetic-normal
+syn-000000764,764,  Spaltenweg   105,Nordhafen,60116,D,50.106636,10.6415515,2022/02/03,segment-08,synthetic-normal
+syn-000000765,765,Spaltenweg 106, Vektorstetten ,68035,D,54.6968709,13.3790688,2022/02/04,segment-09,synthetic-normal
+syn-000000766,766,Pipelineweg 107,Vektorstetten,75954,Deutschland,48.9160833,10.1548712,2022-02-05,segment-10,synthetic-normal
+syn-000000767,767,Pipelineweg 108,Westbogen,83873,Deutschland,51.6454121,6.1705957,06/02/2022,segment-11,synthetic-normal
+syn-000000768,768,Vektorallee 109,Südwinkel,11792,deu,53.256823,9.6801641,07.02.2022,segment-00,synthetic-normal
+syn-000000769,769,  Pipelineweg   110,Datenheim,19711,Deutschland,49.949732,13.8079241,2022/02/08,segment-01,synthetic-normal
+syn-000000770,770,Spaltenweg 111C,Vektorstetten,27630,D,53.6359943,7.0218484,2022/02/09,segment-02,synthetic-normal
+syn-000000771,771,  Koordinatenplatz   112,Nordhafen,35549,D,53.3785683,11.9134213,10/02/2022,segment-03,synthetic-normal
+syn-000000772,772,Spaltenweg 113,Vektorstetten,43468,Deutschland,49.4080508,6.614475,2022-02-11,segment-04,synthetic-normal
+syn-000000773,773,Datenstraße 114,Datenheim,51387,deu,51.2653288,12.7051389,2022-02-12,segment-05,synthetic-normal
+syn-000000774,774,  Spaltenweg   115, Nordhafen ,59306,D,53.4325998,11.3830644,2022-02-13,segment-06,synthetic-normal
+syn-000000775,775,Datenstraße 116,Datenheim,67225,deu,49.7121065,8.1660357,14/02/2022,segment-07,synthetic-normal
+syn-000000776,776,Pipelineweg 117,Südwinkel,999999,Deutschland,49.6316361,9.5469432,15.02.2022,segment-08,synthetic-error
+syn-000000777,777,  Koordinatenplatz   118B,Südwinkel,83063,DE,50.4374534,8.7828037,2022-02-16,segment-09,synthetic-normal
+syn-000000778,778,Qualitätsring 119,Ostfeld,10982,Deutschland,51.1655217,10.4406755,2022/02/17,segment-10,synthetic-normal
+syn-000000779,779,Koordinatenplatz 74 ,SÜDWINKEL,10267,DE,49.2388822,6.7467252,2020-10-20,segment-05,synthetic-normal
+syn-000000780,780,Datenstraße 121,Westbogen,26820,deu,51.510972,11.1927888,19/02/2022,segment-00,synthetic-normal
+syn-000000781,781,Qualitätsring 122,Südwinkel,34739,D,50.1371197,14.8648402,31-31-not-a-date,segment-01,synthetic-error
+syn-000000782,782,  Schemaweg   123,Vektorstetten,42658,Deutschland,54.6878217,5.804995,2022/02/21,segment-02,synthetic-normal
+syn-000000783,783," 	Qualitätsring 124  , ", Datenheim ,50577,DE,53.6891999,8.3880639,22/02/2022,segment-03,synthetic-error
+syn-000000784,784,  Vektorallee   125A,Vektorstetten,58496,Deutschland,51.529241,8.3710163,23/02/2022,segment-04,synthetic-normal
+syn-000000785,785,Spaltenweg 126,Westbogen,66415,Deutschland,49.169055,14.8438019,2022-02-24,segment-05,synthetic-normal
+syn-000000786,786,Datenstrasse 127,Datenheim,74334,D,50.92162,14.0932939,2022/02/25,segment-06,synthetic-normal
+syn-000000787,787,  Pipelineweg   128,Datenheim,82253,Deutschland,47.5352012,13.4551716,2022/02/26,segment-07,synthetic-normal
+syn-000000788,788,Vektorallee 129,Vektorstetten,10172,D,54.7768458,6.9478276,2022-02-27,segment-08,synthetic-normal
+syn-000000789,789,Pipelineweg 213, Westbogen ,71008,DE,51.8470219,10.8023254,2021-03-08,segment-00,synthetic-normal
+syn-000000790,790,Qualitätsring 131,Nordhafen,26010,D,53.5037343,,01/03/2022,segment-10,synthetic-error
+syn-000000791,791,  Qualitätsring   132D,Nordhafen,33929,Deutschland,48.7902596,13.3543359,2022/03/02,segment-11,synthetic-normal
+syn-000000792,792,Vektorallee 133, Nordhafen ,41848,deu,51.7700508,12.6629556,03/03/2022,segment-00,synthetic-normal
+syn-000000793,793,  Schemaweg   134,Vektorstetten,49767,DE,51.5568814,9.9761203,04/03/2022,segment-01,synthetic-normal
+syn-000000794,794,Schemaweg 135,Nordhafen,57686,DE,52.4693184,,05.03.2022,segment-02,synthetic-error
+syn-000000795,795,Datenstraße 136,Ostfeld,65605,deu,48.7790219,6.5526419,2022/03/06,segment-03,synthetic-normal
+syn-000000796,796,Qualitätsring 137,Südwinkel,73524,D,49.8021072,6.3781659,2022-03-07,segment-04,synthetic-normal
+syn-000000797,797,Koordinatenplatz 138,Westbogen,81443,Deutschland,49.1783671,10.156904,08.03.2022,segment-05,synthetic-normal
+syn-000000798,798,Spaltenweg 139C,Nordhafen,89362,DE,52.0526506,11.1261971,2022/03/09,segment-06,synthetic-normal
+syn-000000799,799,Pipelineweg 140,Südwinkel,12,D,47.771217,13.1819613,2022-03-10,segment-07,synthetic-error
+syn-000000800,800,Prüfsummenstrasse 141,Ostfeld,25200,DE,48.0283099,12.7180629,2022/03/11,segment-08,synthetic-normal
+syn-000000801,801,Pipelineweg 142, Westbogen ,12,Deutschland,52.2470028,12.0171401,12.03.2022,segment-09,synthetic-error
+syn-000000802,802,Qualitätsring 143,Datenheim,41038,D,48.2574604,10.4818617,13.03.2022,segment-10,synthetic-normal
+syn-000000803,803,Datenstr. 144,Südwinkel,48957,deu,49.6686681,9.8098028,14.03.2022,segment-11,synthetic-normal
+syn-000000804,804,Schemaweg 145,Westbogen,56876,DE,54.67406,10.5626614,2022/03/15,segment-00,synthetic-normal
+syn-000000805,805,  Qualitätsring   146B,Nordhafen,64795,Deutschland,49.8957946,11.9443133,16/03/2022,segment-01,synthetic-normal
+syn-000000806,806,Vektorallee 147,Nordhafen,72714,DE,50.7526959,13.0605608,17.03.2022,segment-02,synthetic-normal
+syn-000000807,807,Qualitätsring 148,Südwinkel,80633,D,50.9536712,12.8688054,18.03.2022,segment-03,synthetic-normal
+syn-000000808,808,Datenstraße 149,Westbogen,88552,D,47.3751799,9.0925573,19.03.2022,segment-04,synthetic-normal
+syn-000000809,809,Koordinatenplatz 150,Nordhafen,16471,Deutschland,54.7123505,7.6319304,20.03.2022,segment-05,synthetic-normal
+syn-000000810,810,Vektorallee 151, Südwinkel ,24390,deu,47.4633394,13.5545091,2022/03/21,segment-06,synthetic-normal
+syn-000000811,811,Koordinatenplatz 152,Südwinkel,32309,D,-100,8.0093794,2022-03-22,segment-07,synthetic-error
+syn-000000812,812,Prüfsummenstrasse 153A,Vektorstetten,40228,deu,50.1443403,11.3158523,23/03/2022,segment-08,synthetic-normal
+syn-000000813,813,  Datenstraße   154,Vektorstetten,48147,DE,53.3466506,13.8302337,2022/03/24,segment-09,synthetic-normal
+syn-000000814,814,Vektorallee 155,Datenheim,56066,D,50.2496804,13.9182832,25.03.2022,segment-10,synthetic-normal
+syn-000000815,815,  Spaltenweg   156,Vektorstetten,63985,DE,54.5637144,10.158575,26.03.2022,segment-11,synthetic-normal
+syn-000000816,816,  Qualitätsring   157,Ostfeld,71904,Deutschland,48.9613123,9.7102103,27/03/2022,segment-00,synthetic-normal
+syn-000000817,817,Pipelineweg 158,Westbogen,79823,Deutschland,50.6782404,9.0344896,2022/03/28,segment-01,synthetic-normal
+syn-000000818,818,Koordinatenplatz 159,Ostfeld,87742,Deutschland,49.7093552,9.3178125,2022-03-29,segment-02,synthetic-normal
+syn-000000819,819,Pipelineweg 160D, Westbogen ,15661,deu,54.342205,6.7053638,30/03/2022,segment-03,synthetic-normal
+syn-000000820,820,Schemaweg 161,Vektorstetten,23580,deu,12.0885618,53.4982923,31/03/2022,segment-04,synthetic-error
+syn-000000821,821,Koordinatenplatz 162,Ostfeld,31499,deu,54.4881941,13.3611241,2022/04/01,segment-05,synthetic-normal
+syn-000000822,822,  Qualitätsring   163,Ostfeld,39418,D,49.0762962,11.2004335,02/04/2022,segment-06,synthetic-normal
+syn-000000823,823,Qualitätsring 164,Ostfeld,47337,DE,53.1529961,12.2210597,03/04/2022,segment-07,synthetic-normal
+syn-000000824,824,Schemaweg 165,Vektorstetten,55256,D,47.3735768,13.2556927,2022/04/04,segment-08,synthetic-normal
+syn-000000825,825,Schemaweg 166,Westbogen,63175,deu,51.7608587,11.0217123,05/04/2022,segment-09,synthetic-normal
+syn-000000826,826,  Prüfsummenstraße   167C,Ostfeld,71094,DE,48.8519551,9.3938525,06/04/2022,segment-10,synthetic-normal
+syn-000000827,827,Schemaweg 168,Nordhafen,79013,D,48.6028198,12.0089469,2022-04-07,segment-11,synthetic-normal
+syn-000000828,828,Koordinatenplatz 162 ,OSTFELD,31499,deu,54.4881941,13.3611241,2022/04/01,segment-05,synthetic-normal
+syn-000000829,829,Schemaweg 170,Vektorstetten,14851,deu,51.2854073,9.9829059,09/04/2022,segment-01,synthetic-normal
+syn-000000830,830,Vektorallee 171,Nordhafen,22770,deu,48.2814463,9.6494015,10.04.2022,segment-02,synthetic-normal
+syn-000000831,831,Spaltenweg 172,Südwinkel,30689,D,51.8881918,14.4402191,11/04/2022,segment-03,synthetic-normal
+syn-000000832,832,Spaltenweg 173,Nordhafen,38608,D,53.5668279,11.3646071,2022/04/12,segment-04,synthetic-normal
+syn-000000833,833,  Qualitätsring   160 ,NORDHAFEN,51301,D,50.7891189,13.1716038,2021/01/14,segment-07,synthetic-normal
+syn-000000834,834,Spaltenweg 175,Westbogen,54446,deu,52.6224057,12.347161,2022/04/14,segment-06,synthetic-normal
+syn-000000835,835,Prüfsummenstraße 176,Ostfeld,62365,DE,50.223454,11.8635363,15.04.2022,segment-07,synthetic-normal
+syn-000000836,836,Schemaweg 177,Vektorstetten,70284,D,54.2638521,12.2220047,2022-04-16,segment-08,synthetic-normal
+syn-000000837,837,Schemaweg 171,Ostfeld,58410,DE,53.4431163,10.6091159,2021-01-25,segment-06,synthetic-normal
+syn-000000838,838,Prüfsummenstraße 179,Ostfeld,86122,DE,48.5527772,7.7078233,2022/04/18,segment-10,synthetic-normal
+syn-000000839,839,Qualitätsring 180,Ostfeld,14041,D,47.5870874,8.1055727,2022/04/19,segment-11,synthetic-normal
+syn-000000840,840,Qualitätsring 181A,Vektorstetten,21960,deu,54.52014,7.090353,2022-04-20,segment-00,synthetic-normal
+syn-000000841,841,Pipelineweg 182,Datenheim,29879,deu,52.9349933,7.349771,2022/04/21,segment-01,synthetic-normal
+syn-000000842,842,Datenstraße 183,Vektorstetten,37798,DE,51.3454709,9.8669349,2022/04/22,segment-02,synthetic-normal
+syn-000000843,843,Datenstrasse 184,Nordhafen,45717,deu,53.1703137,200.0,23.04.2022,segment-03,synthetic-error
+syn-000000844,844,Koordinatenplatz 185,,53636,deu,52.4676924,6.3811777,24.04.2022,segment-04,synthetic-error
+syn-000000845,845,Koordinatenplatz 186,Westbogen,61555,D,51.5716113,7.5438373,2022/04/25,segment-05,synthetic-normal
+syn-000000846,846,Koordinatenplatz 187, Westbogen ,69474,deu,48.6195238,9.4996833,2022/04/26,segment-06,synthetic-normal
+syn-000000847,847,Schemaweg 188D,Vektorstetten,77393,D,52.0417114,6.2042383,2022-04-27,segment-07,synthetic-normal
+syn-000000848,848,  Vektorallee   189,Westbogen,85312,deu,54.5886638,11.3187777,28/04/2022,segment-08,synthetic-normal
+syn-000000849,849,  Koordinatenplatz   190,Vektorstetten,13231,deu,50.9641909,8.882968,2022-04-29,segment-09,synthetic-normal
+syn-000000850,850,Pipelineweg 191,Westbogen,21150,DE,49.0966121,9.7421804,30.04.2022,segment-10,synthetic-normal
+syn-000000851,851,  Vektorallee   192,Ostfeld,29069,Deutschland,48.8533285,6.1487418,01.05.2022,segment-11,synthetic-normal
+syn-000000852,852,Datenstr. 193,Datenheim,36988,deu,53.3175263,9.6170193,02/05/2022,segment-00,synthetic-normal
+syn-000000853,853,Datenstrasse 194,Vektorstetten,44907,D,54.8116597,13.1733566,03/05/2022,segment-01,synthetic-normal
+syn-000000854,854,Pipelineweg 195C,Ostfeld,52826,deu,47.8318854,7.5706821,2022-05-04,segment-02,synthetic-normal
+syn-000000855,855,  Qualitätsring   196, Südwinkel ,60745,deu,51.1564266,9.7214063,05.05.2022,segment-03,synthetic-normal
+syn-000000856,856,Schemaweg 197,Westbogen,68664,D,51.6808059,14.7030775,2022-05-06,segment-04,synthetic-normal
+syn-000000857,857,  Prüfsummenstraße   198,Südwinkel,76583,D,50.8774225,9.6888148,2022-05-07,segment-05,synthetic-normal
+syn-000000858,858,Pipelineweg 199,Westbogen,84502,D,51.8233935,7.2057481,08/05/2022,segment-06,synthetic-normal
+syn-000000859,859,Spaltenweg 200,,12421,deu,49.8325795,12.376743,2022-05-09,segment-07,synthetic-error
+syn-000000860,860,  Koordinatenplatz   201,Ostfeld,20340,Deutschland,50.37462,9.6255455,2022/05/10,segment-08,synthetic-normal
+syn-000000861,861,Pipelineweg 202B,Ostfeld,28259,deu,54.0259968,14.9307467,11.05.2022,segment-09,synthetic-normal
+syn-000000862,862,Koordinatenplatz 203,Datenheim,36178,D,52.6893763,11.6418137,2022/05/12,segment-10,synthetic-normal
+syn-000000863,863,Datenstrasse 204,Westbogen,44097,D,52.0952406,12.0231155,13.05.2022,segment-11,synthetic-normal
+syn-000000864,864,  Vektorallee   205, Nordhafen ,52016,DE,48.1871529,6.6492134,14.05.2022,segment-00,synthetic-normal
+syn-000000865,865,  Prüfsummenstraße   206,,59935,D,52.5579597,10.4059508,2022-05-15,segment-01,synthetic-error
+syn-000000866,866,  Koordinatenplatz   207,Südwinkel,67854,DE,49.3445622,7.7276351,16.05.2022,segment-02,synthetic-normal
+syn-000000867,867,Pipelineweg 183,Nordhafen,73438,deu,48.5722006,14.5977411,06.02.2021,segment-06,synthetic-normal
+syn-000000868,868,Prüfsummenstrasse 209A,Vektorstetten,83692,deu,49.491386,9.7647362,18.05.2022,segment-04,synthetic-normal
+syn-000000869,869,Pipelineweg 210,Ostfeld,11611,deu,51.6099002,7.755675,19.05.2022,segment-05,synthetic-normal
+syn-000000870,870,Prüfsummenstrasse 211,Ostfeld,19530,DE,52.0639641,11.5446774,2022/05/20,segment-06,synthetic-normal
+syn-000000871,871,Vektorallee 167,Nordhafen,26734,D,50.2442824,11.3250234,2021/01/21,segment-02,synthetic-normal
+syn-000000872,872,Pipelineweg 213,Nordhafen,35368,DE,47.7640291,12.716548,2022-05-22,segment-08,synthetic-normal
+syn-000000873,873,Prüfsummenstr. 214, Datenheim ,43287,D,51.2525633,14.6509325,23/05/2022,segment-09,synthetic-normal
+syn-000000874,874,  Koordinatenplatz   215,Westbogen,51206,DE,53.5080387,14.4571176,24/05/2022,segment-10,synthetic-normal
+syn-000000875,875,Datenstrasse 216D,Ostfeld,59125,DE,53.9161155,9.4966369,25/05/2022,segment-11,synthetic-normal
+syn-000000876,876,  Qualitätsring   217,Westbogen,67044,deu,50.7345774,12.112901,2022-05-26,segment-00,synthetic-normal
+syn-000000877,877,Koordinatenplatz 218,Nordhafen,74963,deu,52.1167075,13.8355973,2022/05/27,segment-01,synthetic-normal
+syn-000000878,878,  Pipelineweg   219,Westbogen,82882,DE,50.5521637,14.3696479,2022/05/28,segment-02,synthetic-normal
+syn-000000879,879,Vektorallee 220,Datenheim,10801,DE,53.9593785,13.0207299,29/05/2022,segment-03,synthetic-normal
+syn-000000880,880,  Spaltenweg   1,Südwinkel,18720,deu,54.1127052,14.5864712,30.05.2022,segment-04,synthetic-normal
+syn-000000881,881,Pipelineweg 2,Nordhafen,26639,Deutschland,50.6051899,12.3850394,2022/05/31,segment-05,synthetic-normal
+syn-000000882,882,Schemaweg 3C, Vektorstetten ,34558,D,50.9198976,14.0571001,2022-06-01,segment-06,synthetic-normal
+syn-000000883,883,Qualitätsring 4,Datenheim,42477,D,53.1241641,11.3262507,2022/06/02,segment-07,synthetic-normal
+syn-000000884,884,Pipelineweg 5,Westbogen,50396,DE,47.9663706,6.6200827,03/06/2022,segment-08,synthetic-normal
+syn-000000885,885,Prüfsummenstrasse 6,Datenheim,58315,D,52.900576,8.65935,04/06/2022,segment-09,synthetic-normal
+syn-000000886,886,Vektorallee 7,Datenheim,66234,D,52.3444451,11.235139,05/06/2022,segment-10,synthetic-normal
+syn-000000887,887,Qualitätsring 8,Ostfeld,74153,DE,52.467855,7.1563133,06/06/2022,segment-11,synthetic-normal
+syn-000000888,888,  Pipelineweg   9,Westbogen,82072,deu,54.8760494,12.3000049,2022/06/07,segment-00,synthetic-normal
+syn-000000889,889,Datenstrasse 10B,Westbogen,89991,DE,48.460537,12.39425,08.06.2022,segment-01,synthetic-normal
+syn-000000890,890,Schemaweg 11,Vektorstetten,17910,Deutschland,54.2340604,7.2645777,2022/06/09,segment-02,synthetic-normal
+syn-000000891,891,Prüfsummenstr. 12, Ostfeld ,25829,deu,12.4861423,47.8458565,2022/06/10,segment-03,synthetic-error
+syn-000000892,892,Datenstrasse 13,Vektorstetten,33748,D,49.6109625,11.8226327,11/06/2022,segment-04,synthetic-normal
+syn-000000893,893,Qualitätsring 14,Vektorstetten,41667,deu,52.2494088,9.1324771,2022/06/12,segment-05,synthetic-normal
+syn-000000894,894,Vektorallee 15,Nordhafen,49586,DE,48.0299628,14.7622606,13/06/2022,segment-06,synthetic-normal
+syn-000000895,895,  Prüfsummenstraße   16,Südwinkel,57505,deu,47.5583455,8.0158699,2022/06/14,segment-07,synthetic-normal
+syn-000000896,896,Pipelineweg 17A,Ostfeld,12,D,53.873208,11.7828606,15/06/2022,segment-08,synthetic-error
+syn-000000897,897,  Qualitätsring   18,Nordhafen,73343,DE,51.7600637,14.8836139,16.06.2022,segment-09,synthetic-normal
+syn-000000898,898,Prüfsummenstraße 19,Westbogen,81262,deu,51.6428156,6.7148595,2022/06/17,segment-10,synthetic-normal
+syn-000000899,899,Datenstr. 24,Vektorstetten,58677,D,-100,6.6956205,14/11/2021,segment-11,synthetic-error
+syn-000000900,900,Spaltenweg 21, Nordhafen ,17100,deu,51.2436485,11.1794382,2022-06-19,segment-00,synthetic-normal
+syn-000000901,901,Vektorallee 22,Nordhafen,25019,deu,13.1647193,51.5158854,20.06.2022,segment-01,synthetic-error
+syn-000000902,902,Datenstr. 23,Nordhafen,32938,deu,54.7474561,10.4565645,2022/06/21,segment-02,synthetic-normal
+syn-000000903,903,Qualitätsring 24D,Westbogen,40857,D,47.6508636,14.5013103,22.06.2022,segment-03,synthetic-normal
+syn-000000904,904,Koordinatenplatz 25,Datenheim,48776,DE,not-a-number,7.7305235,23.06.2022,segment-04,synthetic-error
+syn-000000905,905,Qualitätsring 26,Südwinkel,56695,D,51.8762973,7.7875677,2022-06-24,segment-05,synthetic-normal
+syn-000000906,906," 	  Vektorallee   27  , ",Ostfeld,64614,deu,50.7661149,14.4916124,25.06.2022,segment-06,synthetic-error
+syn-000000907,907,Qualitätsring 28,Vektorstetten,72533,deu,50.1282812,11.8473261,26/06/2022,segment-07,synthetic-normal
+syn-000000908,908,Datenstraße 29,Datenheim,80452,D,49.1809824,8.2851521,2022-06-27,segment-08,synthetic-normal
+syn-000000909,909,Koordinatenplatz 30, Westbogen ,88371,D,48.4121052,13.1424958,28.06.2022,segment-09,synthetic-normal
+syn-000000910,910,  Pipelineweg   31C,Südwinkel,16290,Deutschland,51.3012151,13.8547097,29/06/2022,segment-10,synthetic-normal
+syn-000000911,911,Datenstrasse 32,Südwinkel,24209,D,49.7167726,12.7172308,2022/06/30,segment-11,synthetic-normal
+syn-000000912,912,Vektorallee 33,Vektorstetten,32128,Deutschland,48.2603995,9.2849661,01.07.2022,segment-00,synthetic-normal
+syn-000000913,913,  Spaltenweg   34,Südwinkel,40047,Deutschland,50.6360961,9.056813,2022/07/02,segment-01,synthetic-normal
+syn-000000914,914,Qualitätsring 35,Westbogen,47966,Deutschland,52.1308279,6.599869,2022-07-03,segment-02,synthetic-normal
+syn-000000915,915,Koordinatenplatz 191,Datenheim,74610,deu,49.9925811,12.902306,09.07.2020,segment-10,synthetic-normal
+syn-000000916,916,  Datenstraße   37,Nordhafen,63804,DE,52.9499119,10.8982699,2022/07/05,segment-04,synthetic-normal
+syn-000000917,917,Vektorallee 38B,Ostfeld,71723,deu,51.0833196,12.1031211,2022-07-06,segment-05,synthetic-normal
+syn-000000918,918,Koordinatenplatz 39, Südwinkel ,79642,deu,54.8560868,11.8828018,07.07.2022,segment-06,synthetic-normal
+syn-000000919,919,  Vektorallee   40,Datenheim,87561,Deutschland,49.9850157,6.2683404,2022-07-08,segment-07,synthetic-normal
+syn-000000920,920,Pipelineweg 41,Westbogen,15480,D,49.5737527,8.5006144,09.07.2022,segment-08,synthetic-normal
+syn-000000921,921,Datenstraße 42,Ostfeld,23399,D,54.0829537,13.6048364,10/07/2022,segment-09,synthetic-normal
+syn-000000922,922,Koordinatenplatz 43,Vektorstetten,31318,deu,48.7147986,9.0616974,2022-07-11,segment-10,synthetic-normal
+syn-000000923,923,Prüfsummenstr. 44,Nordhafen,39237,D,54.2396293,5.8635762,12/07/2022,segment-11,synthetic-normal
+syn-000000924,924,  Vektorallee   45A,Datenheim,47156,D,53.4677333,6.7999939,13.07.2022,segment-00,synthetic-normal
+syn-000000925,925,Datenstraße 46,Westbogen,55075,DE,54.0151796,12.3248188,14.07.2022,segment-01,synthetic-normal
+syn-000000926,926,Datenstr. 47,Südwinkel,62994,D,52.3631566,14.5250577,2022/07/15,segment-02,synthetic-normal
+syn-000000927,927,  Koordinatenplatz   48, Ostfeld ,70913,DE,51.1141252,14.2967635,2022-07-16,segment-03,synthetic-normal
+syn-000000928,928,Datenstr. 49,Vektorstetten,78832,DE,49.0974375,12.0404549,2022/07/17,segment-04,synthetic-normal
+syn-000000929,929,Pipelineweg 50,Ostfeld,86751,DE,49.1828795,7.2029607,18/07/2022,segment-05,synthetic-normal
+syn-000000930,930,Prüfsummenstraße 51,Südwinkel,14670,deu,50.9015855,13.0009957,19.07.2022,segment-06,synthetic-normal
+syn-000000931,931,Vektorallee 52D,Südwinkel,22589,deu,120,9.4918051,2022/07/20,segment-07,synthetic-error
+syn-000000932,932,Prüfsummenstrasse 53,Ostfeld,30508,D,51.289781,,2022/07/21,segment-08,synthetic-error
+syn-000000933,933,Schemaweg 50 ,NORDHAFEN,42391,deu,54.4789865,14.6373981,2021/05/04,segment-09,synthetic-normal
+syn-000000934,934,Koordinatenplatz 55,Vektorstetten,46346,DE,50.4773639,8.7425361,2022-07-23,segment-10,synthetic-normal
+syn-000000935,935,  Schemaweg   56,Ostfeld,54265,D,49.4292111,11.3800008,24/07/2022,segment-11,synthetic-normal
+syn-000000936,936,Datenstr. 57, Vektorstetten ,62184,Deutschland,51.4934385,13.7301633,25/07/2022,segment-00,synthetic-normal
+syn-000000937,937,Prüfsummenstraße 58,Nordhafen,70103,deu,54.0426729,7.0004657,26.07.2022,segment-01,synthetic-normal
+syn-000000938,938,  Pipelineweg   59C,Datenheim,78022,deu,,8.573583,27.07.2022,segment-02,synthetic-error
+syn-000000939,939,  Schemaweg   60,Datenheim,85941,DE,54.7109588,,2022/07/28,segment-03,synthetic-error
+syn-000000940,940,Datenstrasse 61,Südwinkel,13860,DE,51.8535678,12.2096973,29.07.2022,segment-04,synthetic-normal
+syn-000000941,941,  Pipelineweg   62,Südwinkel,21779,Deutschland,50.6268616,10.485361,30.07.2022,segment-05,synthetic-normal
+syn-000000942,942,  Qualitätsring   63,Datenheim,29698,Deutschland,52.5950853,13.8882262,31/07/2022,segment-06,synthetic-normal
+syn-000000943,943,Schemaweg 64,Datenheim,37617,deu,48.2051858,7.8601509,01/08/2022,segment-07,synthetic-normal
+syn-000000944,944,Datenstrasse 65,Vektorstetten,45536,DE,54.7481798,14.9037337,02/08/2022,segment-08,synthetic-normal
+syn-000000945,945,Koordinatenplatz 66B, Nordhafen ,53455,D,54.4928515,13.9326748,03/08/2022,segment-09,synthetic-normal
+syn-000000946,946,Datenstrasse 204 ,WESTBOGEN,44097,D,52.0952406,12.0231155,13.05.2022,segment-11,synthetic-normal
+syn-000000947,947,Schemaweg 68,Südwinkel,69293,D,49.2455028,5.9438741,05/08/2022,segment-11,synthetic-normal
+syn-000000948,948,  Qualitätsring   69,Ostfeld,77212,deu,48.9768567,8.2729002,2022/08/06,segment-00,synthetic-normal
+syn-000000949,949,Pipelineweg 70,Ostfeld,85131,D,48.6795029,7.5022578,07.08.2022,segment-01,synthetic-normal
+syn-000000950,950,Schemaweg 94,Westbogen,70827,DE,51.3056008,10.6267451,2021-06-17,segment-05,synthetic-normal
+syn-000000951,951,  Qualitätsring   72,Nordhafen,20969,D,48.3907699,9.7228343,2022-08-09,segment-03,synthetic-normal
+syn-000000952,952,Datenstraße 73A,Datenheim,28888,DE,48.0579476,9.332713,10.08.2022,segment-04,synthetic-normal
+syn-000000953,953,Vektorallee 74,Vektorstetten,36807,DE,51.8572426,13.090084,11/08/2022,segment-05,synthetic-normal
+syn-000000954,954,Vektorallee 75, Ostfeld ,44726,D,53.0735053,14.0099907,12.08.2022,segment-06,synthetic-normal
+syn-000000955,955,Schemaweg 76,Vektorstetten,52645,Deutschland,51.4314581,5.9951127,2022-08-13,segment-07,synthetic-normal
+syn-000000956,956,  Vektorallee   77,Nordhafen,60564,Deutschland,54.2324689,6.020808,14/08/2022,segment-08,synthetic-normal
+syn-000000957,957,Prüfsummenstraße 78,Vektorstetten,68483,DE,13.3696208,54.0201017,15.08.2022,segment-09,synthetic-error
+syn-000000958,958,Koordinatenplatz 79,Nordhafen,76402,deu,50.0397507,14.3072605,16.08.2022,segment-10,synthetic-normal
+syn-000000959,959,Vektorallee 80D,Vektorstetten,84321,Deutschland,50.5318586,14.0166815,17/08/2022,segment-11,synthetic-normal
+syn-000000960,960,Spaltenweg 81,Vektorstetten,12240,deu,50.105255,8.241689,18.08.2022,segment-00,synthetic-normal
+syn-000000961,961,Spaltenweg 82,Nordhafen,20159,Deutschland,48.1600467,9.7325691,19.08.2022,segment-01,synthetic-normal
+syn-000000962,962,  Koordinatenplatz   83,Ostfeld,28078,Deutschland,50.5211237,12.1794717,20.08.2022,segment-02,synthetic-normal
+syn-000000963,963," 	  Qualitätsring   84  , ", Ostfeld ,35997,deu,50.4818132,10.3733411,2022/08/21,segment-03,synthetic-error
+syn-000000964,964,Qualitätsring 85,Vektorstetten,43916,DE,47.9631017,9.1277268,22/08/2022,segment-04,synthetic-normal
+syn-000000965,965,Pipelineweg 86,Nordhafen,51835,deu,54.2263507,9.1198985,2022/08/23,segment-05,synthetic-normal
+syn-000000966,966,Datenstrasse 87C,Vektorstetten,59754,DE,48.34729,14.6508783,2022/08/24,segment-06,synthetic-normal
+syn-000000967,967,Pipelineweg 88,Ostfeld,67673,deu,53.6645227,13.8083882,2022-08-25,segment-07,synthetic-normal
+syn-000000968,968,Qualitätsring 14,Vektorstetten,41667,deu,52.2494088,9.1324771,2022/06/12,segment-05,synthetic-normal
+syn-000000969,969,Vektorallee 90,Ostfeld,83511,Deutschland,52.9510403,12.6825855,2022/08/27,segment-09,synthetic-normal
+syn-000000970,970,Schemaweg 91,Nordhafen,11430,deu,48.4847438,13.9066457,31-31-not-a-date,segment-10,synthetic-error
+syn-000000971,971,Spaltenweg 92,Datenheim,19349,D,52.7066914,8.1741001,29.08.2022,segment-11,synthetic-normal
+syn-000000972,972,Prüfsummenstraße 93, Südwinkel ,27268,deu,52.947824,9.4837023,2022-08-30,segment-00,synthetic-normal
+syn-000000973,973,Koordinatenplatz 94B,Vektorstetten,35187,Deutschland,52.1783703,13.4107339,2022/08/31,segment-01,synthetic-normal
+syn-000000974,974,Pipelineweg 95,,43106,deu,51.8842453,13.5888053,2022-09-01,segment-02,synthetic-error
+syn-000000975,975,Datenstrasse 61 ,SÜDWINKEL,13860,DE,51.8535678,12.2096973,29.07.2022,segment-04,synthetic-normal
+syn-000000976,976,Datenstraße 97,Südwinkel,999999,D,49.3456769,14.7853009,2022-09-03,segment-04,synthetic-error
+syn-000000977,977,  Prüfsummenstrasse   139 ,NORDHAFEN,27182,DE,49.4948209,13.1352432,2021-08-01,segment-02,synthetic-normal
+syn-000000978,978,Qualitätsring 99,Westbogen,74782,DE,53.0140013,12.4763307,05/09/2022,segment-06,synthetic-normal
+syn-000000979,979,  Pipelineweg   100,Datenheim,82701,DE,53.4369569,7.1817173,06/09/2022,segment-07,synthetic-normal
+syn-000000980,980,Pipelineweg 101A,Vektorstetten,10620,deu,48.0090106,12.4098569,07.09.2022,segment-08,synthetic-normal
+syn-000000981,981,Koordinatenplatz 102, Ostfeld ,18539,D,53.2686741,8.9189905,2022-09-08,segment-09,synthetic-normal
+syn-000000982,982,Prüfsummenstraße 103,Südwinkel,26458,D,48.8870369,11.4155625,2022-09-09,segment-10,synthetic-normal
+syn-000000983,983,Schemaweg 104,Datenheim,34377,D,53.8932559,13.1359239,10/09/2022,segment-11,synthetic-normal
+syn-000000984,984,Pipelineweg 105,Westbogen,42296,D,51.6814883,9.05099,11/09/2022,segment-00,synthetic-normal
+syn-000000985,985,  Spaltenweg   106,Vektorstetten,50215,Deutschland,54.3236219,14.4464311,2022/09/12,segment-01,synthetic-normal
+syn-000000986,986,Vektorallee 107,Ostfeld,58134,D,50.0871652,13.5724879,2022/09/13,segment-02,synthetic-normal
+syn-000000987,987,Datenstrasse 108D,Datenheim,66053,DE,54.7284804,6.3249398,14.09.2022,segment-03,synthetic-normal
+syn-000000988,988,  Vektorallee   109,Datenheim,73972,DE,50.3345312,6.4714038,15/09/2022,segment-04,synthetic-normal
+syn-000000989,989,  Spaltenweg   110,Nordhafen,81891,deu,47.9522514,12.5323587,2022/09/16,segment-05,synthetic-normal
+syn-000000990,990,Spaltenweg 111, Südwinkel ,89810,deu,52.6374104,10.1812191,2022/09/17,segment-06,synthetic-normal
+syn-000000991,991,Datenstr. 112,Datenheim,17729,D,53.183962,6.3740824,31-31-not-a-date,segment-07,synthetic-error
+syn-000000992,992,  Spaltenweg   1,Südwinkel,18720,deu,54.1127052,14.5864712,30.05.2022,segment-04,synthetic-normal
+syn-000000993,993,Vektorallee 114,Nordhafen,33567,D,48.377208,8.3199289,2022/09/20,segment-09,synthetic-normal
+syn-000000994,994,  Schemaweg   115C,Südwinkel,41486,Deutschland,53.6121731,6.6504596,21.09.2022,segment-10,synthetic-normal
+syn-000000995,995,  Spaltenweg   116,Ostfeld,49405,D,51.3698478,13.011488,2022-09-22,segment-11,synthetic-normal
+syn-000000996,996,Qualitätsring 117,Nordhafen,57324,Deutschland,52.7927,11.1221021,2022-09-23,segment-00,synthetic-normal
+syn-000000997,997,  Vektorallee   118,Ostfeld,65243,DE,53.8686902,6.8451833,2022/09/24,segment-01,+SUM(A1:A2)
+syn-000000998,998,  Pipelineweg   119,Nordhafen,73162,deu,48.9615331,14.8070943,2022/09/25,segment-02,synthetic-normal
+syn-000000999,999,Qualitätsring 120, Vektorstetten ,81081,Deutschland,51.6839569,5.9322134,2022-09-26,segment-03,synthetic-normal
