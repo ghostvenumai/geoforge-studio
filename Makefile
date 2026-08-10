@@ -45,7 +45,7 @@ video:
 	./video/build_demo.sh all --resume
 
 video-preview:
-	./video/build_demo.sh all --skip-tts --resume
+	./video/build_demo.sh all --skip-tts --resume || test $$? -eq 42
 
 video-dry-run:
 	./video/build_demo.sh --dry-run
