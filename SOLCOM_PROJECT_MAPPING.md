@@ -12,5 +12,7 @@
 | APIs/integration | FastAPI contract and background runs | api/routes, services/runs.py | test_api_workflow.py | Persistent asynchronous workflow |
 | Audit/export | Manifest, checksums, reports, 3 formats | services/runs.py | test_api_workflow.py | Downloadable evidence |
 | Performance | Real metrics and fixed-seed benchmark | benchmarks/run_benchmarks.py | release gate | CSV/Parquet charts |
-| Quality engineering | Coverage, lint, typing, security, E2E | scripts/run_full_test_suite.sh | 82 Python, 9 Vitest, 3 E2E | Reproducible gates |
+| Quality engineering | Coverage, lint, typing, security, E2E | scripts/run_full_test_suite.sh | 109 Python, 9 Vitest, 3 E2E | Reproducible gates |
 | Operations | Non-root multi-stage containers and loop | Dockerfiles, run_codex_loop.sh | preflight/release gate | One-command local start |
+| Domain demos | Marketing, commerce, logistics, security library | services/datasets.py, generate_themed_demo_data.py | test_api_contract.py, test_generate_themed_demo_data.py | Four one-click 1,000-row scenarios |
+| Delivery automation | Bounded state machine, resume, recording and video QA | automation/, video/ | automation/tests, video/tests | Reproducible 147-second portfolio demo |

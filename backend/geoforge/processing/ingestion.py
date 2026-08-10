@@ -33,13 +33,25 @@ def detect_text_format(path: Path) -> tuple[str, str]:
 def _read_csv(path: Path) -> tuple[pl.DataFrame, str, str]:
     encoding, delimiter = detect_text_format(path)
     raw = path.read_bytes().decode(encoding, errors="replace").encode("utf-8")
-    frame = pl.read_csv(
-        io.BytesIO(raw),
-        separator=delimiter,
-        infer_schema_length=10_000,
-        try_parse_dates=True,
-        truncate_ragged_lines=False,
-    )
+    try:
+        frame = pl.read_csv(
+            io.BytesIO(raw),
+            separator=delimiter,
+            infer_schema_length=10_000,
+            try_parse_dates=True,
+            truncate_ragged_lines=False,
+        )
+    except pl.exceptions.ComputeError:
+        # Real-world CSV files frequently mix otherwise valid date formats.
+        # Preserve those source values as text so profiling and an explicit
+        # Parse Dates pipeline step can report and normalize them losslessly.
+        frame = pl.read_csv(
+            io.BytesIO(raw),
+            separator=delimiter,
+            infer_schema_length=10_000,
+            try_parse_dates=False,
+            truncate_ragged_lines=False,
+        )
     return frame, encoding, delimiter
 
 

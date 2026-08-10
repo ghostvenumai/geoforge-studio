@@ -25,6 +25,14 @@ export interface Dataset {
   created_at: string
 }
 
+export interface DemoDatasetInfo {
+  theme: string
+  title: string
+  description: string
+  filename: string
+  recommended_pipeline: string
+}
+
 export interface ColumnProfile {
   name: string
   dtype: string
@@ -189,7 +197,6 @@ export interface OverviewData {
   dataset_volumes: Array<{ dataset_id: string; name: string; rows: number }>
   run_status: Record<string, number>
 }
-
 
 export interface BenchmarkResults {
   measured_at: string | null

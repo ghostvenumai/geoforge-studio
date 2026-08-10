@@ -1,0 +1,130 @@
+{
+  "title": "GeoForge Studio – technische Produktdemo",
+  "language": "de",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "intro",
+      "order": 1,
+      "action": "show_intro",
+      "route": "about:blank",
+      "planned_duration": 6,
+      "narration": "GeoForge Studio ist eine lokale Plattform für reproduzierbare Adress-, Geo- und Datentransformation.",
+      "overlay": "GEOFORGE STUDIO",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "overview",
+      "order": 2,
+      "action": "show_overview",
+      "route": "/",
+      "planned_duration": 12,
+      "narration": "Das Dashboard fasst reale Backend-Metriken zusammen: Datensätze, Qualitätswerte, Dubletten, Quarantäne, Laufzeit, Durchsatz und Speicherverbrauch.",
+      "overlay": "MESSBARE DATENQUALITÄT",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "import",
+      "order": 3,
+      "action": "upload_marketing_dataset",
+      "route": "/datasets",
+      "planned_duration": 16,
+      "narration": "Für die Demo importieren wir einen vollständig synthetischen Marketing-Datensatz. GeoForge prüft Format, Dateiname und Größe, erkennt das Schema und bewahrt das Original unverändert auf.",
+      "overlay": "SICHERER DATENIMPORT",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "profiling",
+      "order": 4,
+      "action": "profile_dataset",
+      "route": "/profiling",
+      "planned_duration": 18,
+      "narration": "Das Profiling misst Nullwerte, Kardinalität, Validierungsfehler und Dubletten. Für jede Spalte werden Beispiele, Fehlerzahlen und passende Transformationen nachvollziehbar dargestellt.",
+      "overlay": "AUTOMATISIERTES DATENPROFILING",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "pipeline",
+      "order": 5,
+      "action": "run_quality_pipeline",
+      "route": "/pipelines",
+      "planned_duration": 24,
+      "narration": "Die visuelle Pipeline kombiniert Adressnormalisierung, Validierung, Quarantäne und blockierte Fuzzy-Deduplizierung. Jeder Schritt besitzt eine typisierte Konfiguration; das sichere YAML führt weder Python noch Shellcode aus.",
+      "overlay": "REPRODUZIERBARE PIPELINE",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "quality",
+      "order": 6,
+      "action": "show_quality_comparison",
+      "route": "/quality",
+      "planned_duration": 17,
+      "narration": "Nach dem Lauf vergleicht GeoForge die Qualität vor und nach der Verarbeitung. Quarantäne und Datenverlust bleiben separat sichtbar, damit problematische Zeilen nicht als künstliche Verbesserung verschwinden.",
+      "overlay": "VORHER-NACHHER-VERGLEICH",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "duplicates",
+      "order": 7,
+      "action": "review_duplicates",
+      "route": "/duplicates",
+      "planned_duration": 15,
+      "narration": "Unsichere Dubletten lassen sich nebeneinander prüfen. Abweichungen werden hervorgehoben, ein kanonischer Datensatz wird ausgewählt und die fachliche Entscheidung dauerhaft gespeichert.",
+      "overlay": "BLOCKING UND FUZZY MATCHING",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "performance",
+      "order": 8,
+      "action": "show_performance",
+      "route": "/performance",
+      "planned_duration": 13,
+      "narration": "Das Performance-Dashboard zeigt tatsächlich gemessene Laufzeit, Zeilen pro Sekunde, CPU-Auslastung und Spitzenspeicher sowie reproduzierbare CSV- und Parquet-Benchmarks.",
+      "overlay": "ECHTE PERFORMANCE-METRIKEN",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "exports",
+      "order": 9,
+      "action": "show_exports",
+      "route": "/exports",
+      "planned_duration": 12,
+      "narration": "Jeder Lauf erzeugt CSV-, JSONL- und Parquet-Ergebnisse sowie Quarantäne, Qualitätsbericht, Audit-Log, Manifest, Pipeline-YAML und SHA-256-Prüfsummen.",
+      "overlay": "AUDITIERBARE EXPORTE",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "architecture",
+      "order": 10,
+      "action": "show_architecture",
+      "route": "/architecture",
+      "planned_duration": 8,
+      "narration": "FastAPI, Polars, PyArrow, pyproj und RapidFuzz bilden das Backend. React, TypeScript und React Flow liefern die responsive, barrierearme Oberfläche.",
+      "overlay": "PYTHON DATA ENGINEERING",
+      "pause_before": 0,
+      "pause_after": 0
+    },
+    {
+      "id": "outro",
+      "order": 11,
+      "action": "show_outro",
+      "route": "about:blank",
+      "planned_duration": 6,
+      "narration": "GeoForge Studio: Datenverarbeitung, Qualität, Automatisierung und nachvollziehbare Ergebnisse in einem reproduzierbaren Workflow.",
+      "overlay": "PYTHON · DATA ENGINEERING · AUTOMATION",
+      "pause_before": 0,
+      "pause_after": 0
+    }
+  ]
+}

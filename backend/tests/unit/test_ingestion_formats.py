@@ -27,6 +27,16 @@ def test_csv_encoding_and_delimiter_detection(tmp_path: Path) -> None:
     assert detected_delimiter == ";"
 
 
+def test_csv_preserves_mixed_date_formats_for_explicit_pipeline_parsing(tmp_path: Path) -> None:
+    path = tmp_path / "mixed-dates.csv"
+    path.write_text("date\n2025-02-01\n02/03/2025\n", encoding="utf-8")
+
+    frame, _, _ = read_dataset(path, "csv")
+
+    assert frame.schema["date"] == pl.String
+    assert frame["date"].to_list() == ["2025-02-01", "02/03/2025"]
+
+
 def test_json_jsonl_and_parquet_formats(tmp_path: Path) -> None:
     records = [{"a": 1}, {"a": 2}]
     json_path = tmp_path / "data.json"

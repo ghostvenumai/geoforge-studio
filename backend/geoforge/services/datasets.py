@@ -4,6 +4,8 @@ import hashlib
 import os
 import uuid
 from contextlib import suppress
+from dataclasses import dataclass
+from enum import StrEnum
 from pathlib import Path
 
 import polars as pl
@@ -18,6 +20,55 @@ from geoforge.processing.ingestion import read_dataset, safe_preview, schema_pay
 from geoforge.processing.profile import ProfileOptions, profile_frame
 
 UPLOAD_CHUNK_SIZE = 1024 * 1024
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+
+
+class DemoTheme(StrEnum):
+    MARKETING = "marketing"
+    ECOMMERCE = "ecommerce"
+    LOGISTICS = "logistics"
+    SECURITY = "security"
+
+
+@dataclass(frozen=True, slots=True)
+class DemoDataset:
+    theme: DemoTheme
+    title: str
+    description: str
+    filename: str
+    recommended_pipeline: str
+
+
+DEMO_DATASETS: dict[DemoTheme, DemoDataset] = {
+    DemoTheme.MARKETING: DemoDataset(
+        DemoTheme.MARKETING,
+        "Marketing & CRM",
+        "Leads, Kampagnen, Kanäle, Consent-Werte und absichtlich fehlerhafte E-Mails.",
+        "geoforge-demo-marketing.csv",
+        "Vollständige Datenqualität und Deduplizierung",
+    ),
+    DemoTheme.ECOMMERCE: DemoDataset(
+        DemoTheme.ECOMMERCE,
+        "E-Commerce",
+        "Bestellungen, Betragsformate, Währungen, Statuswerte und Lieferadressen.",
+        "geoforge-demo-ecommerce.csv",
+        "Bereinigung deutscher Adressen",
+    ),
+    DemoTheme.LOGISTICS: DemoDataset(
+        DemoTheme.LOGISTICS,
+        "Logistik & Geo",
+        "Sendungen, Carrier, Gewichte und absichtlich auffällige Zustellkoordinaten.",
+        "geoforge-demo-logistics.csv",
+        "Koordinatenprüfung und -transformation",
+    ),
+    DemoTheme.SECURITY: DemoDataset(
+        DemoTheme.SECURITY,
+        "Security & Robustness",
+        "Harmlose synthetische Payloads für CSV-Schutz, Steuerzeichen und Pfadwerte.",
+        "geoforge-demo-security.csv",
+        "Vollständige Datenqualität und Deduplizierung",
+    ),
+}
 
 
 class UploadTooLargeError(ValueError):
@@ -75,6 +126,17 @@ async def create_dataset(upload: UploadFile, db: Session, settings: Settings) ->
     db.commit()
     db.refresh(dataset)
     return dataset
+
+
+async def create_demo_dataset(theme: DemoTheme, db: Session, settings: Settings) -> Dataset:
+    descriptor = DEMO_DATASETS[theme]
+    source = (PROJECT_ROOT / "data/samples" / descriptor.filename).resolve()
+    sample_root = (PROJECT_ROOT / "data/samples").resolve()
+    if not source.is_relative_to(sample_root) or not source.is_file():
+        raise ValueError(f"Registered demo dataset is unavailable: {descriptor.filename}")
+    with source.open("rb") as handle:
+        upload = UploadFile(file=handle, filename=descriptor.filename)
+        return await create_dataset(upload, db, settings)
 
 
 def load_dataset_frame(dataset: Dataset) -> pl.DataFrame:

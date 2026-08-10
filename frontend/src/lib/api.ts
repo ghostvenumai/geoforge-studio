@@ -4,6 +4,7 @@ import type {
   BenchmarkResults,
   DataProfile,
   Dataset,
+  DemoDatasetInfo,
   DuplicateGroup,
   Health,
   ListResponse,
@@ -39,7 +40,11 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     } catch {
       payload = undefined
     }
-    throw new ApiError(payload?.error?.message ?? response.statusText, response.status, payload?.error?.request_id)
+    throw new ApiError(
+      payload?.error?.message ?? response.statusText,
+      response.status,
+      payload?.error?.request_id,
+    )
   }
   return (await response.json()) as T
 }
@@ -83,18 +88,31 @@ export const api = {
   health: () => request<Health>('/health'),
   systemInfo: () => request<SystemInfo>('/system/info'),
   datasets: () => request<ListResponse<Dataset>>('/datasets'),
+  demoDatasets: () => request<ListResponse<DemoDatasetInfo>>('/datasets/demo'),
+  loadDemoDataset: (theme: string) =>
+    request<Dataset>(`/datasets/demo/${encodeURIComponent(theme)}`, { method: 'POST' }),
   dataset: (id: string) => request<Dataset>(`/datasets/${id}`),
-  deleteDataset: (id: string) => request<{ message: string }>(`/datasets/${id}`, { method: 'DELETE' }),
+  deleteDataset: (id: string) =>
+    request<{ message: string }>(`/datasets/${id}`, { method: 'DELETE' }),
   profileDataset: (id: string) =>
-    request<{ dataset_id: string; profile: DataProfile }>(`/datasets/${id}/profile`, { method: 'POST' }),
-  profile: (id: string) => request<{ dataset_id: string; profile: DataProfile }>(`/datasets/${id}/profile`),
+    request<{ dataset_id: string; profile: DataProfile }>(`/datasets/${id}/profile`, {
+      method: 'POST',
+    }),
+  profile: (id: string) =>
+    request<{ dataset_id: string; profile: DataProfile }>(`/datasets/${id}/profile`),
   pipelines: () => request<ListResponse<Pipeline>>('/pipelines'),
   pipeline: (id: string) => request<Pipeline>(`/pipelines/${id}`),
   validatePipeline: (yamlText: string) =>
-    request<{ valid: boolean; checksum: string; definition: Pipeline['definition_json']; warnings: string[] }>(
-      '/pipelines/validate',
-      { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ yaml_text: yamlText }) },
-    ),
+    request<{
+      valid: boolean
+      checksum: string
+      definition: Pipeline['definition_json']
+      warnings: string[]
+    }>('/pipelines/validate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ yaml_text: yamlText }),
+    }),
   createPipeline: (yamlText: string) =>
     request<Pipeline>('/pipelines', {
       method: 'POST',
@@ -109,15 +127,25 @@ export const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ dataset_id: datasetId }),
     }),
-  cancelRun: (runId: string) => request<{ message: string }>(`/runs/${runId}/cancel`, { method: 'POST' }),
+  cancelRun: (runId: string) =>
+    request<{ message: string }>(`/runs/${runId}/cancel`, { method: 'POST' }),
   metrics: (runId: string) => request<{ metrics: RunMetrics }>(`/runs/${runId}/metrics`),
   artifacts: (runId: string) => request<ListResponse<Artifact>>(`/runs/${runId}/artifacts`),
   duplicates: (runId: string) => request<ListResponse<DuplicateGroup>>(`/runs/${runId}/duplicates`),
-  decideDuplicate: (runId: string, groupId: string, decision: 'accepted' | 'rejected', canonicalId?: string) =>
+  decideDuplicate: (
+    runId: string,
+    groupId: string,
+    decision: 'accepted' | 'rejected',
+    canonicalId?: string,
+  ) =>
     request<{ message: string }>(`/runs/${runId}/duplicates/decision`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ duplicate_group_id: groupId, decision, canonical_record_id: canonicalId }),
+      body: JSON.stringify({
+        duplicate_group_id: groupId,
+        decision,
+        canonical_record_id: canonicalId,
+      }),
     }),
   artifactUrl: (id: string) => `${API_BASE}/artifacts/${id}/download`,
 }

@@ -1,4 +1,4 @@
-.PHONY: bootstrap dev backend frontend quality full release build demo benchmark verify clean
+.PHONY: bootstrap dev backend frontend quality full release build demo benchmark verify loop loop-dry-run video video-preview video-dry-run clean
 
 bootstrap:
 	python3 main.py bootstrap
@@ -34,6 +34,21 @@ benchmark:
 verify:
 	.venv/bin/bandit -r backend/geoforge scripts -lll -q -f json -o artifacts/test-results/bandit.json
 	cd frontend && npm run test:e2e
+
+loop:
+	./run_loop.sh --resume
+
+loop-dry-run:
+	./run_loop.sh --dry-run
+
+video:
+	./video/build_demo.sh all --resume
+
+video-preview:
+	./video/build_demo.sh all --skip-tts --resume
+
+video-dry-run:
+	./video/build_demo.sh --dry-run
 
 clean:
 	.venv/bin/python scripts/clean_build_artifacts.py

@@ -27,3 +27,16 @@
 6. Never weaken or delete tests to force a pass.
 
 Use Ruff formatting, strict MyPy, TypeScript strict mode, accessible semantic HTML, and deterministic synthetic fixtures.
+
+## Master-loop and video invariants
+
+- Keep `automation/gates.py` a fixed command registry; state and timeline data may
+  never supply executable shell fragments.
+- Preserve bounded retries, timeouts, lock cleanup, atomic state writes, log
+  rotation, and secret redaction.
+- `video/script/timeline.json` is the single source for scene order, duration,
+  narration, subtitles, and recording holds.
+- Never claim a narrated final video when TTS credentials are absent. Continue
+  with the subtitle preview, record exit 42, and resume only from the blocked
+  phase after the external requirement is configured.
+- Do not commit generated recordings, audio, databases, logs, or MP4 files.

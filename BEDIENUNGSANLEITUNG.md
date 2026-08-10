@@ -55,12 +55,31 @@ Die Datei enthält ausschließlich synthetische Daten und absichtlich eingebaute
 
 ## 2. Empfohlener vollständiger Arbeitsablauf
 
-### Schritt 1: Datensatz importieren
+### Schritt 1: Datensatz aus der Demo-Bibliothek laden oder importieren
 
 1. Öffnen Sie links **Datensätze**.
-2. Ziehen Sie `data/samples/geoforge-demo.csv` auf die Uploadfläche oder klicken Sie darauf und wählen Sie die Datei aus.
-3. Warten Sie, bis die Meldung „geoforge-demo hochgeladen“ erscheint.
-4. Kontrollieren Sie in der Tabelle Dateiname, Format, Zeilen, Spalten, Größe, Status und Importzeitpunkt.
+2. Wählen Sie oben in der **Synthetischen Demo-Bibliothek** beispielsweise
+   **Marketing & CRM** und klicken Sie auf **Demo laden**.
+3. Alternativ ziehen Sie `data/samples/geoforge-demo.csv` auf die Uploadfläche
+   oder wählen eine eigene freigegebene Datei aus.
+4. Warten Sie auf die Bestätigung und prüfen Sie den neuen Tabelleneintrag.
+5. Kontrollieren Sie in der Tabelle Dateiname, Format, Zeilen, Spalten, Größe, Status und Importzeitpunkt.
+
+Die vier direkt verfügbaren Szenarien zeigen unterschiedliche Fähigkeiten:
+
+- **Marketing & CRM:** Leads, Kampagnen, Consent, fehlerhafte E-Mails und
+  unscharfe Dubletten für Profiling und Matching.
+- **E-Commerce:** Bestellungen, Währungsvarianten, lokale Betragsformate und
+  uneinheitliche Lieferadressen.
+- **Logistik & Geo:** Sendungen, Carrier, auffällige Gewichte, vertauschte oder
+  ungültige Koordinaten und Distanzworkflows.
+- **Security & Robustness:** ausschließlich harmlose synthetische Formeln,
+  Steuerzeichen, Pfadtexte und lange Werte zur Demonstration defensiver Ein- und
+  Ausgabe. Kein Payload wird ausgeführt.
+
+Jeder Datensatz enthält 1.000 deterministisch erzeugte Zeilen, die gemeinsamen
+Adress-/Geospalten sowie bewusst eingebaute Fehler und Dubletten. Dadurch laufen
+die empfohlenen Beispielpipelines ohne manuelle Spaltenzuordnung.
 
 Unterstützt werden CSV, JSON, JSONL/NDJSON, Parquet und XLSX. Das Backend prüft Erweiterung und Größe, bereinigt den Dateinamen, verhindert Pfadmanipulationen und speichert das Original unverändert. Eine SHA-256-Prüfsumme erkennt, ob dieselbe Datei bereits importiert wurde.
 
@@ -222,3 +241,18 @@ Für eine Präsentation in fünf Minuten:
 7. Seite neu laden und den persistenten Lauf erneut zeigen.
 
 Weitere technische Details stehen in `README.md`, `ARCHITECTURE.md`, `SECURITY.md`, `TESTING.md` und `FINAL_REPORT.md`.
+
+## 7. Automatischer Prüf- und Videoablauf
+
+Vor einer Präsentation kann der komplette Ablauf ohne Änderungen geprüft werden:
+
+```bash
+make loop-dry-run
+make video-dry-run
+```
+
+Eine echte 147-Sekunden-Vorschau mit Browserbedienung und deutschen Untertiteln
+erzeugt `make video-preview`. Für die optionale KI-Sprachausgabe wird nur während
+der Videoproduktion ein `OPENAI_API_KEY` benötigt; die Anwendung und alle
+Datenfunktionen bleiben offline und schlüsselfrei. Die vollständige Bedienung,
+Exitcodes und Artefakte beschreibt `video/README.md`.

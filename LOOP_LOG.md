@@ -21,3 +21,14 @@
 - Kept API fields and YAML step identifiers stable for compatibility and documented that boundary.
 - Added BEDIENUNGSANLEITUNG.md with startup, complete workflow, every page, visual/YAML editing, deduplication decisions, exports, privacy, troubleshooting, and a five-minute demo.
 - Verified ESLint, strict TypeScript/production build, 9 Vitest tests, Bandit high-severity gate, and Playwright/axe: desktop, tablet, and mobile all passed.
+
+## 2026-08-10 — Themed demo library, master-loop, and product video
+
+- Added deterministic Marketing/CRM, E-Commerce, Logistics/Geo and Security/Robustness datasets with 1,000 synthetic rows each and a fixed one-click UI/API library.
+- Repaired mixed-format CSV date ingestion by preserving ambiguous raw values as text for explicit pipeline parsing.
+- Added a bounded persistent master-loop with fixed commands, atomic state, lock cleanup, retries, timeouts, structured redacted logs, external-blocker continuation and resume.
+- Added an 11-scene, 147-second German timeline, real Playwright UI recording, narration/SRT generation, cacheable OpenAI TTS boundary, FFmpeg render and FFprobe/audio QA.
+- Recorded and validated `dist/solcom_demo_preview.mp4`: H.264/AAC, 1920×1080, 30 fps, 147.000 seconds, 7,849,089 bytes. The AAC stream is intentionally silent because no TTS credential was available.
+- Master-loop completed all reachable phases. Voiceover alone is `BLOCKED_EXTERNAL_CREDENTIAL`; no external request was sent and no narrated final MP4 was claimed.
+- Repaired project-local Node/Playwright-FFmpeg selection, video CORS, stale standard E2E server reuse, and Recharts SVG ARIA semantics.
+- Final `make full` passed: 109 Python tests, 92.69% backend branch coverage, 9 Vitest tests, Bandit high gate, pip-audit with no known vulnerabilities, and 3/3 Playwright/axe scenarios.

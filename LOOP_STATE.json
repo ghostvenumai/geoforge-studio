@@ -1,8 +1,8 @@
 {
   "phase": "Release Validation",
-  "iteration": 17,
+  "iteration": 18,
   "max_iterations": 80,
-  "current_task": "German interface localization and operating guide completed",
+  "current_task": "Master-loop and subtitle video preview complete; external voice credential pending",
   "completed_tasks": [
     "repository_preflight",
     "architecture",
@@ -13,16 +13,22 @@
     "quality_gates",
     "e2e_accessibility_ui_review",
     "documentation_and_release_report",
-    "german_interface_and_operating_guide"
+    "german_interface_and_operating_guide",
+    "themed_demo_library",
+    "persistent_master_loop",
+    "video_recording_and_preview_qa",
+    "full_quality_gate_2026_08_10"
   ],
   "failed_checks": [
-    "docker_image_build_dns"
+    "docker_image_build_dns",
+    "openai_tts_credential_missing"
   ],
   "consecutive_failures": 1,
-  "last_failure_signature": "docker-builder-dns-setuptools",
-  "next_action": "Run the Docker image smoke test on a network-enabled builder",
+  "last_failure_signature": "openai-api-key-missing-no-request-sent",
+  "next_action": "Supply OPENAI_API_KEY externally and run ./run_loop.sh --resume; separately run Docker smoke on a network-enabled builder",
   "blockers": [
-    "Docker builder cannot resolve the package index; native builds, localhost health checks, and E2E tests passed."
+    "Docker builder cannot resolve the package index; native builds, localhost health checks, and E2E tests passed.",
+    "OPENAI_API_KEY is not configured. Recording, subtitles, preview render and video QA passed; final narrated MP4 was not claimed."
   ],
   "release_ready": false,
   "selected_model": "gpt-5.6-sol",
@@ -46,5 +52,5 @@
       "output_tokens": 0
     }
   },
-  "updated_at": "2026-08-04T18:59:00Z"
+  "updated_at": "2026-08-10T13:09:00Z"
 }

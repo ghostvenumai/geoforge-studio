@@ -1,0 +1,1001 @@
+record_id,source_row,street,city,postal_code,country,latitude,longitude,order_number,customer,amount,currency,status,items,order_date,quality_note
+eco-000000000,0,Schemaweg 1, Vektorstetten ,10000,DE,52.4429161,14.008052,ORD-2024000,Kim Synthetik,27.38,Euro,neu,1,2024-06-01,synthetic-normal
+eco-000000001,1,  Qualitätsring   2,Datenheim,17919,Deutschland,53.4516715,5.8597886,ORD-2024001,Robin Demoholz,28.75,Euro,versendet,5,02.06.2024,synthetic-normal
+eco-000000002,2,Prüfsummenstraße 3,Westbogen,25838,Deutschland,53.4341749,12.5135324,ORD-2024002,Kim Datenberg,96.48,EUR,retourniert,5,03/06/2024,synthetic-normal
+eco-000000003,3,Qualitätsring 4,Südwinkel,33757,DE,50.1889593,9.9713748,ORD-2024003,Chris Muster,46.01,€,versendet,4,04/06/2024,synthetic-normal
+eco-000000004,4,Vektorallee 5,Ostfeld,41676,Deutschland,54.8203775,11.6879978,ORD-2024004,Sascha Demoholz,68.91,€,neu,4,2024-06-05,synthetic-normal
+eco-000000005,5,Koordinatenplatz 6,Ostfeld,49595,D,48.3858241,7.0845989,ORD-2024005,Toni Demoholz,64.24,Euro,retourniert,7,06/06/2024,synthetic-normal
+eco-000000006,6,Pipelineweg 7,Südwinkel,57514,deu,53.3198032,9.6838717,ORD-2024006,Kim Datenberg,461.03,Euro,retourniert,8,07/06/2024,synthetic-normal
+eco-000000007,7,Pipelineweg 8,Westbogen,65433,DE,49.530601,7.2550513,ORD-2024007,Alex Demoholz,15.28,€,retourniert,3,2024-06-08,synthetic-normal
+eco-000000008,8,Qualitätsring 9,Südwinkel,73352,DE,51.8519788,10.2951725,ORD-2024008,Kim Testmann,576.86,€,bezahlt,1,09.06.2024,synthetic-normal
+eco-000000009,9,Spaltenweg 10, Datenheim ,81271,deu,48.2757751,10.1725979,ORD-2024009,Robin Testmann,81.66,Euro,bezahlt,9,10.06.2024,synthetic-normal
+eco-000000010,10,  Koordinatenplatz   11,Ostfeld,89190,DE,49.1840827,6.3890382,ORD-2024010,Alex Synthetik,606.16,eur,retourniert,4,2024-06-11,synthetic-normal
+eco-000000011,11,  Koordinatenplatz   11 ,OSTFELD,89190,DE,49.1840827,6.3890382,ORD-2024010,Alex Synthetik,606.16,eur,retourniert,4,2024-06-11,synthetic-normal
+eco-000000012,12,Schemaweg 1, Vektorstetten ,10000,DE,52.4429161,14.008052,ORD-2024000,Kim Synthetik,27.38,Euro,neu,1,2024-06-01,synthetic-normal
+eco-000000013,13,Qualitätsring 4 ,SÜDWINKEL,33757,DE,50.1889593,9.9713748,ORD-2024003,Chris Muster,46.01,€,versendet,4,04/06/2024,synthetic-normal
+eco-000000014,14,Spaltenweg 15,Ostfeld,40866,deu,48.0168761,11.8626413,ORD-2024014,Chris Datenberg,652.4,Euro,storniert,12,2024-06-15,synthetic-normal
+eco-000000015,15,Prüfsummenstr. 16,Nordhafen,48785,deu,48.7560845,10.7338289,ORD-2024015,Robin Datenberg,93.08,eur,versendet,8,16.06.2024,synthetic-normal
+eco-000000016,16,Pipelineweg 17,Datenheim,56704,DE,54.6643716,200.0,ORD-2024016,Sascha Muster,"99,90 EUR",Euro,storniert,8,17.06.2024,synthetic-error
+eco-000000017,17,  Schemaweg   18,,64623,D,48.4764559,8.529712,ORD-2024017,Alex Synthetik,,EUR,versendet,1,2024-06-18,synthetic-error
+eco-000000018,18,Datenstraße 19, Nordhafen ,72542,DE,52.4316154,7.9638758,ORD-2024018,Kim Synthetik,480.36,eur,retourniert,10,2024-06-19,synthetic-normal
+eco-000000019,19,Koordinatenplatz 20,Vektorstetten,80461,Deutschland,49.1140132,9.4412298,ORD-2024019,Toni Datenberg,527.39,€,neu,1,2024/06/20,synthetic-normal
+eco-000000020,20,Qualitätsring 21,Westbogen,88380,DE,53.9824538,9.1996492,ORD-2024020,Robin Datenberg,94.48,€,retourniert,11,2024-06-21,synthetic-normal
+eco-000000021,21,Pipelineweg 22,Nordhafen,16299,deu,49.3698464,11.3644344,ORD-2024021,Chris Muster,838.92,€,retourniert,8,22/06/2024,synthetic-normal
+eco-000000022,22,Prüfsummenstr. 23,Westbogen,24218,deu,52.1420617,8.2099884,ORD-2024022,Luca Synthetik,87.61,Euro,retourniert,1,2024-06-23,synthetic-normal
+eco-000000023,23,Prüfsummenstr. 23,Westbogen,24218,deu,52.1420617,8.2099884,ORD-2024022,Luca Synthetik,87.61,Euro,retourniert,1,2024-06-23,synthetic-normal
+eco-000000024,24,  Vektorallee   25,Westbogen,40056,Deutschland,54.1322593,13.1243252,ORD-2024024,Alex Testmann,526.35,eur,bezahlt,11,2024-06-25,synthetic-normal
+eco-000000025,25,Vektorallee 26,Südwinkel,47975,D,47.4883764,12.5763931,ORD-2024025,Chris Datenberg,787.87,eur,versendet,3,2024-06-26,synthetic-normal
+eco-000000026,26,Spaltenweg 27,,55894,deu,47.4798497,7.5767941,ORD-2024026,Chris Testmann,-12.50,EUR,versendet,6,2024/06/27,synthetic-error
+eco-000000027,27,Vektorallee 28, Datenheim ,63813,D,13.0351392,49.927222,ORD-2024027,Nika Synthetik,n/a,EUR,storniert,10,28.06.2024,synthetic-error
+eco-000000028,28,Qualitätsring 4  ,SÜDWINKEL,33757,DE,50.1889593,9.9713748,ORD-2024003,Chris Muster,46.01,€,versendet,4,04/06/2024,synthetic-normal
+eco-000000029,29,Qualitätsring 30,Vektorstetten,79651,Deutschland,52.0359811,11.9031648,ORD-2024029,Kim Demoholz,648.89,€,retourniert,5,2024/06/30,synthetic-normal
+eco-000000030,30,  Qualitätsring   31,Ostfeld,87570,deu,51.9779134,8.5687388,ORD-2024030,Alex Testmann,501.2,€,bezahlt,7,01/07/2024,synthetic-normal
+eco-000000031,31,Spaltenweg 32,Westbogen,15489,Deutschland,48.0097427,14.5583969,ORD-2024031,Sascha Demoholz,196.26,€,bezahlt,4,02.07.2024,synthetic-normal
+eco-000000032,32,Prüfsummenstr. 16,Nordhafen,48785,deu,48.7560845,10.7338289,ORD-2024015,Robin Datenberg,93.08,eur,versendet,8,16.06.2024,synthetic-normal
+eco-000000033,33,  Qualitätsring   34,Südwinkel,31327,deu,52.2860409,5.8510123,ORD-2024033,Kim Datenberg,412.6,eur,bezahlt,12,2024/07/04,synthetic-normal
+eco-000000034,34,Prüfsummenstr. 16,Nordhafen,48785,deu,48.7560845,10.7338289,ORD-2024015,Robin Datenberg,93.08,eur,versendet,8,16.06.2024,synthetic-normal
+eco-000000035,35,  Koordinatenplatz   36,Vektorstetten,47165,D,53.6123257,10.8404219,ORD-2024035,Robin Demoholz,420.86,Euro,storniert,5,06.07.2024,synthetic-normal
+eco-000000036,36,Spaltenweg 37, Nordhafen ,55084,Deutschland,49.0821512,8.8897973,ORD-2024036,Kim Muster,701.02,eur,bezahlt,7,07.07.2024,synthetic-normal
+eco-000000037,37,  Spaltenweg   38,Ostfeld,63003,D,11.1735306,54.1767724,ORD-2024037,Alex Synthetik,"99,90 EUR",Euro,storniert,1,08/07/2024,synthetic-error
+eco-000000038,38,Prüfsummenstrasse 39,Westbogen,70922,D,50.9908792,9.3774863,ORD-2024038,Nika Demoholz,858.32,eur,storniert,3,2024-07-09,synthetic-normal
+eco-000000039,39,  Pipelineweg   40,Ostfeld,78841,deu,47.6821632,9.2877556,ORD-2024039,Sascha Datenberg,598.38,€,versendet,7,10/07/2024,synthetic-normal
+eco-000000040,40,  Pipelineweg   41,Datenheim,86760,DE,54.8992995,9.0196352,ORD-2024040,Kim Demoholz,230.78,EUR,neu,4,11.07.2024,synthetic-normal
+eco-000000041,41,Spaltenweg 42,Südwinkel,14679,D,52.6159338,12.8554625,ORD-2024041,Robin Synthetik,218.5,EUR,bezahlt,5,2024-07-12,synthetic-normal
+eco-000000042,42,  Prüfsummenstraße   43,Südwinkel,22598,DE,51.7999437,13.441259,ORD-2024042,Sascha Beispiel,520.34,€,retourniert,2,2024-07-13,synthetic-normal
+eco-000000043,43,Koordinatenplatz 44,Ostfeld,30517,DE,50.5947779,9.13213,ORD-2024043,Luca Demoholz,336.66,eur,storniert,3,14/07/2024,synthetic-normal
+eco-000000044,44,  Spaltenweg   45,Datenheim,38436,Deutschland,49.7495148,8.0585556,ORD-2024044,Kim Testmann,698.3,Euro,bezahlt,8,2024/07/15,synthetic-normal
+eco-000000045,45,Spaltenweg 46, Westbogen ,46355,Deutschland,49.4254045,11.2846261,ORD-2024045,Toni Synthetik,295.89,EUR,retourniert,4,2024-07-16,synthetic-normal
+eco-000000046,46,  Qualitätsring   47,Ostfeld,54274,D,53.3262898,6.6560908,ORD-2024046,Sascha Datenberg,501.88,eur,versendet,11,17/07/2024,synthetic-normal
+eco-000000047,47,Koordinatenplatz 48,Westbogen,62193,Deutschland,49.2106679,6.9100341,ORD-2024047,Sascha Testmann,385.83,EUR,retourniert,12,18.07.2024,synthetic-normal
+eco-000000048,48,Schemaweg 49,Westbogen,70112,deu,50.0426961,8.5808618,ORD-2024048,Robin Testmann,252.47,EUR,neu,9,19/07/2024,synthetic-normal
+eco-000000049,49,Spaltenweg 50,Datenheim,78031,Deutschland,50.8674168,9.8523129,ORD-2024049,Robin Beispiel,782.27,€,storniert,2,2024-07-20,synthetic-normal
+eco-000000050,50,Vektorallee 51,Westbogen,85950,DE,54.8537777,-220.0,ORD-2024050,Nika Synthetik,"1.234,56",eur,retourniert,7,2024/07/21,synthetic-error
+eco-000000051,51,Datenstraße 52,Südwinkel,13869,deu,49.3113106,6.5469247,ORD-2024051,Sascha Muster,278.32,EUR,bezahlt,1,2024/07/22,synthetic-normal
+eco-000000052,52,Qualitätsring 53,Vektorstetten,21788,D,47.8409662,7.947499,ORD-2024052,Toni Demoholz,265.68,eur,storniert,2,23.07.2024,synthetic-normal
+eco-000000053,53,Pipelineweg 54,Westbogen,29707,Deutschland,50.6375662,10.1120213,ORD-2024053,Toni Demoholz,744.83,Euro,versendet,9,2024/07/24,synthetic-normal
+eco-000000054,54,Koordinatenplatz 55, Südwinkel ,37626,DE,54.8967504,11.9849906,ORD-2024054,Toni Synthetik,801.03,EUR,bezahlt,8,2024/07/25,synthetic-normal
+eco-000000055,55,Spaltenweg 56,Ostfeld,45545,Deutschland,49.7400427,6.7623189,ORD-2024055,Robin Testmann,528.87,Euro,storniert,5,2024/07/26,synthetic-normal
+eco-000000056,56,Koordinatenplatz 57,Ostfeld,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000057,57,Vektorallee 58,Vektorstetten,61383,D,48.2228382,14.7529507,ORD-2024057,Sascha Demoholz,187.18,eur,versendet,9,2024-07-28,synthetic-normal
+eco-000000058,58,Spaltenweg 59,,69302,D,54.3881633,8.4851264,ORD-2024058,Toni Datenberg,"1.234,56",Euro,storniert,4,2024/07/29,synthetic-error
+eco-000000059,59,Vektorallee 60,Ostfeld,77221,Deutschland,54.4002878,10.4711866,ORD-2024059,Alex Testmann,541.44,€,retourniert,10,2024/07/30,synthetic-normal
+eco-000000060,60,  Koordinatenplatz   61,Westbogen,85140,deu,54.7538872,7.997011,ORD-2024060,Nika Muster,438.49,Euro,neu,6,2024/07/31,synthetic-normal
+eco-000000061,61,  Vektorallee   62,Südwinkel,13059,Deutschland,53.9097224,13.8425514,ORD-2024061,Luca Beispiel,350.54,Euro,neu,12,01.08.2024,synthetic-normal
+eco-000000062,62,Spaltenweg 63,Vektorstetten,20978,D,52.2387586,13.6362407,ORD-2024062,Nika Testmann,143.15,Euro,retourniert,1,2024-08-02,synthetic-normal
+eco-000000063,63,Qualitätsring 64, Nordhafen ,28897,DE,50.671957,12.1848107,ORD-2024063,Alex Beispiel,262.2,€,neu,5,03/08/2024,synthetic-normal
+eco-000000064,64,Vektorallee 65,Datenheim,36816,D,52.0097988,8.0156341,ORD-2024064,Robin Muster,480.39,Euro,versendet,8,04/08/2024,synthetic-normal
+eco-000000065,65,Schemaweg 66,Westbogen,44735,Deutschland,52.1559341,9.7036422,ORD-2024065,Toni Datenberg,421.4,€,bezahlt,7,2024/08/05,synthetic-normal
+eco-000000066,66,Schemaweg 67,Vektorstetten,52654,D,49.3860509,11.006547,ORD-2024066,Alex Synthetik,326.27,Euro,versendet,4,06/08/2024,synthetic-normal
+eco-000000067,67,Vektorallee 68,Vektorstetten,60573,DE,49.6478899,9.8555733,ORD-2024067,Chris Demoholz,229.31,eur,neu,5,07/08/2024,synthetic-normal
+eco-000000068,68,Koordinatenplatz 69,Westbogen,68492,D,54.652119,8.5153013,ORD-2024068,Chris Beispiel,123.28,Euro,neu,3,08.08.2024,synthetic-normal
+eco-000000069,69,Koordinatenplatz 70,Nordhafen,76411,Deutschland,51.3779495,9.9840315,ORD-2024069,Toni Synthetik,882.05,Euro,versendet,2,09.08.2024,synthetic-normal
+eco-000000070,70,Koordinatenplatz 71,Vektorstetten,84330,D,54.2113461,8.5801496,ORD-2024070,Nika Beispiel,849.14,eur,neu,1,10/08/2024,synthetic-normal
+eco-000000071,71,  Vektorallee   72,Vektorstetten,12249,D,12.4847122,51.7637866,ORD-2024071,Nika Demoholz,"99,90 EUR",EUR,storniert,10,2024/08/11,synthetic-error
+eco-000000072,72,Koordinatenplatz 48 ,WESTBOGEN,62193,Deutschland,49.2106679,6.9100341,ORD-2024047,Sascha Testmann,385.83,EUR,retourniert,12,18.07.2024,synthetic-normal
+eco-000000073,73,Koordinatenplatz 74,Westbogen,28087,deu,54.6583723,14.5308993,ORD-2024073,Luca Beispiel,329.6,eur,retourniert,1,2024-08-13,synthetic-normal
+eco-000000074,74,Qualitätsring 75,Datenheim,36006,deu,51.7565114,13.2800874,ORD-2024074,Sascha Testmann,117.7,eur,retourniert,1,14/08/2024,synthetic-normal
+eco-000000075,75,Schemaweg 76,Nordhafen,43925,deu,47.4129385,13.0678589,ORD-2024075,Sascha Synthetik,121.34,€,neu,3,15/08/2024,synthetic-normal
+eco-000000076,76,Pipelineweg 54,Westbogen,29707,Deutschland,50.6375662,10.1120213,ORD-2024053,Toni Demoholz,744.83,Euro,versendet,9,2024/07/24,synthetic-normal
+eco-000000077,77,  Pipelineweg   78,Datenheim,59763,DE,52.8270468,14.1605155,ORD-2024077,Toni Datenberg,701.33,EUR,neu,8,2024/08/17,synthetic-normal
+eco-000000078,78,Pipelineweg 79,Südwinkel,12,DE,48.2590561,11.5437209,ORD-2024078,Chris Datenberg,,€,storniert,9,2024/08/18,synthetic-error
+eco-000000079,79,  Qualitätsring   80,Südwinkel,75601,D,49.8758803,9.9721899,ORD-2024079,Nika Demoholz,693.22,EUR,versendet,7,19/08/2024,synthetic-normal
+eco-000000080,80,Spaltenweg 81,Nordhafen,83520,DE,50.5822615,12.6502185,ORD-2024080,Chris Muster,141.61,EUR,retourniert,9,20/08/2024,synthetic-normal
+eco-000000081,81,Prüfsummenstraße 82, Datenheim ,11439,Deutschland,49.972511,11.1168504,ORD-2024081,Sascha Muster,786.88,Euro,bezahlt,2,21/08/2024,synthetic-normal
+eco-000000082,82,  Qualitätsring   83,Datenheim,19358,DE,51.9283614,11.8520473,ORD-2024082,Toni Beispiel,687.53,eur,versendet,12,22/08/2024,synthetic-normal
+eco-000000083,83,  Vektorallee   84,Vektorstetten,27277,DE,47.9973584,10.6804407,ORD-2024083,Nika Datenberg,167.36,Euro,versendet,3,23/08/2024,synthetic-normal
+eco-000000084,84,Pipelineweg 85,Datenheim,35196,DE,52.4221622,8.3033462,ORD-2024084,Nika Datenberg,847.56,Euro,storniert,5,24.08.2024,synthetic-normal
+eco-000000085,85,Spaltenweg 86,Ostfeld,,DE,47.3584219,8.5730581,ORD-2024085,Sascha Muster,n/a,€,versendet,6,2024-08-25,synthetic-error
+eco-000000086,86,Qualitätsring 87,Vektorstetten,51034,DE,50.6152689,10.0297391,ORD-2024086,Kim Testmann,345.29,Euro,retourniert,7,2024/08/26,synthetic-normal
+eco-000000087,87,  Vektorallee   88,Westbogen,58953,DE,50.6190095,6.7739408,ORD-2024087,Nika Synthetik,869.75,Euro,retourniert,2,2024/08/27,synthetic-normal
+eco-000000088,88,Vektorallee 89,Nordhafen,66872,deu,54.1850128,9.0142524,ORD-2024088,Robin Muster,203.31,EUR,bezahlt,5,28.08.2024,synthetic-normal
+eco-000000089,89,Pipelineweg 90,Vektorstetten,74791,D,50.8260433,10.9863664,ORD-2024089,Luca Demoholz,684.44,€,versendet,3,2024/08/29,synthetic-normal
+eco-000000090,90,Koordinatenplatz 57,Ostfeld,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000091,91,Pipelineweg 92,Nordhafen,10629,DE,50.1024058,8.4411087,ORD-2024091,Kim Synthetik,319.99,Euro,storniert,10,2024-08-31,synthetic-normal
+eco-000000092,92,  Koordinatenplatz   93,Nordhafen,18548,D,48.0866143,14.0719669,ORD-2024092,Chris Demoholz,588.39,EUR,retourniert,11,01.09.2024,synthetic-normal
+eco-000000093,93,Koordinatenplatz 57 ,OSTFELD,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000094,94,Koordinatenplatz 95,Westbogen,34386,DE,53.2981247,11.7552093,ORD-2024094,Kim Testmann,147.08,EUR,retourniert,11,2024/09/03,synthetic-normal
+eco-000000095,95,Vektorallee 96,Vektorstetten,42305,deu,54.2672731,8.654132,ORD-2024095,Nika Muster,592.62,EUR,versendet,9,2024/09/04,synthetic-normal
+eco-000000096,96,  Pipelineweg   97,Nordhafen,50224,Deutschland,49.6473821,14.5507577,ORD-2024096,Chris Datenberg,119.38,eur,bezahlt,3,05.09.2024,synthetic-normal
+eco-000000097,97,Schemaweg 1, Vektorstetten ,10000,DE,52.4429161,14.008052,ORD-2024000,Kim Synthetik,27.38,Euro,neu,1,2024-06-01,synthetic-normal
+eco-000000098,98,Koordinatenplatz 99,Südwinkel,66062,deu,48.6744294,12.1741799,ORD-2024098,Robin Demoholz,476.25,Euro,neu,7,07/09/2024,synthetic-normal
+eco-000000099,99,  Schemaweg   100, Südwinkel ,73981,Deutschland,54.6385344,13.0162062,ORD-2024099,Sascha Testmann,402.56,Euro,storniert,5,2024/09/08,synthetic-normal
+eco-000000100,100,Qualitätsring 101,Nordhafen,81900,D,53.9432888,10.9017749,ORD-2024100,Kim Demoholz,150.04,EUR,versendet,2,09.09.2024,synthetic-normal
+eco-000000101,101,Prüfsummenstraße 102,Südwinkel,89819,D,54.0231863,14.3603417,ORD-2024101,Nika Beispiel,136.88,Euro,retourniert,6,10.09.2024,synthetic-normal
+eco-000000102,102,Pipelineweg 103,Südwinkel,12,DE,49.4802834,13.4338066,ORD-2024102,Robin Demoholz,n/a,Euro,storniert,10,2024-09-11,synthetic-error
+eco-000000103,103,Prüfsummenstraße 104,Südwinkel,25657,Deutschland,48.2260474,7.9936434,ORD-2024103,Luca Beispiel,496.18,EUR,storniert,10,2024-09-12,synthetic-normal
+eco-000000104,104,  Schemaweg   105,Westbogen,33576,deu,51.6370442,7.523288,ORD-2024104,Kim Synthetik,648.1,€,neu,9,2024-09-13,synthetic-normal
+eco-000000105,105,Koordinatenplatz 106,Westbogen,41495,DE,49.9204989,12.5430574,ORD-2024105,Kim Synthetik,573.93,€,bezahlt,1,14/09/2024,synthetic-normal
+eco-000000106,106,  Spaltenweg   107,Südwinkel,49414,DE,52.7419424,14.4811674,ORD-2024106,Alex Testmann,161.7,eur,neu,4,2024-09-15,synthetic-normal
+eco-000000107,107,Spaltenweg 108,Vektorstetten,57333,deu,49.4744428,13.7316745,ORD-2024107,Alex Demoholz,361.41,€,versendet,2,16/09/2024,synthetic-normal
+eco-000000108,108,Prüfsummenstr. 109, Ostfeld ,65252,D,50.0918366,13.1350761,ORD-2024108,Toni Beispiel,398.56,Euro,neu,7,17.09.2024,synthetic-normal
+eco-000000109,109,Schemaweg 110,Vektorstetten,73171,D,48.5665003,9.8839571,ORD-2024109,Luca Beispiel,76.66,€,retourniert,7,18/09/2024,synthetic-normal
+eco-000000110,110,Prüfsummenstr. 111,Vektorstetten,81090,deu,54.5411994,7.1135711,ORD-2024110,Luca Beispiel,56.34,eur,neu,4,19/09/2024,synthetic-normal
+eco-000000111,111,  Vektorallee   112,Westbogen,89009,D,53.099442,11.0800804,ORD-2024111,Chris Datenberg,33.98,€,versendet,4,2024-09-20,synthetic-normal
+eco-000000112,112,Prüfsummenstr. 23 ,WESTBOGEN,24218,deu,52.1420617,8.2099884,ORD-2024022,Luca Synthetik,87.61,Euro,retourniert,1,2024-06-23,synthetic-normal
+eco-000000113,113,  Schemaweg   114,Datenheim,24847,Deutschland,52.5742529,14.9873854,ORD-2024113,Sascha Beispiel,239.29,eur,neu,8,22.09.2024,synthetic-normal
+eco-000000114,114,Koordinatenplatz 115,Datenheim,32766,Deutschland,54.0741208,13.6325309,ORD-2024114,Robin Testmann,83.57,eur,neu,4,23.09.2024,synthetic-normal
+eco-000000115,115,  Koordinatenplatz   116,Datenheim,40685,deu,51.9508076,6.5931824,ORD-2024115,Toni Datenberg,328,Euro,retourniert,7,2024/09/24,synthetic-normal
+eco-000000116,116,  Spaltenweg   117,,48604,deu,53.9724972,12.9784189,ORD-2024116,Robin Muster,"1.234,56",Euro,retourniert,1,2024-09-25,synthetic-error
+eco-000000117,117,Qualitätsring 118, Datenheim ,56523,Deutschland,53.7290962,8.1055688,ORD-2024117,Toni Muster,293.78,€,retourniert,9,2024-09-26,synthetic-normal
+eco-000000118,118,Vektorallee 119,Vektorstetten,64442,Deutschland,53.703228,10.9852859,ORD-2024118,Alex Beispiel,847.74,EUR,retourniert,5,27.09.2024,synthetic-normal
+eco-000000119,119,Spaltenweg 120,Westbogen,72361,D,49.1610721,13.2276137,ORD-2024119,Nika Testmann,576.9,Euro,neu,12,2024-09-28,synthetic-normal
+eco-000000120,120,Koordinatenplatz 121,Vektorstetten,80280,Deutschland,52.8799181,13.7191518,ORD-2024120,Nika Muster,420.68,€,retourniert,9,2024-09-29,synthetic-normal
+eco-000000121,121,Qualitätsring 122,Westbogen,88199,D,53.8676453,9.6468396,ORD-2024121,Robin Testmann,244.39,€,bezahlt,3,2024/09/30,synthetic-normal
+eco-000000122,122,Spaltenweg 123,Ostfeld,16118,D,54.6468184,7.7793287,ORD-2024122,Chris Beispiel,791.77,EUR,versendet,8,2024/10/01,synthetic-normal
+eco-000000123,123,Schemaweg 124,,24037,DE,50.3444203,11.0465911,ORD-2024123,Sascha Testmann,-12.50,€,neu,7,2024/10/02,synthetic-error
+eco-000000124,124,Pipelineweg 125,Ostfeld,31956,Deutschland,53.3412189,8.9195848,ORD-2024124,Chris Muster,613.96,eur,retourniert,9,2024/10/03,synthetic-normal
+eco-000000125,125,  Spaltenweg   126,,39875,deu,49.7925404,11.4402267,ORD-2024125,Robin Datenberg,n/a,€,retourniert,6,2024/10/04,synthetic-error
+eco-000000126,126,  Pipelineweg   127, Vektorstetten ,47794,DE,51.8365131,8.24288,ORD-2024126,Sascha Demoholz,334.68,EUR,retourniert,8,05.10.2024,synthetic-normal
+eco-000000127,127,Prüfsummenstrasse 128,Südwinkel,55713,DE,51.6515341,12.2447924,ORD-2024127,Sascha Beispiel,698.27,Euro,versendet,7,06.10.2024,synthetic-normal
+eco-000000128,128,Spaltenweg 129,Datenheim,63632,deu,51.5627395,14.9827304,ORD-2024128,Luca Synthetik,454.13,Euro,versendet,3,2024/10/07,synthetic-normal
+eco-000000129,129,  Schemaweg   130,Südwinkel,71551,Deutschland,51.5414585,7.8687767,ORD-2024129,Toni Testmann,322.09,eur,storniert,6,2024/10/08,synthetic-normal
+eco-000000130,130,Schemaweg 131,Vektorstetten,79470,D,54.1077795,9.4296986,ORD-2024130,Chris Muster,716.89,€,neu,5,2024-10-09,synthetic-normal
+eco-000000131,131,Spaltenweg 132,Datenheim,87389,Deutschland,54.3909819,12.204776,ORD-2024131,Robin Beispiel,234.52,eur,bezahlt,1,10.10.2024,synthetic-normal
+eco-000000132,132,Pipelineweg 133,Datenheim,12,deu,50.3924966,14.4022953,ORD-2024132,Luca Datenberg,,eur,versendet,6,11/10/2024,synthetic-error
+eco-000000133,133,Datenstrasse 134,Südwinkel,23227,DE,54.8785057,9.4523501,ORD-2024133,Luca Muster,666.12,€,neu,1,12/10/2024,synthetic-normal
+eco-000000134,134,  Spaltenweg   135,Südwinkel,999999,D,49.3735618,13.2410877,ORD-2024134,Chris Muster,n/a,Euro,versendet,12,13.10.2024,synthetic-error
+eco-000000135,135,  Vektorallee   136, Datenheim ,39065,Deutschland,47.9592071,11.9571539,ORD-2024135,Robin Muster,682.77,Euro,versendet,4,2024-10-14,synthetic-normal
+eco-000000136,136,Koordinatenplatz 137,Datenheim,46984,DE,49.2878039,9.1078792,ORD-2024136,Sascha Beispiel,679.61,EUR,storniert,5,15.10.2024,synthetic-normal
+eco-000000137,137,Schemaweg 138,Westbogen,54903,Deutschland,51.9711534,7.8159831,ORD-2024137,Robin Datenberg,806.13,eur,storniert,12,16/10/2024,synthetic-normal
+eco-000000138,138,Qualitätsring 139,Datenheim,62822,DE,51.2938506,10.6591927,ORD-2024138,Chris Beispiel,426.39,EUR,neu,9,17.10.2024,synthetic-normal
+eco-000000139,139,Spaltenweg 140,Vektorstetten,70741,D,47.9911565,10.4954533,ORD-2024139,Alex Datenberg,298.67,eur,retourniert,7,2024/10/18,synthetic-normal
+eco-000000140,140,Schemaweg 141,Nordhafen,78660,deu,51.6951656,6.2166662,ORD-2024140,Chris Demoholz,607.13,EUR,retourniert,1,2024-10-19,synthetic-normal
+eco-000000141,141,Vektorallee 142,Vektorstetten,86579,D,50.145903,14.0002692,ORD-2024141,Luca Datenberg,261.95,Euro,neu,11,20.10.2024,synthetic-normal
+eco-000000142,142,Prüfsummenstrasse 143,Südwinkel,14498,DE,53.0469636,14.8021143,ORD-2024142,Luca Demoholz,164.73,Euro,retourniert,7,21.10.2024,synthetic-normal
+eco-000000143,143,Pipelineweg 144,Ostfeld,22417,DE,49.1290638,6.4190763,ORD-2024143,Alex Datenberg,251.71,EUR,bezahlt,12,2024-10-22,synthetic-normal
+eco-000000144,144,Datenstrasse 145, Westbogen ,30336,deu,53.4999756,12.5299608,ORD-2024144,Chris Synthetik,199.46,€,bezahlt,5,23.10.2024,synthetic-normal
+eco-000000145,145,Schemaweg 146,Datenheim,38255,deu,52.0575478,9.7302454,ORD-2024145,Luca Beispiel,375.14,€,storniert,9,24/10/2024,synthetic-normal
+eco-000000146,146,  Vektorallee   147,Südwinkel,46174,Deutschland,53.8173134,7.1280361,ORD-2024146,Luca Beispiel,273.4,Euro,storniert,9,25.10.2024,synthetic-normal
+eco-000000147,147,  Pipelineweg   148,Nordhafen,54093,deu,47.6916784,9.2699454,ORD-2024147,Alex Beispiel,300.59,eur,retourniert,12,26.10.2024,synthetic-normal
+eco-000000148,148,Datenstrasse 149,Vektorstetten,62012,DE,52.9762821,12.7398428,ORD-2024148,Sascha Demoholz,303,eur,storniert,4,27/10/2024,synthetic-normal
+eco-000000149,149,Koordinatenplatz 150,Datenheim,69931,D,50.8416309,13.1859129,ORD-2024149,Luca Testmann,482.62,eur,versendet,6,2024/10/28,synthetic-normal
+eco-000000150,150,Koordinatenplatz 57,Ostfeld,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000151,151,Vektorallee 142,Vektorstetten,86579,D,50.145903,14.0002692,ORD-2024141,Luca Datenberg,261.95,Euro,neu,11,20.10.2024,synthetic-normal
+eco-000000152,152,Koordinatenplatz 153,Südwinkel,13688,D,51.4848832,14.4798738,ORD-2024152,Chris Testmann,141.41,Euro,storniert,8,31.10.2024,synthetic-normal
+eco-000000153,153,Spaltenweg 154, Datenheim ,21607,DE,51.2819776,13.5194301,ORD-2024153,Kim Demoholz,130.26,EUR,neu,7,01.11.2024,synthetic-normal
+eco-000000154,154,Datenstrasse 155,Westbogen,29526,DE,51.9955478,11.9341435,ORD-2024154,Luca Demoholz,637.92,Euro,neu,1,2024/11/02,synthetic-normal
+eco-000000155,155,  Vektorallee   136, Datenheim ,39065,Deutschland,47.9592071,11.9571539,ORD-2024135,Robin Muster,682.77,Euro,versendet,4,2024-10-14,synthetic-normal
+eco-000000156,156,Prüfsummenstrasse 157,Nordhafen,45364,deu,49.1313631,11.5019838,ORD-2024156,Toni Testmann,454.48,€,storniert,2,04/11/2024,synthetic-normal
+eco-000000157,157,Qualitätsring 158,Nordhafen,53283,DE,48.0106038,9.289229,ORD-2024157,Luca Beispiel,222.67,EUR,bezahlt,2,2024/11/05,synthetic-normal
+eco-000000158,158,Pipelineweg 159,Vektorstetten,61202,D,49.3603224,14.3022653,ORD-2024158,Toni Synthetik,301.49,EUR,bezahlt,6,2024-11-06,synthetic-normal
+eco-000000159,159,Prüfsummenstraße 160,Datenheim,69121,deu,51.606889,13.6148703,ORD-2024159,Chris Datenberg,678.27,eur,neu,9,07/11/2024,synthetic-normal
+eco-000000160,160,  Vektorallee   112 ,WESTBOGEN,89009,D,53.099442,11.0800804,ORD-2024111,Chris Datenberg,33.98,€,versendet,4,2024-09-20,synthetic-normal
+eco-000000161,161,Datenstrasse 155,Westbogen,29526,DE,51.9955478,11.9341435,ORD-2024154,Luca Demoholz,637.92,Euro,neu,1,2024/11/02,synthetic-normal
+eco-000000162,162,Datenstr. 163, Ostfeld ,12878,D,49.0338518,10.8879471,ORD-2024162,Nika Datenberg,697.33,eur,retourniert,11,2024/11/10,synthetic-normal
+eco-000000163,163,Pipelineweg 164,Ostfeld,20797,deu,52.9213802,8.7134397,ORD-2024163,Kim Beispiel,719.26,EUR,versendet,8,11/11/2024,synthetic-normal
+eco-000000164,164,  Spaltenweg   165,Nordhafen,ABCDE,Deutschland,51.5120705,11.2917059,ORD-2024164,Chris Datenberg,,EUR,versendet,7,2024/11/12,synthetic-error
+eco-000000165,165,Vektorallee 166,Ostfeld,36635,deu,47.7808303,9.7990217,ORD-2024165,Nika Testmann,345.76,Euro,neu,6,13/11/2024,synthetic-normal
+eco-000000166,166,  Qualitätsring   167,Westbogen,44554,DE,54.5110583,8.8563984,ORD-2024166,Nika Testmann,448.74,Euro,versendet,7,14.11.2024,synthetic-normal
+eco-000000167,167,Spaltenweg 168,Ostfeld,52473,Deutschland,49.515006,12.1936115,ORD-2024167,Luca Synthetik,627.29,eur,versendet,7,15/11/2024,synthetic-normal
+eco-000000168,168,Qualitätsring 169,Datenheim,60392,DE,54.542835,10.0469245,ORD-2024168,Sascha Datenberg,106.93,€,neu,7,2024/11/16,synthetic-normal
+eco-000000169,169,  Vektorallee   170,Nordhafen,68311,D,54.8293247,10.2089592,ORD-2024169,Nika Synthetik,231.15,Euro,retourniert,1,17/11/2024,synthetic-normal
+eco-000000170,170,Pipelineweg 171,Vektorstetten,76230,Deutschland,48.5641725,11.4366367,ORD-2024170,Nika Testmann,536.47,Euro,neu,1,2024-11-18,synthetic-normal
+eco-000000171,171,  Qualitätsring   172, Ostfeld ,84149,deu,49.9217521,6.0259764,ORD-2024171,Kim Testmann,469.32,Euro,neu,2,19.11.2024,synthetic-normal
+eco-000000172,172,Spaltenweg 173,Ostfeld,12068,D,49.723712,8.5624296,ORD-2024172,Kim Beispiel,706.92,€,neu,11,20.11.2024,synthetic-normal
+eco-000000173,173,Vektorallee 174,Ostfeld,19987,deu,53.362944,11.5937949,ORD-2024173,Robin Demoholz,466.81,Euro,storniert,1,21.11.2024,synthetic-normal
+eco-000000174,174,Qualitätsring 175,Vektorstetten,27906,DE,51.6878441,13.1554217,ORD-2024174,Robin Testmann,8.98,€,bezahlt,8,2024-11-22,synthetic-normal
+eco-000000175,175,  Koordinatenplatz   176,Datenheim,35825,DE,49.9442272,13.5787638,ORD-2024175,Robin Demoholz,477.3,€,retourniert,10,2024-11-23,synthetic-normal
+eco-000000176,176,Pipelineweg 177,Südwinkel,43744,D,50.4786172,7.0683791,ORD-2024176,Nika Datenberg,218.52,eur,storniert,11,24.11.2024,synthetic-normal
+eco-000000177,177,  Koordinatenplatz   178,Westbogen,51663,DE,50.9830278,7.5951821,ORD-2024177,Nika Synthetik,130.57,Euro,storniert,11,2024/11/25,synthetic-normal
+eco-000000178,178,Pipelineweg 179,Südwinkel,59582,Deutschland,47.5484827,7.8685594,ORD-2024178,Toni Muster,442.39,Euro,retourniert,12,2024/11/26,synthetic-normal
+eco-000000179,179,Koordinatenplatz 180,Ostfeld,,deu,54.8222955,6.7422312,ORD-2024179,Sascha Testmann,"99,90 EUR",EUR,storniert,5,27/11/2024,synthetic-error
+eco-000000180,180,  Koordinatenplatz   181, Südwinkel ,75420,deu,13.2100525,53.482827,ORD-2024180,Chris Synthetik,-12.50,€,retourniert,9,28.11.2024,synthetic-error
+eco-000000181,181,Pipelineweg 182,Ostfeld,83339,DE,54.8428953,13.7768378,ORD-2024181,Robin Demoholz,517.6,eur,bezahlt,3,29/11/2024,synthetic-normal
+eco-000000182,182,Spaltenweg 183,Westbogen,11258,D,50.1513097,6.4947497,ORD-2024182,Kim Datenberg,610.23,€,versendet,8,2024/11/30,synthetic-normal
+eco-000000183,183,Spaltenweg 184,,19177,D,48.9555075,9.7527165,ORD-2024183,Sascha Datenberg,"1.234,56",€,versendet,5,01/12/2024,synthetic-error
+eco-000000184,184,Koordinatenplatz 185,Vektorstetten,27096,D,47.4237383,14.3507825,ORD-2024184,Robin Datenberg,439.38,Euro,neu,7,02.12.2024,synthetic-normal
+eco-000000185,185,Schemaweg 186,Westbogen,35015,DE,52.2748685,8.1035814,ORD-2024185,Chris Demoholz,794.52,eur,neu,7,03/12/2024,synthetic-normal
+eco-000000186,186,Pipelineweg 187,Ostfeld,42934,DE,48.3085184,7.8809559,ORD-2024186,Luca Beispiel,389.16,EUR,versendet,2,2024/12/04,synthetic-normal
+eco-000000187,187,Pipelineweg 188,Westbogen,50853,Deutschland,48.3421826,12.9158364,ORD-2024187,Robin Demoholz,209.91,eur,neu,9,2024-12-05,synthetic-normal
+eco-000000188,188,Qualitätsring 189,Datenheim,58772,D,53.8357152,6.5975299,ORD-2024188,Kim Muster,319.31,EUR,retourniert,12,2024/12/06,synthetic-normal
+eco-000000189,189,Qualitätsring 190, Südwinkel ,66691,Deutschland,53.2201694,12.1523799,ORD-2024189,Toni Muster,713.01,eur,storniert,5,2024-12-07,synthetic-normal
+eco-000000190,190,Prüfsummenstraße 191,Vektorstetten,74610,DE,51.3149774,14.7948119,ORD-2024190,Chris Testmann,219.21,eur,storniert,10,2024/12/08,synthetic-normal
+eco-000000191,191,Pipelineweg 192,Nordhafen,82529,Deutschland,48.9396463,14.2877295,ORD-2024191,Nika Synthetik,687.64,€,retourniert,7,2024/12/09,synthetic-normal
+eco-000000192,192,Vektorallee 193,Nordhafen,10448,deu,120,7.2294696,ORD-2024192,Chris Datenberg,"99,90 EUR",EUR,versendet,12,2024/12/10,synthetic-error
+eco-000000193,193,Datenstr. 194,Vektorstetten,18367,deu,48.2077669,12.3126856,ORD-2024193,Alex Muster,108.81,Euro,versendet,9,11/12/2024,synthetic-normal
+eco-000000194,194,Schemaweg 195,Nordhafen,26286,Deutschland,53.4340196,8.3022215,ORD-2024194,Kim Testmann,704.11,EUR,storniert,8,12/12/2024,synthetic-normal
+eco-000000195,195,Schemaweg 146 ,DATENHEIM,38255,deu,52.0575478,9.7302454,ORD-2024145,Luca Beispiel,375.14,€,storniert,9,24/10/2024,synthetic-normal
+eco-000000196,196,Pipelineweg 197,Nordhafen,42124,DE,53.8260365,5.9130503,ORD-2024196,Alex Datenberg,805.37,€,storniert,3,14.12.2024,synthetic-normal
+eco-000000197,197,Prüfsummenstrasse 198,Ostfeld,50043,Deutschland,49.3615605,6.516561,ORD-2024197,Chris Beispiel,499.81,EUR,bezahlt,4,2024-12-15,synthetic-normal
+eco-000000198,198,Schemaweg 199, Ostfeld ,57962,DE,-100,8.4826748,ORD-2024198,Toni Demoholz,n/a,eur,storniert,6,2024/12/16,synthetic-error
+eco-000000199,199,Koordinatenplatz 200,Nordhafen,65881,D,53.7524455,12.4903784,ORD-2024199,Kim Muster,26.4,eur,storniert,8,2024-12-17,synthetic-normal
+eco-000000200,200,Datenstrasse 201,Datenheim,73800,D,52.6264365,9.2269262,ORD-2024200,Kim Synthetik,255.44,EUR,retourniert,3,2024/12/18,synthetic-normal
+eco-000000201,201,Schemaweg 146 ,DATENHEIM,38255,deu,52.0575478,9.7302454,ORD-2024145,Luca Beispiel,375.14,€,storniert,9,24/10/2024,synthetic-normal
+eco-000000202,202,  Koordinatenplatz   203,Vektorstetten,89638,Deutschland,49.7172387,8.301994,ORD-2024202,Kim Muster,266.05,eur,retourniert,2,20.12.2024,synthetic-normal
+eco-000000203,203,Pipelineweg 204,Südwinkel,17557,D,49.6431387,8.2380729,ORD-2024203,Kim Beispiel,286.06,eur,versendet,12,2024-12-21,synthetic-normal
+eco-000000204,204,Qualitätsring 205,Nordhafen,25476,Deutschland,49.2772676,14.9142249,ORD-2024204,Alex Datenberg,137.75,Euro,retourniert,12,22.12.2024,synthetic-normal
+eco-000000205,205,Datenstraße 206,Südwinkel,33395,deu,,9.4853526,ORD-2024205,Kim Synthetik,"1.234,56",€,neu,1,2024-12-23,synthetic-error
+eco-000000206,206,Pipelineweg 207,Nordhafen,41314,deu,not-a-number,9.7850387,ORD-2024206,Nika Datenberg,n/a,EUR,storniert,11,2024/12/24,synthetic-error
+eco-000000207,207,Vektorallee 208, Datenheim ,49233,deu,52.2193158,10.3898028,ORD-2024207,Luca Beispiel,255.47,EUR,versendet,7,25.12.2024,synthetic-normal
+eco-000000208,208,Qualitätsring 209,Vektorstetten,57152,Deutschland,50.9456017,12.989203,ORD-2024208,Chris Synthetik,718.49,€,storniert,5,26.12.2024,synthetic-normal
+eco-000000209,209,Koordinatenplatz 153 ,SÜDWINKEL,13688,D,51.4848832,14.4798738,ORD-2024152,Chris Testmann,141.41,Euro,storniert,8,31.10.2024,synthetic-normal
+eco-000000210,210,Spaltenweg 211,Südwinkel,72990,deu,48.061021,11.8431527,ORD-2024210,Toni Synthetik,57.44,EUR,bezahlt,10,2024/12/28,synthetic-normal
+eco-000000211,211,Vektorallee 212,Vektorstetten,80909,Deutschland,54.246248,6.0595004,ORD-2024211,Chris Synthetik,761.47,eur,retourniert,4,2024/12/29,synthetic-normal
+eco-000000212,212,Datenstrasse 213,Nordhafen,88828,D,47.3051946,14.2446449,ORD-2024212,Sascha Muster,38.98,€,bezahlt,6,2024-12-30,synthetic-normal
+eco-000000213,213,Koordinatenplatz 57,Ostfeld,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000214,214,Pipelineweg 215,Vektorstetten,24666,D,8.8963619,51.7537266,ORD-2024214,Chris Muster,n/a,eur,storniert,11,2025/01/01,synthetic-error
+eco-000000215,215,Koordinatenplatz 216,Südwinkel,32585,D,49.6318565,12.1341856,ORD-2024215,Robin Muster,625.74,EUR,retourniert,7,2025-01-02,synthetic-normal
+eco-000000216,216,Qualitätsring 217, Südwinkel ,40504,Deutschland,52.9646093,7.9895625,ORD-2024216,Chris Muster,728.88,EUR,versendet,8,2025-01-03,synthetic-normal
+eco-000000217,217,Schemaweg 218,Nordhafen,48423,D,50.6304731,9.6608097,ORD-2024217,Robin Datenberg,65.68,Euro,storniert,6,2025/01/04,synthetic-normal
+eco-000000218,218,Qualitätsring 219,Nordhafen,56342,Deutschland,47.4525928,8.2023749,ORD-2024218,Kim Beispiel,778.33,€,bezahlt,7,05.01.2025,synthetic-normal
+eco-000000219,219,Pipelineweg 220,Datenheim,64261,D,52.6542353,9.7681747,ORD-2024219,Robin Synthetik,808.82,Euro,bezahlt,1,2025-01-06,synthetic-normal
+eco-000000220,220,Schemaweg 1,Nordhafen,72180,DE,50.2860568,10.8568962,ORD-2024220,Luca Muster,371.31,EUR,versendet,1,2025/01/07,synthetic-normal
+eco-000000221,221,Spaltenweg 2,Südwinkel,80099,deu,52.150249,14.7889308,ORD-2024221,Luca Beispiel,564.46,€,storniert,8,2025/01/08,synthetic-normal
+eco-000000222,222,Prüfsummenstrasse 3,Ostfeld,88018,Deutschland,48.7180304,6.2104757,ORD-2024222,Luca Datenberg,579.47,€,bezahlt,5,2025-01-09,synthetic-normal
+eco-000000223,223,  Koordinatenplatz   4,Datenheim,15937,deu,51.5073745,13.5353339,ORD-2024223,Nika Synthetik,91.55,Euro,retourniert,4,2025/01/10,synthetic-normal
+eco-000000224,224,Datenstrasse 5,Ostfeld,23856,deu,54.5128673,7.337916,ORD-2024224,Sascha Muster,769.28,eur,neu,7,2025-01-11,synthetic-normal
+eco-000000225,225,Vektorallee 6, Vektorstetten ,31775,DE,47.9614086,10.9185507,ORD-2024225,Chris Testmann,897.56,Euro,neu,12,2025/01/12,synthetic-normal
+eco-000000226,226,Pipelineweg 7,Nordhafen,39694,Deutschland,53.892812,13.8972492,ORD-2024226,Nika Testmann,512.1,Euro,storniert,10,2025/01/13,synthetic-normal
+eco-000000227,227,Koordinatenplatz 71 ,VEKTORSTETTEN,84330,D,54.2113461,8.5801496,ORD-2024070,Nika Beispiel,849.14,eur,neu,1,10/08/2024,synthetic-normal
+eco-000000228,228,Prüfsummenstr. 9,Nordhafen,55532,D,54.2983459,14.0526885,ORD-2024228,Alex Testmann,364.54,€,versendet,5,2025/01/15,synthetic-normal
+eco-000000229,229,Qualitätsring 10,Vektorstetten,63451,D,53.1826348,8.7519885,ORD-2024229,Nika Synthetik,875.38,EUR,bezahlt,8,16.01.2025,synthetic-normal
+eco-000000230,230,Koordinatenplatz 11,Südwinkel,71370,DE,49.6645355,10.4625165,ORD-2024230,Robin Synthetik,438.59,EUR,bezahlt,4,17.01.2025,synthetic-normal
+eco-000000231,231,Koordinatenplatz 12,Ostfeld,79289,D,52.1291145,6.9396303,ORD-2024231,Alex Muster,413.52,€,storniert,10,2025/01/18,synthetic-normal
+eco-000000232,232,Koordinatenplatz 13,Westbogen,87208,DE,49.4665273,9.3564042,ORD-2024232,Robin Synthetik,530.26,eur,bezahlt,11,19.01.2025,synthetic-normal
+eco-000000233,233,Datenstraße 14,Südwinkel,15127,deu,51.8686788,5.8778663,ORD-2024233,Toni Synthetik,371.51,€,versendet,7,2025/01/20,synthetic-normal
+eco-000000234,234,  Schemaweg   15, Nordhafen ,23046,Deutschland,51.5670741,11.2627074,ORD-2024234,Toni Testmann,200.3,EUR,storniert,2,21/01/2025,synthetic-normal
+eco-000000235,235,Schemaweg 16,Datenheim,30965,deu,54.1376215,13.2099544,ORD-2024235,Nika Demoholz,776.03,€,bezahlt,12,2025-01-22,synthetic-normal
+eco-000000236,236,  Prüfsummenstraße   17,Nordhafen,38884,deu,49.9080696,12.3629975,ORD-2024236,Luca Demoholz,237.19,€,retourniert,5,23.01.2025,synthetic-normal
+eco-000000237,237,  Pipelineweg   18,Westbogen,46803,deu,54.4966177,14.0762387,ORD-2024237,Kim Muster,167.12,€,bezahlt,12,24/01/2025,synthetic-normal
+eco-000000238,238,  Schemaweg   19,Ostfeld,54722,DE,53.8845896,11.1688865,ORD-2024238,Kim Datenberg,337.66,eur,retourniert,2,2025/01/25,synthetic-normal
+eco-000000239,239,Vektorallee 20,Westbogen,62641,D,54.8026562,14.0141751,ORD-2024239,Luca Muster,784.41,€,bezahlt,2,2025/01/26,synthetic-normal
+eco-000000240,240,Datenstraße 21,Südwinkel,70560,deu,51.6797198,7.2576031,ORD-2024240,Kim Muster,285.51,Euro,storniert,7,2025/01/27,synthetic-normal
+eco-000000241,241,Qualitätsring 22,Westbogen,78479,deu,47.4361626,5.8379393,ORD-2024241,Sascha Muster,38.76,€,versendet,3,2025-01-28,synthetic-normal
+eco-000000242,242,Datenstr. 23,Ostfeld,86398,Deutschland,50.5958557,12.1183774,ORD-2024242,Robin Testmann,154.48,Euro,versendet,4,29.01.2025,synthetic-normal
+eco-000000243,243,Qualitätsring 24, Südwinkel ,14317,deu,52.8789823,11.2251741,ORD-2024243,Robin Beispiel,366.04,€,neu,7,30/01/2025,synthetic-normal
+eco-000000244,244,Datenstraße 25,Nordhafen,22236,DE,52.5420981,9.6343352,ORD-2024244,Nika Beispiel,536.56,€,storniert,12,31.01.2025,synthetic-normal
+eco-000000245,245,Prüfsummenstraße 26,Westbogen,30155,deu,50.4830757,14.0673217,ORD-2024245,Kim Testmann,13.33,EUR,neu,8,01.02.2025,synthetic-normal
+eco-000000246,246,Qualitätsring 27,Westbogen,38074,deu,47.5994834,10.3664634,ORD-2024246,Sascha Demoholz,749.19,Euro,versendet,4,2025-02-02,synthetic-normal
+eco-000000247,247,Prüfsummenstr. 23,Westbogen,24218,deu,52.1420617,8.2099884,ORD-2024022,Luca Synthetik,87.61,Euro,retourniert,1,2024-06-23,synthetic-normal
+eco-000000248,248,Pipelineweg 29,Nordhafen,53912,Deutschland,52.1969596,10.0021114,ORD-2024248,Toni Testmann,138.48,Euro,neu,2,04.02.2025,synthetic-normal
+eco-000000249,249,  Koordinatenplatz   30,Nordhafen,61831,DE,47.3735097,7.0732289,ORD-2024249,Robin Testmann,327.39,€,storniert,10,05/02/2025,synthetic-normal
+eco-000000250,250,  Pipelineweg   31,Ostfeld,69750,Deutschland,120,12.1471024,ORD-2024250,Luca Datenberg,-12.50,eur,neu,3,2025-02-06,synthetic-error
+eco-000000251,251,Spaltenweg 32,Westbogen,77669,DE,53.8555759,13.8955423,ORD-2024251,Robin Datenberg,723.03,Euro,neu,7,2025/02/07,synthetic-normal
+eco-000000252,252,Schemaweg 67,Vektorstetten,52654,D,49.3860509,11.006547,ORD-2024066,Alex Synthetik,326.27,Euro,versendet,4,06/08/2024,synthetic-normal
+eco-000000253,253,Prüfsummenstrasse 3,Ostfeld,88018,Deutschland,48.7180304,6.2104757,ORD-2024222,Luca Datenberg,579.47,€,bezahlt,5,2025-01-09,synthetic-normal
+eco-000000254,254,Koordinatenplatz 35,Vektorstetten,21426,deu,50.9626655,11.9061379,ORD-2024254,Nika Muster,510.69,EUR,neu,11,10.02.2025,synthetic-normal
+eco-000000255,255,Vektorallee 36,Westbogen,29345,deu,49.8148008,8.3590456,ORD-2024255,Sascha Synthetik,448.77,Euro,storniert,4,2025-02-11,synthetic-normal
+eco-000000256,256,  Spaltenweg   37,Ostfeld,37264,DE,48.0800892,9.5935146,ORD-2024256,Alex Beispiel,406.05,€,retourniert,9,12.02.2025,synthetic-normal
+eco-000000257,257,Datenstrasse 38,Westbogen,45183,D,52.7466013,9.1423098,ORD-2024257,Luca Beispiel,310.06,EUR,bezahlt,1,13/02/2025,synthetic-normal
+eco-000000258,258,Koordinatenplatz 39,Südwinkel,53102,D,48.3674138,12.3950762,ORD-2024258,Nika Beispiel,720.92,€,retourniert,4,14.02.2025,synthetic-normal
+eco-000000259,259,Qualitätsring 40,Ostfeld,61021,DE,54.3423616,13.5046894,ORD-2024259,Kim Datenberg,197.95,Euro,retourniert,9,15.02.2025,synthetic-normal
+eco-000000260,260,  Prüfsummenstraße   41,,68940,deu,52.8517594,6.9811124,ORD-2024260,Nika Demoholz,"99,90 EUR",€,retourniert,7,2025/02/16,synthetic-error
+eco-000000261,261,Koordinatenplatz 42, Südwinkel ,76859,deu,50.4368656,12.2401314,ORD-2024261,Toni Demoholz,249.87,€,retourniert,11,17.02.2025,synthetic-normal
+eco-000000262,262,Koordinatenplatz 43,Vektorstetten,84778,deu,51.1295901,12.1876702,ORD-2024262,Chris Demoholz,265.07,EUR,versendet,9,2025/02/18,synthetic-normal
+eco-000000263,263,  Schemaweg   44,Datenheim,12697,DE,47.4920683,7.1370057,ORD-2024263,Alex Muster,640.56,€,bezahlt,5,19/02/2025,synthetic-normal
+eco-000000264,264,Datenstr. 45,Nordhafen,20616,deu,52.9423368,,ORD-2024264,Sascha Synthetik,-12.50,€,neu,7,2025/02/20,synthetic-error
+eco-000000265,265,Schemaweg 46,Ostfeld,28535,deu,54.2272965,12.2825874,ORD-2024265,Chris Synthetik,16.6,eur,bezahlt,5,2025/02/21,synthetic-normal
+eco-000000266,266,Vektorallee 47,Ostfeld,36454,Deutschland,51.5301495,6.9966121,ORD-2024266,Toni Beispiel,172.34,€,storniert,12,22.02.2025,synthetic-normal
+eco-000000267,267,Vektorallee 166,Ostfeld,36635,deu,47.7808303,9.7990217,ORD-2024165,Nika Testmann,345.76,Euro,neu,6,13/11/2024,synthetic-normal
+eco-000000268,268,  Schemaweg   49,Datenheim,52292,Deutschland,47.853894,12.3106704,ORD-2024268,Sascha Muster,759.61,EUR,retourniert,3,2025/02/24,synthetic-normal
+eco-000000269,269,Qualitätsring 50,Westbogen,60211,deu,54.5223429,11.4881815,ORD-2024269,Luca Synthetik,317.72,EUR,neu,11,25/02/2025,synthetic-normal
+eco-000000270,270,Qualitätsring 51, Westbogen ,68130,D,54.2610865,14.4938866,ORD-2024270,Nika Testmann,554.26,€,neu,9,26/02/2025,synthetic-normal
+eco-000000271,271,Schemaweg 52,Nordhafen,76049,DE,48.5722006,14.5977411,ORD-2024271,Alex Demoholz,440.69,EUR,bezahlt,11,27.02.2025,synthetic-normal
+eco-000000272,272,Prüfsummenstraße 53,Südwinkel,83968,DE,50.7901118,8.8517815,ORD-2024272,Kim Beispiel,98.01,EUR,bezahlt,5,2025-02-28,synthetic-normal
+eco-000000273,273,  Prüfsummenstraße   54,Ostfeld,11887,Deutschland,47.4283714,11.9943483,ORD-2024273,Alex Demoholz,236.49,EUR,retourniert,1,2025-03-01,synthetic-normal
+eco-000000274,274,Schemaweg 55,Ostfeld,19806,D,50.3028608,11.8786531,ORD-2024274,Luca Muster,264.4,eur,bezahlt,12,2025/03/02,synthetic-normal
+eco-000000275,275,Vektorallee 56,Vektorstetten,27725,Deutschland,54.5761765,5.9025819,ORD-2024275,Robin Beispiel,269.01,EUR,neu,10,2025/03/03,synthetic-normal
+eco-000000276,276,Koordinatenplatz 57,Vektorstetten,35644,deu,48.5232531,7.8312493,ORD-2024276,Toni Muster,277.7,EUR,bezahlt,11,2025-03-04,synthetic-normal
+eco-000000277,277,Spaltenweg 58,Nordhafen,43563,Deutschland,48.0463383,12.4754212,ORD-2024277,Luca Testmann,894.91,€,bezahlt,11,05.03.2025,synthetic-normal
+eco-000000278,278,  Koordinatenplatz   59,Datenheim,51482,Deutschland,52.5702818,7.2020337,ORD-2024278,Chris Testmann,810.61,Euro,bezahlt,1,06/03/2025,synthetic-normal
+eco-000000279,279,Prüfsummenstr. 60, Südwinkel ,59401,Deutschland,53.9719323,10.0582051,ORD-2024279,Chris Testmann,667.14,Euro,retourniert,2,07.03.2025,synthetic-normal
+eco-000000280,280,Qualitätsring 61,,67320,DE,52.8284328,14.0073677,ORD-2024280,Alex Synthetik,-12.50,Euro,retourniert,4,2025-03-08,synthetic-error
+eco-000000281,281,Vektorallee 62,Datenheim,75239,Deutschland,48.3174976,10.4103332,ORD-2024281,Kim Datenberg,488.01,€,retourniert,1,09.03.2025,synthetic-normal
+eco-000000282,282,Vektorallee 63,Südwinkel,83158,deu,52.8929905,10.2482314,ORD-2024282,Chris Beispiel,554.56,eur,storniert,4,2025-03-10,synthetic-normal
+eco-000000283,283,  Koordinatenplatz   64,Ostfeld,11077,DE,47.6032757,11.7664277,ORD-2024283,Kim Demoholz,603.38,€,versendet,10,11.03.2025,synthetic-normal
+eco-000000284,284,Pipelineweg 65,Südwinkel,18996,D,49.9820249,13.7830187,ORD-2024284,Luca Datenberg,530.97,EUR,retourniert,3,2025/03/12,synthetic-normal
+eco-000000285,285,Vektorallee 66,Datenheim,26915,DE,52.3244333,200.0,ORD-2024285,Chris Demoholz,-12.50,EUR,storniert,11,2025/03/13,synthetic-error
+eco-000000286,286,Qualitätsring 67,Datenheim,34834,deu,48.3239028,10.5163139,ORD-2024286,Robin Beispiel,372.75,eur,versendet,3,2025/03/14,synthetic-normal
+eco-000000287,287,Schemaweg 68,Datenheim,42753,D,53.8914982,7.3692144,ORD-2024287,Nika Synthetik,21.66,eur,retourniert,3,15/03/2025,synthetic-normal
+eco-000000288,288,Pipelineweg 69, Südwinkel ,50672,DE,47.425876,10.6089444,ORD-2024288,Nika Muster,830.5,EUR,bezahlt,8,2025-03-16,synthetic-normal
+eco-000000289,289,  Pipelineweg   70,Datenheim,58591,DE,54.116964,12.9288079,ORD-2024289,Nika Synthetik,678.38,Euro,versendet,1,2025/03/17,synthetic-normal
+eco-000000290,290,Prüfsummenstr. 71,Vektorstetten,66510,DE,50.5337194,8.1415659,ORD-2024290,Sascha Beispiel,711.65,€,retourniert,9,2025/03/18,synthetic-normal
+eco-000000291,291,Pipelineweg 72,,74429,Deutschland,50.4072226,6.7805656,ORD-2024291,Nika Demoholz,"1.234,56",€,versendet,9,2025/03/19,synthetic-error
+eco-000000292,292,  Qualitätsring   73,Datenheim,82348,D,48.6582689,10.9436632,ORD-2024292,Luca Testmann,614.14,€,retourniert,6,2025/03/20,synthetic-normal
+eco-000000293,293,  Qualitätsring   74,Südwinkel,10267,DE,48.9298819,9.4851603,ORD-2024293,Chris Synthetik,595.06,EUR,bezahlt,7,2025-03-21,synthetic-normal
+eco-000000294,294,Prüfsummenstraße 75,Südwinkel,18186,Deutschland,47.908302,6.1473491,ORD-2024294,Nika Datenberg,427.14,€,retourniert,1,22.03.2025,synthetic-normal
+eco-000000295,295,Schemaweg 76,Datenheim,26105,deu,51.9754439,12.0010243,ORD-2024295,Chris Muster,185.53,EUR,bezahlt,2,23/03/2025,synthetic-normal
+eco-000000296,296,Qualitätsring 77,Nordhafen,34024,DE,51.4769042,12.4804761,ORD-2024296,Chris Testmann,358.65,€,bezahlt,10,24.03.2025,synthetic-normal
+eco-000000297,297,  Vektorallee   78, Datenheim ,41943,DE,51.1240857,8.9276862,ORD-2024297,Kim Synthetik,9.16,€,retourniert,10,25/03/2025,synthetic-normal
+eco-000000298,298,Qualitätsring 79,Ostfeld,49862,D,54.1135811,13.7306142,ORD-2024298,Luca Beispiel,509.04,€,neu,7,26.03.2025,synthetic-normal
+eco-000000299,299,Koordinatenplatz 80,Westbogen,57781,deu,49.4834008,9.4701619,ORD-2024299,Chris Beispiel,287.58,eur,storniert,6,27/03/2025,synthetic-normal
+eco-000000300,300,  Qualitätsring   81,Südwinkel,65700,deu,53.932843,7.7023634,ORD-2024300,Sascha Muster,168.59,€,bezahlt,2,2025-03-28,synthetic-normal
+eco-000000301,301,Datenstraße 82,Westbogen,73619,Deutschland,51.0417869,14.8653242,ORD-2024301,Toni Datenberg,598.76,eur,retourniert,5,2025/03/29,synthetic-normal
+eco-000000302,302,  Prüfsummenstraße   83,Nordhafen,81538,Deutschland,50.2922486,12.1143155,ORD-2024302,Robin Datenberg,53.46,EUR,retourniert,8,30/03/2025,synthetic-normal
+eco-000000303,303,Pipelineweg 84,Westbogen,89457,deu,51.4690818,200.0,ORD-2024303,Luca Synthetik,"99,90 EUR",€,versendet,3,2025/03/31,synthetic-error
+eco-000000304,304,Prüfsummenstr. 85,Datenheim,17376,deu,54.7424706,12.1113096,ORD-2024304,Kim Demoholz,331.74,€,bezahlt,9,2025/04/01,synthetic-normal
+eco-000000305,305,  Vektorallee   86,Südwinkel,25295,D,51.0969435,14.9591683,ORD-2024305,Chris Datenberg,721.03,€,versendet,9,2025-04-02,synthetic-normal
+eco-000000306,306,  Schemaweg   87, Nordhafen ,33214,D,52.9589085,8.1898759,ORD-2024306,Chris Synthetik,58.73,€,versendet,1,2025/04/03,synthetic-normal
+eco-000000307,307,Qualitätsring 88,Westbogen,41133,Deutschland,49.7706862,10.4960896,ORD-2024307,Luca Beispiel,866.99,Euro,retourniert,5,2025/04/04,synthetic-normal
+eco-000000308,308,  Koordinatenplatz   89,Datenheim,49052,D,53.7516459,6.4563655,ORD-2024308,Robin Testmann,154.98,eur,versendet,6,05/04/2025,synthetic-normal
+eco-000000309,309,Spaltenweg 90,Datenheim,56971,D,50.4463169,7.491753,ORD-2024309,Alex Muster,358.93,eur,versendet,12,2025-04-06,synthetic-normal
+eco-000000310,310,Spaltenweg 91,Ostfeld,64890,DE,48.0898559,11.48654,ORD-2024310,Kim Demoholz,90.52,Euro,versendet,4,07.04.2025,synthetic-normal
+eco-000000311,311,Vektorallee 92,Westbogen,72809,Deutschland,53.8682327,10.09818,ORD-2024311,Toni Synthetik,118.14,Euro,bezahlt,12,08.04.2025,synthetic-normal
+eco-000000312,312,Prüfsummenstr. 93,Ostfeld,80728,deu,53.415779,9.8651148,ORD-2024312,Chris Datenberg,675.28,€,bezahlt,5,2025-04-09,synthetic-normal
+eco-000000313,313,Koordinatenplatz 70 ,NORDHAFEN,76411,Deutschland,51.3779495,9.9840315,ORD-2024069,Toni Synthetik,882.05,Euro,versendet,2,09.08.2024,synthetic-normal
+eco-000000314,314,Schemaweg 95,Westbogen,16566,deu,53.3554321,-220.0,ORD-2024314,Sascha Datenberg,,Euro,storniert,4,11.04.2025,synthetic-error
+eco-000000315,315,Schemaweg 96,,24485,Deutschland,50.4380695,13.6520346,ORD-2024315,Robin Muster,"99,90 EUR",€,neu,11,2025/04/12,synthetic-error
+eco-000000316,316,Koordinatenplatz 97,Datenheim,32404,DE,48.7131257,6.7409161,ORD-2024316,Toni Muster,445.34,Euro,neu,4,2025-04-13,synthetic-normal
+eco-000000317,317,  Schemaweg   98,Ostfeld,40323,DE,49.8098897,13.560626,ORD-2024317,Robin Beispiel,311.01,€,storniert,2,2025/04/14,synthetic-normal
+eco-000000318,318,Prüfsummenstraße 99,Vektorstetten,48242,deu,50.224464,14.7697444,ORD-2024318,Sascha Demoholz,228.82,EUR,bezahlt,8,2025-04-15,synthetic-normal
+eco-000000319,319,Schemaweg 100,Vektorstetten,56161,DE,52.9599068,10.8561355,ORD-2024319,Kim Testmann,428.18,Euro,versendet,4,16/04/2025,synthetic-normal
+eco-000000320,320,Pipelineweg 101,Westbogen,64080,DE,48.5719387,8.3401204,ORD-2024320,Kim Datenberg,199.92,eur,neu,1,2025/04/17,synthetic-normal
+eco-000000321,321,Qualitätsring 102,Vektorstetten,71999,Deutschland,54.3744508,14.9721525,ORD-2024321,Alex Beispiel,694.86,€,bezahlt,12,2025-04-18,synthetic-normal
+eco-000000322,322,  Koordinatenplatz   103,Nordhafen,79918,D,50.022073,7.039536,ORD-2024322,Alex Datenberg,883.6,Euro,retourniert,5,2025/04/19,synthetic-normal
+eco-000000323,323,Spaltenweg 104,Datenheim,87837,deu,47.823462,7.2262344,ORD-2024323,Toni Testmann,316.16,€,storniert,1,2025/04/20,synthetic-normal
+eco-000000324,324,Koordinatenplatz 105, Nordhafen ,15756,D,48.7430078,12.0856625,ORD-2024324,Robin Synthetik,559.66,€,versendet,7,21/04/2025,synthetic-normal
+eco-000000325,325,Vektorallee 106,Südwinkel,23675,DE,50.9888142,6.708533,ORD-2024325,Nika Demoholz,64.68,Euro,retourniert,10,22/04/2025,synthetic-normal
+eco-000000326,326,  Schemaweg   114,Datenheim,24847,Deutschland,52.5742529,14.9873854,ORD-2024113,Sascha Beispiel,239.29,eur,neu,8,22.09.2024,synthetic-normal
+eco-000000327,327,  Spaltenweg   107,Südwinkel,49414,DE,52.7419424,14.4811674,ORD-2024106,Alex Testmann,161.7,eur,neu,4,2024-09-15,synthetic-normal
+eco-000000328,328,Datenstr. 109,Ostfeld,47432,Deutschland,53.3362968,6.3363602,ORD-2024328,Toni Synthetik,423.91,EUR,neu,5,2025-04-25,synthetic-normal
+eco-000000329,329,  Qualitätsring   110,Datenheim,55351,deu,51.6322103,14.5170308,ORD-2024329,Nika Demoholz,91.92,EUR,retourniert,6,2025/04/26,synthetic-normal
+eco-000000330,330,  Vektorallee   111,Vektorstetten,63270,deu,51.3576436,11.3192247,ORD-2024330,Chris Testmann,98.17,€,versendet,7,2025/04/27,synthetic-normal
+eco-000000331,331,  Qualitätsring   112,Vektorstetten,71189,Deutschland,50.0360649,9.962112,ORD-2024331,Nika Beispiel,220.45,EUR,versendet,10,2025-04-28,synthetic-normal
+eco-000000332,332,Schemaweg 113,Westbogen,79108,DE,53.1635753,14.4788007,ORD-2024332,Toni Synthetik,275.15,eur,neu,1,2025/04/29,synthetic-normal
+eco-000000333,333,Qualitätsring 114, Westbogen ,87027,DE,51.6357024,11.0353974,ORD-2024333,Sascha Demoholz,333.54,EUR,versendet,8,30.04.2025,synthetic-normal
+eco-000000334,334,Pipelineweg 115,Datenheim,14946,D,47.8964282,6.3144889,ORD-2024334,Chris Testmann,634.05,Euro,storniert,2,01.05.2025,synthetic-normal
+eco-000000335,335,Prüfsummenstraße 116,Nordhafen,22865,Deutschland,51.4034659,7.1761362,ORD-2024335,Sascha Muster,836.14,EUR,storniert,8,2025-05-02,synthetic-normal
+eco-000000336,336,Vektorallee 117,Datenheim,30784,DE,51.4659583,8.2155334,ORD-2024336,Nika Synthetik,357.92,Euro,bezahlt,3,2025/05/03,synthetic-normal
+eco-000000337,337,Qualitätsring 118,Westbogen,38703,D,49.7579285,14.3020703,ORD-2024337,Kim Beispiel,588.76,Euro,storniert,6,04/05/2025,synthetic-normal
+eco-000000338,338,Schemaweg 119,Datenheim,46622,D,52.0361844,9.8522635,ORD-2024338,Sascha Muster,591.59,€,bezahlt,12,2025-05-05,synthetic-normal
+eco-000000339,339,Schemaweg 120,,54541,Deutschland,50.7204679,6.0092827,ORD-2024339,Sascha Demoholz,-12.50,eur,bezahlt,9,06/05/2025,synthetic-error
+eco-000000340,340,  Datenstraße   121,Vektorstetten,62460,DE,49.2414682,6.3530125,ORD-2024340,Sascha Demoholz,131.51,€,neu,8,2025-05-07,synthetic-normal
+eco-000000341,341,Schemaweg 119 ,DATENHEIM,46622,D,52.0361844,9.8522635,ORD-2024338,Sascha Muster,591.59,€,bezahlt,12,2025-05-05,synthetic-normal
+eco-000000342,342,Datenstr. 123, Vektorstetten ,78298,D,49.0568815,9.3024511,ORD-2024342,Kim Testmann,778.53,Euro,retourniert,9,2025-05-09,synthetic-normal
+eco-000000343,343,Datenstraße 124,Datenheim,86217,Deutschland,49.8351292,9.4192783,ORD-2024343,Robin Beispiel,414.9,€,versendet,6,10/05/2025,synthetic-normal
+eco-000000344,344,Datenstr. 125,Nordhafen,14136,Deutschland,49.0144285,8.9444326,ORD-2024344,Nika Demoholz,453.62,eur,neu,12,2025/05/11,synthetic-normal
+eco-000000345,345,  Qualitätsring   126,Südwinkel,22055,D,54.6760825,14.1695656,ORD-2024345,Chris Datenberg,786.07,eur,bezahlt,11,12.05.2025,synthetic-normal
+eco-000000346,346,Vektorallee 127,Datenheim,29974,deu,50.5684887,14.1628193,ORD-2024346,Robin Demoholz,186.07,eur,versendet,2,2025-05-13,synthetic-normal
+eco-000000347,347,Datenstr. 128,Ostfeld,37893,D,49.6054456,12.6596095,ORD-2024347,Toni Muster,135.24,eur,neu,3,14.05.2025,synthetic-normal
+eco-000000348,348,Koordinatenplatz 70 ,NORDHAFEN,76411,Deutschland,51.3779495,9.9840315,ORD-2024069,Toni Synthetik,882.05,Euro,versendet,2,09.08.2024,synthetic-normal
+eco-000000349,349,Qualitätsring 130,Vektorstetten,53731,D,48.3190584,13.5844718,ORD-2024349,Luca Demoholz,538.74,€,bezahlt,7,2025/05/16,synthetic-normal
+eco-000000350,350,Prüfsummenstraße 131,Ostfeld,61650,deu,52.9419866,14.8918394,ORD-2024350,Sascha Beispiel,207.51,eur,storniert,10,2025/05/17,synthetic-normal
+eco-000000351,351,  Prüfsummenstraße   132, Datenheim ,69569,D,52.7735269,9.4261865,ORD-2024351,Alex Synthetik,799.39,EUR,storniert,8,2025-05-18,synthetic-normal
+eco-000000352,352,  Datenstraße   133,Vektorstetten,77488,DE,48.7428626,9.8438956,ORD-2024352,Toni Testmann,486.39,Euro,bezahlt,7,19/05/2025,synthetic-normal
+eco-000000353,353,  Spaltenweg   134,Datenheim,85407,DE,,11.186119,ORD-2024353,Robin Datenberg,-12.50,Euro,versendet,8,2025-05-20,synthetic-error
+eco-000000354,354,Spaltenweg 135,Vektorstetten,13326,deu,52.7596479,6.9366068,ORD-2024354,Kim Demoholz,185.73,Euro,versendet,2,2025/05/21,synthetic-normal
+eco-000000355,355,  Vektorallee   136,Nordhafen,21245,deu,54.2331211,11.0025225,ORD-2024355,Robin Muster,552.8,eur,bezahlt,12,2025-05-22,synthetic-normal
+eco-000000356,356,Spaltenweg 137,Nordhafen,29164,deu,54.5992975,5.8325027,ORD-2024356,Toni Beispiel,692.92,Euro,storniert,8,2025-05-23,synthetic-normal
+eco-000000357,357,  Spaltenweg   138,Nordhafen,37083,DE,49.1598201,10.8355428,ORD-2024357,Sascha Beispiel,199.1,eur,bezahlt,1,24/05/2025,synthetic-normal
+eco-000000358,358,Pipelineweg 17,Datenheim,56704,DE,54.6643716,200.0,ORD-2024016,Sascha Muster,"99,90 EUR",Euro,storniert,8,17.06.2024,synthetic-error
+eco-000000359,359,Datenstraße 140,Südwinkel,52921,deu,52.4078878,11.4220258,ORD-2024359,Robin Datenberg,828.74,€,neu,2,26/05/2025,synthetic-normal
+eco-000000360,360,Prüfsummenstraße 141, Südwinkel ,60840,DE,52.5791077,8.3246506,ORD-2024360,Nika Synthetik,739.14,eur,bezahlt,10,2025-05-27,synthetic-normal
+eco-000000361,361,  Pipelineweg   142,Datenheim,68759,Deutschland,50.5456074,13.5997413,ORD-2024361,Toni Synthetik,567.94,€,bezahlt,10,2025/05/28,synthetic-normal
+eco-000000362,362,Vektorallee 143,Südwinkel,76678,DE,48.1983742,10.0769478,ORD-2024362,Kim Demoholz,445.79,eur,retourniert,7,2025/05/29,synthetic-normal
+eco-000000363,363,Koordinatenplatz 180,Ostfeld,,deu,54.8222955,6.7422312,ORD-2024179,Sascha Testmann,"99,90 EUR",EUR,storniert,5,27/11/2024,synthetic-error
+eco-000000364,364,Schemaweg 145,Datenheim,12516,Deutschland,-100,6.8472982,ORD-2024364,Chris Testmann,n/a,Euro,retourniert,10,2025-05-31,synthetic-error
+eco-000000365,365,Spaltenweg 146,Ostfeld,20435,deu,52.0667237,14.0069366,ORD-2024365,Chris Datenberg,606.86,Euro,neu,9,01/06/2025,synthetic-normal
+eco-000000366,366,Datenstrasse 147,Westbogen,28354,Deutschland,47.8032191,7.1736051,ORD-2024366,Alex Testmann,501.88,Euro,retourniert,3,2025/06/02,synthetic-normal
+eco-000000367,367,Koordinatenplatz 148,Nordhafen,ABCDE,D,53.9655704,9.2185689,ORD-2024367,Toni Muster,n/a,€,bezahlt,2,03/06/2025,synthetic-error
+eco-000000368,368,Spaltenweg 149,Ostfeld,44192,Deutschland,53.1940524,7.1183144,ORD-2024368,Kim Synthetik,27.32,eur,bezahlt,12,2025-06-04,synthetic-normal
+eco-000000369,369,Datenstr. 150, Vektorstetten ,52111,DE,49.8330021,13.9805101,ORD-2024369,Kim Synthetik,472.5,€,neu,10,05/06/2025,synthetic-normal
+eco-000000370,370,Schemaweg 151,Ostfeld,60030,DE,49.372172,7.2489633,ORD-2024370,Kim Beispiel,184.5,EUR,bezahlt,9,06/06/2025,synthetic-normal
+eco-000000371,371,Schemaweg 152,Westbogen,67949,Deutschland,51.408386,6.2666809,ORD-2024371,Alex Datenberg,849.23,EUR,neu,7,2025-06-07,synthetic-normal
+eco-000000372,372,Spaltenweg 153,Südwinkel,75868,DE,54.6999824,12.752835,ORD-2024372,Luca Synthetik,635.69,eur,neu,12,2025/06/08,synthetic-normal
+eco-000000373,373,  Spaltenweg   154,Südwinkel,83787,deu,53.8443317,11.4758672,ORD-2024373,Chris Datenberg,581.75,eur,versendet,6,2025/06/09,synthetic-normal
+eco-000000374,374,Spaltenweg 155,Westbogen,11706,deu,51.1604175,,ORD-2024374,Kim Testmann,,EUR,versendet,9,2025/06/10,synthetic-error
+eco-000000375,375,  Spaltenweg   156,Südwinkel,19625,D,53.2607862,9.8052541,ORD-2024375,Chris Synthetik,495.41,eur,bezahlt,11,2025-06-11,synthetic-normal
+eco-000000376,376,  Pipelineweg   157,Nordhafen,27544,D,48.6389224,14.5941277,ORD-2024376,Kim Synthetik,753.89,EUR,retourniert,7,12/06/2025,synthetic-normal
+eco-000000377,377,Vektorallee 158,Vektorstetten,35463,deu,50.7426056,8.4818299,ORD-2024377,Luca Muster,86.03,eur,versendet,5,13/06/2025,synthetic-normal
+eco-000000378,378,Koordinatenplatz 159, Datenheim ,43382,D,53.7420393,13.6430477,ORD-2024378,Alex Testmann,647.42,EUR,neu,12,14/06/2025,synthetic-normal
+eco-000000379,379,  Prüfsummenstraße   160,Vektorstetten,51301,D,50.3858482,9.8037484,ORD-2024379,Sascha Demoholz,32.91,eur,storniert,3,15.06.2025,synthetic-normal
+eco-000000380,380,Prüfsummenstrasse 161,Vektorstetten,59220,deu,48.3205086,6.4600632,ORD-2024380,Alex Muster,327.46,Euro,storniert,3,2025-06-16,synthetic-normal
+eco-000000381,381,Prüfsummenstrasse 162,Ostfeld,67139,D,50.2238319,7.8768164,ORD-2024381,Nika Synthetik,774.84,EUR,retourniert,8,17.06.2025,synthetic-normal
+eco-000000382,382,Koordinatenplatz 163,Datenheim,75058,D,52.6571073,6.8411122,ORD-2024382,Luca Demoholz,834.28,EUR,bezahlt,12,18/06/2025,synthetic-normal
+eco-000000383,383,  Qualitätsring   164,Vektorstetten,82977,DE,52.4989625,-220.0,ORD-2024383,Toni Synthetik,"1.234,56",EUR,versendet,9,2025-06-19,synthetic-error
+eco-000000384,384,Prüfsummenstr. 165,Westbogen,10896,Deutschland,48.573062,12.1944707,ORD-2024384,Toni Demoholz,661.76,€,neu,11,2025/06/20,synthetic-normal
+eco-000000385,385,Schemaweg 166,Nordhafen,18815,deu,51.1425304,13.6332964,ORD-2024385,Toni Testmann,592.41,eur,retourniert,5,21/06/2025,synthetic-normal
+eco-000000386,386,  Vektorallee   167,,26734,Deutschland,53.2472106,7.9730021,ORD-2024386,Robin Synthetik,-12.50,EUR,versendet,2,22.06.2025,synthetic-error
+eco-000000387,387,  Prüfsummenstraße   168, Ostfeld ,34653,deu,48.9025113,12.5561222,ORD-2024387,Chris Beispiel,448.87,€,neu,1,23.06.2025,synthetic-normal
+eco-000000388,388,  Qualitätsring   169,Ostfeld,42572,D,49.2959512,10.6800676,ORD-2024388,Nika Beispiel,431.26,€,storniert,7,24/06/2025,synthetic-normal
+eco-000000389,389,  Koordinatenplatz   170,Vektorstetten,50491,Deutschland,49.8457523,8.2572079,ORD-2024389,Kim Testmann,41.71,Euro,storniert,11,25.06.2025,synthetic-normal
+eco-000000390,390,Koordinatenplatz 171,Nordhafen,58410,DE,53.6208402,5.910045,ORD-2024390,Kim Synthetik,179.46,EUR,storniert,6,26.06.2025,synthetic-normal
+eco-000000391,391,Pipelineweg 172,Vektorstetten,66329,deu,54.5237161,11.6703625,ORD-2024391,Kim Beispiel,35.47,eur,storniert,11,27.06.2025,synthetic-normal
+eco-000000392,392,Spaltenweg 173,Westbogen,74248,D,52.5608833,11.9417287,ORD-2024392,Chris Testmann,231.74,eur,neu,5,2025-06-28,synthetic-normal
+eco-000000393,393,Schemaweg 174,Ostfeld,82167,deu,51.9382943,7.441668,ORD-2024393,Luca Beispiel,58.75,eur,retourniert,7,29.06.2025,synthetic-normal
+eco-000000394,394,Pipelineweg 175,Datenheim,10086,Deutschland,5.9726361,53.2070025,ORD-2024394,Luca Muster,n/a,EUR,neu,11,2025/06/30,synthetic-error
+eco-000000395,395,  Datenstraße   176,Ostfeld,18005,DE,51.4049782,5.8304277,ORD-2024395,Luca Beispiel,355.24,€,versendet,11,01/07/2025,synthetic-normal
+eco-000000396,396,Pipelineweg 177, Westbogen ,25924,DE,53.6929801,12.7961683,ORD-2024396,Toni Demoholz,863.15,eur,bezahlt,9,2025-07-02,synthetic-normal
+eco-000000397,397,Prüfsummenstraße 178,Westbogen,33843,D,47.9449549,11.6216797,ORD-2024397,Sascha Muster,272.49,EUR,bezahlt,1,03.07.2025,synthetic-normal
+eco-000000398,398,  Spaltenweg   179,,41762,DE,49.8785668,8.9070112,ORD-2024398,Alex Datenberg,n/a,EUR,bezahlt,11,2025/07/04,synthetic-error
+eco-000000399,399,Datenstrasse 180,Nordhafen,49681,D,54.1945595,11.4890232,ORD-2024399,Sascha Demoholz,832.71,eur,neu,3,2025-07-05,synthetic-normal
+eco-000000400,400,Vektorallee 181,Nordhafen,57600,DE,51.0782906,13.152412,ORD-2024400,Sascha Beispiel,92.08,eur,storniert,6,2024/06/01,synthetic-normal
+eco-000000401,401,Vektorallee 182,Südwinkel,65519,DE,51.8074479,8.8866343,ORD-2024401,Kim Testmann,520.49,eur,storniert,3,02/06/2024,synthetic-normal
+eco-000000402,402,Datenstrasse 183,Vektorstetten,73438,D,53.2102284,5.943799,ORD-2024402,Luca Beispiel,833.48,EUR,neu,3,2024-06-03,synthetic-normal
+eco-000000403,403,Spaltenweg 184,Vektorstetten,81357,Deutschland,51.2754602,9.5906882,ORD-2024403,Robin Synthetik,258.94,EUR,retourniert,3,2024/06/04,synthetic-normal
+eco-000000404,404,  Koordinatenplatz   185,Südwinkel,89276,deu,48.1930595,,ORD-2024404,Kim Synthetik,n/a,€,retourniert,9,05.06.2024,synthetic-error
+eco-000000405,405,  Vektorallee   186, Südwinkel ,17195,DE,47.7106099,9.1505762,ORD-2024405,Sascha Datenberg,178.38,€,versendet,10,2024/06/06,synthetic-normal
+eco-000000406,406,  Prüfsummenstrasse   160 ,VEKTORSTETTEN,51301,D,50.3858482,9.8037484,ORD-2024379,Sascha Demoholz,32.91,eur,storniert,3,15.06.2025,synthetic-normal
+eco-000000407,407,Pipelineweg 188,Vektorstetten,33033,D,51.8045706,8.7989453,ORD-2024407,Sascha Demoholz,31.01,€,bezahlt,2,08/06/2024,synthetic-normal
+eco-000000408,408,  Qualitätsring   189,Nordhafen,40952,D,51.7467012,6.2999221,ORD-2024408,Nika Muster,374.27,eur,retourniert,8,09.06.2024,synthetic-normal
+eco-000000409,409,Koordinatenplatz 190,Südwinkel,48871,DE,52.5608,6.3487958,ORD-2024409,Robin Beispiel,649.24,Euro,storniert,7,10.06.2024,synthetic-normal
+eco-000000410,410,Vektorallee 191,Datenheim,56790,deu,47.9572049,13.6841586,ORD-2024410,Luca Muster,269.17,Euro,storniert,5,2024-06-11,synthetic-normal
+eco-000000411,411,  Koordinatenplatz   192,Datenheim,64709,deu,54.2445359,14.0639165,ORD-2024411,Nika Beispiel,225.76,EUR,storniert,12,2024-06-12,synthetic-normal
+eco-000000412,412,  Pipelineweg   193,Nordhafen,72628,DE,52.5680148,9.5408863,ORD-2024412,Sascha Muster,729.7,€,versendet,4,2024-06-13,synthetic-normal
+eco-000000413,413,Datenstr. 123 , VEKTORSTETTEN ,78298,D,49.0568815,9.3024511,ORD-2024342,Kim Testmann,778.53,Euro,retourniert,9,2025-05-09,synthetic-normal
+eco-000000414,414,  Datenstraße   195, Südwinkel ,88466,D,48.7055876,13.8182766,ORD-2024414,Luca Demoholz,673.82,EUR,neu,7,15/06/2024,synthetic-normal
+eco-000000415,415,Qualitätsring 196,Westbogen,16385,DE,51.2119973,14.1720379,ORD-2024415,Chris Beispiel,678.83,EUR,storniert,6,2024/06/16,synthetic-normal
+eco-000000416,416,Pipelineweg 197,Westbogen,24304,deu,51.4012171,11.7711533,ORD-2024416,Sascha Demoholz,161.86,eur,versendet,6,17/06/2024,synthetic-normal
+eco-000000417,417,Koordinatenplatz 198,Datenheim,32223,DE,50.8732453,10.6935212,ORD-2024417,Toni Datenberg,53.74,€,neu,4,2024/06/18,synthetic-normal
+eco-000000418,418,Pipelineweg 199,Nordhafen,40142,deu,51.0720984,13.8499369,ORD-2024418,Alex Testmann,165.04,Euro,retourniert,3,2024/06/19,synthetic-normal
+eco-000000419,419,Schemaweg 200,Südwinkel,48061,Deutschland,50.4288571,8.9536908,ORD-2024419,Chris Datenberg,581.99,Euro,storniert,5,20.06.2024,synthetic-normal
+eco-000000420,420,  Qualitätsring   201,Westbogen,55980,DE,48.4273713,8.4163147,ORD-2024420,Robin Synthetik,711.39,eur,retourniert,5,21.06.2024,synthetic-normal
+eco-000000421,421,Vektorallee 202,Nordhafen,63899,Deutschland,51.6663913,9.8561755,ORD-2024421,Chris Muster,625.11,eur,retourniert,12,2024-06-22,synthetic-normal
+eco-000000422,422,Spaltenweg 203,Nordhafen,71818,DE,50.3746737,10.3946356,ORD-2024422,Robin Datenberg,137.41,€,bezahlt,1,23/06/2024,synthetic-normal
+eco-000000423,423,  Vektorallee   204, Nordhafen ,79737,D,54.141326,7.0826943,ORD-2024423,Kim Testmann,806.9,EUR,storniert,10,24.06.2024,synthetic-normal
+eco-000000424,424,Qualitätsring 205,Nordhafen,87656,D,14.610138,52.4456818,ORD-2024424,Nika Muster,-12.50,Euro,versendet,10,2024-06-25,synthetic-error
+eco-000000425,425,Prüfsummenstr. 206,Westbogen,15575,Deutschland,49.6414486,9.8992996,ORD-2024425,Kim Muster,387.74,Euro,storniert,8,26/06/2024,synthetic-normal
+eco-000000426,426,Prüfsummenstrasse 207,Datenheim,23494,DE,48.3916586,8.5897265,ORD-2024426,Chris Beispiel,808.46,Euro,neu,1,2024/06/27,synthetic-normal
+eco-000000427,427,Spaltenweg 208,Ostfeld,31413,Deutschland,51.5093886,6.1885428,ORD-2024427,Toni Synthetik,161.53,€,storniert,9,2024/06/28,synthetic-normal
+eco-000000428,428,  Schemaweg   209,Vektorstetten,39332,Deutschland,50.4703915,10.3253558,ORD-2024428,Sascha Beispiel,142.85,EUR,versendet,8,2024-06-29,synthetic-normal
+eco-000000429,429,Prüfsummenstr. 210,Ostfeld,47251,DE,50.1363368,12.5432069,ORD-2024429,Alex Testmann,435.03,eur,retourniert,1,30.06.2024,synthetic-normal
+eco-000000430,430,Vektorallee 211,Ostfeld,55170,Deutschland,47.6702332,8.4833097,ORD-2024430,Kim Synthetik,126.27,eur,bezahlt,2,01.07.2024,synthetic-normal
+eco-000000431,431,Schemaweg 212,Vektorstetten,63089,Deutschland,48.0283339,11.1364291,ORD-2024431,Robin Beispiel,745.01,eur,retourniert,5,02/07/2024,synthetic-normal
+eco-000000432,432,Vektorallee 213, Datenheim ,71008,deu,53.619959,13.114982,ORD-2024432,Kim Datenberg,829.21,Euro,neu,2,03.07.2024,synthetic-normal
+eco-000000433,433,Koordinatenplatz 214,Datenheim,78927,Deutschland,48.6087744,8.6030952,ORD-2024433,Kim Muster,283.86,eur,bezahlt,12,04.07.2024,synthetic-normal
+eco-000000434,434,Prüfsummenstraße 215,Ostfeld,86846,D,47.6231288,6.7919199,ORD-2024434,Alex Datenberg,883.09,EUR,versendet,1,2024-07-05,synthetic-normal
+eco-000000435,435,Qualitätsring 216,,14765,DE,47.9899228,13.581926,ORD-2024435,Toni Synthetik,"1.234,56",€,versendet,3,06.07.2024,synthetic-error
+eco-000000436,436,Qualitätsring 217,Südwinkel,22684,DE,54.6992073,,ORD-2024436,Sascha Synthetik,"1.234,56",Euro,versendet,12,07.07.2024,synthetic-error
+eco-000000437,437,  Prüfsummenstraße   218,Südwinkel,30603,D,48.1576256,14.8584373,ORD-2024437,Kim Datenberg,322.57,EUR,retourniert,3,2024/07/08,synthetic-normal
+eco-000000438,438,Datenstraße 219,Nordhafen,38522,D,49.455447,11.3235835,ORD-2024438,Toni Demoholz,503.63,Euro,bezahlt,9,2024/07/09,synthetic-normal
+eco-000000439,439,  Pipelineweg   220,Westbogen,46441,deu,47.3971724,12.002262,ORD-2024439,Kim Datenberg,173.96,Euro,retourniert,11,2024-07-10,synthetic-normal
+eco-000000440,440,Pipelineweg 1,Südwinkel,54360,Deutschland,48.8220026,13.5650714,ORD-2024440,Nika Beispiel,627.06,eur,storniert,12,2024/07/11,synthetic-normal
+eco-000000441,441,  Schemaweg   2, Vektorstetten ,62279,D,54.8051763,10.5050135,ORD-2024441,Robin Datenberg,525.82,EUR,neu,5,2024/07/12,synthetic-normal
+eco-000000442,442,Pipelineweg 3,Ostfeld,70198,DE,54.6877514,9.3202234,ORD-2024442,Chris Muster,125.47,€,retourniert,10,2024-07-13,synthetic-normal
+eco-000000443,443,  Spaltenweg   4,Vektorstetten,78117,D,51.0259027,8.2073205,ORD-2024443,Chris Synthetik,470.35,EUR,neu,7,2024-07-14,synthetic-normal
+eco-000000444,444,Spaltenweg 5,Datenheim,86036,Deutschland,54.0237217,7.310127,ORD-2024444,Nika Muster,341.82,€,storniert,8,2024-07-15,synthetic-normal
+eco-000000445,445,  Spaltenweg   6,Südwinkel,13955,DE,50.2745246,10.3511584,ORD-2024445,Nika Synthetik,500.64,€,versendet,6,2024-07-16,synthetic-normal
+eco-000000446,446,Prüfsummenstr. 23 ,WESTBOGEN,24218,deu,52.1420617,8.2099884,ORD-2024022,Luca Synthetik,87.61,Euro,retourniert,1,2024-06-23,synthetic-normal
+eco-000000447,447,  Koordinatenplatz   8,Westbogen,29793,Deutschland,50.430665,6.3193331,ORD-2024447,Sascha Muster,527.65,eur,versendet,10,2024-07-18,synthetic-normal
+eco-000000448,448,Vektorallee 9,Nordhafen,37712,D,9.686752,52.2990352,ORD-2024448,Nika Testmann,n/a,EUR,storniert,10,2024-07-19,synthetic-error
+eco-000000449,449,Spaltenweg 10,Südwinkel,45631,Deutschland,51.0751586,13.265406,ORD-2024449,Chris Muster,517.42,€,versendet,7,20.07.2024,synthetic-normal
+eco-000000450,450,Qualitätsring 11, Westbogen ,53550,D,53.4149829,11.5460651,ORD-2024450,Kim Demoholz,709.5,EUR,retourniert,6,21/07/2024,synthetic-normal
+eco-000000451,451,Vektorallee 191,Datenheim,56790,deu,47.9572049,13.6841586,ORD-2024410,Luca Muster,269.17,Euro,storniert,5,2024-06-11,synthetic-normal
+eco-000000452,452,Schemaweg 13,Datenheim,69388,Deutschland,48.8205851,9.5011688,ORD-2024452,Luca Demoholz,73.61,eur,neu,11,23.07.2024,synthetic-normal
+eco-000000453,453,Spaltenweg 14,Datenheim,77307,D,54.4032331,12.4848586,ORD-2024453,Alex Synthetik,866.09,eur,versendet,8,24.07.2024,synthetic-normal
+eco-000000454,454,  Prüfsummenstraße   15,Nordhafen,85226,deu,53.7293491,8.2557998,ORD-2024454,Toni Demoholz,690.15,eur,versendet,11,25.07.2024,synthetic-normal
+eco-000000455,455,  Schemaweg   16,,13145,D,52.2166076,6.1404344,ORD-2024455,Robin Testmann,-12.50,eur,neu,5,26/07/2024,synthetic-error
+eco-000000456,456,Spaltenweg 17,Nordhafen,21064,Deutschland,51.872158,13.7779804,ORD-2024456,Nika Testmann,867.59,EUR,storniert,12,27.07.2024,synthetic-normal
+eco-000000457,457,Pipelineweg 18,Nordhafen,28983,deu,51.858642,12.9133561,ORD-2024457,Chris Testmann,452.72,Euro,bezahlt,7,28.07.2024,synthetic-normal
+eco-000000458,458,  Spaltenweg   19,Datenheim,36902,DE,51.0267252,9.2472859,ORD-2024458,Kim Testmann,873.08,Euro,storniert,11,29.07.2024,synthetic-normal
+eco-000000459,459,  Koordinatenplatz   20, Westbogen ,44821,DE,52.2050217,14.1281108,ORD-2024459,Alex Demoholz,843.59,EUR,bezahlt,5,2024/07/30,synthetic-normal
+eco-000000460,460,Pipelineweg 21,Ostfeld,52740,DE,54.2143972,9.4153752,ORD-2024460,Toni Testmann,329.76,EUR,bezahlt,5,31.07.2024,synthetic-normal
+eco-000000461,461,  Koordinatenplatz   22,Westbogen,60659,DE,53.5563031,14.4525579,ORD-2024461,Luca Demoholz,397.77,Euro,versendet,12,2024/08/01,synthetic-normal
+eco-000000462,462,Schemaweg 23,Datenheim,68578,Deutschland,50.7447893,6.0516282,ORD-2024462,Alex Demoholz,742.84,eur,storniert,11,02.08.2024,synthetic-normal
+eco-000000463,463,Pipelineweg 103,Südwinkel,12,DE,49.4802834,13.4338066,ORD-2024102,Robin Demoholz,n/a,Euro,storniert,10,2024-09-11,synthetic-error
+eco-000000464,464,  Vektorallee   25,Westbogen,84416,D,50.9355776,-220.0,ORD-2024464,Toni Muster,"99,90 EUR",€,versendet,4,2024-08-04,synthetic-error
+eco-000000465,465,Qualitätsring 26,Datenheim,12335,deu,54.1920203,14.7619737,ORD-2024465,Sascha Testmann,850.56,eur,neu,7,2024/08/05,synthetic-normal
+eco-000000466,466,Vektorallee 27,Datenheim,20254,D,53.1775308,14.3402208,ORD-2024466,Luca Beispiel,862.44,eur,bezahlt,4,06/08/2024,synthetic-normal
+eco-000000467,467,Qualitätsring 28,Westbogen,28173,deu,50.4793155,9.5584217,ORD-2024467,Robin Beispiel,121.53,€,versendet,4,2024/08/07,synthetic-normal
+eco-000000468,468,Spaltenweg 29, Südwinkel ,36092,Deutschland,54.7054337,9.4575034,ORD-2024468,Sascha Demoholz,617.42,Euro,storniert,12,08/08/2024,synthetic-normal
+eco-000000469,469,Vektorallee 66 ,DATENHEIM,26915,DE,52.3244333,200.0,ORD-2024285,Chris Demoholz,-12.50,EUR,storniert,11,2025/03/13,synthetic-error
+eco-000000470,470,Datenstraße 31,Datenheim,51930,D,49.5990559,9.4312107,ORD-2024470,Chris Muster,817.86,EUR,retourniert,3,10/08/2024,synthetic-normal
+eco-000000471,471,Spaltenweg 32,Vektorstetten,59849,D,48.3776476,6.8749469,ORD-2024471,Alex Muster,308.56,Euro,versendet,12,11/08/2024,synthetic-normal
+eco-000000472,472,Schemaweg 33,Südwinkel,67768,Deutschland,52.9002062,10.319728,ORD-2024472,Robin Synthetik,789.86,Euro,neu,4,12.08.2024,synthetic-normal
+eco-000000473,473,Koordinatenplatz 57  ,OSTFELD,53464,DE,52.2982189,10.7918611,ORD-2024056,Nika Beispiel,412.07,eur,retourniert,6,2024/07/27,synthetic-normal
+eco-000000474,474,Spaltenweg 35,Vektorstetten,83606,D,50.7789738,6.8349161,ORD-2024474,Robin Beispiel,395.6,€,neu,4,14/08/2024,synthetic-normal
+eco-000000475,475,Schemaweg 36,Nordhafen,11525,deu,50.4647843,6.5068863,ORD-2024475,Luca Demoholz,460.32,EUR,versendet,1,15/08/2024,synthetic-normal
+eco-000000476,476,Pipelineweg 37,Nordhafen,19444,D,53.6133141,11.8677618,ORD-2024476,Luca Demoholz,357.78,€,retourniert,11,2024-08-16,synthetic-normal
+eco-000000477,477,Koordinatenplatz 38, Nordhafen ,27363,Deutschland,-100,6.3109222,ORD-2024477,Kim Synthetik,,Euro,neu,7,17/08/2024,synthetic-error
+eco-000000478,478,Qualitätsring 39,Ostfeld,35282,Deutschland,52.2184768,14.5807786,ORD-2024478,Robin Beispiel,84.82,€,storniert,7,18/08/2024,synthetic-normal
+eco-000000479,479,Pipelineweg 40,Ostfeld,43201,D,54.0291391,10.1832451,ORD-2024479,Nika Beispiel,326.34,Euro,versendet,10,19.08.2024,synthetic-normal
+eco-000000480,480,  Koordinatenplatz   41,Vektorstetten,51120,deu,54.3730739,10.6509641,ORD-2024480,Kim Testmann,41.19,Euro,storniert,2,2024/08/20,synthetic-normal
+eco-000000481,481,Schemaweg 42,Westbogen,59039,DE,51.4875569,14.2391785,ORD-2024481,Kim Synthetik,617.46,Euro,storniert,2,2024/08/21,synthetic-normal
+eco-000000482,482,Schemaweg 43,Nordhafen,66958,DE,52.9279229,10.0584863,ORD-2024482,Robin Datenberg,231.78,EUR,neu,7,22/08/2024,synthetic-normal
+eco-000000483,483,Spaltenweg 44,Südwinkel,74877,deu,48.7066642,12.6726697,ORD-2024483,Toni Demoholz,682.83,EUR,storniert,9,2024-08-23,synthetic-normal
+eco-000000484,484,Vektorallee 60 ,OSTFELD,77221,Deutschland,54.4002878,10.4711866,ORD-2024059,Alex Testmann,541.44,€,retourniert,10,2024/07/30,synthetic-normal
+eco-000000485,485,Spaltenweg 46,Datenheim,10715,Deutschland,52.5490334,14.6609028,ORD-2024485,Nika Testmann,367.56,EUR,bezahlt,3,2024-08-25,synthetic-normal
+eco-000000486,486,Qualitätsring 47, Vektorstetten ,18634,deu,52.2380227,9.809254,ORD-2024486,Sascha Beispiel,627.95,€,storniert,3,2024/08/26,synthetic-normal
+eco-000000487,487,  Spaltenweg   48,Ostfeld,26553,deu,48.830172,-220.0,ORD-2024487,Nika Beispiel,,€,neu,2,2024/08/27,synthetic-error
+eco-000000488,488,Schemaweg 49,Ostfeld,34472,D,49.062484,6.3584831,ORD-2024488,Alex Datenberg,501.1,€,retourniert,2,28/08/2024,synthetic-normal
+eco-000000489,489,Spaltenweg 50,Ostfeld,42391,DE,48.5261341,12.481124,ORD-2024489,Luca Testmann,428.64,Euro,bezahlt,9,29.08.2024,synthetic-normal
+eco-000000490,490,Spaltenweg 51,Vektorstetten,50310,D,54.5945056,13.4643429,ORD-2024490,Chris Datenberg,829.95,eur,retourniert,4,30/08/2024,synthetic-normal
+eco-000000491,491,Qualitätsring 52,Nordhafen,58229,D,10.3422707,54.4672157,ORD-2024491,Sascha Muster,-12.50,EUR,neu,6,31/08/2024,synthetic-error
+eco-000000492,492,Datenstraße 53,Nordhafen,66148,deu,48.217229,7.8616799,ORD-2024492,Toni Testmann,774.22,€,neu,9,01/09/2024,synthetic-normal
+eco-000000493,493,Pipelineweg 54,Ostfeld,74067,D,54.616118,12.7530319,ORD-2024493,Kim Synthetik,786.96,EUR,retourniert,1,2024-09-02,synthetic-normal
+eco-000000494,494,Vektorallee 55,Datenheim,81986,D,52.8673944,200.0,ORD-2024494,Chris Testmann,n/a,eur,neu,4,2024/09/03,synthetic-error
+eco-000000495,495,Vektorallee 56, Vektorstetten ,89905,D,50.0408899,11.9179563,ORD-2024495,Robin Synthetik,310.48,Euro,bezahlt,3,2024/09/04,synthetic-normal
+eco-000000496,496,Koordinatenplatz 57,Nordhafen,17824,DE,47.9443144,8.6962021,ORD-2024496,Robin Datenberg,415.58,EUR,storniert,1,05.09.2024,synthetic-normal
+eco-000000497,497,  Schemaweg   58,Vektorstetten,25743,Deutschland,52.7837879,-220.0,ORD-2024497,Chris Beispiel,"99,90 EUR",€,retourniert,10,06.09.2024,synthetic-error
+eco-000000498,498,Spaltenweg 59,Vektorstetten,33662,D,53.1930425,13.9049671,ORD-2024498,Kim Beispiel,563.8,€,storniert,12,07.09.2024,synthetic-normal
+eco-000000499,499,Schemaweg 60,Südwinkel,41581,DE,47.5119733,13.128708,ORD-2024499,Toni Muster,196.29,€,storniert,9,2024-09-08,synthetic-normal
+eco-000000500,500,Koordinatenplatz 61,Vektorstetten,49500,DE,50.7104003,11.0664046,ORD-2024500,Alex Datenberg,237.48,€,bezahlt,12,09.09.2024,synthetic-normal
+eco-000000501,501,  Vektorallee   62,Südwinkel,57419,DE,49.7916369,11.1577952,ORD-2024501,Chris Datenberg,707.39,EUR,bezahlt,12,2024/09/10,synthetic-normal
+eco-000000502,502,Spaltenweg 63,Westbogen,65338,D,51.7706199,200.0,ORD-2024502,Nika Testmann,-12.50,Euro,storniert,8,2024/09/11,synthetic-error
+eco-000000503,503,Vektorallee 64,Ostfeld,73257,D,47.5478162,7.2429252,ORD-2024503,Chris Beispiel,641.48,Euro,neu,2,12/09/2024,synthetic-normal
+eco-000000504,504,Schemaweg 65, Ostfeld ,81176,DE,53.3131481,200.0,ORD-2024504,Nika Beispiel,n/a,€,versendet,4,13.09.2024,synthetic-error
+eco-000000505,505,  Prüfsummenstraße   66,Datenheim,89095,D,54.1421834,12.988414,ORD-2024505,Luca Demoholz,784.03,eur,bezahlt,9,2024/09/14,synthetic-normal
+eco-000000506,506,Koordinatenplatz 67,Vektorstetten,17014,D,50.2429869,14.0822486,ORD-2024506,Chris Synthetik,138.34,EUR,storniert,12,15/09/2024,synthetic-normal
+eco-000000507,507,Schemaweg 68,Nordhafen,24933,deu,54.5592793,10.7848758,ORD-2024507,Alex Synthetik,637.95,eur,storniert,9,2024-09-16,synthetic-normal
+eco-000000508,508,Datenstr. 69,Südwinkel,32852,D,47.9433244,10.7086036,ORD-2024508,Chris Datenberg,165.87,EUR,storniert,1,17/09/2024,synthetic-normal
+eco-000000509,509,  Koordinatenplatz   70,Nordhafen,40771,DE,51.4175225,8.4252359,ORD-2024509,Robin Testmann,774.39,EUR,bezahlt,5,2024/09/18,synthetic-normal
+eco-000000510,510,Datenstraße 71,,48690,Deutschland,48.3827002,14.0157014,ORD-2024510,Toni Datenberg,-12.50,EUR,neu,4,19.09.2024,synthetic-error
+eco-000000511,511,Prüfsummenstraße 72,Westbogen,56609,D,51.5037202,6.4022155,ORD-2024511,Alex Datenberg,678.39,eur,neu,5,2024-09-20,synthetic-normal
+eco-000000512,512,  Schemaweg   73,Vektorstetten,64528,deu,53.2499001,7.1097767,ORD-2024512,Robin Muster,707.77,Euro,retourniert,8,2024-09-21,synthetic-normal
+eco-000000513,513,  Pipelineweg   31,Ostfeld,69750,Deutschland,120,12.1471024,ORD-2024250,Luca Datenberg,-12.50,eur,neu,3,2025-02-06,synthetic-error
+eco-000000514,514,  Datenstraße   75,Westbogen,80366,D,54.8942382,13.5504358,ORD-2024514,Sascha Synthetik,154.81,€,neu,3,2024-09-23,synthetic-normal
+eco-000000515,515,Vektorallee 76,Südwinkel,88285,Deutschland,54.0178803,14.4977579,ORD-2024515,Toni Demoholz,115.06,Euro,versendet,4,24/09/2024,synthetic-normal
+eco-000000516,516,Datenstrasse 77,Nordhafen,16204,D,47.3325223,5.8881232,ORD-2024516,Robin Datenberg,541.56,Euro,storniert,9,2024-09-25,synthetic-normal
+eco-000000517,517,  Datenstraße   78,Westbogen,24123,D,53.5887479,9.0932848,ORD-2024517,Robin Demoholz,74.38,EUR,neu,8,26/09/2024,synthetic-normal
+eco-000000518,518,Datenstr. 79,Vektorstetten,32042,Deutschland,48.7554887,13.3097836,ORD-2024518,Toni Demoholz,203.26,eur,bezahlt,8,27/09/2024,synthetic-normal
+eco-000000519,519,Schemaweg 52,Nordhafen,76049,DE,48.5722006,14.5977411,ORD-2024271,Alex Demoholz,440.69,EUR,bezahlt,11,27.02.2025,synthetic-normal
+eco-000000520,520,Prüfsummenstraße 81,Datenheim,47880,D,48.5956259,7.5826864,ORD-2024520,Robin Beispiel,180.5,eur,neu,3,29/09/2024,synthetic-normal
+eco-000000521,521,Schemaweg 82,Nordhafen,55799,Deutschland,52.4731707,13.9245378,ORD-2024521,Alex Datenberg,793.5,EUR,versendet,7,2024/09/30,synthetic-normal
+eco-000000522,522,Koordinatenplatz 83, Südwinkel ,63718,DE,49.412291,9.664571,ORD-2024522,Luca Testmann,422.6,EUR,storniert,4,01/10/2024,synthetic-normal
+eco-000000523,523,  Qualitätsring   84,Südwinkel,71637,deu,48.55006,8.6594139,ORD-2024523,Kim Beispiel,27.71,Euro,storniert,1,02/10/2024,synthetic-normal
+eco-000000524,524,Koordinatenplatz 85,Datenheim,79556,deu,54.4709616,12.9368951,ORD-2024524,Luca Beispiel,428.85,Euro,retourniert,2,2024-10-03,synthetic-normal
+eco-000000525,525,Pipelineweg 86,Ostfeld,87475,DE,49.5911802,11.5609039,ORD-2024525,Kim Beispiel,342.77,EUR,retourniert,1,04/10/2024,synthetic-normal
+eco-000000526,526,Prüfsummenstrasse 87,Vektorstetten,15394,DE,50.7459255,10.0707237,ORD-2024526,Nika Synthetik,557.49,EUR,versendet,11,2024-10-05,synthetic-normal
+eco-000000527,527,Pipelineweg 88,Nordhafen,23313,deu,54.1732119,6.959031,ORD-2024527,Toni Testmann,177.27,Euro,storniert,12,2024/10/06,synthetic-normal
+eco-000000528,528,Vektorallee 89,Datenheim,31232,Deutschland,49.6650306,13.9440416,ORD-2024528,Robin Muster,44.44,Euro,versendet,10,07/10/2024,synthetic-normal
+eco-000000529,529,Vektorallee 90,Datenheim,39151,DE,50.5076647,7.5977456,ORD-2024529,Sascha Demoholz,468.32,eur,neu,6,08.10.2024,synthetic-normal
+eco-000000530,530,Koordinatenplatz 91,Ostfeld,47070,Deutschland,48.5333279,9.9795793,ORD-2024530,Alex Datenberg,883.82,eur,neu,11,09.10.2024,synthetic-normal
+eco-000000531,531,Spaltenweg 92, Ostfeld ,54989,deu,50.3423755,13.3999758,ORD-2024531,Alex Testmann,195.76,EUR,neu,6,2024-10-10,synthetic-normal
+eco-000000532,532,Koordinatenplatz 93,Südwinkel,62908,deu,49.4591667,7.8142944,ORD-2024532,Toni Demoholz,399.17,eur,versendet,9,11.10.2024,synthetic-normal
+eco-000000533,533,Datenstrasse 94,Nordhafen,12,Deutschland,54.4144672,8.6066659,ORD-2024533,Sascha Testmann,"1.234,56",€,bezahlt,9,2024/10/12,synthetic-error
+eco-000000534,534,  Qualitätsring   95,Westbogen,78746,D,54.7250597,8.0498567,ORD-2024534,Alex Synthetik,716.43,eur,retourniert,5,13.10.2024,synthetic-normal
+eco-000000535,535,Spaltenweg 96,,86665,DE,48.5724949,9.3706658,ORD-2024535,Chris Datenberg,-12.50,Euro,bezahlt,6,14/10/2024,synthetic-error
+eco-000000536,536,  Schemaweg   97,Datenheim,14584,DE,48.8747169,14.0329386,ORD-2024536,Luca Muster,447.84,Euro,bezahlt,5,2024/10/15,synthetic-normal
+eco-000000537,537,Koordinatenplatz 98,Südwinkel,22503,DE,49.5423649,10.5731506,ORD-2024537,Sascha Synthetik,842.27,EUR,storniert,9,16/10/2024,synthetic-normal
+eco-000000538,538,Spaltenweg 99,Nordhafen,30422,deu,50.6568326,8.2437489,ORD-2024538,Kim Testmann,371.01,EUR,versendet,9,2024-10-17,synthetic-normal
+eco-000000539,539,Pipelineweg 100,Südwinkel,38341,Deutschland,48.7945121,8.8290199,ORD-2024539,Toni Demoholz,93.08,€,bezahlt,12,18.10.2024,synthetic-normal
+eco-000000540,540,Schemaweg 101, Westbogen ,46260,Deutschland,53.2517747,9.5150625,ORD-2024540,Nika Synthetik,667.14,EUR,storniert,11,19.10.2024,synthetic-normal
+eco-000000541,541,  Qualitätsring   102,Datenheim,54179,D,52.7910787,10.0448905,ORD-2024541,Kim Testmann,652.39,eur,storniert,12,2024/10/20,synthetic-normal
+eco-000000542,542,Koordinatenplatz 103,Südwinkel,62098,Deutschland,54.4694904,5.8890666,ORD-2024542,Chris Testmann,504.81,eur,storniert,7,2024/10/21,synthetic-normal
+eco-000000543,543,Datenstraße 104,Südwinkel,70017,Deutschland,51.6182507,13.1521412,ORD-2024543,Nika Datenberg,273.18,eur,storniert,2,2024/10/22,synthetic-normal
+eco-000000544,544,Schemaweg 105,Vektorstetten,77936,deu,12.1390259,47.5436496,ORD-2024544,Luca Beispiel,,eur,bezahlt,2,2024/10/23,synthetic-error
+eco-000000545,545,Spaltenweg 106,Nordhafen,85855,deu,49.7834677,14.1702745,ORD-2024545,Nika Muster,474.33,EUR,bezahlt,9,2024/10/24,synthetic-normal
+eco-000000546,546,Vektorallee 107,Vektorstetten,13774,D,11.0908407,48.5067375,ORD-2024546,Toni Synthetik,-12.50,eur,retourniert,12,2024/10/25,synthetic-error
+eco-000000547,547,Prüfsummenstrasse 108,Datenheim,21693,D,50.7975547,11.1004213,ORD-2024547,Kim Testmann,403.93,Euro,versendet,12,26/10/2024,synthetic-normal
+eco-000000548,548,Prüfsummenstrasse 109,Datenheim,29612,D,50.779494,14.1796645,ORD-2024548,Robin Demoholz,765.61,EUR,storniert,12,2024-10-27,synthetic-normal
+eco-000000549,549,Schemaweg 110, Vektorstetten ,37531,deu,54.2063972,9.5837591,ORD-2024549,Kim Testmann,250.03,EUR,neu,9,28/10/2024,synthetic-normal
+eco-000000550,550,  Datenstraße   111,Vektorstetten,45450,D,50.1967823,12.6628084,ORD-2024550,Sascha Datenberg,190.6,EUR,neu,5,2024-10-29,synthetic-normal
+eco-000000551,551,  Spaltenweg   112,Nordhafen,53369,deu,52.7232197,9.8270576,ORD-2024551,Luca Testmann,604.91,eur,bezahlt,1,2024-10-30,synthetic-normal
+eco-000000552,552,Vektorallee 113,Nordhafen,61288,Deutschland,48.4665732,9.0944003,ORD-2024552,Sascha Demoholz,668.59,EUR,retourniert,4,2024/10/31,synthetic-normal
+eco-000000553,553,  Pipelineweg   114,Ostfeld,69207,DE,51.8463607,6.2477152,ORD-2024553,Nika Muster,731.3,eur,versendet,4,01.11.2024,synthetic-normal
+eco-000000554,554,Koordinatenplatz 115,Nordhafen,77126,deu,54.5864639,6.6887495,ORD-2024554,Robin Demoholz,890.42,eur,neu,7,2024-11-02,synthetic-normal
+eco-000000555,555,  Qualitätsring   116,Nordhafen,85045,deu,48.9247279,9.0805022,ORD-2024555,Robin Beispiel,565.97,Euro,versendet,1,2024/11/03,synthetic-normal
+eco-000000556,556,Schemaweg 117,Südwinkel,12964,D,49.5916603,11.3095957,ORD-2024556,Kim Demoholz,593.88,eur,versendet,2,04/11/2024,synthetic-normal
+eco-000000557,557,Vektorallee 118,Vektorstetten,20883,Deutschland,54.7329636,11.9306094,ORD-2024557,Kim Testmann,611.72,EUR,retourniert,10,2024/11/05,synthetic-normal
+eco-000000558,558,Datenstrasse 119, Nordhafen ,28802,Deutschland,49.0966121,9.7421804,ORD-2024558,Sascha Synthetik,213.02,EUR,neu,3,06/11/2024,synthetic-normal
+eco-000000559,559,Datenstrasse 120,Datenheim,36721,D,52.9183428,8.8239466,ORD-2024559,Toni Testmann,341.29,EUR,retourniert,7,07/11/2024,synthetic-normal
+eco-000000560,560,Koordinatenplatz 121,Nordhafen,44640,deu,53.3910337,12.205758,ORD-2024560,Sascha Synthetik,660.92,Euro,retourniert,6,08.11.2024,synthetic-normal
+eco-000000561,561,Qualitätsring 122,Südwinkel,52559,deu,7.3978176,48.2542636,ORD-2024561,Sascha Muster,"1.234,56",EUR,storniert,12,2024/11/09,synthetic-error
+eco-000000562,562,Qualitätsring 123,Ostfeld,60478,deu,49.366142,12.9878581,ORD-2024562,Kim Testmann,384.5,Euro,storniert,3,2024/11/10,synthetic-normal
+eco-000000563,563,  Vektorallee   124,Ostfeld,68397,D,53.7907208,12.7814966,ORD-2024563,Toni Synthetik,662.76,eur,retourniert,12,11.11.2024,synthetic-normal
+eco-000000564,564,  Prüfsummenstraße   125,Südwinkel,76316,D,48.7874397,14.2284138,ORD-2024564,Alex Beispiel,410.97,€,storniert,7,2024/11/12,synthetic-normal
+eco-000000565,565,Spaltenweg 126,Datenheim,84235,DE,50.4067856,6.1572075,ORD-2024565,Kim Datenberg,338.96,eur,bezahlt,7,13/11/2024,synthetic-normal
+eco-000000566,566,Spaltenweg 127,Vektorstetten,12154,D,54.3415425,12.5681107,ORD-2024566,Sascha Datenberg,316.98,EUR,versendet,11,2024-11-14,synthetic-normal
+eco-000000567,567,Spaltenweg 128, Datenheim ,20073,deu,47.3937641,12.8929441,ORD-2024567,Nika Datenberg,238.89,EUR,retourniert,4,2024/11/15,synthetic-normal
+eco-000000568,568,Prüfsummenstr. 129,Vektorstetten,27992,DE,48.1304829,11.0680276,ORD-2024568,Chris Muster,624.19,€,bezahlt,12,2024/11/16,synthetic-normal
+eco-000000569,569,Datenstraße 130,Vektorstetten,35911,D,,11.821595,ORD-2024569,Nika Muster,,eur,versendet,3,17.11.2024,synthetic-error
+eco-000000570,570,Qualitätsring 131,Vektorstetten,43830,deu,53.4497576,7.5653405,ORD-2024570,Nika Datenberg,408.34,EUR,bezahlt,2,18/11/2024,synthetic-normal
+eco-000000571,571,Datenstrasse 132,Vektorstetten,51749,DE,47.37225,8.2479429,ORD-2024571,Alex Demoholz,62.51,EUR,neu,4,2024-11-19,synthetic-normal
+eco-000000572,572,  Schemaweg   133,Westbogen,59668,D,49.8577815,12.073112,ORD-2024572,Chris Testmann,866.04,eur,versendet,11,2024/11/20,synthetic-normal
+eco-000000573,573,Pipelineweg 134,Vektorstetten,67587,D,13.9693291,52.8116734,ORD-2024573,Robin Beispiel,n/a,EUR,retourniert,5,21.11.2024,synthetic-error
+eco-000000574,574,Prüfsummenstrasse 135,Vektorstetten,75506,Deutschland,47.4263903,9.1138916,ORD-2024574,Alex Demoholz,783.52,€,storniert,4,2024/11/22,synthetic-normal
+eco-000000575,575,  Prüfsummenstraße   136,Vektorstetten,83425,DE,52.8805108,8.5035394,ORD-2024575,Sascha Demoholz,77.83,eur,retourniert,10,2024-11-23,synthetic-normal
+eco-000000576,576,Spaltenweg 137, Nordhafen ,11344,D,52.33608,8.0162948,ORD-2024576,Sascha Muster,274.71,EUR,neu,7,2024-11-24,synthetic-normal
+eco-000000577,577,Schemaweg 138,Vektorstetten,19263,D,54.5314295,11.9695317,ORD-2024577,Robin Synthetik,812.87,Euro,neu,12,25/11/2024,synthetic-normal
+eco-000000578,578,Pipelineweg 139,Vektorstetten,27182,D,52.2697893,13.0227533,ORD-2024578,Nika Muster,690.87,eur,versendet,2,26/11/2024,synthetic-normal
+eco-000000579,579,Pipelineweg 140,Westbogen,35101,D,5.8154421,51.684568,ORD-2024579,Alex Synthetik,-12.50,eur,storniert,7,27/11/2024,synthetic-error
+eco-000000580,580,Qualitätsring 141,Datenheim,43020,D,49.7010393,13.3085612,ORD-2024580,Toni Muster,118.05,Euro,storniert,3,28/11/2024,synthetic-normal
+eco-000000581,581,Datenstr. 142,Vektorstetten,50939,DE,49.3782393,13.5985572,ORD-2024581,Luca Demoholz,722.16,eur,storniert,5,2024/11/29,synthetic-normal
+eco-000000582,582,Koordinatenplatz 57 ,NORDHAFEN,17824,DE,47.9443144,8.6962021,ORD-2024496,Robin Datenberg,415.58,EUR,storniert,1,05.09.2024,synthetic-normal
+eco-000000583,583,Qualitätsring 144,Südwinkel,66777,D,52.8282055,8.5517364,ORD-2024583,Robin Beispiel,660.73,Euro,versendet,7,2024/12/01,synthetic-normal
+eco-000000584,584,Schemaweg 145,Südwinkel,74696,D,48.0396287,8.775451,ORD-2024584,Alex Demoholz,355,€,storniert,11,02.12.2024,synthetic-normal
+eco-000000585,585,Vektorallee 146, Vektorstetten ,82615,deu,52.8884236,5.8840191,ORD-2024585,Kim Demoholz,436.79,eur,storniert,7,03.12.2024,synthetic-normal
+eco-000000586,586,Datenstraße 147,Vektorstetten,10534,Deutschland,51.8097822,-220.0,ORD-2024586,Nika Muster,-12.50,EUR,neu,4,2024/12/04,synthetic-error
+eco-000000587,587,Prüfsummenstraße 148,Vektorstetten,18453,D,49.3916419,11.8093984,ORD-2024587,Chris Beispiel,589.25,EUR,neu,2,2024-12-05,synthetic-normal
+eco-000000588,588,  Datenstraße   149,Vektorstetten,26372,DE,53.3370122,7.4660887,ORD-2024588,Luca Demoholz,461.22,Euro,versendet,10,06.12.2024,synthetic-normal
+eco-000000589,589,  Vektorallee   150,Nordhafen,34291,D,-100,10.7350345,ORD-2024589,Luca Beispiel,"99,90 EUR",EUR,bezahlt,11,2024-12-07,synthetic-error
+eco-000000590,590,Prüfsummenstraße 99,Vektorstetten,48242,deu,50.224464,14.7697444,ORD-2024318,Sascha Demoholz,228.82,EUR,bezahlt,8,2025-04-15,synthetic-normal
+eco-000000591,591,Vektorallee 152,Nordhafen,50129,DE,54.7474561,10.4565645,ORD-2024591,Chris Synthetik,189.58,eur,storniert,11,2024-12-09,synthetic-normal
+eco-000000592,592,Spaltenweg 153,Vektorstetten,58048,Deutschland,120,14.8713796,ORD-2024592,Chris Synthetik,n/a,eur,neu,11,2024-12-10,synthetic-error
+eco-000000593,593,Vektorallee 154,Westbogen,65967,deu,52.8411935,9.6825381,ORD-2024593,Toni Testmann,750.2,Euro,bezahlt,7,2024/12/11,synthetic-normal
+eco-000000594,594,Vektorallee 155, Vektorstetten ,73886,Deutschland,54.8647304,12.210587,ORD-2024594,Sascha Demoholz,385.68,€,retourniert,11,12.12.2024,synthetic-normal
+eco-000000595,595,  Prüfsummenstraße   156,Datenheim,81805,deu,47.8891869,6.9465153,ORD-2024595,Kim Demoholz,893.24,Euro,neu,6,2024-12-13,synthetic-normal
+eco-000000596,596,Qualitätsring 157,Ostfeld,89724,deu,50.1776059,6.7660251,ORD-2024596,Kim Muster,249.56,€,retourniert,8,2024-12-14,synthetic-normal
+eco-000000597,597,Schemaweg 158,Südwinkel,17643,Deutschland,54.4934783,9.3839826,ORD-2024597,Chris Demoholz,779.53,Euro,storniert,10,15.12.2024,synthetic-normal
+eco-000000598,598,Vektorallee 159,Vektorstetten,25562,Deutschland,47.7017712,12.4738573,ORD-2024598,Chris Demoholz,643.33,eur,retourniert,7,2024/12/16,synthetic-normal
+eco-000000599,599,Schemaweg 160,Datenheim,33481,deu,49.6194245,13.6928776,ORD-2024599,Toni Datenberg,719.63,€,neu,11,2024-12-17,synthetic-normal
+eco-000000600,600,Prüfsummenstrasse 3,Ostfeld,88018,Deutschland,48.7180304,6.2104757,ORD-2024222,Luca Datenberg,579.47,€,bezahlt,5,2025-01-09,synthetic-normal
+eco-000000601,601,Spaltenweg 162,Ostfeld,49319,deu,50.9453852,,ORD-2024601,Kim Datenberg,"99,90 EUR",EUR,retourniert,4,2024-12-19,synthetic-error
+eco-000000602,602,  Datenstraße   163,Vektorstetten,57238,deu,48.6285879,9.1768686,ORD-2024602,Robin Synthetik,894.83,€,neu,7,2024/12/20,synthetic-normal
+eco-000000603,603,Qualitätsring 164, Ostfeld ,65157,Deutschland,49.312106,5.8205556,ORD-2024603,Nika Muster,106.34,€,retourniert,1,2024/12/21,synthetic-normal
+eco-000000604,604,  Datenstraße   165,Westbogen,73076,DE,47.3391735,13.9898057,ORD-2024604,Robin Datenberg,56.46,€,neu,2,2024/12/22,synthetic-normal
+eco-000000605,605,Prüfsummenstraße 166,Nordhafen,80995,deu,not-a-number,8.1012397,ORD-2024605,Luca Datenberg,-12.50,€,versendet,6,2024/12/23,synthetic-error
+eco-000000606,606,Vektorallee 167,Ostfeld,88914,DE,50.0301993,13.8087294,ORD-2024606,Sascha Beispiel,756.22,eur,versendet,1,24.12.2024,synthetic-normal
+eco-000000607,607,Vektorallee 168,Vektorstetten,16833,Deutschland,48.2028215,10.2994241,ORD-2024607,Luca Demoholz,811.39,eur,versendet,7,2024/12/25,synthetic-normal
+eco-000000608,608,Vektorallee 169,Nordhafen,24752,deu,47.6955028,13.434489,ORD-2024608,Nika Synthetik,714.48,EUR,storniert,8,26/12/2024,synthetic-normal
+eco-000000609,609,Vektorallee 170,Nordhafen,32671,Deutschland,-100,8.0756602,ORD-2024609,Nika Muster,"99,90 EUR",Euro,neu,12,27.12.2024,synthetic-error
+eco-000000610,610,Qualitätsring 171,Datenheim,40590,deu,47.9911093,6.2687894,ORD-2024610,Nika Synthetik,39.34,€,bezahlt,4,28/12/2024,synthetic-normal
+eco-000000611,611,Schemaweg 172,Westbogen,48509,Deutschland,not-a-number,8.0721115,ORD-2024611,Alex Muster,"1.234,56",EUR,neu,1,29/12/2024,synthetic-error
+eco-000000612,612,Vektorallee 173, Westbogen ,56428,Deutschland,49.6131109,6.6913624,ORD-2024612,Alex Demoholz,95.18,eur,versendet,6,30/12/2024,synthetic-normal
+eco-000000613,613,Qualitätsring 174,Ostfeld,64347,DE,54.0426729,7.0004657,ORD-2024613,Kim Beispiel,546.22,eur,bezahlt,12,2024/12/31,synthetic-normal
+eco-000000614,614,  Schemaweg   175,Südwinkel,72266,deu,47.6329644,200.0,ORD-2024614,Toni Synthetik,n/a,€,versendet,8,2025-01-01,synthetic-error
+eco-000000615,615,Datenstrasse 176,Vektorstetten,80185,deu,49.5013883,14.5933869,ORD-2024615,Alex Demoholz,857.44,eur,storniert,8,2025-01-02,synthetic-normal
+eco-000000616,616,  Prüfsummenstraße   177,Südwinkel,88104,deu,47.3273642,11.0614614,ORD-2024616,Alex Synthetik,348.81,Euro,retourniert,12,03/01/2025,synthetic-normal
+eco-000000617,617,Pipelineweg 178,Datenheim,16023,deu,49.518009,11.6844612,ORD-2024617,Toni Muster,638.89,€,neu,11,04.01.2025,synthetic-normal
+eco-000000618,618,Koordinatenplatz 179,Vektorstetten,23942,Deutschland,52.7878049,9.5567545,ORD-2024618,Toni Testmann,108.99,EUR,neu,6,05.01.2025,synthetic-normal
+eco-000000619,619,Datenstraße 180,Vektorstetten,31861,D,54.4869879,8.1675756,ORD-2024619,Sascha Datenberg,234.11,eur,versendet,5,06.01.2025,synthetic-normal
+eco-000000620,620,  Vektorallee   181,Vektorstetten,39780,D,50.1016641,14.0999469,ORD-2024620,Kim Datenberg,678.84,eur,storniert,3,07.01.2025,synthetic-normal
+eco-000000621,621,Schemaweg 182, Südwinkel ,47699,D,52.5239879,7.5282018,ORD-2024621,Robin Beispiel,657.88,Euro,bezahlt,8,2025/01/08,synthetic-normal
+eco-000000622,622,Datenstraße 183,Nordhafen,55618,DE,53.5818731,12.823701,ORD-2024622,Alex Muster,655.45,eur,neu,5,09.01.2025,synthetic-normal
+eco-000000623,623,Datenstraße 184,Westbogen,63537,DE,48.8376445,10.219914,ORD-2024623,Luca Muster,714.2,€,versendet,8,10.01.2025,synthetic-normal
+eco-000000624,624,Pipelineweg 185,Nordhafen,71456,Deutschland,48.0795023,13.9554032,ORD-2024624,Nika Muster,244.37,EUR,bezahlt,1,11.01.2025,synthetic-normal
+eco-000000625,625,  Qualitätsring   186,Vektorstetten,79375,DE,51.0378364,14.9150661,ORD-2024625,Sascha Beispiel,591.55,€,versendet,2,12/01/2025,synthetic-normal
+eco-000000626,626,Datenstrasse 187,Datenheim,87294,Deutschland,51.8570473,12.0507865,ORD-2024626,Robin Demoholz,828.29,€,retourniert,5,13/01/2025,synthetic-normal
+eco-000000627,627,Koordinatenplatz 188,Vektorstetten,15213,DE,53.2953066,13.7277686,ORD-2024627,Robin Demoholz,451.83,eur,versendet,3,2025/01/14,synthetic-normal
+eco-000000628,628,Pipelineweg 189,Vektorstetten,23132,Deutschland,48.3994754,8.7720914,ORD-2024628,Robin Muster,878.82,Euro,versendet,6,2025/01/15,synthetic-normal
+eco-000000629,629,Koordinatenplatz 190,Vektorstetten,31051,deu,50.2122076,10.8539212,ORD-2024629,Luca Synthetik,375.48,eur,storniert,2,2025/01/16,synthetic-normal
+eco-000000630,630,Qualitätsring 191, Nordhafen ,38970,deu,54.8536804,5.9578228,ORD-2024630,Luca Muster,731.11,EUR,neu,6,17/01/2025,synthetic-normal
+eco-000000631,631,  Schemaweg   192,Datenheim,46889,D,49.1429803,13.4159606,ORD-2024631,Alex Demoholz,738.01,eur,neu,12,18.01.2025,synthetic-normal
+eco-000000632,632,Datenstraße 193,Nordhafen,12,D,53.6645227,13.8083882,ORD-2024632,Alex Muster,n/a,€,bezahlt,2,19.01.2025,synthetic-error
+eco-000000633,633,  Vektorallee   194,Vektorstetten,62727,Deutschland,50.8734022,12.4475283,ORD-2024633,Luca Demoholz,139,EUR,versendet,2,20.01.2025,synthetic-normal
+eco-000000634,634,Schemaweg 23 ,DATENHEIM,68578,Deutschland,50.7447893,6.0516282,ORD-2024462,Alex Demoholz,742.84,eur,storniert,11,02.08.2024,synthetic-normal
+eco-000000635,635,  Prüfsummenstraße   196,Westbogen,78565,Deutschland,52.6910814,9.6977664,ORD-2024635,Robin Testmann,14.73,EUR,retourniert,7,22.01.2025,synthetic-normal
+eco-000000636,636,Prüfsummenstrasse 197,Datenheim,86484,DE,53.5058472,10.1096121,ORD-2024636,Chris Demoholz,55.12,Euro,storniert,3,2025-01-23,synthetic-normal
+eco-000000637,637,Pipelineweg 198,Datenheim,14403,Deutschland,47.5131713,8.3963038,ORD-2024637,Kim Beispiel,179.28,eur,retourniert,1,24/01/2025,synthetic-normal
+eco-000000638,638,Qualitätsring 199,Datenheim,22322,DE,51.5844188,13.0700765,ORD-2024638,Alex Beispiel,836.64,€,neu,5,2025-01-25,synthetic-normal
+eco-000000639,639,Qualitätsring 200, Vektorstetten ,30241,Deutschland,54.7012656,12.2644427,ORD-2024639,Kim Testmann,863.07,Euro,retourniert,2,26.01.2025,synthetic-normal
+eco-000000640,640,Prüfsummenstrasse 108 ,DATENHEIM,21693,D,50.7975547,11.1004213,ORD-2024547,Kim Testmann,403.93,Euro,versendet,12,26/10/2024,synthetic-normal
+eco-000000641,641,  Vektorallee   202,Vektorstetten,46079,DE,54.541419,7.9304447,ORD-2024641,Sascha Demoholz,264.66,eur,bezahlt,9,28/01/2025,synthetic-normal
+eco-000000642,642,Prüfsummenstraße 203,Vektorstetten,53998,D,49.1172408,14.9724874,ORD-2024642,Kim Muster,265.3,Euro,neu,1,29.01.2025,synthetic-normal
+eco-000000643,643,  Pipelineweg   204,Westbogen,61917,deu,54.3988254,7.2855469,ORD-2024643,Toni Synthetik,781.44,€,versendet,2,2025-01-30,synthetic-normal
+eco-000000644,644,Spaltenweg 205,Ostfeld,69836,deu,54.442704,14.7394619,ORD-2024644,Luca Beispiel,235.86,€,versendet,7,2025/01/31,synthetic-normal
+eco-000000645,645,Koordinatenplatz 206,Vektorstetten,77755,D,51.1451625,8.2180124,ORD-2024645,Alex Synthetik,120.44,EUR,bezahlt,12,2025-02-01,synthetic-normal
+eco-000000646,646,Prüfsummenstraße 207,Ostfeld,85674,DE,49.9519285,-220.0,ORD-2024646,Luca Beispiel,"99,90 EUR",EUR,bezahlt,12,2025-02-02,synthetic-error
+eco-000000647,647,Spaltenweg 208,Ostfeld,13593,DE,49.4156505,6.1521975,ORD-2024647,Robin Datenberg,288.97,eur,bezahlt,6,2025-02-03,synthetic-normal
+eco-000000648,648,  Koordinatenplatz   209, Südwinkel ,21512,DE,48.9073459,6.0110732,ORD-2024648,Nika Testmann,60.85,€,bezahlt,2,04.02.2025,synthetic-normal
+eco-000000649,649,Spaltenweg 137 ,NORDHAFEN,29164,deu,54.5992975,5.8325027,ORD-2024356,Toni Beispiel,692.92,Euro,storniert,8,2025-05-23,synthetic-normal
+eco-000000650,650,Qualitätsring 211,Nordhafen,37350,DE,54.1016701,9.7425155,ORD-2024650,Toni Muster,380.65,eur,versendet,7,2025/02/06,synthetic-normal
+eco-000000651,651,Prüfsummenstr. 212,Datenheim,45269,D,53.5549193,10.9603577,ORD-2024651,Sascha Beispiel,148.82,eur,versendet,11,07/02/2025,synthetic-normal
+eco-000000652,652,Schemaweg 172 ,WESTBOGEN,48509,Deutschland,not-a-number,8.0721115,ORD-2024611,Alex Muster,"1.234,56",EUR,neu,1,29/12/2024,synthetic-error
+eco-000000653,653,Prüfsummenstr. 214,Nordhafen,61107,D,54.4692605,13.686857,ORD-2024653,Luca Demoholz,106.68,EUR,neu,4,09.02.2025,synthetic-normal
+eco-000000654,654,Prüfsummenstrasse 215,Südwinkel,69026,DE,50.1139488,9.146909,ORD-2024654,Toni Testmann,153.66,EUR,storniert,11,2025/02/10,synthetic-normal
+eco-000000655,655,Prüfsummenstr. 216,Südwinkel,76945,D,50.5557155,7.4274355,ORD-2024655,Robin Synthetik,746.23,Euro,storniert,5,2025/02/11,synthetic-normal
+eco-000000656,656,Pipelineweg 217,Nordhafen,84864,DE,52.2371469,11.4695954,ORD-2024656,Nika Beispiel,844.42,Euro,retourniert,9,2025-02-12,synthetic-normal
+eco-000000657,657,  Schemaweg   218, Ostfeld ,12783,D,48.1702084,13.6783522,ORD-2024657,Kim Testmann,726.25,Euro,storniert,11,2025/02/13,synthetic-normal
+eco-000000658,658,Qualitätsring 130,Vektorstetten,53731,D,48.3190584,13.5844718,ORD-2024349,Luca Demoholz,538.74,€,bezahlt,7,2025/05/16,synthetic-normal
+eco-000000659,659,  Schemaweg   220,Nordhafen,28621,D,47.548327,6.0414707,ORD-2024659,Chris Synthetik,594.52,€,versendet,3,2025/02/15,synthetic-normal
+eco-000000660,660,Prüfsummenstraße 1,Datenheim,36540,D,48.2794155,11.6537161,ORD-2024660,Robin Datenberg,177.43,€,retourniert,3,2025/02/16,synthetic-normal
+eco-000000661,661,  Pipelineweg   2,Vektorstetten,44459,Deutschland,53.6637679,7.2632892,ORD-2024661,Chris Muster,118.07,EUR,neu,1,2025/02/17,synthetic-normal
+eco-000000662,662,Schemaweg 117,Südwinkel,12964,D,49.5916603,11.3095957,ORD-2024556,Kim Demoholz,593.88,eur,versendet,2,04/11/2024,synthetic-normal
+eco-000000663,663,Pipelineweg 86,Ostfeld,87475,DE,49.5911802,11.5609039,ORD-2024525,Kim Beispiel,342.77,EUR,retourniert,1,04/10/2024,synthetic-normal
+eco-000000664,664,  Vektorallee   5,Westbogen,68216,deu,49.1218863,14.060765,ORD-2024664,Toni Muster,27.63,eur,storniert,5,2025-02-20,synthetic-normal
+eco-000000665,665,Pipelineweg 6,Datenheim,76135,DE,48.1137826,8.39866,ORD-2024665,Robin Beispiel,566.56,EUR,storniert,6,21.02.2025,synthetic-normal
+eco-000000666,666,  Pipelineweg   7, Nordhafen ,84054,deu,52.5237567,9.2523402,ORD-2024666,Chris Demoholz,24.65,Euro,bezahlt,3,22/02/2025,synthetic-normal
+eco-000000667,667,Koordinatenplatz 39,Südwinkel,53102,D,48.3674138,12.3950762,ORD-2024258,Nika Beispiel,720.92,€,retourniert,4,14.02.2025,synthetic-normal
+eco-000000668,668,Koordinatenplatz 9,Datenheim,19892,DE,48.5037508,12.6236108,ORD-2024668,Kim Muster,109.9,EUR,retourniert,1,24.02.2025,synthetic-normal
+eco-000000669,669,Datenstr. 10,Nordhafen,27811,deu,49.333688,10.2304888,ORD-2024669,Kim Testmann,809.22,€,storniert,12,2025/02/25,synthetic-normal
+eco-000000670,670,Schemaweg 11,Vektorstetten,35730,Deutschland,54.6102219,6.7466303,ORD-2024670,Toni Muster,830.5,eur,storniert,7,2025/02/26,synthetic-normal
+eco-000000671,671,  Pipelineweg   12,Datenheim,43649,Deutschland,50.1420997,11.6208259,ORD-2024671,Kim Datenberg,735.22,eur,neu,9,27/02/2025,synthetic-normal
+eco-000000672,672,  Koordinatenplatz   13,Südwinkel,51568,Deutschland,50.5633397,7.510417,ORD-2024672,Sascha Beispiel,744.88,eur,versendet,6,28.02.2025,synthetic-normal
+eco-000000673,673,Datenstr. 14,Datenheim,59487,Deutschland,54.1304542,10.9670934,ORD-2024673,Nika Testmann,290.14,eur,retourniert,4,2025-03-01,synthetic-normal
+eco-000000674,674,  Pipelineweg   15,Ostfeld,67406,Deutschland,53.481798,7.6229838,ORD-2024674,Alex Datenberg,851.91,Euro,neu,5,2025/03/02,synthetic-normal
+eco-000000675,675,Prüfsummenstrasse 16, Westbogen ,75325,DE,52.1918662,13.6761482,ORD-2024675,Alex Datenberg,543.28,€,bezahlt,7,2025-03-03,synthetic-normal
+eco-000000676,676,Datenstraße 17,Ostfeld,83244,Deutschland,49.387519,12.733969,ORD-2024676,Nika Beispiel,40.01,€,storniert,10,2025-03-04,synthetic-normal
+eco-000000677,677,Pipelineweg 18,Nordhafen,11163,DE,49.0025091,13.3942001,ORD-2024677,Robin Beispiel,411.85,€,storniert,4,05.03.2025,synthetic-normal
+eco-000000678,678,Datenstraße 19,Nordhafen,19082,DE,47.6648258,8.5994689,ORD-2024678,Toni Testmann,731.99,Euro,versendet,12,06.03.2025,synthetic-normal
+eco-000000679,679,Koordinatenplatz 20,Ostfeld,27001,D,52.3785879,10.6002261,ORD-2024679,Sascha Synthetik,112.31,Euro,storniert,5,07/03/2025,synthetic-normal
+eco-000000680,680,Schemaweg 21,Südwinkel,34920,deu,52.5817345,6.4913285,ORD-2024680,Luca Beispiel,87.16,eur,neu,11,08.03.2025,synthetic-normal
+eco-000000681,681,Koordinatenplatz 22,Datenheim,42839,Deutschland,53.0797085,8.668794,ORD-2024681,Luca Demoholz,441.44,eur,retourniert,2,09.03.2025,synthetic-normal
+eco-000000682,682,  Qualitätsring   23,Westbogen,50758,D,48.5478921,8.6257504,ORD-2024682,Kim Muster,877.68,Euro,neu,12,2025-03-10,synthetic-normal
+eco-000000683,683,  Datenstraße   24,Ostfeld,58677,Deutschland,49.3183983,14.327735,ORD-2024683,Kim Testmann,172.39,Euro,bezahlt,3,2025/03/11,synthetic-normal
+eco-000000684,684,Schemaweg 25, Vektorstetten ,66596,D,52.8632122,9.687813,ORD-2024684,Toni Muster,52.58,Euro,bezahlt,10,12/03/2025,synthetic-normal
+eco-000000685,685,Datenstrasse 26,Südwinkel,74515,DE,47.7038471,6.1283292,ORD-2024685,Toni Muster,393.04,EUR,retourniert,2,13/03/2025,synthetic-normal
+eco-000000686,686,  Prüfsummenstraße   27,Vektorstetten,82434,Deutschland,51.0633046,7.3734679,ORD-2024686,Sascha Testmann,645.66,€,retourniert,5,2025-03-14,synthetic-normal
+eco-000000687,687,Spaltenweg 28,Vektorstetten,10353,deu,48.5937676,12.0692709,ORD-2024687,Robin Muster,631.92,€,storniert,3,2025-03-15,synthetic-normal
+eco-000000688,688,Schemaweg 29,Nordhafen,18272,Deutschland,54.6685156,11.1650615,ORD-2024688,Luca Muster,23.64,Euro,neu,1,2025-03-16,synthetic-normal
+eco-000000689,689,Vektorallee 30,Nordhafen,26191,Deutschland,53.4095839,8.8882316,ORD-2024689,Luca Demoholz,752.65,€,retourniert,5,2025/03/17,synthetic-normal
+eco-000000690,690,Schemaweg 31,Vektorstetten,34110,D,48.1569841,12.1092142,ORD-2024690,Alex Muster,745.84,Euro,bezahlt,11,18.03.2025,synthetic-normal
+eco-000000691,691,Koordinatenplatz 32,Südwinkel,42029,D,14.6821682,52.1543765,ORD-2024691,Luca Synthetik,,eur,versendet,11,19/03/2025,synthetic-error
+eco-000000692,692,Schemaweg 33,Datenheim,49948,Deutschland,53.6397039,6.9312436,ORD-2024692,Luca Synthetik,894.58,€,versendet,2,2025-03-20,synthetic-normal
+eco-000000693,693,Vektorallee 34, Vektorstetten ,57867,deu,49.6077066,8.4519916,ORD-2024693,Toni Beispiel,422.35,Euro,neu,4,21/03/2025,synthetic-normal
+eco-000000694,694,  Datenstraße   35,Nordhafen,65786,DE,49.2108943,9.0220078,ORD-2024694,Toni Synthetik,442.09,eur,neu,12,22/03/2025,synthetic-normal
+eco-000000695,695,Pipelineweg 36,Ostfeld,73705,Deutschland,49.1903366,12.0422025,ORD-2024695,Nika Datenberg,391.69,Euro,neu,5,23/03/2025,synthetic-normal
+eco-000000696,696,Koordinatenplatz 37,Südwinkel,81624,Deutschland,48.3312497,10.8994107,ORD-2024696,Toni Testmann,395.06,EUR,versendet,10,2025/03/24,synthetic-normal
+eco-000000697,697,Prüfsummenstraße 38,Ostfeld,89543,Deutschland,51.1289953,12.1035022,ORD-2024697,Chris Datenberg,788.95,€,storniert,8,2025/03/25,synthetic-normal
+eco-000000698,698,  Datenstraße   39,Südwinkel,17462,Deutschland,53.2784038,11.1389662,ORD-2024698,Chris Muster,821.74,€,neu,7,26.03.2025,synthetic-normal
+eco-000000699,699,Spaltenweg 40,,25381,DE,49.8344743,6.6960714,ORD-2024699,Toni Synthetik,"99,90 EUR",Euro,versendet,1,2025-03-27,synthetic-error
+eco-000000700,700,Qualitätsring 41,Ostfeld,33300,deu,48.9989312,12.016263,ORD-2024700,Robin Testmann,52.45,€,neu,8,28.03.2025,synthetic-normal
+eco-000000701,701,Pipelineweg 42,Ostfeld,41219,DE,not-a-number,9.883106,ORD-2024701,Alex Beispiel,"1.234,56",€,storniert,8,29.03.2025,synthetic-error
+eco-000000702,702,  Pipelineweg   43, Nordhafen ,49138,deu,48.376815,12.6503061,ORD-2024702,Sascha Muster,774.09,eur,storniert,8,30/03/2025,synthetic-normal
+eco-000000703,703,  Schemaweg   44,Nordhafen,999999,D,50.4684132,9.7084632,ORD-2024703,Alex Testmann,n/a,Euro,neu,10,2025/03/31,synthetic-error
+eco-000000704,704,Koordinatenplatz 98,Südwinkel,22503,DE,49.5423649,10.5731506,ORD-2024537,Sascha Synthetik,842.27,EUR,storniert,9,16/10/2024,synthetic-normal
+eco-000000705,705,  Spaltenweg   46,Südwinkel,72895,Deutschland,not-a-number,13.7214039,ORD-2024705,Sascha Testmann,-12.50,Euro,retourniert,2,02.04.2025,synthetic-error
+eco-000000706,706,Vektorallee 47,Vektorstetten,80814,Deutschland,54.3184247,6.427533,ORD-2024706,Luca Datenberg,416.24,Euro,retourniert,11,03.04.2025,synthetic-normal
+eco-000000707,707,Schemaweg 48,Datenheim,88733,Deutschland,51.7421485,13.4349537,ORD-2024707,Kim Beispiel,698.98,EUR,bezahlt,4,2025-04-04,synthetic-normal
+eco-000000708,708,Koordinatenplatz 49,Vektorstetten,16652,deu,48.1012818,13.9029498,ORD-2024708,Nika Datenberg,612.99,EUR,neu,10,05/04/2025,synthetic-normal
+eco-000000709,709,Koordinatenplatz 50,Westbogen,24571,DE,52.6103155,9.2741863,ORD-2024709,Sascha Muster,70.23,€,storniert,8,06/04/2025,synthetic-normal
+eco-000000710,710,Qualitätsring 51,Vektorstetten,32490,DE,48.846901,13.2520814,ORD-2024710,Alex Testmann,393.49,Euro,retourniert,9,2025-04-07,synthetic-normal
+eco-000000711,711,Spaltenweg 52, Datenheim ,40409,D,51.1064622,9.0796638,ORD-2024711,Robin Beispiel,862.18,Euro,storniert,11,2025/04/08,synthetic-normal
+eco-000000712,712,Schemaweg 53,Südwinkel,48328,DE,51.8713208,8.8444621,ORD-2024712,Sascha Testmann,118.84,€,storniert,12,09/04/2025,synthetic-normal
+eco-000000713,713,  Schemaweg   220 ,NORDHAFEN,28621,D,47.548327,6.0414707,ORD-2024659,Chris Synthetik,594.52,€,versendet,3,2025/02/15,synthetic-normal
+eco-000000714,714,  Schemaweg   55,Datenheim,64166,DE,51.7290711,14.4197273,ORD-2024714,Toni Demoholz,221.05,EUR,neu,6,2025/04/11,synthetic-normal
+eco-000000715,715,Vektorallee 56,Vektorstetten,72085,Deutschland,54.3237244,11.9026924,ORD-2024715,Alex Muster,689.44,Euro,neu,10,2025-04-12,synthetic-normal
+eco-000000716,716,  Pipelineweg   57,Westbogen,80004,DE,120,10.3686898,ORD-2024716,Sascha Demoholz,"99,90 EUR",€,storniert,8,13/04/2025,synthetic-error
+eco-000000717,717,Prüfsummenstraße 58,Nordhafen,87923,D,53.1191795,200.0,ORD-2024717,Nika Demoholz,-12.50,Euro,retourniert,3,2025-04-14,synthetic-error
+eco-000000718,718,Qualitätsring 59,Nordhafen,15842,deu,49.063454,11.2152808,ORD-2024718,Sascha Datenberg,334.1,EUR,neu,12,15.04.2025,synthetic-normal
+eco-000000719,719,Schemaweg 60,,23761,deu,54.8854749,6.9933894,ORD-2024719,Nika Datenberg,-12.50,EUR,neu,2,16/04/2025,synthetic-error
+eco-000000720,720,  Qualitätsring   61, Westbogen ,31680,Deutschland,53.9041792,8.0466933,ORD-2024720,Toni Testmann,733.02,EUR,neu,6,2025/04/17,synthetic-normal
+eco-000000721,721,Qualitätsring 62,Datenheim,39599,deu,49.6175379,10.8872841,ORD-2024721,Kim Testmann,255.41,eur,neu,4,2025/04/18,synthetic-normal
+eco-000000722,722,Spaltenweg 63,Datenheim,47518,D,49.5831376,14.6788876,ORD-2024722,Alex Testmann,107.24,Euro,storniert,1,2025/04/19,synthetic-normal
+eco-000000723,723,Prüfsummenstraße 64,Nordhafen,55437,Deutschland,54.4229016,,ORD-2024723,Chris Testmann,-12.50,eur,neu,6,2025/04/20,synthetic-error
+eco-000000724,724,Prüfsummenstr. 65,Datenheim,63356,D,50.5211462,12.4168258,ORD-2024724,Toni Muster,727.62,Euro,storniert,12,21.04.2025,synthetic-normal
+eco-000000725,725,Pipelineweg 66,Westbogen,999999,Deutschland,51.640228,6.1551771,ORD-2024725,Toni Testmann,n/a,€,versendet,11,2025-04-22,synthetic-error
+eco-000000726,726,  Vektorallee   67,Ostfeld,79194,DE,50.8449402,14.6861465,ORD-2024726,Luca Demoholz,241.74,eur,storniert,1,2025-04-23,synthetic-normal
+eco-000000727,727,  Pipelineweg   68,Westbogen,87113,Deutschland,53.9048208,6.9704468,ORD-2024727,Robin Muster,286.05,EUR,bezahlt,2,2025-04-24,synthetic-normal
+eco-000000728,728,Koordinatenplatz 69,Südwinkel,15032,DE,54.5329488,14.9261345,ORD-2024728,Toni Beispiel,399.08,€,retourniert,12,2025-04-25,synthetic-normal
+eco-000000729,729,Spaltenweg 70, Südwinkel ,22951,deu,49.7759968,9.2165061,ORD-2024729,Nika Beispiel,74.34,Euro,versendet,3,2025-04-26,synthetic-normal
+eco-000000730,730,Prüfsummenstr. 71,Westbogen,30870,DE,48.5183774,6.2104173,ORD-2024730,Robin Synthetik,304.81,EUR,neu,10,27.04.2025,synthetic-normal
+eco-000000731,731,Koordinatenplatz 72,Datenheim,38789,DE,52.2936509,7.1806871,ORD-2024731,Kim Beispiel,703.88,eur,retourniert,9,2025/04/28,synthetic-normal
+eco-000000732,732,  Datenstraße   73,Datenheim,46708,D,49.7087391,7.5942171,ORD-2024732,Toni Muster,791.24,€,bezahlt,6,29.04.2025,synthetic-normal
+eco-000000733,733,  Qualitätsring   74,Ostfeld,54627,Deutschland,47.9056445,10.9562056,ORD-2024733,Kim Testmann,108.3,Euro,retourniert,4,2025/04/30,synthetic-normal
+eco-000000734,734,Vektorallee 75,Ostfeld,62546,deu,51.902147,13.1218747,ORD-2024734,Chris Testmann,745.9,EUR,neu,7,2025/05/01,synthetic-normal
+eco-000000735,735,Qualitätsring 76,Nordhafen,70465,deu,48.2179952,8.2230603,ORD-2024735,Luca Demoholz,447.31,EUR,bezahlt,1,2025/05/02,synthetic-normal
+eco-000000736,736,Qualitätsring 102,Vektorstetten,71999,Deutschland,54.3744508,14.9721525,ORD-2024321,Alex Beispiel,694.86,€,bezahlt,12,2025-04-18,synthetic-normal
+eco-000000737,737,Prüfsummenstr. 78,Vektorstetten,86303,deu,52.7110747,6.8950727,ORD-2024737,Chris Synthetik,827.17,EUR,neu,2,04/05/2025,synthetic-normal
+eco-000000738,738,Prüfsummenstr. 79, Vektorstetten ,14222,deu,52.8741678,12.4581087,ORD-2024738,Kim Muster,569.59,EUR,retourniert,10,05/05/2025,synthetic-normal
+eco-000000739,739,Vektorallee 80,Nordhafen,22141,deu,49.5598488,8.9382783,ORD-2024739,Nika Testmann,291.79,€,storniert,6,06.05.2025,synthetic-normal
+eco-000000740,740,Prüfsummenstr. 81,Datenheim,30060,Deutschland,not-a-number,8.4200768,ORD-2024740,Kim Testmann,-12.50,€,storniert,8,07.05.2025,synthetic-error
+eco-000000741,741,Pipelineweg 82,Südwinkel,37979,DE,48.8720077,13.516868,ORD-2024741,Robin Beispiel,547.52,EUR,retourniert,9,08.05.2025,synthetic-normal
+eco-000000742,742,Koordinatenplatz 9,Datenheim,19892,DE,48.5037508,12.6236108,ORD-2024668,Kim Muster,109.9,EUR,retourniert,1,24.02.2025,synthetic-normal
+eco-000000743,743,  Prüfsummenstraße   84,Ostfeld,53817,Deutschland,54.2767635,12.3895084,ORD-2024743,Kim Datenberg,853.35,Euro,storniert,5,2025-05-10,synthetic-normal
+eco-000000744,744,Pipelineweg 85,Vektorstetten,61736,deu,52.8279481,8.8094646,ORD-2024744,Chris Testmann,659.81,Euro,retourniert,11,2025-05-11,synthetic-normal
+eco-000000745,745,Prüfsummenstraße 86,Datenheim,69655,Deutschland,48.7470299,10.9351666,ORD-2024745,Alex Demoholz,832.63,EUR,bezahlt,3,2025/05/12,synthetic-normal
+eco-000000746,746,Spaltenweg 87,Südwinkel,77574,D,49.4477575,7.6268713,ORD-2024746,Kim Synthetik,180.13,eur,neu,7,2025-05-13,synthetic-normal
+eco-000000747,747,  Datenstraße   88, Datenheim ,85493,D,52.0958005,7.9593852,ORD-2024747,Chris Datenberg,640.44,eur,versendet,4,14/05/2025,synthetic-normal
+eco-000000748,748,  Koordinatenplatz   89,Südwinkel,13412,DE,54.618184,14.0507293,ORD-2024748,Toni Datenberg,568.87,Euro,versendet,4,2025/05/15,synthetic-normal
+eco-000000749,749,Pipelineweg 90,Vektorstetten,21331,deu,53.1799815,10.2503964,ORD-2024749,Luca Synthetik,290.42,Euro,bezahlt,1,16/05/2025,synthetic-normal
+eco-000000750,750,Prüfsummenstraße 91,Westbogen,29250,Deutschland,52.4299168,9.5833076,ORD-2024750,Luca Datenberg,766.63,Euro,versendet,1,17/05/2025,synthetic-normal
+eco-000000751,751,Datenstr. 92,Südwinkel,37169,deu,51.3736995,12.9718784,ORD-2024751,Kim Synthetik,574.46,€,bezahlt,10,2025-05-18,synthetic-normal
+eco-000000752,752,Koordinatenplatz 93,Datenheim,45088,deu,7.6256463,50.0519429,ORD-2024752,Robin Synthetik,n/a,Euro,bezahlt,5,19.05.2025,synthetic-error
+eco-000000753,753,Datenstraße 94,Datenheim,53007,DE,51.1113948,13.0803598,ORD-2024753,Alex Muster,661.33,€,versendet,1,20.05.2025,synthetic-normal
+eco-000000754,754,  Pipelineweg   95,Südwinkel,60926,Deutschland,53.8510761,6.5040492,ORD-2024754,Nika Beispiel,35.23,EUR,retourniert,10,21.05.2025,synthetic-normal
+eco-000000755,755,Schemaweg 96,Vektorstetten,68845,DE,49.5963702,10.0219319,ORD-2024755,Kim Testmann,355.06,Euro,storniert,5,2025/05/22,synthetic-normal
+eco-000000756,756,Spaltenweg 97, Datenheim ,76764,deu,50.2063034,14.9370164,ORD-2024756,Nika Testmann,507.09,EUR,storniert,4,2025-05-23,synthetic-normal
+eco-000000757,757,Pipelineweg 98,Vektorstetten,84683,DE,48.0249567,7.3571526,ORD-2024757,Luca Synthetik,335.99,eur,neu,3,2025/05/24,synthetic-normal
+eco-000000758,758,Qualitätsring 99,Westbogen,12602,D,49.6670577,8.90839,ORD-2024758,Robin Beispiel,652.11,€,retourniert,10,2025/05/25,synthetic-normal
+eco-000000759,759,  Spaltenweg   100,Vektorstetten,20521,deu,49.7459685,12.3215872,ORD-2024759,Kim Beispiel,192.26,Euro,neu,7,26.05.2025,synthetic-normal
+eco-000000760,760,Vektorallee 101,Nordhafen,28440,DE,54.0298215,10.3556976,ORD-2024760,Luca Muster,674.59,Euro,storniert,1,27/05/2025,synthetic-normal
+eco-000000761,761,Schemaweg 102,Westbogen,36359,deu,48.3755337,10.6139114,ORD-2024761,Sascha Synthetik,649.35,€,retourniert,10,28/05/2025,synthetic-normal
+eco-000000762,762,Vektorallee 103,Ostfeld,44278,DE,49.714429,7.4488772,ORD-2024762,Luca Beispiel,300.51,EUR,versendet,12,29.05.2025,synthetic-normal
+eco-000000763,763,  Datenstraße   104,Nordhafen,52197,Deutschland,52.1362108,,ORD-2024763,Chris Demoholz,"1.234,56",EUR,bezahlt,5,30/05/2025,synthetic-error
+eco-000000764,764,Schemaweg 105,Südwinkel,60116,DE,52.8530014,8.3758669,ORD-2024764,Toni Synthetik,691.46,EUR,bezahlt,9,2025/05/31,synthetic-normal
+eco-000000765,765,  Schemaweg   106, Nordhafen ,68035,deu,54.8170629,6.6403121,ORD-2024765,Robin Muster,534.99,eur,storniert,1,01/06/2025,synthetic-normal
+eco-000000766,766,Vektorallee 103 ,OSTFELD,44278,DE,49.714429,7.4488772,ORD-2024762,Luca Beispiel,300.51,EUR,versendet,12,29.05.2025,synthetic-normal
+eco-000000767,767,Koordinatenplatz 108,Nordhafen,83873,deu,51.557103,9.2712479,ORD-2024767,Nika Demoholz,600.03,Euro,versendet,5,03/06/2025,synthetic-normal
+eco-000000768,768,Vektorallee 109,Ostfeld,11792,D,51.0247106,13.0584785,ORD-2024768,Kim Synthetik,758.76,Euro,versendet,3,2025-06-04,synthetic-normal
+eco-000000769,769,  Koordinatenplatz   110,Datenheim,19711,deu,50.2066764,7.4468515,ORD-2024769,Alex Muster,694.82,Euro,versendet,9,05.06.2025,synthetic-normal
+eco-000000770,770,  Schemaweg   209 ,VEKTORSTETTEN,39332,Deutschland,50.4703915,10.3253558,ORD-2024428,Sascha Beispiel,142.85,EUR,versendet,8,2024-06-29,synthetic-normal
+eco-000000771,771,Datenstr. 112,Westbogen,35549,D,50.3270344,14.9607882,ORD-2024771,Toni Testmann,455,EUR,retourniert,1,2025/06/07,synthetic-normal
+eco-000000772,772,Spaltenweg 113,Nordhafen,43468,deu,52.6628608,7.4275506,ORD-2024772,Robin Beispiel,443.82,Euro,neu,1,2025/06/08,synthetic-normal
+eco-000000773,773,Schemaweg 114,,51387,DE,49.8282539,11.9823165,ORD-2024773,Chris Demoholz,"99,90 EUR",eur,retourniert,12,09/06/2025,synthetic-error
+eco-000000774,774,  Schemaweg   175 ,SÜDWINKEL,72266,deu,47.6329644,200.0,ORD-2024614,Toni Synthetik,n/a,€,versendet,8,2025-01-01,synthetic-error
+eco-000000775,775,Vektorallee 116,Ostfeld,67225,DE,49.3939935,7.6278873,ORD-2024775,Nika Muster,63.13,EUR,versendet,5,11/06/2025,synthetic-normal
+eco-000000776,776,  Pipelineweg   117,Nordhafen,75144,deu,52.8445829,7.5080618,ORD-2024776,Alex Muster,753.31,EUR,bezahlt,11,12/06/2025,synthetic-normal
+eco-000000777,777,Schemaweg 118,Vektorstetten,83063,deu,49.6597017,9.2896562,ORD-2024777,Toni Muster,849.2,€,bezahlt,10,13/06/2025,synthetic-normal
+eco-000000778,778,Qualitätsring 119,Westbogen,10982,D,49.3105431,10.3069481,ORD-2024778,Chris Testmann,249.16,Euro,bezahlt,1,2025/06/14,synthetic-normal
+eco-000000779,779,Prüfsummenstr. 120,Vektorstetten,18901,Deutschland,48.8765969,12.2368152,ORD-2024779,Toni Beispiel,894.41,eur,versendet,4,2025/06/15,synthetic-normal
+eco-000000780,780,  Vektorallee   121,Datenheim,26820,Deutschland,50.1293489,9.2767734,ORD-2024780,Alex Testmann,467.74,EUR,versendet,1,16.06.2025,synthetic-normal
+eco-000000781,781,Pipelineweg 122,Westbogen,34739,deu,50.8479934,7.5126787,ORD-2024781,Alex Datenberg,584.85,Euro,retourniert,10,2025/06/17,synthetic-normal
+eco-000000782,782,Koordinatenplatz 123,Ostfeld,42658,Deutschland,47.6049802,14.3467037,ORD-2024782,Sascha Synthetik,223.01,EUR,storniert,7,18/06/2025,synthetic-normal
+eco-000000783,783,Vektorallee 124, Vektorstetten ,50577,deu,54.5313535,11.0254921,ORD-2024783,Robin Muster,30.56,€,neu,2,19/06/2025,synthetic-normal
+eco-000000784,784,Prüfsummenstrasse 125,Vektorstetten,58496,deu,48.8230897,7.3830296,ORD-2024784,Toni Beispiel,314.76,eur,bezahlt,4,2025/06/20,synthetic-normal
+eco-000000785,785,Koordinatenplatz 126,Westbogen,66415,DE,50.8780853,12.1184352,ORD-2024785,Sascha Datenberg,617.82,Euro,storniert,12,21.06.2025,synthetic-normal
+eco-000000786,786,Prüfsummenstr. 127,Vektorstetten,74334,D,not-a-number,10.7138596,ORD-2024786,Chris Datenberg,-12.50,EUR,bezahlt,10,22.06.2025,synthetic-error
+eco-000000787,787,Prüfsummenstraße 128,Südwinkel,82253,D,48.7285762,7.7433376,ORD-2024787,Nika Beispiel,6.42,€,storniert,11,23.06.2025,synthetic-normal
+eco-000000788,788,Spaltenweg 129,Ostfeld,10172,deu,48.5429259,12.0775259,ORD-2024788,Kim Datenberg,351.2,EUR,versendet,11,2025-06-24,synthetic-normal
+eco-000000789,789,Vektorallee 130,Datenheim,18091,D,52.5158697,5.9066157,ORD-2024789,Nika Datenberg,727.19,EUR,versendet,7,25/06/2025,synthetic-normal
+eco-000000790,790,  Koordinatenplatz   131,Datenheim,26010,Deutschland,7.445324,48.1487083,ORD-2024790,Nika Synthetik,,Euro,neu,3,2025-06-26,synthetic-error
+eco-000000791,791,  Spaltenweg   132,Westbogen,33929,DE,48.223791,10.304517,ORD-2024791,Chris Beispiel,235.76,€,versendet,7,27/06/2025,synthetic-normal
+eco-000000792,792,Schemaweg 133, Ostfeld ,41848,DE,50.6954531,8.5386868,ORD-2024792,Alex Synthetik,26.06,EUR,versendet,12,2025-06-28,synthetic-normal
+eco-000000793,793,Pipelineweg 134,Vektorstetten,49767,D,50.5763642,8.3272053,ORD-2024793,Luca Demoholz,161.83,eur,retourniert,10,2025/06/29,synthetic-normal
+eco-000000794,794,  Koordinatenplatz   22 ,WESTBOGEN,60659,DE,53.5563031,14.4525579,ORD-2024461,Luca Demoholz,397.77,Euro,versendet,12,2024/08/01,synthetic-normal
+eco-000000795,795,  Pipelineweg   136,Vektorstetten,65605,DE,49.8670728,11.6580178,ORD-2024795,Toni Datenberg,575.84,Euro,neu,3,01/07/2025,synthetic-normal
+eco-000000796,796,Prüfsummenstraße 137,Datenheim,73524,Deutschland,54.8613799,11.4633495,ORD-2024796,Sascha Demoholz,75.96,EUR,versendet,10,2025/07/02,synthetic-normal
+eco-000000797,797,Vektorallee 138,Nordhafen,81443,D,54.2140727,12.0395159,ORD-2024797,Toni Beispiel,250.93,Euro,bezahlt,1,2025/07/03,synthetic-normal
+eco-000000798,798,Koordinatenplatz 139,Nordhafen,89362,Deutschland,48.9800386,11.4247538,ORD-2024798,Luca Synthetik,418.88,Euro,retourniert,6,2025/07/04,synthetic-normal
+eco-000000799,799,Koordinatenplatz 140,Südwinkel,17281,D,53.7931055,10.3905667,ORD-2024799,Robin Demoholz,311.94,Euro,versendet,7,2025-07-05,synthetic-normal
+eco-000000800,800,Spaltenweg 141,Vektorstetten,25200,Deutschland,49.6106487,12.7078892,ORD-2024800,Luca Demoholz,75.35,Euro,neu,3,01.06.2024,synthetic-normal
+eco-000000801,801,Datenstr. 142, Ostfeld ,33119,deu,50.152161,10.7458529,ORD-2024801,Nika Synthetik,376.78,EUR,neu,7,02.06.2024,synthetic-normal
+eco-000000802,802,  Prüfsummenstraße   143,Südwinkel,41038,D,,8.3656934,ORD-2024802,Chris Demoholz,-12.50,EUR,versendet,9,2024/06/03,synthetic-error
+eco-000000803,803,Spaltenweg 144,Südwinkel,48957,D,49.4918994,10.7005245,ORD-2024803,Chris Datenberg,744.39,eur,neu,7,2024/06/04,synthetic-normal
+eco-000000804,804,Qualitätsring 145,Datenheim,56876,DE,51.8567181,12.5357616,ORD-2024804,Alex Testmann,574.59,eur,bezahlt,10,2024/06/05,synthetic-normal
+eco-000000805,805,Prüfsummenstrasse 146,Südwinkel,64795,D,50.1048888,13.8467818,ORD-2024805,Robin Datenberg,25.33,eur,versendet,3,06/06/2024,synthetic-normal
+eco-000000806,806,Qualitätsring 102 ,VEKTORSTETTEN,71999,Deutschland,54.3744508,14.9721525,ORD-2024321,Alex Beispiel,694.86,€,bezahlt,12,2025-04-18,synthetic-normal
+eco-000000807,807,Qualitätsring 148,Datenheim,80633,DE,53.408021,13.5084541,ORD-2024807,Robin Muster,544.91,Euro,neu,1,2024-06-08,synthetic-normal
+eco-000000808,808,  Spaltenweg   149,Ostfeld,88552,Deutschland,54.0135135,10.7435413,ORD-2024808,Alex Datenberg,470.19,Euro,neu,5,2024/06/09,synthetic-normal
+eco-000000809,809,  Prüfsummenstraße   150,Nordhafen,16471,DE,48.4094764,8.2149917,ORD-2024809,Kim Demoholz,40.72,eur,versendet,7,10/06/2024,synthetic-normal
+eco-000000810,810,Schemaweg 151, Vektorstetten ,24390,DE,50.7826394,12.3235625,ORD-2024810,Sascha Testmann,436.92,€,versendet,12,2024/06/11,synthetic-normal
+eco-000000811,811,Schemaweg 152,Südwinkel,32309,Deutschland,47.4971477,13.8975695,ORD-2024811,Chris Demoholz,235.84,€,versendet,12,12.06.2024,synthetic-normal
+eco-000000812,812,Schemaweg 153,Vektorstetten,40228,deu,48.4135987,8.4894625,ORD-2024812,Nika Testmann,643.21,eur,neu,4,13/06/2024,synthetic-normal
+eco-000000813,813,  Prüfsummenstraße   154,,48147,Deutschland,52.1932716,11.2016459,ORD-2024813,Chris Synthetik,"99,90 EUR",€,storniert,8,14.06.2024,synthetic-error
+eco-000000814,814,Pipelineweg 155,Südwinkel,56066,deu,48.4406728,11.3994994,ORD-2024814,Kim Demoholz,344.99,eur,versendet,8,2024/06/15,synthetic-normal
+eco-000000815,815,Qualitätsring 156,Nordhafen,63985,D,52.0606554,14.5586601,ORD-2024815,Kim Testmann,15.92,EUR,neu,8,16.06.2024,synthetic-normal
+eco-000000816,816,Qualitätsring 157,Ostfeld,71904,deu,47.6057692,11.4040669,ORD-2024816,Toni Beispiel,168.5,eur,neu,3,17/06/2024,synthetic-normal
+eco-000000817,817,Koordinatenplatz 214 ,DATENHEIM,78927,Deutschland,48.6087744,8.6030952,ORD-2024433,Kim Muster,283.86,eur,bezahlt,12,04.07.2024,synthetic-normal
+eco-000000818,818,Datenstr. 159,Nordhafen,87742,deu,50.9350727,9.8654623,ORD-2024818,Luca Muster,92.95,EUR,retourniert,10,19.06.2024,synthetic-normal
+eco-000000819,819,Prüfsummenstraße 160, Ostfeld ,15661,deu,51.7759253,11.6413795,ORD-2024819,Luca Beispiel,13.59,€,storniert,10,20/06/2024,synthetic-normal
+eco-000000820,820,Schemaweg 161,Datenheim,23580,deu,49.8926814,12.0361515,ORD-2024820,Toni Demoholz,459.03,Euro,neu,3,2024/06/21,synthetic-normal
+eco-000000821,821,Qualitätsring 119,Westbogen,10982,D,49.3105431,10.3069481,ORD-2024778,Chris Testmann,249.16,Euro,bezahlt,1,2025/06/14,synthetic-normal
+eco-000000822,822,Prüfsummenstr. 163,Ostfeld,39418,Deutschland,52.1479106,10.7550289,ORD-2024822,Robin Muster,63.68,EUR,bezahlt,4,23/06/2024,synthetic-normal
+eco-000000823,823,Pipelineweg 164,Südwinkel,47337,deu,49.7606173,7.5655174,ORD-2024823,Nika Muster,479.71,eur,retourniert,11,24.06.2024,synthetic-normal
+eco-000000824,824,Prüfsummenstr. 165,Westbogen,55256,D,54.4009078,13.4768391,ORD-2024824,Chris Muster,429.03,€,versendet,12,25/06/2024,synthetic-normal
+eco-000000825,825,  Prüfsummenstraße   166,Ostfeld,63175,DE,54.6619676,9.05323,ORD-2024825,Robin Datenberg,280.68,€,neu,12,26.06.2024,synthetic-normal
+eco-000000826,826,Koordinatenplatz 167,Ostfeld,71094,Deutschland,51.5413181,12.598956,ORD-2024826,Sascha Synthetik,268.84,Euro,versendet,2,2024-06-27,synthetic-normal
+eco-000000827,827,Spaltenweg 168,Ostfeld,79013,D,49.1988306,14.8797486,ORD-2024827,Nika Beispiel,434.32,EUR,neu,11,28/06/2024,synthetic-normal
+eco-000000828,828,  Pipelineweg   169, Vektorstetten ,86932,DE,49.7665459,12.9322348,ORD-2024828,Nika Muster,831.63,eur,retourniert,5,29.06.2024,synthetic-normal
+eco-000000829,829,Schemaweg 170,Südwinkel,14851,DE,53.9175125,12.2331121,ORD-2024829,Chris Testmann,298.42,Euro,bezahlt,3,30/06/2024,synthetic-normal
+eco-000000830,830,Schemaweg 171,Nordhafen,22770,deu,48.2058473,9.5791663,ORD-2024830,Nika Datenberg,303.05,EUR,retourniert,1,01/07/2024,synthetic-normal
+eco-000000831,831,Koordinatenplatz 115,Nordhafen,77126,deu,54.5864639,6.6887495,ORD-2024554,Robin Demoholz,890.42,eur,neu,7,2024-11-02,synthetic-normal
+eco-000000832,832,Spaltenweg 173,Vektorstetten,38608,DE,52.8816969,11.0008226,ORD-2024832,Kim Synthetik,297.73,eur,retourniert,2,2024/07/03,synthetic-normal
+eco-000000833,833,Prüfsummenstr. 174,Vektorstetten,46527,deu,52.2433721,6.4718372,ORD-2024833,Chris Datenberg,677.96,Euro,neu,7,04/07/2024,synthetic-normal
+eco-000000834,834,Qualitätsring 99 ,WESTBOGEN,12602,D,49.6670577,8.90839,ORD-2024758,Robin Beispiel,652.11,€,retourniert,10,2025/05/25,synthetic-normal
+eco-000000835,835,Koordinatenplatz 61 ,VEKTORSTETTEN,49500,DE,50.7104003,11.0664046,ORD-2024500,Alex Datenberg,237.48,€,bezahlt,12,09.09.2024,synthetic-normal
+eco-000000836,836,  Koordinatenplatz   177,Südwinkel,70284,Deutschland,54.0886509,12.3771211,ORD-2024836,Robin Muster,608.71,eur,bezahlt,5,07.07.2024,synthetic-normal
+eco-000000837,837,Datenstrasse 178, Nordhafen ,78203,Deutschland,53.916226,14.3418826,ORD-2024837,Sascha Muster,850.32,€,bezahlt,7,08/07/2024,synthetic-normal
+eco-000000838,838,Datenstrasse 179,Ostfeld,86122,DE,53.639595,9.2510483,ORD-2024838,Luca Demoholz,696.25,eur,storniert,1,2024/07/09,synthetic-normal
+eco-000000839,839,Pipelineweg 180,Datenheim,14041,DE,48.5379108,7.7286693,ORD-2024839,Luca Demoholz,695.03,€,versendet,7,10.07.2024,synthetic-normal
+eco-000000840,840,Schemaweg 181,Nordhafen,21960,DE,9.6641284,50.1882214,ORD-2024840,Kim Testmann,,€,versendet,2,2024/07/11,synthetic-error
+eco-000000841,841,  Prüfsummenstraße   182,Westbogen,29879,Deutschland,47.6448081,13.5962162,ORD-2024841,Robin Synthetik,587.14,EUR,bezahlt,9,12.07.2024,synthetic-normal
+eco-000000842,842,Qualitätsring 183,Ostfeld,37798,deu,50.4862175,7.4066648,ORD-2024842,Robin Demoholz,39.9,eur,versendet,2,13.07.2024,synthetic-normal
+eco-000000843,843,  Koordinatenplatz   8 ,WESTBOGEN,29793,Deutschland,50.430665,6.3193331,ORD-2024447,Sascha Muster,527.65,eur,versendet,10,2024-07-18,synthetic-normal
+eco-000000844,844,Koordinatenplatz 185,Westbogen,53636,DE,54.0550354,6.1148495,ORD-2024844,Robin Datenberg,242.34,EUR,retourniert,7,15.07.2024,synthetic-normal
+eco-000000845,845,Prüfsummenstraße 186,Ostfeld,61555,D,13.6764919,54.7736028,ORD-2024845,Luca Muster,"1.234,56",EUR,versendet,8,2024/07/16,synthetic-error
+eco-000000846,846,  Pipelineweg   187, Datenheim ,69474,deu,48.2563306,10.5355531,ORD-2024846,Robin Muster,332.2,EUR,neu,12,2024/07/17,synthetic-normal
+eco-000000847,847,Schemaweg 188,Westbogen,77393,Deutschland,52.6994996,10.0517723,ORD-2024847,Toni Muster,228.55,€,storniert,6,18.07.2024,synthetic-normal
+eco-000000848,848,Prüfsummenstraße 189,Südwinkel,85312,DE,48.3864539,6.1138492,ORD-2024848,Sascha Muster,35.63,Euro,versendet,1,2024/07/19,synthetic-normal
+eco-000000849,849,  Prüfsummenstraße   190,Ostfeld,13231,Deutschland,51.4486836,6.883936,ORD-2024849,Toni Demoholz,567.7,€,versendet,3,20/07/2024,synthetic-normal
+eco-000000850,850,Spaltenweg 191,Westbogen,21150,Deutschland,47.7796951,9.1618847,ORD-2024850,Alex Synthetik,695.95,eur,neu,4,2024/07/21,synthetic-normal
+eco-000000851,851,Vektorallee 192,Ostfeld,29069,DE,54.6438234,14.7394538,ORD-2024851,Robin Datenberg,642.86,eur,bezahlt,11,22.07.2024,synthetic-normal
+eco-000000852,852,Vektorallee 193,Westbogen,36988,deu,52.5720801,14.9740086,ORD-2024852,Robin Testmann,671.41,eur,neu,11,23.07.2024,synthetic-normal
+eco-000000853,853,  Vektorallee   194,Westbogen,44907,DE,54.5888314,14.5298718,ORD-2024853,Toni Datenberg,207.5,Euro,storniert,8,24/07/2024,synthetic-normal
+eco-000000854,854,Schemaweg 195,Vektorstetten,52826,DE,47.7500889,9.5754549,ORD-2024854,Robin Datenberg,5.32,eur,bezahlt,7,25.07.2024,synthetic-normal
+eco-000000855,855,Koordinatenplatz 196, Westbogen ,60745,deu,54.0840526,6.9359371,ORD-2024855,Robin Muster,178.07,Euro,bezahlt,11,26/07/2024,synthetic-normal
+eco-000000856,856,  Pipelineweg   197,Ostfeld,68664,Deutschland,53.5490268,-220.0,ORD-2024856,Luca Muster,n/a,EUR,versendet,5,2024-07-27,synthetic-error
+eco-000000857,857,Spaltenweg 198,Nordhafen,76583,DE,54.8818003,11.3505078,ORD-2024857,Chris Muster,528.56,Euro,storniert,7,2024-07-28,synthetic-normal
+eco-000000858,858,Schemaweg 199,Westbogen,84502,D,52.3690365,8.1114914,ORD-2024858,Chris Beispiel,255.78,EUR,neu,12,2024/07/29,synthetic-normal
+eco-000000859,859,Schemaweg 200,Vektorstetten,12421,D,51.5610978,13.5041906,ORD-2024859,Nika Synthetik,534.02,Euro,neu,10,2024-07-30,synthetic-normal
+eco-000000860,860,Pipelineweg 201,Südwinkel,20340,Deutschland,51.7089276,12.3256087,ORD-2024860,Nika Datenberg,858.89,EUR,versendet,11,2024/07/31,synthetic-normal
+eco-000000861,861,  Prüfsummenstraße   202,Nordhafen,28259,deu,51.608668,6.0221287,ORD-2024861,Chris Beispiel,472.88,€,storniert,1,2024/08/01,synthetic-normal
+eco-000000862,862,Koordinatenplatz 203,Südwinkel,36178,Deutschland,50.6896531,6.2397518,ORD-2024862,Luca Demoholz,737.44,€,bezahlt,4,02/08/2024,synthetic-normal
+eco-000000863,863,  Vektorallee   204,Westbogen,44097,Deutschland,51.9846607,12.6067058,ORD-2024863,Sascha Testmann,703.97,€,neu,12,2024-08-03,synthetic-normal
+eco-000000864,864,  Vektorallee   205, Vektorstetten ,52016,D,49.9645137,13.214257,ORD-2024864,Chris Muster,449.99,eur,versendet,1,2024-08-04,synthetic-normal
+eco-000000865,865,Schemaweg 206,Vektorstetten,59935,DE,48.8095091,6.6329884,ORD-2024865,Nika Testmann,457.98,eur,versendet,9,05/08/2024,synthetic-normal
+eco-000000866,866,Schemaweg 207,Südwinkel,67854,D,53.5786187,8.0623131,ORD-2024866,Robin Demoholz,97.75,€,neu,8,06.08.2024,synthetic-normal
+eco-000000867,867,  Qualitätsring   208,Südwinkel,75773,deu,47.3943795,8.0418579,ORD-2024867,Alex Synthetik,224.59,Euro,storniert,7,07.08.2024,synthetic-normal
+eco-000000868,868,Prüfsummenstr. 209,Westbogen,83692,Deutschland,50.5779917,9.1535337,ORD-2024868,Sascha Testmann,524.9,€,neu,12,08.08.2024,synthetic-normal
+eco-000000869,869,Vektorallee 210,Datenheim,11611,D,51.3687353,6.7642301,ORD-2024869,Sascha Demoholz,633.68,€,retourniert,4,2024/08/09,synthetic-normal
+eco-000000870,870,  Spaltenweg   211,Nordhafen,19530,deu,47.4680754,9.9259081,ORD-2024870,Alex Testmann,416.91,Euro,bezahlt,2,10/08/2024,synthetic-normal
+eco-000000871,871,Vektorallee 80 ,NORDHAFEN,22141,deu,49.5598488,8.9382783,ORD-2024739,Nika Testmann,291.79,€,storniert,6,06.05.2025,synthetic-normal
+eco-000000872,872,  Spaltenweg   213,Südwinkel,35368,D,48.9355515,9.9594279,ORD-2024872,Toni Testmann,29.68,eur,retourniert,9,2024/08/12,synthetic-normal
+eco-000000873,873,Koordinatenplatz 214, Nordhafen ,43287,Deutschland,51.7646023,12.9265125,ORD-2024873,Kim Synthetik,614.78,EUR,retourniert,7,13.08.2024,synthetic-normal
+eco-000000874,874,Vektorallee 215,Ostfeld,51206,DE,49.8216049,6.6662851,ORD-2024874,Nika Synthetik,543.37,Euro,storniert,7,2024/08/14,synthetic-normal
+eco-000000875,875,Koordinatenplatz 216,Westbogen,59125,D,47.9895821,8.1966512,ORD-2024875,Sascha Muster,90.8,€,neu,6,2024/08/15,synthetic-normal
+eco-000000876,876,Datenstraße 217,Nordhafen,67044,deu,47.3131396,14.8631842,ORD-2024876,Alex Beispiel,23.26,€,storniert,5,2024-08-16,synthetic-normal
+eco-000000877,877,Pipelineweg 218,Datenheim,74963,D,48.681579,7.8090395,ORD-2024877,Chris Beispiel,340.48,eur,retourniert,6,17.08.2024,synthetic-normal
+eco-000000878,878,Vektorallee 219,Ostfeld,82882,DE,52.0278279,14.404696,ORD-2024878,Kim Testmann,792.31,€,neu,6,18.08.2024,synthetic-normal
+eco-000000879,879,Qualitätsring 220,Westbogen,10801,D,54.3574092,10.84142,ORD-2024879,Nika Datenberg,94.25,EUR,retourniert,2,19/08/2024,synthetic-normal
+eco-000000880,880,Spaltenweg 1,Nordhafen,18720,Deutschland,47.7455438,14.8375798,ORD-2024880,Luca Demoholz,864.55,EUR,retourniert,2,20/08/2024,synthetic-normal
+eco-000000881,881,Prüfsummenstrasse 2,Südwinkel,26639,D,53.1027718,8.4952242,ORD-2024881,Nika Datenberg,633.47,Euro,storniert,2,2024/08/21,synthetic-normal
+eco-000000882,882,Qualitätsring 216 ,NONE,14765,DE,47.9899228,13.581926,ORD-2024435,Toni Synthetik,"1.234,56",€,versendet,3,06.07.2024,synthetic-error
+eco-000000883,883,Schemaweg 4,Nordhafen,42477,deu,54.4955269,8.6255024,ORD-2024883,Robin Demoholz,450.37,€,neu,9,2024-08-23,synthetic-normal
+eco-000000884,884,Pipelineweg 100 ,SÜDWINKEL,38341,Deutschland,48.7945121,8.8290199,ORD-2024539,Toni Demoholz,93.08,€,bezahlt,12,18.10.2024,synthetic-normal
+eco-000000885,885,Prüfsummenstrasse 6,Vektorstetten,58315,DE,54.221032,6.7075868,ORD-2024885,Robin Muster,742.25,€,neu,12,25.08.2024,synthetic-normal
+eco-000000886,886,  Datenstraße   7,Vektorstetten,66234,DE,54.324773,5.8435968,ORD-2024886,Sascha Demoholz,553.65,€,bezahlt,7,26.08.2024,synthetic-normal
+eco-000000887,887,Vektorallee 8,Westbogen,74153,D,52.4710075,12.3335863,ORD-2024887,Toni Muster,45.06,€,storniert,12,2024-08-27,synthetic-normal
+eco-000000888,888,  Qualitätsring   9,Nordhafen,82072,D,47.6176751,12.8575648,ORD-2024888,Robin Demoholz,253.89,eur,neu,11,2024-08-28,synthetic-normal
+eco-000000889,889,Vektorallee 10,Vektorstetten,89991,Deutschland,54.5604108,12.3782151,ORD-2024889,Nika Testmann,442.24,€,versendet,10,29/08/2024,synthetic-normal
+eco-000000890,890,  Pipelineweg   11,Datenheim,17910,DE,,6.8059638,ORD-2024890,Sascha Beispiel,-12.50,Euro,bezahlt,2,2024-08-30,synthetic-error
+eco-000000891,891,Datenstrasse 12, Vektorstetten ,25829,Deutschland,47.63256,5.9307425,ORD-2024891,Robin Testmann,132.77,€,bezahlt,6,2024/08/31,synthetic-normal
+eco-000000892,892,Vektorallee 13,Südwinkel,33748,deu,52.0668236,8.8901754,ORD-2024892,Luca Beispiel,355.22,Euro,neu,4,01/09/2024,synthetic-normal
+eco-000000893,893,Datenstraße 14,Ostfeld,41667,DE,52.0012553,7.3632202,ORD-2024893,Chris Testmann,867.94,EUR,bezahlt,2,02.09.2024,synthetic-normal
+eco-000000894,894,  Datenstraße   176,Ostfeld,18005,DE,51.4049782,5.8304277,ORD-2024395,Luca Beispiel,355.24,€,versendet,11,01/07/2025,synthetic-normal
+eco-000000895,895,Qualitätsring 16,Nordhafen,57505,DE,52.231356,14.1794654,ORD-2024895,Nika Testmann,112.08,Euro,storniert,12,04.09.2024,synthetic-normal
+eco-000000896,896,  Spaltenweg   17,Südwinkel,65424,D,51.3770555,9.1132434,ORD-2024896,Robin Testmann,313.91,eur,storniert,5,05.09.2024,synthetic-normal
+eco-000000897,897,  Datenstraße   18,Datenheim,73343,deu,54.8049192,-220.0,ORD-2024897,Chris Muster,-12.50,Euro,storniert,7,2024/09/06,synthetic-error
+eco-000000898,898,Prüfsummenstrasse 19,Südwinkel,81262,deu,48.9488908,7.5568787,ORD-2024898,Sascha Demoholz,307.33,€,storniert,9,2024/09/07,synthetic-normal
+eco-000000899,899,Spaltenweg 20,Ostfeld,89181,Deutschland,54.1755381,14.5927422,ORD-2024899,Nika Beispiel,356.58,eur,bezahlt,6,08.09.2024,synthetic-normal
+eco-000000900,900,Spaltenweg 21, Ostfeld ,17100,deu,49.3772319,12.6629396,ORD-2024900,Robin Demoholz,391.45,Euro,retourniert,4,09.09.2024,synthetic-normal
+eco-000000901,901,  Vektorallee   22,Datenheim,25019,DE,52.4390395,13.0400528,ORD-2024901,Kim Beispiel,781.89,EUR,neu,6,2024-09-10,synthetic-normal
+eco-000000902,902,Vektorallee 23,Nordhafen,32938,Deutschland,52.0365608,8.7026003,ORD-2024902,Luca Datenberg,186.69,€,bezahlt,5,11/09/2024,synthetic-normal
+eco-000000903,903,Vektorallee 24,Datenheim,40857,D,48.5029312,10.8813551,ORD-2024903,Luca Demoholz,811.23,€,bezahlt,2,12.09.2024,synthetic-normal
+eco-000000904,904,  Spaltenweg   25,Nordhafen,48776,Deutschland,11.1809991,54.3751606,ORD-2024904,Robin Datenberg,,EUR,storniert,11,13/09/2024,synthetic-error
+eco-000000905,905,Vektorallee 26,Südwinkel,56695,DE,54.8460157,13.0769014,ORD-2024905,Sascha Demoholz,66.66,€,versendet,12,2024-09-14,synthetic-normal
+eco-000000906,906,Prüfsummenstrasse 27,Westbogen,64614,deu,51.2020133,14.8347348,ORD-2024906,Alex Datenberg,447.8,€,bezahlt,1,15.09.2024,synthetic-normal
+eco-000000907,907,Koordinatenplatz 28,Vektorstetten,72533,D,52.31152,8.8628535,ORD-2024907,Alex Muster,896.56,EUR,retourniert,1,16/09/2024,synthetic-normal
+eco-000000908,908,Datenstr. 29,Westbogen,80452,Deutschland,53.4039098,13.6533653,ORD-2024908,Nika Datenberg,345.12,€,bezahlt,6,17/09/2024,synthetic-normal
+eco-000000909,909,Spaltenweg 30, Westbogen ,88371,DE,47.4748567,6.9824376,ORD-2024909,Kim Muster,243.67,EUR,bezahlt,6,2024-09-18,synthetic-normal
+eco-000000910,910,Pipelineweg 31,Vektorstetten,16290,Deutschland,53.9132129,11.4806382,ORD-2024910,Robin Synthetik,702.09,Euro,versendet,11,2024-09-19,synthetic-normal
+eco-000000911,911,Vektorallee 32,Nordhafen,24209,DE,50.5905672,200.0,ORD-2024911,Sascha Beispiel,"1.234,56",EUR,storniert,6,20.09.2024,synthetic-error
+eco-000000912,912,Spaltenweg 33,Datenheim,32128,DE,50.6631241,10.4697764,ORD-2024912,Kim Muster,637.12,eur,versendet,3,21.09.2024,synthetic-normal
+eco-000000913,913,Vektorallee 34,Südwinkel,40047,deu,50.2994766,13.4915717,ORD-2024913,Toni Synthetik,72.82,Euro,retourniert,11,22/09/2024,synthetic-normal
+eco-000000914,914,Qualitätsring 35,Vektorstetten,47966,Deutschland,49.4390134,7.2836303,ORD-2024914,Alex Beispiel,313.56,Euro,versendet,12,2024-09-23,synthetic-normal
+eco-000000915,915,Spaltenweg 36,Vektorstetten,55885,DE,49.7198252,12.8967522,ORD-2024915,Chris Demoholz,76.56,EUR,retourniert,5,24/09/2024,synthetic-normal
+eco-000000916,916,Spaltenweg 37,Westbogen,63804,deu,49.0336484,7.369087,ORD-2024916,Chris Datenberg,435,Euro,storniert,6,2024/09/25,synthetic-normal
+eco-000000917,917,  Vektorallee   38,Nordhafen,71723,deu,53.2908163,9.3094076,ORD-2024917,Robin Datenberg,409.7,€,neu,7,26.09.2024,synthetic-normal
+eco-000000918,918,  Datenstraße   39, Westbogen ,79642,Deutschland,48.8029493,10.3753664,ORD-2024918,Robin Testmann,199.21,€,bezahlt,4,2024/09/27,synthetic-normal
+eco-000000919,919,  Vektorallee   40,Nordhafen,87561,Deutschland,54.6069396,6.4155359,ORD-2024919,Chris Demoholz,394.42,Euro,retourniert,5,28.09.2024,synthetic-normal
+eco-000000920,920,  Prüfsummenstraße   41,Westbogen,15480,deu,49.8732119,8.6576297,ORD-2024920,Nika Synthetik,724.24,EUR,retourniert,3,29/09/2024,synthetic-normal
+eco-000000921,921,Vektorallee 42,Ostfeld,23399,DE,47.4345944,9.2040784,ORD-2024921,Sascha Muster,621.22,€,bezahlt,6,2024/09/30,synthetic-normal
+eco-000000922,922,Koordinatenplatz 43,Westbogen,31318,deu,52.6815971,11.4063615,ORD-2024922,Sascha Datenberg,521.61,Euro,neu,6,2024-10-01,synthetic-normal
+eco-000000923,923,  Spaltenweg   44,Vektorstetten,39237,Deutschland,47.8086334,9.3841036,ORD-2024923,Sascha Testmann,292.88,eur,versendet,1,2024/10/02,synthetic-normal
+eco-000000924,924,Spaltenweg 45,Westbogen,47156,D,54.7881627,11.3638934,ORD-2024924,Sascha Demoholz,297.86,eur,retourniert,10,2024-10-03,synthetic-normal
+eco-000000925,925,Schemaweg 46,Ostfeld,55075,DE,49.5661453,200.0,ORD-2024925,Toni Beispiel,"99,90 EUR",EUR,storniert,2,04/10/2024,synthetic-error
+eco-000000926,926,Spaltenweg 47,Westbogen,62994,D,49.3972158,12.2979299,ORD-2024926,Luca Testmann,145.5,eur,retourniert,3,05/10/2024,synthetic-normal
+eco-000000927,927,Spaltenweg 48, Vektorstetten ,70913,D,51.4809661,11.5857911,ORD-2024927,Chris Datenberg,781.63,eur,versendet,10,2024-10-06,synthetic-normal
+eco-000000928,928,Datenstraße 49,Vektorstetten,78832,deu,51.0747422,14.3279284,ORD-2024928,Robin Muster,682.06,EUR,retourniert,3,07.10.2024,synthetic-normal
+eco-000000929,929,  Pipelineweg   50,Nordhafen,86751,D,50.3442551,6.3717842,ORD-2024929,Nika Demoholz,324.59,Euro,bezahlt,9,2024-10-08,synthetic-normal
+eco-000000930,930,Schemaweg 51,Vektorstetten,14670,DE,47.6988716,13.5546173,ORD-2024930,Sascha Datenberg,108.15,EUR,neu,4,09.10.2024,synthetic-normal
+eco-000000931,931,Koordinatenplatz 52,Vektorstetten,22589,D,47.4463436,12.8429374,ORD-2024931,Luca Beispiel,128.22,Euro,retourniert,2,2024-10-10,synthetic-normal
+eco-000000932,932,Datenstr. 53,Datenheim,30508,Deutschland,13.4271374,51.1695296,ORD-2024932,Nika Muster,,eur,retourniert,1,11/10/2024,synthetic-error
+eco-000000933,933,Qualitätsring 54,Westbogen,38427,Deutschland,50.2840065,11.7842563,ORD-2024933,Luca Beispiel,148.08,Euro,retourniert,11,2024/10/12,synthetic-normal
+eco-000000934,934,Qualitätsring 55,,46346,Deutschland,53.6302657,12.0026983,ORD-2024934,Toni Testmann,"1.234,56",Euro,neu,11,13.10.2024,synthetic-error
+eco-000000935,935,Datenstr. 56,Südwinkel,54265,Deutschland,48.8682805,14.5105147,ORD-2024935,Nika Demoholz,199.04,€,storniert,7,14.10.2024,synthetic-normal
+eco-000000936,936,Qualitätsring 57, Nordhafen ,62184,DE,52.0065032,13.685927,ORD-2024936,Toni Beispiel,539.08,€,storniert,7,15.10.2024,synthetic-normal
+eco-000000937,937,Prüfsummenstr. 58,Ostfeld,70103,DE,49.5607714,6.1219333,ORD-2024937,Kim Testmann,582.97,eur,versendet,8,16.10.2024,synthetic-normal
+eco-000000938,938,  Datenstraße   59,Nordhafen,78022,DE,52.8085486,9.9882501,ORD-2024938,Toni Testmann,857.42,EUR,retourniert,8,2024-10-17,synthetic-normal
+eco-000000939,939,Prüfsummenstraße 60,Ostfeld,85941,D,50.4344243,14.7507455,ORD-2024939,Alex Demoholz,63.32,EUR,versendet,12,18/10/2024,synthetic-normal
+eco-000000940,940,Schemaweg 61,Ostfeld,13860,DE,54.8683647,6.2059326,ORD-2024940,Nika Synthetik,244.22,Euro,bezahlt,12,2024-10-19,synthetic-normal
+eco-000000941,941,Vektorallee 62,Westbogen,21779,deu,11.6816905,49.7374054,ORD-2024941,Nika Muster,,Euro,versendet,8,20/10/2024,synthetic-error
+eco-000000942,942,Prüfsummenstr. 63,Nordhafen,29698,Deutschland,54.0242698,8.8617975,ORD-2024942,Chris Demoholz,801.04,Euro,storniert,9,21.10.2024,synthetic-normal
+eco-000000943,943,Vektorallee 64,Vektorstetten,37617,deu,53.7683437,11.0779718,ORD-2024943,Sascha Demoholz,826.88,Euro,neu,7,2024-10-22,synthetic-normal
+eco-000000944,944,Datenstr. 65,Vektorstetten,45536,deu,52.9218056,12.0928983,ORD-2024944,Chris Datenberg,470.01,EUR,versendet,12,23/10/2024,synthetic-normal
+eco-000000945,945,Prüfsummenstrasse 66, Vektorstetten ,53455,D,52.5272872,14.8891453,ORD-2024945,Sascha Demoholz,592.92,Euro,bezahlt,12,24.10.2024,synthetic-normal
+eco-000000946,946,  Pipelineweg   67,Nordhafen,61374,Deutschland,49.1379335,9.5363028,ORD-2024946,Sascha Synthetik,872.51,EUR,bezahlt,1,2024-10-25,synthetic-normal
+eco-000000947,947,Datenstr. 69 ,SÜDWINKEL,32852,D,47.9433244,10.7086036,ORD-2024508,Chris Datenberg,165.87,EUR,storniert,1,17/09/2024,synthetic-normal
+eco-000000948,948,Spaltenweg 69,Westbogen,77212,D,47.3803202,11.2975599,ORD-2024948,Chris Datenberg,64.98,€,bezahlt,5,2024/10/27,synthetic-normal
+eco-000000949,949,  Datenstraße   70,Ostfeld,85131,Deutschland,49.9713769,8.153196,ORD-2024949,Luca Datenberg,573.52,EUR,storniert,12,28/10/2024,synthetic-normal
+eco-000000950,950,Prüfsummenstraße 71,Nordhafen,13050,D,49.2163885,6.6468493,ORD-2024950,Sascha Demoholz,895.2,EUR,storniert,7,29/10/2024,synthetic-normal
+eco-000000951,951,  Schemaweg   72,Ostfeld,20969,DE,47.378234,6.9811342,ORD-2024951,Alex Synthetik,35.74,Euro,neu,9,30.10.2024,synthetic-normal
+eco-000000952,952,Datenstr. 73,Vektorstetten,28888,D,48.621782,9.9558786,ORD-2024952,Robin Beispiel,352.42,€,retourniert,6,2024/10/31,synthetic-normal
+eco-000000953,953,  Qualitätsring   74,Nordhafen,36807,D,53.1956249,13.2225845,ORD-2024953,Robin Datenberg,754.45,EUR,versendet,3,01.11.2024,synthetic-normal
+eco-000000954,954,  Qualitätsring   75, Nordhafen ,44726,DE,48.5496929,7.0143909,ORD-2024954,Alex Datenberg,761.76,Euro,versendet,12,2024/11/02,synthetic-normal
+eco-000000955,955,Prüfsummenstraße 64,Nordhafen,55437,Deutschland,54.4229016,,ORD-2024723,Chris Testmann,-12.50,eur,neu,6,2025/04/20,synthetic-error
+eco-000000956,956,Datenstr. 77,Vektorstetten,60564,D,47.808733,6.6026352,ORD-2024956,Chris Datenberg,379.67,Euro,retourniert,4,04.11.2024,synthetic-normal
+eco-000000957,957,  Qualitätsring   78,Datenheim,68483,Deutschland,51.5360004,10.1964936,ORD-2024957,Robin Synthetik,515.53,Euro,neu,9,2024-11-05,synthetic-normal
+eco-000000958,958,Prüfsummenstraße 79,Datenheim,76402,DE,48.1569196,11.926383,ORD-2024958,Alex Testmann,124.23,eur,versendet,4,2024/11/06,synthetic-normal
+eco-000000959,959,Spaltenweg 80,Ostfeld,84321,DE,48.4104542,6.9679914,ORD-2024959,Robin Beispiel,429.91,Euro,retourniert,2,07.11.2024,synthetic-normal
+eco-000000960,960,Koordinatenplatz 81,Ostfeld,12240,DE,53.0180192,6.1947619,ORD-2024960,Chris Datenberg,756.59,EUR,bezahlt,11,08/11/2024,synthetic-normal
+eco-000000961,961,  Vektorallee   82,Datenheim,20159,D,52.2099113,12.7499575,ORD-2024961,Robin Muster,780.91,€,storniert,2,2024/11/09,synthetic-normal
+eco-000000962,962,Vektorallee 83,Ostfeld,28078,Deutschland,50.8302539,13.2226647,ORD-2024962,Chris Testmann,507.71,€,versendet,8,2024/11/10,synthetic-normal
+eco-000000963,963,  Vektorallee   84, Vektorstetten ,35997,D,54.7117225,10.7011999,ORD-2024963,Kim Testmann,621.16,€,versendet,5,11.11.2024,synthetic-normal
+eco-000000964,964,Qualitätsring 85,Südwinkel,43916,Deutschland,51.2343054,9.586161,ORD-2024964,Toni Synthetik,816.96,Euro,bezahlt,10,12.11.2024,synthetic-normal
+eco-000000965,965,Koordinatenplatz 86,Ostfeld,51835,deu,48.1908018,12.4492314,ORD-2024965,Toni Demoholz,175.02,eur,bezahlt,10,13/11/2024,synthetic-normal
+eco-000000966,966,  Qualitätsring   87,Westbogen,59754,D,51.3843055,7.1463272,ORD-2024966,Kim Testmann,449.78,EUR,storniert,9,2024/11/14,synthetic-normal
+eco-000000967,967,  Vektorallee   124,Ostfeld,68397,D,53.7907208,12.7814966,ORD-2024563,Toni Synthetik,662.76,eur,retourniert,12,11.11.2024,synthetic-normal
+eco-000000968,968,  Schemaweg   89,Nordhafen,75592,D,52.0736567,10.3039483,ORD-2024968,Kim Datenberg,841.6,Euro,storniert,6,2024-11-16,synthetic-normal
+eco-000000969,969,Datenstraße 90,Westbogen,83511,DE,51.4685293,8.2694115,ORD-2024969,Kim Demoholz,685.31,Euro,bezahlt,1,2024-11-17,synthetic-normal
+eco-000000970,970,Prüfsummenstraße 203,Vektorstetten,53998,D,49.1172408,14.9724874,ORD-2024642,Kim Muster,265.3,Euro,neu,1,29.01.2025,synthetic-normal
+eco-000000971,971,Qualitätsring 92,Westbogen,19349,deu,48.452942,10.8941343,ORD-2024971,Chris Muster,220.41,eur,storniert,4,2024-11-19,synthetic-normal
+eco-000000972,972,Spaltenweg 93, Ostfeld ,27268,deu,11.4083863,49.1393863,ORD-2024972,Robin Muster,n/a,€,neu,1,20.11.2024,synthetic-error
+eco-000000973,973,Spaltenweg 94,Nordhafen,35187,D,52.7144301,9.8712535,ORD-2024973,Nika Synthetik,765.38,Euro,neu,9,21/11/2024,synthetic-normal
+eco-000000974,974,Koordinatenplatz 95,Datenheim,43106,D,53.670464,11.3802962,ORD-2024974,Chris Muster,395.8,EUR,retourniert,12,2024/11/22,synthetic-normal
+eco-000000975,975,  Koordinatenplatz   96,Vektorstetten,51025,Deutschland,54.1282398,9.2908853,ORD-2024975,Luca Beispiel,200.05,eur,neu,8,2024-11-23,synthetic-normal
+eco-000000976,976,  Spaltenweg   97,Ostfeld,58944,DE,50.6239538,9.0037165,ORD-2024976,Toni Testmann,345.97,€,storniert,3,24.11.2024,synthetic-normal
+eco-000000977,977,Qualitätsring 98,Westbogen,66863,DE,53.0813978,6.627747,ORD-2024977,Robin Beispiel,467.87,EUR,versendet,2,25/11/2024,synthetic-normal
+eco-000000978,978,Schemaweg 99,Westbogen,74782,deu,51.2558606,7.9327038,ORD-2024978,Kim Synthetik,773.36,EUR,retourniert,11,26.11.2024,synthetic-normal
+eco-000000979,979,Vektorallee 100,Südwinkel,82701,DE,47.812104,6.7338948,ORD-2024979,Robin Synthetik,383.82,EUR,storniert,9,27/11/2024,synthetic-normal
+eco-000000980,980,Qualitätsring 101,Südwinkel,10620,Deutschland,51.2006689,5.9906052,ORD-2024980,Alex Datenberg,839.27,eur,bezahlt,1,2024/11/28,synthetic-normal
+eco-000000981,981,Koordinatenplatz 102, Ostfeld ,18539,deu,52.6975898,12.3635532,ORD-2024981,Robin Demoholz,776.21,EUR,neu,7,29.11.2024,synthetic-normal
+eco-000000982,982,Prüfsummenstraße 58,Nordhafen,87923,D,53.1191795,200.0,ORD-2024717,Nika Demoholz,-12.50,Euro,retourniert,3,2025-04-14,synthetic-error
+eco-000000983,983,  Prüfsummenstraße   104,Datenheim,34377,Deutschland,53.2765239,11.1127413,ORD-2024983,Nika Testmann,497.53,Euro,bezahlt,9,2024/12/01,synthetic-normal
+eco-000000984,984,Schemaweg 105,Ostfeld,42296,D,,9.2373354,ORD-2024984,Chris Datenberg,n/a,eur,neu,4,2024/12/02,synthetic-error
+eco-000000985,985,  Schemaweg   106,Nordhafen,50215,deu,54.1678439,8.1268636,ORD-2024985,Nika Datenberg,675.56,Euro,versendet,4,2024/12/03,synthetic-normal
+eco-000000986,986,Vektorallee 107,Nordhafen,58134,Deutschland,50.8346796,9.356323,ORD-2024986,Nika Beispiel,224.6,€,versendet,9,2024/12/04,synthetic-normal
+eco-000000987,987,Koordinatenplatz 52,Vektorstetten,22589,D,47.4463436,12.8429374,ORD-2024931,Luca Beispiel,128.22,Euro,retourniert,2,2024-10-10,synthetic-normal
+eco-000000988,988,  Schemaweg   218 , OSTFELD ,12783,D,48.1702084,13.6783522,ORD-2024657,Kim Testmann,726.25,Euro,storniert,11,2025/02/13,synthetic-normal
+eco-000000989,989,Vektorallee 110,Datenheim,81891,deu,52.0931263,9.2156512,ORD-2024989,Luca Datenberg,892.93,€,retourniert,8,07/12/2024,synthetic-normal
+eco-000000990,990,  Pipelineweg   111, Ostfeld ,89810,DE,52.3640321,10.8415057,ORD-2024990,Kim Muster,50.57,Euro,versendet,11,2024/12/08,synthetic-normal
+eco-000000991,991,Qualitätsring 112,Westbogen,17729,D,48.9738053,6.2049235,ORD-2024991,Alex Muster,133.84,eur,storniert,10,09.12.2024,synthetic-normal
+eco-000000992,992,Schemaweg 113,Nordhafen,25648,deu,53.827189,8.2426707,ORD-2024992,Luca Beispiel,140.72,eur,storniert,3,2024/12/10,synthetic-normal
+eco-000000993,993,Koordinatenplatz 114,Westbogen,33567,Deutschland,52.0995864,8.8041042,ORD-2024993,Robin Demoholz,731.46,€,retourniert,4,11.12.2024,synthetic-normal
+eco-000000994,994,  Schemaweg   115,Ostfeld,41486,DE,54.5359634,8.5631509,ORD-2024994,Toni Beispiel,248.61,eur,retourniert,4,12.12.2024,synthetic-normal
+eco-000000995,995,Pipelineweg 116,Ostfeld,49405,D,51.6059538,8.5515777,ORD-2024995,Sascha Muster,815.13,Euro,neu,6,2024-12-13,synthetic-normal
+eco-000000996,996,Spaltenweg 117,Westbogen,57324,DE,49.6408563,10.2759836,ORD-2024996,Luca Datenberg,142.87,eur,storniert,7,14.12.2024,synthetic-normal
+eco-000000997,997,Vektorallee 118,Nordhafen,65243,DE,47.923921,13.1249875,ORD-2024997,Alex Muster,152.58,Euro,storniert,2,15.12.2024,synthetic-normal
+eco-000000998,998,Schemaweg 119,Vektorstetten,12,Deutschland,52.3620426,6.6051857,ORD-2024998,Robin Testmann,-12.50,€,neu,1,2024-12-16,synthetic-error
+eco-000000999,999,  Prüfsummenstraße   120, Datenheim ,81081,Deutschland,51.9773066,10.6400049,ORD-2024999,Toni Muster,157.09,EUR,storniert,10,17/12/2024,synthetic-normal

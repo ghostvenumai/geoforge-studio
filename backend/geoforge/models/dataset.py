@@ -31,3 +31,11 @@ class DatasetResponse(ORMModel):
 class ProfileResponse(BaseModel):
     dataset_id: str
     profile: dict[str, Any]
+
+
+class DemoDatasetInfo(BaseModel):
+    theme: str
+    title: str
+    description: str
+    filename: str
+    recommended_pipeline: str

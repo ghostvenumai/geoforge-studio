@@ -67,6 +67,23 @@ def test_dataset_crud_profile_duplicate_and_errors() -> None:
         assert client.delete("/api/datasets/not-found").status_code == 404
 
 
+def test_registered_demo_dataset_library_is_fixed_and_importable() -> None:
+    with TestClient(app) as client:
+        library = client.get("/api/datasets/demo")
+        assert library.status_code == 200
+        assert {item["theme"] for item in library.json()["items"]} == {
+            "marketing",
+            "ecommerce",
+            "logistics",
+            "security",
+        }
+        imported = client.post("/api/datasets/demo/marketing")
+        assert imported.status_code == 201, imported.text
+        assert imported.json()["original_filename"] == "geoforge-demo-marketing.csv"
+        assert imported.json()["row_count"] == 1_000
+        assert client.post("/api/datasets/demo/not-registered").status_code == 422
+
+
 def test_pipeline_validation_creation_and_missing_references() -> None:
     yaml_text = """name: Contract pipeline
 description: Safe fixed operation pipeline

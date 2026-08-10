@@ -9,28 +9,46 @@ export default defineConfig({
   outputDir: '../artifacts/test-results/playwright',
   reporter: [['html', { open: 'never', outputFolder: '../artifacts/playwright-report' }], ['list']],
   use: {
-    baseURL: 'http://127.0.0.1:5173',
+    baseURL: 'http://127.0.0.1:15176',
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
     screenshot: 'only-on-failure',
     launchOptions: { executablePath: '/usr/bin/google-chrome' },
   },
   projects: [
-    { name: 'desktop', use: { ...devices['Desktop Chrome'] }, testIgnore: /responsive\.spec\.ts/ },
-    { name: 'tablet', use: { ...devices['Desktop Chrome'], viewport: { width: 1024, height: 1366 } }, testMatch: /responsive\.spec\.ts/ },
-    { name: 'mobile-smoke', use: { ...devices['Desktop Chrome'], viewport: { width: 393, height: 851 } }, testMatch: /responsive\.spec\.ts/ },
+    {
+      name: 'desktop',
+      use: { ...devices['Desktop Chrome'] },
+      testIgnore: /(responsive|video-demo)\.spec\.ts/,
+    },
+    {
+      name: 'tablet',
+      use: { ...devices['Desktop Chrome'], viewport: { width: 1024, height: 1366 } },
+      testMatch: /responsive\.spec\.ts/,
+    },
+    {
+      name: 'mobile-smoke',
+      use: { ...devices['Desktop Chrome'], viewport: { width: 393, height: 851 } },
+      testMatch: /responsive\.spec\.ts/,
+    },
   ],
   webServer: [
     {
-      command: '../.venv/bin/uvicorn geoforge.main:app --app-dir ../backend --host 127.0.0.1 --port 18080',
-      url: 'http://127.0.0.1:18080/api/health',
-      reuseExistingServer: true,
+      command:
+        'GEOFORGE_DATABASE_URL=sqlite:///../artifacts/test-results/geoforge-e2e.db ' +
+        'GEOFORGE_DATA_DIR=../artifacts/test-results/e2e-data ' +
+        'GEOFORGE_ARTIFACT_DIR=../artifacts/test-results/e2e-runs ' +
+        `GEOFORGE_ALLOWED_ORIGINS='["http://127.0.0.1:15176"]' ` +
+        '../.venv/bin/uvicorn geoforge.main:app --app-dir ../backend --host 127.0.0.1 --port 18083',
+      url: 'http://127.0.0.1:18083/api/health',
+      reuseExistingServer: false,
       timeout: 120_000,
     },
     {
-      command: 'VITE_API_URL=http://127.0.0.1:18080/api npm run dev -- --host 127.0.0.1',
-      url: 'http://127.0.0.1:5173',
-      reuseExistingServer: true,
+      command:
+        'VITE_API_URL=http://127.0.0.1:18083/api npm run dev -- --host 127.0.0.1 --port 15176',
+      url: 'http://127.0.0.1:15176',
+      reuseExistingServer: false,
       timeout: 120_000,
     },
   ],

@@ -10,10 +10,13 @@ from geoforge.core.config import Settings, get_settings
 from geoforge.db.base import get_db
 from geoforge.db.models import Dataset
 from geoforge.models.common import ListResponse, MessageResponse
-from geoforge.models.dataset import DatasetResponse, ProfileResponse
+from geoforge.models.dataset import DatasetResponse, DemoDatasetInfo, ProfileResponse
 from geoforge.services.datasets import (
+    DEMO_DATASETS,
+    DemoTheme,
     UploadTooLargeError,
     create_dataset,
+    create_demo_dataset,
     delete_dataset_files,
     profile_dataset,
 )
@@ -40,6 +43,29 @@ async def upload_dataset(
         raise HTTPException(status_code=413, detail=str(exc)) from exc
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@router.get("/demo", response_model=ListResponse[DemoDatasetInfo])
+def list_demo_datasets() -> ListResponse[DemoDatasetInfo]:
+    items = [
+        DemoDatasetInfo(
+            theme=item.theme.value,
+            title=item.title,
+            description=item.description,
+            filename=item.filename,
+            recommended_pipeline=item.recommended_pipeline,
+        )
+        for item in DEMO_DATASETS.values()
+    ]
+    return ListResponse(items=items, total=len(items))
+
+
+@router.post("/demo/{theme}", response_model=DatasetResponse, status_code=status.HTTP_201_CREATED)
+async def load_demo_dataset(theme: DemoTheme, db: DbSession, settings: AppSettings) -> Dataset:
+    try:
+        return await create_demo_dataset(theme, db, settings)
+    except ValueError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
 
 
 @router.get("", response_model=ListResponse[DatasetResponse])

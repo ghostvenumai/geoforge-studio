@@ -44,3 +44,9 @@ Status: `[x]` complete, `[~]` active, `[ ]` open, `[!]` blocked.
 - [!] Verify production builds, Docker Compose if available, and health checks. Native builds and health checks passed; Compose configuration is valid, while image construction is blocked by DNS in the Docker builder.
 - [x] Complete portfolio, SOLCOM mapping, UI review, benchmark, and final release reports.
 - [x] Localize the complete visible web interface to German and add a detailed German operating guide.
+- [x] Add deterministic Marketing, E-Commerce, Logistics, and Security demo datasets.
+- [x] Expose the four themed datasets as a directly loadable in-product demo library.
+- [x] Add bounded persistent master-loop, failure classification, retries, resume, and reports.
+- [x] Add validated German timeline, deterministic Playwright recording, subtitles, OpenAI TTS adapter, FFmpeg render, and video QA.
+- [x] Execute the real 147-second recording, subtitle render, video QA, and final reachable quality gates.
+- [!] Generate the final narrated MP4 after an external `OPENAI_API_KEY` is safely supplied; no request was sent without it.

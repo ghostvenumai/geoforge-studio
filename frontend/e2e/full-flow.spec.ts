@@ -41,7 +41,9 @@ async function screenshot(page: Page, testInfo: TestInfo, name: string) {
   })
 }
 
-test('complete data quality workflow remains auditable after reload', async ({ page }, testInfo) => {
+test('complete data quality workflow remains auditable after reload', async ({
+  page,
+}, testInfo) => {
   const consoleErrors: string[] = []
   const failedRequests: string[] = []
   page.on('console', (message) => {
@@ -49,7 +51,10 @@ test('complete data quality workflow remains auditable after reload', async ({ p
   })
   page.on('pageerror', (error) => consoleErrors.push(error.message))
   page.on('requestfailed', (request) => {
-    const expectedDownloadHandoff = request.url().includes('/api/artifacts/') && request.url().endsWith('/download') && request.failure()?.errorText.includes('ERR_ABORTED')
+    const expectedDownloadHandoff =
+      request.url().includes('/api/artifacts/') &&
+      request.url().endsWith('/download') &&
+      request.failure()?.errorText.includes('ERR_ABORTED')
     if (!expectedDownloadHandoff) failedRequests.push(request.method() + ' ' + request.url())
   })
   await page.emulateMedia({ reducedMotion: 'reduce', colorScheme: 'light' })
@@ -58,7 +63,9 @@ test('complete data quality workflow remains auditable after reload', async ({ p
   await assertHealthyPage(page, 'Datensätze')
   await page.locator('input[type="file"]').setInputFiles('../data/samples/geoforge-demo.csv')
   await expect(page.getByText('geoforge-demo hochgeladen')).toBeVisible({ timeout: 30_000 })
-  await expect(page.getByRole('table', { name: 'Importierte Datensätze' })).toContainText('geoforge-demo')
+  await expect(page.getByRole('table', { name: 'Importierte Datensätze' })).toContainText(
+    'geoforge-demo',
+  )
 
   await page.getByRole('link', { name: 'Datenprofiling' }).click()
   await assertHealthyPage(page, 'Datenprofiling')
@@ -70,8 +77,12 @@ test('complete data quality workflow remains auditable after reload', async ({ p
   await page.getByRole('link', { name: 'Pipeline-Builder' }).click()
   await assertHealthyPage(page, 'Pipeline-Builder')
   const pipelineSelect = page.getByLabel('Pipeline-Version')
-  const pipelineValue = await pipelineSelect.locator('option').filter({ hasText: 'Vollständige Datenqualität und Deduplizierung' }).getAttribute('value')
-  if (!pipelineValue) throw new Error('Vollständige Datenqualität und Deduplizierung Pipeline fehlt')
+  const pipelineValue = await pipelineSelect
+    .locator('option')
+    .filter({ hasText: 'Vollständige Datenqualität und Deduplizierung' })
+    .getAttribute('value')
+  if (!pipelineValue)
+    throw new Error('Vollständige Datenqualität und Deduplizierung Pipeline fehlt')
   await pipelineSelect.selectOption(pipelineValue)
   await expect(page.getByTestId('rf__node-duplicates')).toBeVisible()
   await page.getByRole('button', { name: 'Validieren', exact: true }).click()
@@ -87,7 +98,7 @@ test('complete data quality workflow remains auditable after reload', async ({ p
   await expect
     .poll(
       async () => {
-        const response = await page.request.get(`http://127.0.0.1:18080/api/runs/${runId}`)
+        const response = await page.request.get(`http://127.0.0.1:18083/api/runs/${runId}`)
         const payload: unknown = await response.json()
         return stringProperty(payload, 'status')
       },
@@ -119,7 +130,9 @@ test('complete data quality workflow remains auditable after reload', async ({ p
   const download = await downloadPromise
   expect(download.suggestedFilename()).toBe('result.parquet')
   const manifestRow = page.getByRole('row').filter({ hasText: 'Laufmanifest' })
-  const manifestUrl = await manifestRow.getByRole('link', { name: 'Herunterladen' }).getAttribute('href')
+  const manifestUrl = await manifestRow
+    .getByRole('link', { name: 'Herunterladen' })
+    .getAttribute('href')
   expect(manifestUrl).toBeTruthy()
   const manifest = await page.request.get(new URL(manifestUrl!, page.url()).href)
   expect(manifest.ok()).toBeTruthy()
@@ -135,8 +148,11 @@ test('complete data quality workflow remains auditable after reload', async ({ p
     await page.goto(path)
     await assertHealthyPage(page, title)
     const accessibility = await new AxeBuilder({ page }).include('#main-content').analyze()
-    expect(accessibility.violations.filter((item) => ['serious', 'critical'].includes(item.impact ?? '')))
-      .toEqual([])
+    expect(
+      accessibility.violations.filter((item) =>
+        ['serious', 'critical'].includes(item.impact ?? ''),
+      ),
+    ).toEqual([])
     await screenshot(page, testInfo, slug)
   }
 

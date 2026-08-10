@@ -32,3 +32,11 @@ artifacts/playwright-report/
 artifacts/runtime/
 artifacts/codex-loop/
 .codex-loop.lock/
+.automation-loop.lock/
+automation/logs/
+automation/state/loop_state.json
+video/logs/
+video/tmp/
+dist/*.mp4
+dist/video_qa.json
+dist/build_report.md

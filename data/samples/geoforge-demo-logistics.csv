@@ -1,0 +1,1001 @@
+record_id,source_row,street,city,postal_code,country,latitude,longitude,shipment_number,carrier,weight_kg,status,dispatch_date,quality_note
+log-000000000,0,Schemaweg 1, Vektorstetten ,10000,DE,52.4429161,14.008052,SHP-500000,SynthExpress,20.11,verloren,2025-01-01,synthetic-normal
+log-000000001,1,Schemaweg 1 , VEKTORSTETTEN ,10000,DE,52.4429161,14.008052,SHP-500000,SynthExpress,20.11,verloren,2025-01-01,synthetic-normal
+log-000000002,2,Prüfsummenstrasse 3,Westbogen,25838,DE,53.066936,7.2688657,SHP-500002,Beispielkurier,572.84,zugestellt,03/01/2025,synthetic-normal
+log-000000003,3,  Pipelineweg   4,Westbogen,33757,Deutschland,53.4341749,12.5135324,SHP-500003,SynthExpress,269.34,verloren,2025-01-04,synthetic-normal
+log-000000004,4,Koordinatenplatz 5,Nordhafen,41676,deu,53.1753194,14.864038,SHP-500004,DemoLogistik,494.85,angekuendigt,2025/01/05,synthetic-normal
+log-000000005,5,Koordinatenplatz 6,Westbogen,49595,DE,51.9293956,7.3744756,SHP-500005,DemoLogistik,291.93,unterwegs,2025/01/06,synthetic-normal
+log-000000006,6,Qualitätsring 7,Nordhafen,57514,deu,53.5456997,13.2064214,SHP-500006,Beispielkurier,512.04,zugestellt,2025-01-07,synthetic-normal
+log-000000007,7,Koordinatenplatz 8,Ostfeld,65433,D,48.3858241,7.0845989,SHP-500007,Musterfracht,701.11,verloren,2025/01/08,synthetic-normal
+log-000000008,8,Spaltenweg 9,Nordhafen,73352,deu,52.0685899,13.0871302,SHP-500008,Beispielkurier,110.75,angekuendigt,2025/01/09,synthetic-normal
+log-000000009,9,Datenstraße 10, Datenheim ,81271,Deutschland,53.1413504,8.9296144,SHP-500009,Musterfracht,423.34,verloren,10.01.2025,synthetic-normal
+log-000000010,10,Schemaweg 11,Nordhafen,89190,Deutschland,53.696687,10.4704985,SHP-500010,DemoLogistik,700.69,unterwegs,11/01/2025,synthetic-normal
+log-000000011,11,Datenstr. 12,Nordhafen,17109,Deutschland,53.9782863,13.4513229,SHP-500011,Musterfracht,622.92,unterwegs,2025-01-12,synthetic-normal
+log-000000012,12,Spaltenweg 13,Datenheim,25028,deu,48.2757751,10.1725979,SHP-500012,DemoLogistik,63.1,zugestellt,2025/01/13,synthetic-normal
+log-000000013,13,Qualitätsring 14,Vektorstetten,32947,Deutschland,50.6295606,10.5616977,SHP-500013,SynthExpress,604.24,unterwegs,14.01.2025,synthetic-normal
+log-000000014,14,Schemaweg 1, Vektorstetten ,10000,DE,52.4429161,14.008052,SHP-500000,SynthExpress,20.11,verloren,2025-01-01,synthetic-normal
+log-000000015,15,Datenstrasse 16,Nordhafen,48785,Deutschland,47.8385159,7.9896426,SHP-500015,Beispielkurier,56.89,unterwegs,16.01.2025,synthetic-normal
+log-000000016,16,  Qualitätsring   17,Südwinkel,56704,DE,48.0366742,9.7656709,SHP-500016,Beispielkurier,461.01,verloren,2025/01/17,synthetic-normal
+log-000000017,17,  Datenstraße   18,Nordhafen,64623,deu,10.7338289,48.7560845,SHP-500017,DemoLogistik,-4,verloren,18.01.2025,synthetic-error
+log-000000018,18,Pipelineweg 19, Datenheim ,72542,DE,54.6643716,14.3225762,SHP-500018,DemoLogistik,60.4,unterwegs,2025/01/19,synthetic-normal
+log-000000019,19,Datenstrasse 20,Ostfeld,80461,Deutschland,54.3415374,13.0231901,SHP-500019,Musterfracht,320.89,verloren,2025/01/20,synthetic-normal
+log-000000020,20,Datenstr. 21,Datenheim,88380,D,51.1216629,13.645023,SHP-500020,DemoLogistik,774.97,angekuendigt,2025-01-21,synthetic-normal
+log-000000021,21,Prüfsummenstraße 22,Datenheim,16299,deu,6.1656233,51.6997848,SHP-500021,SynthExpress,100000,verloren,22/01/2025,synthetic-error
+log-000000022,22,Prüfsummenstrasse 23,Westbogen,24218,D,49.7029467,12.7171533,SHP-500022,SynthExpress,191.02,angekuendigt,2025/01/23,synthetic-normal
+log-000000023,23,Qualitätsring 24,Westbogen,32137,DE,53.9824538,9.1996492,SHP-500023,DemoLogistik,80.08,verloren,24/01/2025,synthetic-normal
+log-000000024,24,Datenstr. 25,Nordhafen,40056,deu,49.309941,13.9853569,SHP-500024,DemoLogistik,523.22,zugestellt,25/01/2025,synthetic-normal
+log-000000025,25,  Schemaweg   26,Nordhafen,47975,DE,52.1205618,13.4300024,SHP-500025,SynthExpress,162.96,angekuendigt,26/01/2025,synthetic-normal
+log-000000026,26,  Spaltenweg   27,Nordhafen,55894,DE,54.4823871,12.1573805,SHP-500026,DemoLogistik,209.64,angekuendigt,27/01/2025,synthetic-normal
+log-000000027,27,Schemaweg 28, Nordhafen ,63813,Deutschland,48.8965817,8.0956736,SHP-500027,SynthExpress,102.04,zugestellt,2025/01/28,synthetic-normal
+log-000000028,28,Qualitätsring 29,Südwinkel,71732,D,47.4883764,12.5763931,SHP-500028,Musterfracht,740.62,verloren,29.01.2025,synthetic-normal
+log-000000029,29,  Datenstraße   30,Ostfeld,79651,Deutschland,49.6194506,13.1171786,SHP-500029,DemoLogistik,86.57,unterwegs,2025-01-30,synthetic-normal
+log-000000030,30,Pipelineweg 31,Datenheim,87570,D,52.4643377,13.5616827,SHP-500030,Musterfracht,222.95,angekuendigt,2025-01-31,synthetic-normal
+log-000000031,31,Schemaweg 32,Ostfeld,15489,Deutschland,52.8369425,8.6858313,SHP-500031,SynthExpress,464.51,verloren,01.02.2025,synthetic-normal
+log-000000032,32,Qualitätsring 33,Vektorstetten,23408,Deutschland,52.0359811,11.9031648,SHP-500032,SynthExpress,1.45,zugestellt,02/02/2025,synthetic-normal
+log-000000033,33,Vektorallee 34,Ostfeld,31327,deu,51.9779134,8.5687388,SHP-500033,SynthExpress,557.8,zugestellt,03/02/2025,synthetic-normal
+log-000000034,34,  Koordinatenplatz   35,Vektorstetten,39246,deu,51.1849224,13.1023657,SHP-500034,DemoLogistik,485.37,angekuendigt,04/02/2025,synthetic-normal
+log-000000035,35,Qualitätsring 36,Südwinkel,47165,deu,47.4856329,8.0525514,SHP-500035,Beispielkurier,268.22,angekuendigt,2025/02/05,synthetic-normal
+log-000000036,36,  Prüfsummenstraße   37, Südwinkel ,55084,DE,54.0842147,13.7160532,SHP-500036,SynthExpress,155.63,verloren,06.02.2025,synthetic-normal
+log-000000037,37,Datenstrasse 38,Nordhafen,63003,D,48.3133772,10.0747178,SHP-500037,Musterfracht,414.41,verloren,2025/02/07,synthetic-normal
+log-000000038,38,  Spaltenweg   39,Südwinkel,70922,Deutschland,53.120184,10.5959583,SHP-500038,DemoLogistik,717.78,zugestellt,2025/02/08,synthetic-normal
+log-000000039,39,Pipelineweg 19 , DATENHEIM ,72542,DE,54.6643716,14.3225762,SHP-500018,DemoLogistik,60.4,unterwegs,2025/01/19,synthetic-normal
+log-000000040,40,Vektorallee 41,Südwinkel,86760,deu,47.7881393,9.5499142,SHP-500040,Beispielkurier,64.55,verloren,2025-02-10,synthetic-normal
+log-000000041,41,  Datenstraße   42,Westbogen,14679,Deutschland,53.026411,13.6517211,SHP-500041,Beispielkurier,723.88,unterwegs,2025/02/11,synthetic-normal
+log-000000042,42,  Koordinatenplatz   43,Ostfeld,22598,deu,54.753487,10.7139374,SHP-500042,Beispielkurier,23.32,angekuendigt,2025-02-12,synthetic-normal
+log-000000043,43,Datenstr. 44,Südwinkel,30517,D,49.7840281,12.8033133,SHP-500043,Beispielkurier,369.41,zugestellt,2025/02/13,synthetic-normal
+log-000000044,44,Koordinatenplatz 45,Vektorstetten,38436,DE,-100,14.5364279,SHP-500044,DemoLogistik,-4,angekuendigt,14.02.2025,synthetic-error
+log-000000045,45,Schemaweg 46, Datenheim ,46355,DE,7.3066455,53.2112183,SHP-500045,Musterfracht,,angekuendigt,2025-02-15,synthetic-error
+log-000000046,46,Qualitätsring 47,Vektorstetten,54274,deu,48.0744499,12.9068241,SHP-500046,SynthExpress,300.31,angekuendigt,16/02/2025,synthetic-normal
+log-000000047,47,Koordinatenplatz 48,Ostfeld,62193,DE,50.5947779,9.13213,SHP-500047,Beispielkurier,55.26,unterwegs,2025/02/17,synthetic-normal
+log-000000048,48,  Spaltenweg   49,Vektorstetten,70112,Deutschland,49.7495148,8.0585556,SHP-500048,SynthExpress,520.4,zugestellt,2025/02/18,synthetic-normal
+log-000000049,49,Prüfsummenstr. 50,Westbogen,78031,deu,51.0053795,9.0643897,SHP-500049,Musterfracht,488.3,zugestellt,19/02/2025,synthetic-normal
+log-000000050,50,Datenstrasse 51,Vektorstetten,85950,D,51.0131916,12.7751148,SHP-500050,Beispielkurier,221.09,verloren,2025/02/20,synthetic-normal
+log-000000051,51,Schemaweg 52,Datenheim,13869,Deutschland,12.662606,50.533829,SHP-500051,Musterfracht,100000,zugestellt,2025/02/21,synthetic-error
+log-000000052,52,Koordinatenplatz 53,Vektorstetten,21788,deu,48.7557114,12.5951628,SHP-500052,Musterfracht,577.06,zugestellt,2025-02-22,synthetic-normal
+log-000000053,53,Schemaweg 54,Südwinkel,29707,Deutschland,47.6459193,6.3016394,SHP-500053,Musterfracht,288.77,unterwegs,2025/02/23,synthetic-normal
+log-000000054,54,Spaltenweg 55, Nordhafen ,12,Deutschland,54.4520833,10.1951085,SHP-500054,SynthExpress,,verloren,2025/02/24,synthetic-error
+log-000000055,55,Pipelineweg 56,Ostfeld,45545,deu,53.1952709,9.2994778,SHP-500055,Beispielkurier,759.31,zugestellt,2025/02/25,synthetic-normal
+log-000000056,56,Pipelineweg 57,Westbogen,53464,DE,48.4936339,7.3990846,SHP-500056,SynthExpress,487.74,unterwegs,2025-02-26,synthetic-normal
+log-000000057,57,Datenstrasse 58,Westbogen,61383,D,47.8409662,7.947499,SHP-500057,Musterfracht,375.98,unterwegs,2025/02/27,synthetic-normal
+log-000000058,58,Schemaweg 59,Südwinkel,69302,Deutschland,51.8223347,13.3830108,SHP-500058,Musterfracht,119.28,verloren,2025-02-28,synthetic-normal
+log-000000059,59,  Schemaweg   60,Datenheim,77221,DE,54.059614,12.5577121,SHP-500059,Musterfracht,322.07,angekuendigt,2025-03-01,synthetic-normal
+log-000000060,60,Datenstr. 61,Südwinkel,85140,D,51.2441252,9.8685105,SHP-500060,Musterfracht,688.43,unterwegs,2025/03/02,synthetic-normal
+log-000000061,61,  Koordinatenplatz   62,Vektorstetten,13059,DE,53.8187715,8.8341937,SHP-500061,Beispielkurier,73.08,zugestellt,2025/03/03,synthetic-normal
+log-000000062,62,Koordinatenplatz 63,Ostfeld,20978,DE,52.2982189,10.7918611,SHP-500062,Beispielkurier,363.92,angekuendigt,04.03.2025,synthetic-normal
+log-000000063,63,Spaltenweg 64, Datenheim ,28897,deu,54.350313,9.8306681,SHP-500063,Beispielkurier,398.84,angekuendigt,2025-03-05,synthetic-normal
+log-000000064,64,Vektorallee 65,Datenheim,36816,D,48.0083899,14.9287657,SHP-500064,SynthExpress,191.51,verloren,2025-03-06,synthetic-normal
+log-000000065,65,Schemaweg 66,Ostfeld,44735,D,49.1523549,10.8716387,SHP-500065,Beispielkurier,746.13,unterwegs,07.03.2025,synthetic-normal
+log-000000066,66,Prüfsummenstr. 67,Datenheim,52654,Deutschland,53.536176,8.4021186,SHP-500066,Musterfracht,632.03,verloren,08.03.2025,synthetic-normal
+log-000000067,67,  Prüfsummenstraße   68,Südwinkel,60573,deu,51.6456621,7.9487745,SHP-500067,Beispielkurier,266.02,angekuendigt,09/03/2025,synthetic-normal
+log-000000068,68,Prüfsummenstrasse 69,Nordhafen,68492,deu,51.1174127,11.2296599,SHP-500068,SynthExpress,649.15,verloren,2025-03-10,synthetic-normal
+log-000000069,69,Prüfsummenstrasse 70,Westbogen,76411,Deutschland,52.0367714,9.4568466,SHP-500069,SynthExpress,577.98,zugestellt,2025/03/11,synthetic-normal
+log-000000070,70,Spaltenweg 71,Südwinkel,84330,Deutschland,54.880437,12.6702506,SHP-500070,Beispielkurier,709.96,angekuendigt,2025-03-12,synthetic-normal
+log-000000071,71,Datenstr. 72,Westbogen,12249,Deutschland,50.1487923,7.1392421,SHP-500071,Beispielkurier,722.75,unterwegs,13.03.2025,synthetic-normal
+log-000000072,72,  Qualitätsring   73, Südwinkel ,20168,deu,50.8047393,8.1365915,SHP-500072,Musterfracht,306.1,angekuendigt,2025/03/14,synthetic-normal
+log-000000073,73,Spaltenweg 74,Westbogen,28087,D,52.5463827,10.0028895,SHP-500073,Musterfracht,126.46,unterwegs,2025/03/15,synthetic-normal
+log-000000074,74,Schemaweg 75,Vektorstetten,36006,D,not-a-number,11.006547,SHP-500074,SynthExpress,schwer,verloren,16/03/2025,synthetic-error
+log-000000075,75,Vektorallee 76,Vektorstetten,43925,DE,49.6478899,9.8555733,SHP-500075,Musterfracht,200.58,unterwegs,2025-03-17,synthetic-normal
+log-000000076,76,Qualitätsring 77,Westbogen,51844,Deutschland,53.6115919,8.1641248,SHP-500076,Beispielkurier,332.46,zugestellt,18/03/2025,synthetic-normal
+log-000000077,77,  Qualitätsring   78,Datenheim,59763,Deutschland,47.9863019,9.430086,SHP-500077,Musterfracht,60.33,angekuendigt,2025/03/19,synthetic-normal
+log-000000078,78,Prüfsummenstr. 79,Südwinkel,67682,D,47.4901873,13.9349606,SHP-500078,Musterfracht,209.8,unterwegs,2025-03-20,synthetic-normal
+log-000000079,79,Prüfsummenstraße 80,Nordhafen,75601,Deutschland,54.869048,6.8683084,SHP-500079,DemoLogistik,560.89,unterwegs,2025/03/21,synthetic-normal
+log-000000080,80,Prüfsummenstrasse 81,Vektorstetten,83520,DE,53.6360674,11.4640004,SHP-500080,Musterfracht,594.54,angekuendigt,22/03/2025,synthetic-normal
+log-000000081,81,Koordinatenplatz 82, Westbogen ,11439,Deutschland,47.7601807,8.3381093,SHP-500081,SynthExpress,188.97,verloren,2025-03-23,synthetic-normal
+log-000000082,82,Datenstraße 83,Südwinkel,19358,deu,53.2810336,7.6878913,SHP-500082,DemoLogistik,477.76,unterwegs,24.03.2025,synthetic-normal
+log-000000083,83,Datenstr. 84,Südwinkel,27277,deu,51.4056375,13.1463272,SHP-500083,SynthExpress,720.43,angekuendigt,25.03.2025,synthetic-normal
+log-000000084,84,Pipelineweg 31,Datenheim,87570,D,52.4643377,13.5616827,SHP-500030,Musterfracht,222.95,angekuendigt,2025-01-31,synthetic-normal
+log-000000085,85,Vektorallee 34 ,OSTFELD,31327,deu,51.9779134,8.5687388,SHP-500033,SynthExpress,557.8,zugestellt,03/02/2025,synthetic-normal
+log-000000086,86,  Spaltenweg   87,Datenheim,51034,DE,50.7352412,7.8382578,SHP-500086,SynthExpress,596.56,zugestellt,2025/03/28,synthetic-normal
+log-000000087,87,Prüfsummenstraße 88,Ostfeld,58953,DE,8.7634287,54.1344274,SHP-500087,DemoLogistik,,angekuendigt,29.03.2025,synthetic-error
+log-000000088,88,Prüfsummenstr. 89,Datenheim,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000089,89,  Prüfsummenstraße   90,Westbogen,74791,D,49.6751791,8.1449861,SHP-500089,DemoLogistik,661.95,verloren,2025-03-31,synthetic-normal
+log-000000090,90,Vektorallee 91,,82710,Deutschland,52.3921008,9.5794394,SHP-500090,Beispielkurier,schwer,angekuendigt,01/04/2025,synthetic-error
+log-000000091,91,Spaltenweg 92,,10629,Deutschland,48.1731284,8.3628276,SHP-500091,DemoLogistik,100000,verloren,2025-04-02,synthetic-error
+log-000000092,92,Vektorallee 93,Westbogen,18548,Deutschland,49.967778,7.4689311,SHP-500092,DemoLogistik,214.03,verloren,2025-04-03,synthetic-normal
+log-000000093,93,  Qualitätsring   94,Westbogen,26467,deu,50.1124035,12.4386829,SHP-500093,SynthExpress,24.62,angekuendigt,04.04.2025,synthetic-normal
+log-000000094,94,  Schemaweg   95,Ostfeld,34386,D,50.4477964,7.7832345,SHP-500094,SynthExpress,539.21,zugestellt,2025/04/05,synthetic-normal
+log-000000095,95,Schemaweg 96,Datenheim,42305,DE,47.3584219,8.5730581,SHP-500095,DemoLogistik,474.55,unterwegs,06/04/2025,synthetic-normal
+log-000000096,96,Vektorallee 97,Vektorstetten,,deu,51.1019938,13.4668587,SHP-500096,Musterfracht,,angekuendigt,2025/04/07,synthetic-error
+log-000000097,97,Datenstraße 10, Datenheim ,81271,Deutschland,53.1413504,8.9296144,SHP-500009,Musterfracht,423.34,verloren,10.01.2025,synthetic-normal
+log-000000098,98,Prüfsummenstr. 99,Nordhafen,66062,Deutschland,48.6062362,14.5180516,SHP-500098,Beispielkurier,567.63,zugestellt,2025-04-09,synthetic-normal
+log-000000099,99,  Pipelineweg   100, Vektorstetten ,73981,Deutschland,12.9678844,48.9839476,SHP-500099,SynthExpress,,angekuendigt,10.04.2025,synthetic-error
+log-000000100,100,Vektorallee 101,Westbogen,81900,deu,48.6185926,7.2064021,SHP-500100,SynthExpress,516.39,unterwegs,2025/04/11,synthetic-normal
+log-000000101,101,Koordinatenplatz 102,Nordhafen,89819,D,50.6607813,8.585948,SHP-500101,Musterfracht,463.62,angekuendigt,12/04/2025,synthetic-normal
+log-000000102,102,Datenstr. 103,Nordhafen,17738,DE,51.9740638,10.4650239,SHP-500102,Beispielkurier,361.59,angekuendigt,2025/04/13,synthetic-normal
+log-000000103,103,Spaltenweg 104,Ostfeld,25657,DE,53.4633478,13.50387,SHP-500103,SynthExpress,150.67,unterwegs,2025-04-14,synthetic-normal
+log-000000104,104,Vektorallee 105,Westbogen,33576,D,50.4066474,8.9129778,SHP-500104,SynthExpress,351.59,zugestellt,2025-04-15,synthetic-normal
+log-000000105,105,Schemaweg 106,Datenheim,41495,deu,54.2672731,8.654132,SHP-500105,Beispielkurier,309.31,unterwegs,2025-04-16,synthetic-normal
+log-000000106,106,Vektorallee 107,Ostfeld,49414,Deutschland,47.4385521,8.6415678,SHP-500106,DemoLogistik,633.35,zugestellt,2025/04/17,synthetic-normal
+log-000000107,107,Schemaweg 108,Datenheim,57333,DE,52.3306622,13.8628135,SHP-500107,DemoLogistik,124.04,verloren,18.04.2025,synthetic-normal
+log-000000108,108,  Vektorallee   109, Westbogen ,65252,deu,54.6688734,11.4174779,SHP-500108,Beispielkurier,616.9,unterwegs,19.04.2025,synthetic-normal
+log-000000109,109,Qualitätsring 110,Datenheim,73171,D,50.8087678,8.3922999,SHP-500109,Beispielkurier,375.27,verloren,20.04.2025,synthetic-normal
+log-000000110,110,Schemaweg 111,Westbogen,81090,DE,52.7066474,10.5463664,SHP-500110,SynthExpress,110.8,zugestellt,2025-04-21,synthetic-normal
+log-000000111,111,  Vektorallee   112,Südwinkel,89009,D,54.0231863,14.3603417,SHP-500111,Beispielkurier,724.25,angekuendigt,2025/04/22,synthetic-normal
+log-000000112,112,Koordinatenplatz 113,Nordhafen,16928,Deutschland,53.3144928,7.0659162,SHP-500112,Musterfracht,795.62,verloren,23.04.2025,synthetic-normal
+log-000000113,113,Pipelineweg 114,Südwinkel,24847,D,48.1450201,8.4505345,SHP-500113,Musterfracht,492.32,angekuendigt,2025-04-24,synthetic-normal
+log-000000114,114,Pipelineweg 115,Ostfeld,32766,DE,52.1028576,11.0904366,SHP-500114,DemoLogistik,498.29,zugestellt,2025/04/25,synthetic-normal
+log-000000115,115,Schemaweg 46 , DATENHEIM ,46355,DE,7.3066455,53.2112183,SHP-500045,Musterfracht,,angekuendigt,2025-02-15,synthetic-error
+log-000000116,116,Koordinatenplatz 117,Datenheim,48604,DE,50.2674484,10.1252427,SHP-500116,Beispielkurier,68.58,zugestellt,27/04/2025,synthetic-normal
+log-000000117,117,Qualitätsring 118, Vektorstetten ,56523,Deutschland,48.3139129,9.0411512,SHP-500117,Musterfracht,54.14,unterwegs,2025/04/28,synthetic-normal
+log-000000118,118,Vektorallee 119,Ostfeld,64442,DE,49.5301635,6.2030177,SHP-500118,DemoLogistik,145.9,angekuendigt,29/04/2025,synthetic-normal
+log-000000119,119,Spaltenweg 120,Vektorstetten,72361,deu,49.4744428,13.7316745,SHP-500119,SynthExpress,791.3,zugestellt,30/04/2025,synthetic-normal
+log-000000120,120,  Spaltenweg   121,Südwinkel,80280,D,52.5597205,9.1795917,SHP-500120,Musterfracht,711.6,angekuendigt,2025/05/01,synthetic-normal
+log-000000121,121,  Qualitätsring   78,Datenheim,59763,Deutschland,47.9863019,9.430086,SHP-500077,Musterfracht,60.33,angekuendigt,2025/03/19,synthetic-normal
+log-000000122,122,Koordinatenplatz 123,Datenheim,16118,D,48.5665003,9.8839571,SHP-500122,Beispielkurier,82.17,angekuendigt,03/05/2025,synthetic-normal
+log-000000123,123,Datenstraße 124,Ostfeld,24037,Deutschland,51.1994537,12.6990615,SHP-500123,DemoLogistik,511.61,angekuendigt,04.05.2025,synthetic-normal
+log-000000124,124,Vektorallee 125,Vektorstetten,31956,Deutschland,50.0523444,14.5350974,SHP-500124,SynthExpress,350.59,unterwegs,2025/05/05,synthetic-normal
+log-000000125,125,Vektorallee 126,Vektorstetten,39875,Deutschland,49.1970486,6.8437272,SHP-500125,DemoLogistik,610.49,verloren,2025/05/06,synthetic-normal
+log-000000126,126,Qualitätsring 127, Ostfeld ,999999,deu,48.2320444,13.6460019,SHP-500126,Beispielkurier,,unterwegs,2025/05/07,synthetic-error
+log-000000127,127,Schemaweg 128,Vektorstetten,55713,deu,53.3320925,10.4805529,SHP-500127,SynthExpress,440.04,unterwegs,08.05.2025,synthetic-normal
+log-000000128,128,  Koordinatenplatz   129,Datenheim,63632,deu,51.9508076,6.5931824,SHP-500128,Musterfracht,288.78,verloren,2025/05/09,synthetic-normal
+log-000000129,129,Pipelineweg 130,Vektorstetten,71551,DE,50.7198062,12.0570027,SHP-500129,Musterfracht,658.69,unterwegs,10.05.2025,synthetic-normal
+log-000000130,130,Datenstraße 131,Westbogen,79470,deu,48.5309489,14.3995881,SHP-500130,DemoLogistik,402.34,zugestellt,11/05/2025,synthetic-normal
+log-000000131,131,Schemaweg 132,Datenheim,87389,DE,51.1195559,7.3514503,SHP-500131,DemoLogistik,508.08,unterwegs,12/05/2025,synthetic-normal
+log-000000132,132,Datenstraße 133,Vektorstetten,15308,Deutschland,52.2485878,12.8560228,SHP-500132,Beispielkurier,660.21,angekuendigt,2025/05/13,synthetic-normal
+log-000000133,133,  Schemaweg   134,Vektorstetten,23227,D,49.5604974,6.4713518,SHP-500133,SynthExpress,513.56,unterwegs,2025/05/14,synthetic-normal
+log-000000134,134,Vektorallee 135,Westbogen,31146,Deutschland,54.7128434,7.0030486,SHP-500134,Musterfracht,272.22,angekuendigt,15/05/2025,synthetic-normal
+log-000000135,135,Vektorallee 136, Ostfeld ,39065,D,49.1868541,13.760829,SHP-500135,DemoLogistik,359.73,zugestellt,16/05/2025,synthetic-normal
+log-000000136,136,  Spaltenweg   137,Ostfeld,46984,DE,47.9843731,9.4178281,SHP-500136,Beispielkurier,796.78,unterwegs,17.05.2025,synthetic-normal
+log-000000137,137,Schemaweg 138,Ostfeld,54903,deu,54.0066636,200.0,SHP-500137,Beispielkurier,,zugestellt,2025-05-18,synthetic-error
+log-000000138,138,  Pipelineweg   139,Datenheim,62822,Deutschland,53.572366,11.5338225,SHP-500138,SynthExpress,442.62,unterwegs,2025-05-19,synthetic-normal
+log-000000139,139,Koordinatenplatz 140,Datenheim,70741,D,51.1005921,6.2167908,SHP-500139,DemoLogistik,271.33,zugestellt,2025/05/20,synthetic-normal
+log-000000140,140,Vektorallee 141,Westbogen,78660,deu,50.2864549,11.4718045,SHP-500140,Musterfracht,714.52,zugestellt,2025/05/21,synthetic-normal
+log-000000141,141,Koordinatenplatz 142,Ostfeld,86579,Deutschland,53.3553366,12.4729828,SHP-500141,SynthExpress,652.62,verloren,22/05/2025,synthetic-normal
+log-000000142,142,Qualitätsring 143,Südwinkel,14498,D,48.4230954,12.0626874,SHP-500142,SynthExpress,620.95,angekuendigt,23.05.2025,synthetic-normal
+log-000000143,143,Prüfsummenstrasse 81 ,VEKTORSTETTEN,83520,DE,53.6360674,11.4640004,SHP-500080,Musterfracht,594.54,angekuendigt,22/03/2025,synthetic-normal
+log-000000144,144,Spaltenweg 145, Datenheim ,30336,deu,51.5627395,14.9827304,SHP-500144,Beispielkurier,401.51,verloren,25/05/2025,synthetic-normal
+log-000000145,145,Koordinatenplatz 146,Südwinkel,38255,deu,49.4204486,8.5461923,SHP-500145,Musterfracht,426.55,zugestellt,26.05.2025,synthetic-normal
+log-000000146,146,Schemaweg 147,Vektorstetten,46174,D,54.1077795,9.4296986,SHP-500146,Musterfracht,383.89,unterwegs,27/05/2025,synthetic-normal
+log-000000147,147,Datenstr. 21 ,DATENHEIM,88380,D,51.1216629,13.645023,SHP-500020,DemoLogistik,774.97,angekuendigt,2025-01-21,synthetic-normal
+log-000000148,148,Qualitätsring 149,Vektorstetten,62012,Deutschland,48.3432745,11.4642287,SHP-500148,DemoLogistik,383.32,unterwegs,2025-05-29,synthetic-normal
+log-000000149,149,Datenstraße 150,Vektorstetten,69931,D,48.0641413,12.8910477,SHP-500149,SynthExpress,510.39,unterwegs,2025/05/30,synthetic-normal
+log-000000150,150,Qualitätsring 151,Vektorstetten,77850,DE,54.2003209,6.6230386,SHP-500150,DemoLogistik,380.61,angekuendigt,31.05.2025,synthetic-normal
+log-000000151,151,  Datenstraße   152,Südwinkel,85769,Deutschland,53.9632481,5.885258,SHP-500151,SynthExpress,747.14,zugestellt,01/06/2025,synthetic-normal
+log-000000152,152,  Vektorallee   153,Nordhafen,13688,Deutschland,48.5349564,10.0220131,SHP-500152,Musterfracht,419.5,unterwegs,2025-06-02,synthetic-normal
+log-000000153,153,Qualitätsring 154, Vektorstetten ,21607,D,53.5851227,10.5405821,SHP-500153,SynthExpress,454.27,verloren,2025-06-03,synthetic-normal
+log-000000154,154,Qualitätsring 155,Südwinkel,29526,D,53.0285506,14.5771204,SHP-500154,Musterfracht,258.95,angekuendigt,04/06/2025,synthetic-normal
+log-000000155,155,  Pipelineweg   156,Ostfeld,37445,Deutschland,52.5462069,11.6761442,SHP-500155,Musterfracht,49.79,zugestellt,05.06.2025,synthetic-normal
+log-000000156,156,  Koordinatenplatz   157,Ostfeld,45364,deu,53.0901331,12.0591457,SHP-500156,SynthExpress,122.63,verloren,06/06/2025,synthetic-normal
+log-000000157,157,Spaltenweg 145 , DATENHEIM ,30336,deu,51.5627395,14.9827304,SHP-500144,Beispielkurier,401.51,verloren,25/05/2025,synthetic-normal
+log-000000158,158,Vektorallee 159,Datenheim,61202,D,48.1834242,7.6896937,SHP-500158,Beispielkurier,161.81,angekuendigt,2025/06/08,synthetic-normal
+log-000000159,159,Spaltenweg 160,Vektorstetten,69121,Deutschland,52.7969286,9.4427281,SHP-500159,SynthExpress,410.65,unterwegs,2025-06-09,synthetic-normal
+log-000000160,160,Prüfsummenstr. 89,Datenheim,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000161,161,Datenstr. 162,Südwinkel,ABCDE,D,50.145903,14.0002692,SHP-500161,Beispielkurier,,verloren,2025/06/11,synthetic-error
+log-000000162,162,Prüfsummenstrasse 163, Südwinkel ,12878,DE,53.0469636,14.8021143,SHP-500162,Beispielkurier,142.86,verloren,2025/06/12,synthetic-normal
+log-000000163,163,Schemaweg 164,Vektorstetten,20797,DE,47.5448516,11.8738187,SHP-500163,SynthExpress,276.99,unterwegs,13.06.2025,synthetic-normal
+log-000000164,164,  Vektorallee   153 ,NORDHAFEN,13688,Deutschland,48.5349564,10.0220131,SHP-500152,Musterfracht,419.5,unterwegs,2025-06-02,synthetic-normal
+log-000000165,165,  Datenstraße   166,Datenheim,36635,deu,53.0333314,12.9397853,SHP-500165,DemoLogistik,39.04,zugestellt,15.06.2025,synthetic-normal
+log-000000166,166,Koordinatenplatz 167,Südwinkel,44554,deu,50.4430576,8.3314161,SHP-500166,DemoLogistik,255.19,verloren,2025/06/16,synthetic-normal
+log-000000167,167,Prüfsummenstr. 89,Datenheim,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000168,168,  Prüfsummenstraße   169,Ostfeld,60392,deu,53.0335623,10.1563731,SHP-500168,DemoLogistik,255.06,zugestellt,18.06.2025,synthetic-normal
+log-000000169,169,Prüfsummenstrasse 170,Westbogen,68311,deu,49.8099988,6.527448,SHP-500169,Beispielkurier,449.95,zugestellt,2025-06-19,synthetic-normal
+log-000000170,170,Prüfsummenstraße 171,Südwinkel,76230,deu,50.943396,13.7991594,SHP-500170,Musterfracht,41.32,zugestellt,2025-06-20,synthetic-normal
+log-000000171,171,Spaltenweg 172, Vektorstetten ,84149,deu,50.3144037,8.0018448,SHP-500171,Musterfracht,593.21,zugestellt,2025/06/21,synthetic-normal
+log-000000172,172,  Koordinatenplatz   173,Vektorstetten,12068,D,53.0883802,8.7461462,SHP-500172,DemoLogistik,246.81,zugestellt,22/06/2025,synthetic-normal
+log-000000173,173,Vektorallee 174,Datenheim,19987,D,49.5434614,7.6049644,SHP-500173,DemoLogistik,177.1,verloren,23.06.2025,synthetic-normal
+log-000000174,174,  Schemaweg   175,Vektorstetten,27906,D,50.8023004,12.5415046,SHP-500174,Musterfracht,547.91,unterwegs,24.06.2025,synthetic-normal
+log-000000175,175,Datenstraße 176,Nordhafen,35825,DE,53.1089752,9.5940084,SHP-500175,DemoLogistik,733.53,angekuendigt,25.06.2025,synthetic-normal
+log-000000176,176,Pipelineweg 130 ,VEKTORSTETTEN,71551,DE,50.7198062,12.0570027,SHP-500129,Musterfracht,658.69,unterwegs,10.05.2025,synthetic-normal
+log-000000177,177,Schemaweg 164,Vektorstetten,20797,DE,47.5448516,11.8738187,SHP-500163,SynthExpress,276.99,unterwegs,13.06.2025,synthetic-normal
+log-000000178,178,  Datenstraße   179,Datenheim,59582,Deutschland,51.3716096,8.4375345,SHP-500178,Beispielkurier,390.33,unterwegs,2025-06-28,synthetic-normal
+log-000000179,179,Schemaweg 180,Ostfeld,67501,DE,50.135192,9.5354522,SHP-500179,DemoLogistik,192.85,unterwegs,29/06/2025,synthetic-normal
+log-000000180,180,Datenstraße 181, Ostfeld ,75420,D,47.7264735,5.8869416,SHP-500180,DemoLogistik,523.02,angekuendigt,2025/06/30,synthetic-normal
+log-000000181,181,Pipelineweg 182,Vektorstetten,83339,D,49.3603224,14.3022653,SHP-500181,Musterfracht,265.08,angekuendigt,01.07.2025,synthetic-normal
+log-000000182,182,  Vektorallee   183,Westbogen,11258,deu,51.5860823,11.0136025,SHP-500182,Beispielkurier,769.18,zugestellt,2025/07/02,synthetic-normal
+log-000000183,183,Pipelineweg 184,Ostfeld,19177,deu,53.6739274,8.9334533,SHP-500183,Beispielkurier,790.78,zugestellt,2025-07-03,synthetic-normal
+log-000000184,184,Qualitätsring 185,Ostfeld,27096,D,48.7116076,11.1900511,SHP-500184,Beispielkurier,360.5,angekuendigt,04/07/2025,synthetic-normal
+log-000000185,185,  Vektorallee   186,Vektorstetten,35015,deu,52.9213802,8.7134397,SHP-500185,SynthExpress,65.72,angekuendigt,2025-07-05,synthetic-normal
+log-000000186,186,Pipelineweg 187,Ostfeld,42934,D,51.5330862,10.5144558,SHP-500186,SynthExpress,609.1,angekuendigt,2025-07-06,synthetic-normal
+log-000000187,187,Prüfsummenstraße 188,Ostfeld,50853,DE,-100,10.9477362,SHP-500187,DemoLogistik,schwer,unterwegs,2025/07/07,synthetic-error
+log-000000188,188,  Vektorallee   189,Westbogen,58772,D,53.2482663,9.1223492,SHP-500188,DemoLogistik,116.83,verloren,08.07.2025,synthetic-normal
+log-000000189,189,Prüfsummenstr. 190, Ostfeld ,66691,Deutschland,50.6456942,9.7616692,SHP-500189,DemoLogistik,5.51,zugestellt,09/07/2025,synthetic-normal
+log-000000190,190,  Vektorallee   191,Westbogen,74610,D,54.6549994,12.9941642,SHP-500190,Musterfracht,383.26,verloren,10/07/2025,synthetic-normal
+log-000000191,191,Qualitätsring 192,Datenheim,82529,DE,54.542835,10.0469245,SHP-500191,DemoLogistik,91.2,verloren,11/07/2025,synthetic-normal
+log-000000192,192,Spaltenweg 193,,10448,Deutschland,52.3058386,12.3801748,SHP-500192,Beispielkurier,,angekuendigt,2025/07/12,synthetic-error
+log-000000193,193,Prüfsummenstraße 194,Westbogen,18367,DE,48.1312076,8.0837249,SHP-500193,Musterfracht,405.34,unterwegs,2025-07-13,synthetic-normal
+log-000000194,194,  Koordinatenplatz   195,Nordhafen,26286,Deutschland,48.9872082,12.6710479,SHP-500194,DemoLogistik,517.43,verloren,14/07/2025,synthetic-normal
+log-000000195,195,Vektorallee 196,Ostfeld,34205,DE,49.5452849,14.2690374,SHP-500195,SynthExpress,470.91,angekuendigt,15.07.2025,synthetic-normal
+log-000000196,196,Spaltenweg 197,Ostfeld,42124,D,49.723712,8.5624296,SHP-500196,SynthExpress,627.44,angekuendigt,16/07/2025,synthetic-normal
+log-000000197,197,Qualitätsring 198,Westbogen,50043,D,54.5843159,7.933071,SHP-500197,Beispielkurier,131.57,unterwegs,17.07.2025,synthetic-normal
+log-000000198,198,  Qualitätsring   199, Ostfeld ,57962,DE,52.6559907,7.6932172,SHP-500198,SynthExpress,23.45,angekuendigt,18.07.2025,synthetic-normal
+log-000000199,199,Spaltenweg 200,Datenheim,65881,D,51.7612358,9.0009067,SHP-500199,Beispielkurier,91.25,unterwegs,19/07/2025,synthetic-normal
+log-000000200,200,Koordinatenplatz 201,Nordhafen,73800,deu,50.1371261,7.1004986,SHP-500200,Beispielkurier,537.72,verloren,20.07.2025,synthetic-normal
+log-000000201,201,Vektorallee 202,Südwinkel,81719,deu,49.6908081,9.9492089,SHP-500201,SynthExpress,389.39,zugestellt,2025-07-21,synthetic-normal
+log-000000202,202,  Spaltenweg   203,Ostfeld,89638,D,51.0141163,6.5605698,SHP-500202,SynthExpress,307.22,unterwegs,22/07/2025,synthetic-normal
+log-000000203,203,Datenstrasse 58,Westbogen,61383,D,47.8409662,7.947499,SHP-500057,Musterfracht,375.98,unterwegs,2025/02/27,synthetic-normal
+log-000000204,204,Spaltenweg 205,Westbogen,25476,Deutschland,51.4195297,12.7624334,SHP-500204,Beispielkurier,594.04,unterwegs,2025/07/24,synthetic-normal
+log-000000205,205,Schemaweg 206,Westbogen,33395,DE,50.6369313,14.9444107,SHP-500205,DemoLogistik,601.1,unterwegs,25/07/2025,synthetic-normal
+log-000000206,206,Vektorallee 207,Nordhafen,41314,Deutschland,51.3453341,11.2910907,SHP-500206,DemoLogistik,342.59,zugestellt,26/07/2025,synthetic-normal
+log-000000207,207,Pipelineweg 208, Ostfeld ,49233,DE,54.8428953,13.7768378,SHP-500207,DemoLogistik,686.43,unterwegs,27.07.2025,synthetic-normal
+log-000000208,208,  Prüfsummenstraße   209,Vektorstetten,57152,Deutschland,52.0713774,9.2515854,SHP-500208,SynthExpress,198.12,angekuendigt,2025/07/28,synthetic-normal
+log-000000209,209,  Koordinatenplatz   210,Westbogen,65071,DE,53.903699,13.5939394,SHP-500209,SynthExpress,749.08,verloren,29/07/2025,synthetic-normal
+log-000000210,210,Prüfsummenstrasse 211,Westbogen,72990,Deutschland,49.8669392,11.1169895,SHP-500210,Beispielkurier,318.23,zugestellt,2025-07-30,synthetic-normal
+log-000000211,211,Prüfsummenstr. 89,Datenheim,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000212,212,  Spaltenweg   213,Ostfeld,88828,deu,54.8672749,14.1665464,SHP-500212,Musterfracht,686.14,unterwegs,01/08/2025,synthetic-normal
+log-000000213,213,Vektorallee 214,Westbogen,16747,deu,50.5621551,6.6390325,SHP-500213,SynthExpress,66.03,angekuendigt,02.08.2025,synthetic-normal
+log-000000214,214,Spaltenweg 215,Westbogen,24666,DE,54.8099773,9.6852882,SHP-500214,DemoLogistik,181.03,verloren,2025-08-03,synthetic-normal
+log-000000215,215,Koordinatenplatz 216,,32585,D,53.1782997,12.7290518,SHP-500215,DemoLogistik,-4,unterwegs,2025-08-04,synthetic-error
+log-000000216,216,Koordinatenplatz 217, Südwinkel ,40504,D,51.9821777,9.8699316,SHP-500216,DemoLogistik,131.38,angekuendigt,2025-08-05,synthetic-normal
+log-000000217,217,  Koordinatenplatz   218,Südwinkel,48423,deu,49.4049542,6.5750882,SHP-500217,Musterfracht,584.03,angekuendigt,06/08/2025,synthetic-normal
+log-000000218,218,Prüfsummenstr. 219,Südwinkel,56342,D,50.2327304,8.0179522,SHP-500218,SynthExpress,151,angekuendigt,07/08/2025,synthetic-normal
+log-000000219,219,Prüfsummenstr. 220,Südwinkel,64261,D,54.5538427,12.8873769,SHP-500219,SynthExpress,688.67,angekuendigt,2025-08-08,synthetic-normal
+log-000000220,220,  Schemaweg   1,Ostfeld,72180,DE,10.7464293,52.1680834,SHP-500220,DemoLogistik,,zugestellt,2025-08-09,synthetic-error
+log-000000221,221,Koordinatenplatz 53,Vektorstetten,21788,deu,48.7557114,12.5951628,SHP-500052,Musterfracht,577.06,zugestellt,2025-02-22,synthetic-normal
+log-000000222,222,Pipelineweg 3,Vektorstetten,88018,deu,47.7400852,6.5931577,SHP-500222,Beispielkurier,469.19,angekuendigt,2025/08/11,synthetic-normal
+log-000000223,223,Pipelineweg 4,Vektorstetten,15937,DE,not-a-number,14.5677491,SHP-500223,Musterfracht,100000,unterwegs,12/08/2025,synthetic-error
+log-000000224,224,Prüfsummenstr. 5,Westbogen,23856,DE,10.4991933,51.0707215,SHP-500224,SynthExpress,schwer,verloren,13.08.2025,synthetic-error
+log-000000225,225,Pipelineweg 6, Nordhafen ,31775,DE,53.8260365,5.9130503,SHP-500225,SynthExpress,715.43,verloren,14/08/2025,synthetic-normal
+log-000000226,226,  Datenstraße   7,Südwinkel,39694,D,54.2604962,8.7434033,SHP-500226,SynthExpress,744.93,zugestellt,2025-08-15,synthetic-normal
+log-000000227,227,  Datenstraße   8,Ostfeld,47613,Deutschland,53.1788088,8.6584195,SHP-500227,SynthExpress,143.56,verloren,2025-08-16,synthetic-normal
+log-000000228,228,  Qualitätsring   9,Ostfeld,55532,deu,52.8667214,10.828345,SHP-500228,DemoLogistik,627.63,unterwegs,2025-08-17,synthetic-normal
+log-000000229,229,Koordinatenplatz 10,Ostfeld,ABCDE,Deutschland,48.0900125,10.6742933,SHP-500229,DemoLogistik,-4,verloren,2025/08/18,synthetic-error
+log-000000230,230,  Koordinatenplatz   11,Nordhafen,71370,DE,51.141251,,SHP-500230,Beispielkurier,,angekuendigt,2025-08-19,synthetic-error
+log-000000231,231,  Koordinatenplatz   12,Vektorstetten,79289,Deutschland,49.7172387,8.301994,SHP-500231,SynthExpress,208.87,unterwegs,20.08.2025,synthetic-normal
+log-000000232,232,  Vektorallee   13,Ostfeld,87208,DE,51.3730266,14.6746394,SHP-500232,DemoLogistik,124.41,verloren,21/08/2025,synthetic-normal
+log-000000233,233,Schemaweg 14,Westbogen,15127,deu,47.9932181,8.0836129,SHP-500233,Musterfracht,72.43,verloren,2025-08-22,synthetic-normal
+log-000000234,234,  Datenstraße   15, Datenheim ,23046,deu,48.0199121,6.7375476,SHP-500234,DemoLogistik,792.54,angekuendigt,2025-08-23,synthetic-normal
+log-000000235,235,Spaltenweg 200,Datenheim,65881,D,51.7612358,9.0009067,SHP-500199,Beispielkurier,91.25,unterwegs,19/07/2025,synthetic-normal
+log-000000236,236,Pipelineweg 17,Nordhafen,38884,DE,54.8784268,7.6193031,SHP-500236,Beispielkurier,297.85,unterwegs,2025-08-25,synthetic-normal
+log-000000237,237,  Datenstraße   18,Datenheim,46803,D,53.5448091,9.4339879,SHP-500237,SynthExpress,265.31,verloren,2025/08/26,synthetic-normal
+log-000000238,238,  Schemaweg   19,Nordhafen,54722,deu,52.2193158,10.3898028,SHP-500238,Beispielkurier,149.8,angekuendigt,2025-08-27,synthetic-normal
+log-000000239,239,Qualitätsring 20,Vektorstetten,62641,Deutschland,50.9456017,12.989203,SHP-500239,Musterfracht,159.65,zugestellt,2025/08/28,synthetic-normal
+log-000000240,240,Schemaweg 21,Ostfeld,70560,Deutschland,not-a-number,14.9963729,SHP-500240,DemoLogistik,-4,angekuendigt,29.08.2025,synthetic-error
+log-000000241,241,  Qualitätsring   22,Südwinkel,78479,deu,49.0977886,8.7256402,SHP-500241,Musterfracht,589.67,angekuendigt,30/08/2025,synthetic-normal
+log-000000242,242,  Qualitätsring   23,Südwinkel,86398,D,47.5885244,6.3167454,SHP-500242,DemoLogistik,450.53,angekuendigt,2025/08/31,synthetic-normal
+log-000000243,243,  Datenstraße   15, Datenheim ,23046,deu,48.0199121,6.7375476,SHP-500234,DemoLogistik,792.54,angekuendigt,2025-08-23,synthetic-normal
+log-000000244,244,Koordinatenplatz 25,Datenheim,22236,deu,53.1851854,13.5876242,SHP-500244,Musterfracht,142.05,angekuendigt,02/09/2025,synthetic-normal
+log-000000245,245,Koordinatenplatz 26,Südwinkel,30155,D,53.3180032,14.6380913,SHP-500245,Musterfracht,468.85,unterwegs,03/09/2025,synthetic-normal
+log-000000246,246,Schemaweg 27,Vektorstetten,38074,DE,54.5107896,14.5280231,SHP-500246,Beispielkurier,140.36,angekuendigt,04.09.2025,synthetic-normal
+log-000000247,247,Qualitätsring 28,Südwinkel,45993,Deutschland,52.9646093,7.9895625,SHP-500247,Musterfracht,774.03,unterwegs,2025-09-05,synthetic-normal
+log-000000248,248,  Koordinatenplatz   29,Südwinkel,53912,deu,52.5681382,9.0244267,SHP-500248,SynthExpress,583.46,angekuendigt,2025-09-06,synthetic-normal
+log-000000249,249,  Prüfsummenstraße   30,Westbogen,61831,D,48.0708571,10.2113011,SHP-500249,DemoLogistik,775.28,unterwegs,2025/09/07,synthetic-normal
+log-000000250,250,Koordinatenplatz 217 , SÜDWINKEL ,40504,D,51.9821777,9.8699316,SHP-500216,DemoLogistik,131.38,angekuendigt,2025-08-05,synthetic-normal
+log-000000251,251,Prüfsummenstr. 67,Datenheim,52654,Deutschland,53.536176,8.4021186,SHP-500066,Musterfracht,632.03,verloren,08.03.2025,synthetic-normal
+log-000000252,252,Datenstr. 44,Südwinkel,30517,D,49.7840281,12.8033133,SHP-500043,Beispielkurier,369.41,zugestellt,2025/02/13,synthetic-normal
+log-000000253,253,  Koordinatenplatz   34,Ostfeld,13507,deu,-100,9.7946435,SHP-500253,SynthExpress,-4,angekuendigt,11/09/2025,synthetic-error
+log-000000254,254,Schemaweg 35,Nordhafen,21426,DE,50.2860568,10.8568962,SHP-500254,Beispielkurier,740.47,unterwegs,2025-09-12,synthetic-normal
+log-000000255,255,Spaltenweg 36,Südwinkel,29345,deu,52.150249,14.7889308,SHP-500255,Beispielkurier,235.71,angekuendigt,13/09/2025,synthetic-normal
+log-000000256,256,Schemaweg 37,Ostfeld,37264,deu,50.119756,9.3092957,SHP-500256,DemoLogistik,715.91,verloren,2025-09-14,synthetic-normal
+log-000000257,257,Schemaweg 38,Vektorstetten,45183,DE,47.9513756,8.9628808,SHP-500257,Beispielkurier,181.07,unterwegs,2025-09-15,synthetic-normal
+log-000000258,258,Spaltenweg 39,Nordhafen,53102,D,54.1611067,12.3716124,SHP-500258,DemoLogistik,334.96,angekuendigt,2025/09/16,synthetic-normal
+log-000000259,259,Qualitätsring 40,Nordhafen,61021,D,48.8345865,13.3675891,SHP-500259,DemoLogistik,777.73,zugestellt,17/09/2025,synthetic-normal
+log-000000260,260,  Prüfsummenstraße   41,Westbogen,68940,D,54.2704305,5.9137469,SHP-500260,Beispielkurier,53.7,angekuendigt,2025/09/18,synthetic-normal
+log-000000261,261,Pipelineweg 42, Nordhafen ,76859,Deutschland,53.892812,13.8972492,SHP-500261,Beispielkurier,466.18,zugestellt,2025/09/19,synthetic-normal
+log-000000262,262,Vektorallee 43,Datenheim,84778,D,47.5947472,13.9840828,SHP-500262,Musterfracht,378.49,unterwegs,2025-09-20,synthetic-normal
+log-000000263,263,Datenstr. 44,Westbogen,12697,Deutschland,49.4306346,10.3228968,SHP-500263,SynthExpress,717.64,unterwegs,21.09.2025,synthetic-normal
+log-000000264,264,Koordinatenplatz 45,Datenheim,20616,DE,48.7283113,7.7447926,SHP-500264,Beispielkurier,619.25,verloren,22/09/2025,synthetic-normal
+log-000000265,265,  Schemaweg   46,Datenheim,28535,DE,48.6204039,13.8516611,SHP-500265,DemoLogistik,127.26,angekuendigt,23.09.2025,synthetic-normal
+log-000000266,266,  Schemaweg   26,Nordhafen,47975,DE,52.1205618,13.4300024,SHP-500025,SynthExpress,162.96,angekuendigt,26/01/2025,synthetic-normal
+log-000000267,267,Prüfsummenstraße 48,Südwinkel,44373,Deutschland,51.0147792,9.9041516,SHP-500267,Beispielkurier,658.82,zugestellt,25/09/2025,synthetic-normal
+log-000000268,268,Pipelineweg 49,Nordhafen,52292,deu,53.7890421,12.9744372,SHP-500268,DemoLogistik,599.19,unterwegs,26.09.2025,synthetic-normal
+log-000000269,269,Datenstraße 50,Südwinkel,60211,deu,51.8686788,5.8778663,SHP-500269,Musterfracht,327.66,zugestellt,27/09/2025,synthetic-normal
+log-000000270,270,Schemaweg 51, Vektorstetten ,68130,D,51.7421024,5.8675977,SHP-500270,Musterfracht,279.03,zugestellt,28/09/2025,synthetic-normal
+log-000000271,271,Schemaweg 52,Westbogen,76049,Deutschland,48.7315366,10.559101,SHP-500271,DemoLogistik,269.09,angekuendigt,2025/09/29,synthetic-normal
+log-000000272,272,Spaltenweg 53,Ostfeld,83968,D,50.2508894,6.1249348,SHP-500272,DemoLogistik,577.05,zugestellt,30.09.2025,synthetic-normal
+log-000000273,273,Koordinatenplatz 54,Vektorstetten,11887,deu,49.5327588,10.131184,SHP-500273,Musterfracht,380.64,unterwegs,01/10/2025,synthetic-normal
+log-000000274,274,  Schemaweg   55,Westbogen,19806,Deutschland,49.2802502,8.5052703,SHP-500274,SynthExpress,178.74,verloren,2025-10-02,synthetic-normal
+log-000000275,275,  Pipelineweg   56,Datenheim,27725,DE,53.8929829,9.3113568,SHP-500275,Musterfracht,755.45,verloren,2025-10-03,synthetic-normal
+log-000000276,276,  Koordinatenplatz   57,Ostfeld,35644,deu,49.7045143,12.3841498,SHP-500276,SynthExpress,793.88,verloren,04/10/2025,synthetic-normal
+log-000000277,277,  Datenstraße   58,Südwinkel,43563,deu,51.0207859,12.8248363,SHP-500277,SynthExpress,507.64,unterwegs,2025/10/05,synthetic-normal
+log-000000278,278,Prüfsummenstraße 59,Südwinkel,51482,Deutschland,54.5205215,14.0064588,SHP-500278,DemoLogistik,772.27,angekuendigt,2025-10-06,synthetic-normal
+log-000000279,279,Koordinatenplatz 60, Ostfeld ,59401,Deutschland,48.5693534,13.3793632,SHP-500279,Musterfracht,554.85,zugestellt,2025/10/07,synthetic-normal
+log-000000280,280,Vektorallee 61,Ostfeld,67320,Deutschland,53.0008784,7.3169283,SHP-500280,Beispielkurier,270.33,angekuendigt,08.10.2025,synthetic-normal
+log-000000281,281,Datenstrasse 62,Vektorstetten,75239,DE,50.1514625,11.690954,SHP-500281,SynthExpress,169.03,angekuendigt,2025-10-09,synthetic-normal
+log-000000282,282,  Spaltenweg   63,Westbogen,999999,D,52.6341984,7.6905532,SHP-500282,SynthExpress,,zugestellt,2025/10/10,synthetic-error
+log-000000283,283,Pipelineweg 64,Nordhafen,11077,D,48.8097146,7.6376944,SHP-500283,Musterfracht,335.12,unterwegs,11/10/2025,synthetic-normal
+log-000000284,284,Spaltenweg 65,Ostfeld,18996,Deutschland,49.08224,5.9172945,SHP-500284,SynthExpress,31.62,angekuendigt,2025/10/12,synthetic-normal
+log-000000285,285,Schemaweg 66,Westbogen,26915,Deutschland,6.718242,50.8285079,SHP-500285,DemoLogistik,-4,angekuendigt,13/10/2025,synthetic-error
+log-000000286,286,Pipelineweg 67,Südwinkel,34834,deu,49.7978223,14.0296541,SHP-500286,Musterfracht,590.86,angekuendigt,14/10/2025,synthetic-normal
+log-000000287,287,Spaltenweg 68,Vektorstetten,42753,D,53.3792331,11.7693877,SHP-500287,DemoLogistik,320.68,angekuendigt,15.10.2025,synthetic-normal
+log-000000288,288,  Pipelineweg   69, Ostfeld ,50672,D,48.6775803,-220.0,SHP-500288,Musterfracht,100000,angekuendigt,16.10.2025,synthetic-error
+log-000000289,289,Schemaweg 70,Vektorstetten,58591,deu,54.7320062,11.9625681,SHP-500289,Musterfracht,36.87,angekuendigt,2025/10/17,synthetic-normal
+log-000000290,290,Prüfsummenstrasse 71,Datenheim,66510,DE,47.388501,14.3962171,SHP-500290,Beispielkurier,276.67,verloren,18.10.2025,synthetic-normal
+log-000000291,291,Prüfsummenstr. 67 ,DATENHEIM,52654,Deutschland,53.536176,8.4021186,SHP-500066,Musterfracht,632.03,verloren,08.03.2025,synthetic-normal
+log-000000292,292,  Prüfsummenstraße   73,Nordhafen,82348,D,50.6758355,11.0719214,SHP-500292,SynthExpress,405.59,verloren,2025/10/20,synthetic-normal
+log-000000293,293,Datenstraße 74,Nordhafen,10267,DE,53.5769066,13.0844062,SHP-500293,Musterfracht,596.22,unterwegs,2025/10/21,synthetic-normal
+log-000000294,294,  Qualitätsring   75,Datenheim,18186,D,52.7466013,9.1423098,SHP-500294,Beispielkurier,43.51,angekuendigt,2025-10-22,synthetic-normal
+log-000000295,295,Schemaweg 76,Nordhafen,26105,deu,51.0424083,13.3609157,SHP-500295,Beispielkurier,273.15,angekuendigt,23/10/2025,synthetic-normal
+log-000000296,296,Prüfsummenstrasse 77,Südwinkel,34024,Deutschland,48.1190197,9.6131272,SHP-500296,SynthExpress,744.18,verloren,2025/10/24,synthetic-normal
+log-000000297,297,Spaltenweg 78, Nordhafen ,41943,D,53.6750024,10.2429741,SHP-500297,DemoLogistik,107.8,unterwegs,25.10.2025,synthetic-normal
+log-000000298,298,  Koordinatenplatz   79,Datenheim,49862,deu,49.3793287,14.6650605,SHP-500298,Musterfracht,484.97,verloren,26.10.2025,synthetic-normal
+log-000000299,299,Schemaweg 80,Datenheim,57781,deu,48.826757,11.5423418,SHP-500299,Musterfracht,709.16,zugestellt,27.10.2025,synthetic-normal
+log-000000300,300,Koordinatenplatz 81,Datenheim,65700,D,51.7293277,14.4725976,SHP-500300,Beispielkurier,766.67,zugestellt,2025/01/01,synthetic-normal
+log-000000301,301,Vektorallee 82,Südwinkel,73619,Deutschland,53.0014061,7.2806056,SHP-500301,Musterfracht,20.32,zugestellt,02.01.2025,synthetic-normal
+log-000000302,302,Datenstr. 83,Nordhafen,81538,deu,52.9423368,10.9636891,SHP-500302,DemoLogistik,236.18,zugestellt,2025-01-03,synthetic-normal
+log-000000303,303,Koordinatenplatz 84,Westbogen,89457,deu,52.0162689,12.984509,SHP-500303,Beispielkurier,765.37,unterwegs,04/01/2025,synthetic-normal
+log-000000304,304,Qualitätsring 85,Vektorstetten,17376,DE,48.721022,7.3989152,SHP-500304,SynthExpress,482.75,verloren,2025-01-05,synthetic-normal
+log-000000305,305,Schemaweg 86,Vektorstetten,25295,deu,47.6035485,14.3433798,SHP-500305,SynthExpress,104.14,zugestellt,2025/01/06,synthetic-normal
+log-000000306,306,Koordinatenplatz 87, Datenheim ,33214,DE,53.2755626,7.2662085,SHP-500306,Beispielkurier,58.4,angekuendigt,07/01/2025,synthetic-normal
+log-000000307,307,Koordinatenplatz 88,Datenheim,41133,D,54.8743962,13.3779333,SHP-500307,SynthExpress,265.57,angekuendigt,08/01/2025,synthetic-normal
+log-000000308,308,Qualitätsring 89,Westbogen,49052,D,54.2610865,14.4938866,SHP-500308,Beispielkurier,491,zugestellt,09/01/2025,synthetic-normal
+log-000000309,309,Koordinatenplatz 45,Datenheim,20616,DE,48.7283113,7.7447926,SHP-500264,Beispielkurier,619.25,verloren,22/09/2025,synthetic-normal
+log-000000310,310,Datenstr. 91,Südwinkel,64890,Deutschland,51.2055997,14.5235487,SHP-500310,DemoLogistik,356.5,angekuendigt,2025-01-11,synthetic-normal
+log-000000311,311,Prüfsummenstraße 92,Vektorstetten,72809,D,52.2138648,14.4457102,SHP-500311,DemoLogistik,170.62,angekuendigt,2025/01/12,synthetic-normal
+log-000000312,312,Schemaweg 93,Südwinkel,,Deutschland,50.3980091,9.9503561,SHP-500312,Beispielkurier,100000,verloren,13/01/2025,synthetic-error
+log-000000313,313,Pipelineweg 94,Nordhafen,88647,Deutschland,54.3531629,6.776447,SHP-500313,Musterfracht,513.17,angekuendigt,14/01/2025,synthetic-normal
+log-000000314,314,  Datenstraße   95,Südwinkel,16566,deu,52.9753297,13.130288,SHP-500314,Musterfracht,316.15,unterwegs,15/01/2025,synthetic-normal
+log-000000315,315,Koordinatenplatz 96, Datenheim ,24485,deu,48.2365872,5.8462745,SHP-500315,Beispielkurier,636.03,angekuendigt,16/01/2025,synthetic-normal
+log-000000316,316,  Qualitätsring   97,Datenheim,32404,deu,48.5232531,7.8312493,SHP-500316,Musterfracht,580.78,unterwegs,2025-01-17,synthetic-normal
+log-000000317,317,Spaltenweg 98,Nordhafen,40323,Deutschland,48.0463383,12.4754212,SHP-500317,Beispielkurier,681.82,zugestellt,18/01/2025,synthetic-normal
+log-000000318,318,Pipelineweg 99,Ostfeld,48242,Deutschland,51.9842025,8.6122145,SHP-500318,DemoLogistik,80.13,zugestellt,19/01/2025,synthetic-normal
+log-000000319,319,  Qualitätsring   100,Westbogen,56161,deu,52.4648094,8.8503791,SHP-500319,Beispielkurier,250.64,verloren,2025/01/20,synthetic-normal
+log-000000320,320,Vektorallee 101,Südwinkel,64080,deu,49.3005833,13.9542897,SHP-500320,SynthExpress,441.38,angekuendigt,2025-01-21,synthetic-normal
+log-000000321,321,Prüfsummenstrasse 102,Datenheim,71999,Deutschland,51.4303669,14.9882992,SHP-500321,Beispielkurier,650.13,unterwegs,22/01/2025,synthetic-normal
+log-000000322,322,Schemaweg 103,Datenheim,79918,DE,50.3155672,10.4199389,SHP-500322,DemoLogistik,471.72,unterwegs,23.01.2025,synthetic-normal
+log-000000323,323,  Vektorallee   104,Nordhafen,87837,deu,53.0871901,7.9320991,SHP-500323,Musterfracht,758.97,zugestellt,24.01.2025,synthetic-normal
+log-000000324,324,Schemaweg 106,Datenheim,41495,deu,54.2672731,8.654132,SHP-500105,Beispielkurier,309.31,unterwegs,2025-04-16,synthetic-normal
+log-000000325,325,Datenstraße 106,Westbogen,23675,DE,52.6483955,10.5966307,SHP-500325,Musterfracht,734.33,zugestellt,26.01.2025,synthetic-normal
+log-000000326,326,Pipelineweg 107,Südwinkel,31594,D,49.9820249,13.7830187,SHP-500326,Beispielkurier,470.18,verloren,2025-01-27,synthetic-normal
+log-000000327,327,Pipelineweg 108,Südwinkel,39513,deu,50.0528944,12.3991849,SHP-500327,SynthExpress,132.57,unterwegs,2025/01/28,synthetic-normal
+log-000000328,328,  Spaltenweg   109,Südwinkel,47432,D,47.4705899,6.1969278,SHP-500328,DemoLogistik,385.27,unterwegs,2025-01-29,synthetic-normal
+log-000000329,329,  Vektorallee   110,Datenheim,55351,DE,53.9766683,12.4973637,SHP-500329,Musterfracht,133.16,angekuendigt,30.01.2025,synthetic-normal
+log-000000330,330,Vektorallee 111,Datenheim,63270,deu,53.3390821,13.3481693,SHP-500330,DemoLogistik,693.86,zugestellt,31.01.2025,synthetic-normal
+log-000000331,331,Pipelineweg 112,Südwinkel,71189,DE,47.425876,10.6089444,SHP-500331,Beispielkurier,362.83,unterwegs,2025-02-01,synthetic-normal
+log-000000332,332,Pipelineweg 113,Südwinkel,79108,DE,54.116964,12.9288079,SHP-500332,Beispielkurier,479.89,verloren,02/02/2025,synthetic-normal
+log-000000333,333,  Spaltenweg   114, Vektorstetten ,87027,DE,50.5337194,8.1415659,SHP-500333,DemoLogistik,343.22,angekuendigt,03/02/2025,synthetic-normal
+log-000000334,334,Datenstraße 115,Nordhafen,14946,DE,50.1502271,7.689852,SHP-500334,Musterfracht,206.32,verloren,04/02/2025,synthetic-normal
+log-000000335,335,  Schemaweg   116,Datenheim,22865,Deutschland,54.8376699,9.4565782,SHP-500335,DemoLogistik,468.34,verloren,2025/02/05,synthetic-normal
+log-000000336,336,Schemaweg 117,Ostfeld,30784,deu,53.7979918,11.8654022,SHP-500336,DemoLogistik,387.06,verloren,06.02.2025,synthetic-normal
+log-000000337,337,Datenstrasse 118,Vektorstetten,38703,DE,53.4132071,13.3739503,SHP-500337,Beispielkurier,628.89,verloren,2025-02-07,synthetic-normal
+log-000000338,338,Pipelineweg 114 ,SÜDWINKEL,24847,D,48.1450201,8.4505345,SHP-500113,Musterfracht,492.32,angekuendigt,2025-04-24,synthetic-normal
+log-000000339,339,Prüfsummenstr. 120,Datenheim,54541,DE,54.4874405,13.3461044,SHP-500339,Beispielkurier,744.55,verloren,2025-02-09,synthetic-normal
+log-000000340,340,Schemaweg 121,Datenheim,62460,deu,51.9754439,12.0010243,SHP-500340,Musterfracht,643.15,unterwegs,2025-02-10,synthetic-normal
+log-000000341,341,  Koordinatenplatz   122,Südwinkel,70379,DE,6.431278,52.9006341,SHP-500341,SynthExpress,,zugestellt,11/02/2025,synthetic-error
+log-000000342,342,  Qualitätsring   123, Datenheim ,78298,DE,49.284417,9.5456386,SHP-500342,SynthExpress,485.13,angekuendigt,12/02/2025,synthetic-normal
+log-000000343,343,  Schemaweg   124,Datenheim,86217,D,53.1517507,200.0,SHP-500343,Beispielkurier,schwer,verloren,2025-02-13,synthetic-error
+log-000000344,344,Qualitätsring 125,Ostfeld,14136,Deutschland,51.2254321,5.8894534,SHP-500344,Musterfracht,630.95,unterwegs,14/02/2025,synthetic-normal
+log-000000345,345,Pipelineweg 126,Westbogen,22055,deu,54.0968035,8.2754972,SHP-500345,DemoLogistik,656.88,verloren,15.02.2025,synthetic-normal
+log-000000346,346,Qualitätsring 127,Datenheim,29974,Deutschland,48.4855663,6.7815415,SHP-500346,SynthExpress,212.4,verloren,2025-02-16,synthetic-normal
+log-000000347,347,Spaltenweg 128,Ostfeld,37893,Deutschland,51.0301207,14.8564311,SHP-500347,Musterfracht,33.91,verloren,17.02.2025,synthetic-normal
+log-000000348,348,  Prüfsummenstraße   129,Nordhafen,45812,Deutschland,50.2922486,12.1143155,SHP-500348,DemoLogistik,420.64,verloren,2025-02-18,synthetic-normal
+log-000000349,349,Datenstrasse 130,Nordhafen,53731,Deutschland,50.0481777,13.7289466,SHP-500349,DemoLogistik,551.4,zugestellt,19.02.2025,synthetic-normal
+log-000000350,350,  Vektorallee   131,Ostfeld,61650,Deutschland,50.0745927,9.4854519,SHP-500350,Beispielkurier,274.54,unterwegs,20.02.2025,synthetic-normal
+log-000000351,351,Schemaweg 132, Ostfeld ,69569,deu,48.4084124,14.6241609,SHP-500351,DemoLogistik,651.37,verloren,2025-02-21,synthetic-normal
+log-000000352,352,  Koordinatenplatz   133,Datenheim,77488,DE,50.3278545,12.1529972,SHP-500352,SynthExpress,796.45,unterwegs,22/02/2025,synthetic-normal
+log-000000353,353,Koordinatenplatz 134,Datenheim,85407,Deutschland,49.9154661,9.5882003,SHP-500353,Musterfracht,359.94,unterwegs,23.02.2025,synthetic-normal
+log-000000354,354,  Spaltenweg   135,Ostfeld,13326,Deutschland,50.8245158,14.6006688,SHP-500354,DemoLogistik,260.14,zugestellt,2025/02/24,synthetic-normal
+log-000000355,355,Pipelineweg 136,Südwinkel,21245,Deutschland,49.7082746,8.4804784,SHP-500355,Musterfracht,679.14,verloren,25/02/2025,synthetic-normal
+log-000000356,356,  Spaltenweg   137,Nordhafen,29164,deu,52.8310704,11.8906074,SHP-500356,SynthExpress,751.02,unterwegs,26.02.2025,synthetic-normal
+log-000000357,357,Datenstraße 138,Datenheim,37083,DE,-100,11.48654,SHP-500357,SynthExpress,,verloren,27/02/2025,synthetic-error
+log-000000358,358,Vektorallee 139,Westbogen,45002,Deutschland,53.8682327,10.09818,SHP-500358,Musterfracht,101.22,verloren,28.02.2025,synthetic-normal
+log-000000359,359,  Spaltenweg   140,Vektorstetten,52921,Deutschland,54.207816,10.2311955,SHP-500359,DemoLogistik,141.71,angekuendigt,2025/03/01,synthetic-normal
+log-000000360,360,Datenstraße 141, Südwinkel ,60840,Deutschland,49.4793931,10.7229098,SHP-500360,Beispielkurier,124.66,verloren,02/03/2025,synthetic-normal
+log-000000361,361,  Schemaweg   1,Ostfeld,72180,DE,10.7464293,52.1680834,SHP-500220,DemoLogistik,,zugestellt,2025-08-09,synthetic-error
+log-000000362,362,  Qualitätsring   143,Ostfeld,76678,D,49.1992105,12.3774294,SHP-500362,Beispielkurier,438.61,verloren,04.03.2025,synthetic-normal
+log-000000363,363,Schemaweg 144,Datenheim,84597,Deutschland,50.4380695,13.6520346,SHP-500363,DemoLogistik,191.73,unterwegs,05/03/2025,synthetic-normal
+log-000000364,364,Spaltenweg 145,Südwinkel,12516,DE,54.6698433,6.0036041,SHP-500364,SynthExpress,362.27,zugestellt,06/03/2025,synthetic-normal
+log-000000365,365,Pipelineweg 146,Südwinkel,20435,Deutschland,50.493847,13.0286731,SHP-500365,Beispielkurier,6.66,zugestellt,2025/03/07,synthetic-normal
+log-000000366,366,Datenstr. 147,Nordhafen,ABCDE,D,48.6801884,14.0404306,SHP-500366,Musterfracht,100000,verloren,2025-03-08,synthetic-error
+log-000000367,367,Datenstrasse 148,Nordhafen,36273,deu,50.8934741,12.0692693,SHP-500367,Musterfracht,197.81,zugestellt,09.03.2025,synthetic-normal
+log-000000368,368,  Schemaweg   149,Südwinkel,44192,Deutschland,54.0451488,-220.0,SHP-500368,DemoLogistik,-4,angekuendigt,10.03.2025,synthetic-error
+log-000000369,369,Koordinatenplatz 142,Ostfeld,86579,Deutschland,53.3553366,12.4729828,SHP-500141,SynthExpress,652.62,verloren,22/05/2025,synthetic-normal
+log-000000370,370,Spaltenweg 151,Nordhafen,60030,deu,48.4985083,6.6408943,SHP-500370,Musterfracht,775.07,angekuendigt,2025-03-12,synthetic-normal
+log-000000371,371,Pipelineweg 152,Westbogen,67949,Deutschland,53.4219929,9.8362139,SHP-500371,DemoLogistik,429.13,angekuendigt,2025/03/13,synthetic-normal
+log-000000372,372,  Spaltenweg   153,Datenheim,75868,D,48.7422964,7.5169659,SHP-500372,Musterfracht,718.94,zugestellt,2025/03/14,synthetic-normal
+log-000000373,373,Vektorallee 154,Ostfeld,83787,Deutschland,53.527581,10.7827748,SHP-500373,Beispielkurier,731.59,angekuendigt,2025/03/15,synthetic-normal
+log-000000374,374,Koordinatenplatz 155,Nordhafen,11706,D,48.7430078,12.0856625,SHP-500374,DemoLogistik,495.83,zugestellt,16/03/2025,synthetic-normal
+log-000000375,375,Pipelineweg 156,Südwinkel,19625,deu,53.9385451,7.6591271,SHP-500375,Beispielkurier,77.1,unterwegs,2025-03-17,synthetic-normal
+log-000000376,376,  Spaltenweg   109,Südwinkel,47432,D,47.4705899,6.1969278,SHP-500328,DemoLogistik,385.27,unterwegs,2025-01-29,synthetic-normal
+log-000000377,377,Schemaweg 158,Datenheim,35463,DE,47.3994544,14.2735239,SHP-500377,Beispielkurier,561.08,angekuendigt,2025/03/19,synthetic-normal
+log-000000378,378,Koordinatenplatz 159, Westbogen ,ABCDE,DE,52.8806826,13.4769998,SHP-500378,SynthExpress,,unterwegs,2025-03-20,synthetic-error
+log-000000379,379,Qualitätsring 160,Datenheim,51301,D,52.9704237,12.8498075,SHP-500379,Musterfracht,421,verloren,2025/03/21,synthetic-normal
+log-000000380,380,Prüfsummenstr. 161,Datenheim,59220,D,54.3947518,14.1028617,SHP-500380,Musterfracht,144.4,zugestellt,2025/03/22,synthetic-normal
+log-000000381,381,Qualitätsring 162,Datenheim,67139,Deutschland,50.0360649,9.962112,SHP-500381,Beispielkurier,580.72,angekuendigt,2025-03-23,synthetic-normal
+log-000000382,382,Schemaweg 163,Südwinkel,75058,deu,53.8034752,5.9996526,SHP-500382,Musterfracht,414.14,unterwegs,2025-03-24,synthetic-normal
+log-000000383,383,  Vektorallee   183 ,WESTBOGEN,11258,deu,51.5860823,11.0136025,SHP-500182,Beispielkurier,769.18,zugestellt,2025/07/02,synthetic-normal
+log-000000384,384,Schemaweg 165,Ostfeld,10896,deu,52.8804212,12.4569408,SHP-500384,Beispielkurier,199.96,unterwegs,2025/03/26,synthetic-normal
+log-000000385,385,Pipelineweg 166,Datenheim,18815,D,47.8964282,6.3144889,SHP-500385,Musterfracht,461.03,zugestellt,2025/03/27,synthetic-normal
+log-000000386,386,Qualitätsring 167,Vektorstetten,26734,D,47.7113724,10.6243268,SHP-500386,Musterfracht,695.84,unterwegs,28/03/2025,synthetic-normal
+log-000000387,387,  Prüfsummenstraße   168, Datenheim ,34653,DE,48.9878508,8.4660039,SHP-500387,Beispielkurier,40.51,unterwegs,29.03.2025,synthetic-normal
+log-000000388,388,Prüfsummenstr. 169,Datenheim,42572,D,53.181071,6.9994516,SHP-500388,DemoLogistik,596.28,verloren,30.03.2025,synthetic-normal
+log-000000389,389,Qualitätsring 170,Ostfeld,50491,Deutschland,52.5040086,11.0993678,SHP-500389,SynthExpress,156.96,verloren,2025/03/31,synthetic-normal
+log-000000390,390,Datenstr. 171,Westbogen,58410,D,52.0361844,9.8522635,SHP-500390,DemoLogistik,275.69,unterwegs,01/04/2025,synthetic-normal
+log-000000391,391,Datenstrasse 172,Südwinkel,66329,Deutschland,47.404373,12.1829161,SHP-500391,SynthExpress,68.74,zugestellt,2025/04/02,synthetic-normal
+log-000000392,392,Qualitätsring 173,Westbogen,74248,D,52.0351191,14.9291796,SHP-500392,SynthExpress,592.04,verloren,2025-04-03,synthetic-normal
+log-000000393,393,  Datenstraße   174,Nordhafen,82167,DE,8.2960555,50.2537031,SHP-500393,Musterfracht,schwer,angekuendigt,2025-04-04,synthetic-error
+log-000000394,394,Prüfsummenstraße 175,Ostfeld,10086,DE,48.7167721,10.4059876,SHP-500394,Beispielkurier,185.01,angekuendigt,2025-04-05,synthetic-normal
+log-000000395,395,Prüfsummenstrasse 176,Vektorstetten,18005,Deutschland,50.0008738,8.5814011,SHP-500395,Musterfracht,266.92,angekuendigt,06/04/2025,synthetic-normal
+log-000000396,396,Datenstr. 177, Westbogen ,25924,D,52.2926814,6.6077142,SHP-500396,Beispielkurier,651.91,unterwegs,2025/04/07,synthetic-normal
+log-000000397,397,  Koordinatenplatz   178,Südwinkel,33843,deu,51.7158333,12.0932475,SHP-500397,DemoLogistik,776.43,unterwegs,08/04/2025,synthetic-normal
+log-000000398,398,Prüfsummenstrasse 179,Datenheim,41762,deu,49.7129712,10.9275307,SHP-500398,SynthExpress,727.66,unterwegs,09/04/2025,synthetic-normal
+log-000000399,399,  Koordinatenplatz   180,Westbogen,49681,D,52.9666339,13.3596263,SHP-500399,Musterfracht,23.68,unterwegs,10.04.2025,synthetic-normal
+log-000000400,400,Schemaweg 181,Südwinkel,57600,DE,50.0303861,12.1308998,SHP-500400,Beispielkurier,609.98,unterwegs,2025/04/11,synthetic-normal
+log-000000401,401,  Spaltenweg   182,Südwinkel,65519,deu,47.5449446,12.8337575,SHP-500401,SynthExpress,681.72,zugestellt,2025/04/12,synthetic-normal
+log-000000402,402,Qualitätsring 183,Ostfeld,73438,D,52.5277566,13.7743291,SHP-500402,DemoLogistik,162.35,verloren,2025/04/13,synthetic-normal
+log-000000403,403,  Koordinatenplatz   184,Vektorstetten,81357,DE,51.2569331,9.9548083,SHP-500403,SynthExpress,659.48,unterwegs,2025/04/14,synthetic-normal
+log-000000404,404,Qualitätsring 185,Westbogen,89276,Deutschland,50.8062384,200.0,SHP-500404,SynthExpress,-4,unterwegs,2025/04/15,synthetic-error
+log-000000405,405,  Prüfsummenstraße   186, Nordhafen ,17195,deu,14.0488811,50.7479736,SHP-500405,DemoLogistik,100000,verloren,2025-04-16,synthetic-error
+log-000000406,406,Vektorallee 187,Vektorstetten,25114,D,52.1189504,6.5848202,SHP-500406,Beispielkurier,569.2,unterwegs,2025/04/17,synthetic-normal
+log-000000407,407,Vektorallee 188,Südwinkel,ABCDE,DE,50.4888209,8.6475684,SHP-500407,Beispielkurier,schwer,zugestellt,18.04.2025,synthetic-error
+log-000000408,408,  Spaltenweg   189,Datenheim,40952,DE,51.9206779,-220.0,SHP-500408,DemoLogistik,-4,verloren,2025/04/19,synthetic-error
+log-000000409,409,Koordinatenplatz 88 ,DATENHEIM,41133,D,54.8743962,13.3779333,SHP-500307,SynthExpress,265.57,angekuendigt,08/01/2025,synthetic-normal
+log-000000410,410,Qualitätsring 191,Nordhafen,56790,Deutschland,47.57908,13.6552294,SHP-500410,Musterfracht,502.95,zugestellt,2025-04-21,synthetic-normal
+log-000000411,411,Vektorallee 214,Westbogen,16747,deu,50.5621551,6.6390325,SHP-500213,SynthExpress,66.03,angekuendigt,02.08.2025,synthetic-normal
+log-000000412,412,  Vektorallee   193,Westbogen,72628,DE,48.0077598,8.5535092,SHP-500412,Musterfracht,528.77,verloren,2025-04-23,synthetic-normal
+log-000000413,413,Spaltenweg 194,Westbogen,80547,Deutschland,51.3056008,10.6267451,SHP-500413,DemoLogistik,52.03,angekuendigt,2025-04-24,synthetic-normal
+log-000000414,414,  Pipelineweg   195, Datenheim ,88466,Deutschland,50.5456074,13.5997413,SHP-500414,Musterfracht,423.2,zugestellt,25.04.2025,synthetic-normal
+log-000000415,415,  Spaltenweg   196,Datenheim,16385,deu,52.6852617,14.8091705,SHP-500415,SynthExpress,583.37,angekuendigt,2025-04-26,synthetic-normal
+log-000000416,416,  Qualitätsring   197,Westbogen,24304,Deutschland,51.5591578,11.6650326,SHP-500416,SynthExpress,590,unterwegs,27/04/2025,synthetic-normal
+log-000000417,417,Datenstraße 198,Westbogen,32223,D,11.4671388,52.8054145,SHP-500417,SynthExpress,schwer,unterwegs,28.04.2025,synthetic-error
+log-000000418,418,Spaltenweg 199,Ostfeld,40142,deu,52.0667237,14.0069366,SHP-500418,Musterfracht,383.34,verloren,2025/04/29,synthetic-normal
+log-000000419,419,Datenstrasse 200,,48061,Deutschland,47.8032191,7.1736051,SHP-500419,SynthExpress,schwer,zugestellt,2025/04/30,synthetic-error
+log-000000420,420,Pipelineweg 201,Westbogen,55980,DE,49.3633804,6.5985396,SHP-500420,DemoLogistik,311.71,zugestellt,2025/05/01,synthetic-normal
+log-000000421,421,Vektorallee 202,Nordhafen,63899,deu,54.2414892,9.8827217,SHP-500421,SynthExpress,420.13,verloren,02.05.2025,synthetic-normal
+log-000000422,422,Schemaweg 203,Nordhafen,71818,deu,48.859422,6.1362833,SHP-500422,Beispielkurier,585.98,angekuendigt,2025-05-03,synthetic-normal
+log-000000423,423,  Koordinatenplatz   204, Nordhafen ,79737,Deutschland,not-a-number,12.7781432,SHP-500423,DemoLogistik,-4,zugestellt,04.05.2025,synthetic-error
+log-000000424,424,Pipelineweg 205,Westbogen,87656,DE,47.4159511,11.5310937,SHP-500424,SynthExpress,352.95,unterwegs,05/05/2025,synthetic-normal
+log-000000425,425,Schemaweg 206,Westbogen,15575,Deutschland,51.408386,6.2666809,SHP-500425,SynthExpress,754.63,verloren,2025-05-06,synthetic-normal
+log-000000426,426,Spaltenweg 207,Südwinkel,23494,DE,54.6999824,200.0,SHP-500426,Beispielkurier,100000,unterwegs,2025-05-07,synthetic-error
+log-000000427,427,  Spaltenweg   208,Südwinkel,31413,deu,53.8443317,11.4758672,SHP-500427,Musterfracht,568.2,verloren,08.05.2025,synthetic-normal
+log-000000428,428,  Koordinatenplatz   209,Nordhafen,39332,D,48.1579416,10.2035992,SHP-500428,DemoLogistik,631.04,zugestellt,09/05/2025,synthetic-normal
+log-000000429,429,Pipelineweg 210,Nordhafen,47251,Deutschland,51.3488663,9.4875116,SHP-500429,Beispielkurier,82.44,unterwegs,10.05.2025,synthetic-normal
+log-000000430,430,Koordinatenplatz 211,Datenheim,55170,D,53.2607862,9.8052541,SHP-500430,Musterfracht,307.11,unterwegs,11.05.2025,synthetic-normal
+log-000000431,431,  Pipelineweg   212,Nordhafen,63089,D,14.5941277,48.6389224,SHP-500431,SynthExpress,,angekuendigt,2025/05/12,synthetic-error
+log-000000432,432,Vektorallee 213, Vektorstetten ,71008,deu,50.7426056,8.4818299,SHP-500432,Beispielkurier,72.52,unterwegs,13.05.2025,synthetic-normal
+log-000000433,433,  Schemaweg   214,Westbogen,78927,DE,51.728725,11.425715,SHP-500433,Beispielkurier,456.26,unterwegs,14/05/2025,synthetic-normal
+log-000000434,434,Datenstrasse 62,Vektorstetten,75239,DE,50.1514625,11.690954,SHP-500281,SynthExpress,169.03,angekuendigt,2025-10-09,synthetic-normal
+log-000000435,435,Pipelineweg 67,Südwinkel,34834,deu,49.7978223,14.0296541,SHP-500286,Musterfracht,590.86,angekuendigt,14/10/2025,synthetic-normal
+log-000000436,436,  Qualitätsring   217,Ostfeld,22684,Deutschland,52.7094798,9.5355004,SHP-500436,Beispielkurier,692.56,unterwegs,17.05.2025,synthetic-normal
+log-000000437,437,  Koordinatenplatz   218,Vektorstetten,30603,deu,48.3205086,6.4600632,SHP-500437,SynthExpress,307.74,unterwegs,2025/05/18,synthetic-normal
+log-000000438,438,  Vektorallee   219,Vektorstetten,38522,D,52.0366885,9.9804281,SHP-500438,Beispielkurier,108.71,verloren,2025/05/19,synthetic-normal
+log-000000439,439,Spaltenweg 220,Westbogen,46441,D,54.3418898,11.1024416,SHP-500439,SynthExpress,483.7,angekuendigt,2025/05/20,synthetic-normal
+log-000000440,440,Vektorallee 1,Nordhafen,54360,DE,11.6020982,49.1637579,SHP-500440,SynthExpress,-4,zugestellt,2025-05-21,synthetic-error
+log-000000441,441,  Koordinatenplatz   2, Westbogen ,62279,Deutschland,48.573062,,SHP-500441,Musterfracht,,zugestellt,2025-05-22,synthetic-error
+log-000000442,442,  Schemaweg   3,Datenheim,70198,DE,8.3562089,53.7709839,SHP-500442,DemoLogistik,-4,zugestellt,23/05/2025,synthetic-error
+log-000000443,443,Datenstrasse 58,Westbogen,61383,D,47.8409662,7.947499,SHP-500057,Musterfracht,375.98,unterwegs,2025/02/27,synthetic-normal
+log-000000444,444,Koordinatenplatz 5,Vektorstetten,86036,deu,50.9853807,13.1542225,SHP-500444,SynthExpress,527.36,zugestellt,2025-05-25,synthetic-normal
+log-000000445,445,  Spaltenweg   6,Südwinkel,13955,D,52.8175931,7.339006,SHP-500445,Musterfracht,657.4,angekuendigt,26/05/2025,synthetic-normal
+log-000000446,446,Spaltenweg 7,,21874,deu,50.186486,12.2915918,SHP-500446,Beispielkurier,,zugestellt,27.05.2025,synthetic-error
+log-000000447,447,Prüfsummenstr. 8,Vektorstetten,29793,DE,10.6878988,48.0399688,SHP-500447,Musterfracht,,verloren,28/05/2025,synthetic-error
+log-000000448,448,  Prüfsummenstraße   9,Vektorstetten,37712,deu,52.8807823,11.2162635,SHP-500448,DemoLogistik,204.35,zugestellt,29.05.2025,synthetic-normal
+log-000000449,449,  Datenstraße   10,Nordhafen,12,D,49.9715248,12.472306,SHP-500449,Musterfracht,-4,unterwegs,2025-05-30,synthetic-error
+log-000000450,450,Qualitätsring 85,Vektorstetten,17376,DE,48.721022,7.3989152,SHP-500304,SynthExpress,482.75,verloren,2025-01-05,synthetic-normal
+log-000000451,451,Pipelineweg 12,Südwinkel,61469,D,52.2885992,14.0790544,SHP-500451,DemoLogistik,510.5,angekuendigt,01.06.2025,synthetic-normal
+log-000000452,452,Spaltenweg 13,Vektorstetten,69388,Deutschland,49.2557581,12.9827279,SHP-500452,Musterfracht,748.95,angekuendigt,2025/06/02,synthetic-normal
+log-000000453,453,Schemaweg 14,Ostfeld,77307,deu,51.9382943,7.441668,SHP-500453,Beispielkurier,206.67,angekuendigt,03.06.2025,synthetic-normal
+log-000000454,454,  Pipelineweg   15,Nordhafen,85226,DE,47.8541882,11.05637,SHP-500454,Musterfracht,491.21,verloren,2025-06-04,synthetic-normal
+log-000000455,455,  Datenstraße   16,Vektorstetten,13145,Deutschland,54.1750933,11.0866903,SHP-500455,Beispielkurier,512.3,verloren,2025/06/05,synthetic-normal
+log-000000456,456,Pipelineweg 17,Vektorstetten,21064,D,48.2211477,10.7247975,SHP-500456,Musterfracht,649.84,zugestellt,06/06/2025,synthetic-normal
+log-000000457,457,Pipelineweg 18,Westbogen,28983,DE,53.6929801,12.7961683,SHP-500457,Musterfracht,767.06,unterwegs,07.06.2025,synthetic-normal
+log-000000458,458,  Schemaweg   19,Vektorstetten,36902,Deutschland,50.9974269,13.9439702,SHP-500458,Beispielkurier,528.62,unterwegs,08.06.2025,synthetic-normal
+log-000000459,459,Spaltenweg 13,Datenheim,25028,deu,48.2757751,10.1725979,SHP-500012,DemoLogistik,63.1,zugestellt,2025/01/13,synthetic-normal
+log-000000460,460,  Schemaweg   21,Ostfeld,52740,DE,47.5815244,6.315701,SHP-500460,SynthExpress,50.49,verloren,2025-06-10,synthetic-normal
+log-000000461,461,Vektorallee 22,Nordhafen,60659,deu,51.0155998,5.9753797,SHP-500461,SynthExpress,418.54,unterwegs,11.06.2025,synthetic-normal
+log-000000462,462,  Vektorallee   104 ,NORDHAFEN,87837,deu,53.0871901,7.9320991,SHP-500323,Musterfracht,758.97,zugestellt,24.01.2025,synthetic-normal
+log-000000463,463,Vektorallee 24,Nordhafen,76497,DE,51.0782906,13.152412,SHP-500463,DemoLogistik,365,angekuendigt,13.06.2025,synthetic-normal
+log-000000464,464,Prüfsummenstr. 25,Vektorstetten,84416,deu,49.7440831,14.67517,SHP-500464,DemoLogistik,785.76,angekuendigt,14.06.2025,synthetic-normal
+log-000000465,465,Prüfsummenstrasse 26,Datenheim,12335,deu,50.6338252,14.3162149,SHP-500465,SynthExpress,113.08,unterwegs,2025-06-15,synthetic-normal
+log-000000466,466,Vektorallee 27,Nordhafen,20254,DE,47.3549024,14.32046,SHP-500466,Musterfracht,300.97,verloren,2025/06/16,synthetic-normal
+log-000000467,467,  Spaltenweg   28,Südwinkel,28173,DE,51.831667,12.3982286,SHP-500467,SynthExpress,511.9,zugestellt,17/06/2025,synthetic-normal
+log-000000468,468,Pipelineweg 29, Datenheim ,36092,deu,50.8280417,11.5634711,SHP-500468,DemoLogistik,153.6,zugestellt,2025-06-18,synthetic-normal
+log-000000469,469,  Spaltenweg   30,Vektorstetten,44011,DE,47.7106099,9.1505762,SHP-500469,DemoLogistik,548.23,verloren,19/06/2025,synthetic-normal
+log-000000470,470,Datenstraße 31,Datenheim,51930,deu,48.5011466,6.0674001,SHP-500470,SynthExpress,606.75,angekuendigt,20.06.2025,synthetic-normal
+log-000000471,471,Qualitätsring 32,Nordhafen,59849,Deutschland,49.0311437,7.9814889,SHP-500471,Beispielkurier,260.85,unterwegs,2025/06/21,synthetic-normal
+log-000000472,472,Prüfsummenstrasse 33,Datenheim,67768,D,9.2360628,48.6532618,SHP-500472,Beispielkurier,-4,unterwegs,22/06/2025,synthetic-error
+log-000000473,473,Datenstr. 34,Ostfeld,75687,D,50.4785011,12.7951242,SHP-500473,DemoLogistik,553.8,zugestellt,23.06.2025,synthetic-normal
+log-000000474,474,Vektorallee 35,Datenheim,83606,D,53.8527128,7.791272,SHP-500474,Beispielkurier,489.26,verloren,24/06/2025,synthetic-normal
+log-000000475,475,Prüfsummenstr. 220,Südwinkel,64261,D,54.5538427,12.8873769,SHP-500219,SynthExpress,688.67,angekuendigt,2025-08-08,synthetic-normal
+log-000000476,476,Vektorallee 37,Nordhafen,19444,DE,54.8336786,12.547982,SHP-500476,SynthExpress,463.62,verloren,2025/06/26,synthetic-normal
+log-000000477,477,  Spaltenweg   38, Datenheim ,27363,DE,52.5680148,9.5408863,SHP-500477,DemoLogistik,657.05,unterwegs,27/06/2025,synthetic-normal
+log-000000478,478,Spaltenweg 39,Ostfeld,35282,DE,54.7207979,10.0665979,SHP-500478,DemoLogistik,72.67,verloren,28.06.2025,synthetic-normal
+log-000000479,479,Datenstraße 40,Vektorstetten,43201,Deutschland,51.3349945,8.5286278,SHP-500479,Musterfracht,371.49,unterwegs,2025-06-29,synthetic-normal
+log-000000480,480,Koordinatenplatz 41,Westbogen,51120,D,52.0054142,9.1632545,SHP-500480,DemoLogistik,745.8,angekuendigt,30.06.2025,synthetic-normal
+log-000000481,481,Spaltenweg 42,Südwinkel,59039,Deutschland,49.9806087,8.2596922,SHP-500481,Beispielkurier,431.75,zugestellt,2025-07-01,synthetic-normal
+log-000000482,482,Pipelineweg 130  ,VEKTORSTETTEN,71551,DE,50.7198062,12.0570027,SHP-500129,Musterfracht,658.69,unterwegs,10.05.2025,synthetic-normal
+log-000000483,483,  Schemaweg   44,Vektorstetten,74877,DE,48.7314872,13.9326066,SHP-500483,SynthExpress,376.18,angekuendigt,2025/07/03,synthetic-normal
+log-000000484,484,Pipelineweg 45,Vektorstetten,82796,deu,51.0720984,13.8499369,SHP-500484,SynthExpress,765.31,zugestellt,2025/07/04,synthetic-normal
+log-000000485,485,  Koordinatenplatz   46,Vektorstetten,10715,DE,49.5155277,6.3791355,SHP-500485,DemoLogistik,105.71,zugestellt,2025/07/05,synthetic-normal
+log-000000486,486,  Spaltenweg   47, Datenheim ,18634,deu,54.1269426,8.619754,SHP-500486,Musterfracht,629.48,unterwegs,2025/07/06,synthetic-normal
+log-000000487,487,Vektorallee 48,Südwinkel,26553,deu,52.7097725,8.4242686,SHP-500487,DemoLogistik,676.43,unterwegs,07.07.2025,synthetic-normal
+log-000000488,488,Spaltenweg 49,,34472,DE,52.3582049,14.7978076,SHP-500488,DemoLogistik,100000,zugestellt,2025/07/08,synthetic-error
+log-000000489,489,  Datenstraße   50,Südwinkel,42391,D,54.3513658,7.2356901,SHP-500489,Musterfracht,97.28,zugestellt,2025/07/09,synthetic-normal
+log-000000490,490,  Vektorallee   51,Nordhafen,50310,D,54.141326,7.0826943,SHP-500490,SynthExpress,603.35,zugestellt,2025-07-10,synthetic-normal
+log-000000491,491,Pipelineweg 52,Vektorstetten,58229,deu,51.734079,7.8437235,SHP-500491,Musterfracht,356.83,unterwegs,2025-07-11,synthetic-normal
+log-000000492,492,  Pipelineweg   53,Westbogen,66148,DE,54.2041968,9.1217968,SHP-500492,DemoLogistik,541.68,verloren,12/07/2025,synthetic-normal
+log-000000493,493,Spaltenweg 54,,74067,D,53.4080098,8.455433,SHP-500493,Beispielkurier,schwer,verloren,13.07.2025,synthetic-error
+log-000000494,494,Koordinatenplatz 55,Datenheim,81986,D,47.9722069,9.5670379,SHP-500494,Musterfracht,242.65,verloren,14.07.2025,synthetic-normal
+log-000000495,495,Vektorallee 56, Ostfeld ,89905,Deutschland,51.5093886,6.1885428,SHP-500495,Musterfracht,604.22,zugestellt,2025/07/15,synthetic-normal
+log-000000496,496,Datenstrasse 57,Vektorstetten,17824,D,48.2437446,11.9264038,SHP-500496,Musterfracht,21.57,verloren,16.07.2025,synthetic-normal
+log-000000497,497,Pipelineweg 58,Nordhafen,25743,Deutschland,51.7160999,11.0032862,SHP-500497,Musterfracht,195.88,verloren,2025-07-17,synthetic-normal
+log-000000498,498,Schemaweg 59,Südwinkel,33662,Deutschland,50.8039342,12.178204,SHP-500498,Musterfracht,14.13,unterwegs,2025-07-18,synthetic-normal
+log-000000499,499,Koordinatenplatz 60,Datenheim,41581,DE,51.2053853,12.8512704,SHP-500499,DemoLogistik,729.69,angekuendigt,19.07.2025,synthetic-normal
+log-000000500,500,Schemaweg 61,Vektorstetten,49500,Deutschland,48.0283339,11.1364291,SHP-500500,DemoLogistik,661.47,angekuendigt,20.07.2025,synthetic-normal
+log-000000501,501,Koordinatenplatz 62,Südwinkel,57419,deu,53.619959,13.114982,SHP-500501,SynthExpress,387.97,verloren,2025/07/21,synthetic-normal
+log-000000502,502,Spaltenweg 63,Westbogen,12,deu,53.5094941,13.9854827,SHP-500502,Musterfracht,-4,unterwegs,22/07/2025,synthetic-error
+log-000000503,503,Qualitätsring 64,Südwinkel,73257,DE,50.5285186,12.8198179,SHP-500503,SynthExpress,113.97,angekuendigt,2025-07-23,synthetic-normal
+log-000000504,504,Pipelineweg 65, Datenheim ,81176,DE,50.8650258,14.1584695,SHP-500504,SynthExpress,34.11,angekuendigt,24/07/2025,synthetic-normal
+log-000000505,505,Qualitätsring 66,Westbogen,89095,DE,47.9899228,13.581926,SHP-500505,Musterfracht,625.92,zugestellt,25/07/2025,synthetic-normal
+log-000000506,506,Qualitätsring 67,Datenheim,17014,DE,51.3191744,12.385467,SHP-500506,Musterfracht,582.87,unterwegs,2025-07-26,synthetic-normal
+log-000000507,507,Koordinatenplatz 68,Nordhafen,24933,deu,53.6440404,200.0,SHP-500507,Beispielkurier,,unterwegs,27.07.2025,synthetic-error
+log-000000508,508,  Vektorallee   69,Vektorstetten,32852,Deutschland,51.5342041,6.1735988,SHP-500508,Musterfracht,372.77,verloren,2025-07-28,synthetic-normal
+log-000000509,509,Spaltenweg 70,Westbogen,40771,D,48.7347659,6.4404042,SHP-500509,Beispielkurier,588.97,zugestellt,29.07.2025,synthetic-normal
+log-000000510,510,Pipelineweg 136 ,SÜDWINKEL,21245,Deutschland,49.7082746,8.4804784,SHP-500355,Musterfracht,679.14,verloren,25/02/2025,synthetic-normal
+log-000000511,511,Pipelineweg 72,Ostfeld,56609,DE,52.9348844,14.0103342,SHP-500511,DemoLogistik,526.87,angekuendigt,31/07/2025,synthetic-normal
+log-000000512,512,Prüfsummenstraße 73,Ostfeld,64528,D,49.4167393,12.364143,SHP-500512,Musterfracht,476.01,verloren,01/08/2025,synthetic-normal
+log-000000513,513,Spaltenweg 74, Ostfeld ,72447,DE,48.2286445,10.3019407,SHP-500513,DemoLogistik,323.61,unterwegs,2025-08-02,synthetic-normal
+log-000000514,514,  Vektorallee   75,Westbogen,80366,deu,not-a-number,11.5337401,SHP-500514,SynthExpress,-4,verloren,2025/08/03,synthetic-error
+log-000000515,515,Koordinatenplatz 76,Nordhafen,88285,D,53.9889551,6.8960338,SHP-500515,Beispielkurier,209.41,zugestellt,2025/08/04,synthetic-normal
+log-000000516,516,  Vektorallee   77,,16204,D,51.0046574,6.8063143,SHP-500516,Beispielkurier,schwer,verloren,2025/08/05,synthetic-error
+log-000000517,517,  Spaltenweg   78,Westbogen,24123,Deutschland,49.7356692,6.0589523,SHP-500517,SynthExpress,313.17,unterwegs,06/08/2025,synthetic-normal
+log-000000518,518,  Koordinatenplatz   79,Westbogen,32042,Deutschland,50.430665,6.3193331,SHP-500518,DemoLogistik,21.62,unterwegs,07.08.2025,synthetic-normal
+log-000000519,519,Pipelineweg 80,Südwinkel,39961,DE,51.3919678,6.1438741,SHP-500519,Beispielkurier,728.32,verloren,08/08/2025,synthetic-normal
+log-000000520,520,  Prüfsummenstraße   41,Westbogen,68940,D,54.2704305,5.9137469,SHP-500260,Beispielkurier,53.7,angekuendigt,2025/09/18,synthetic-normal
+log-000000521,521,  Pipelineweg   82,Vektorstetten,55799,deu,49.8533527,10.4254704,SHP-500521,Musterfracht,312.3,unterwegs,10/08/2025,synthetic-normal
+log-000000522,522,Pipelineweg 83, Nordhafen ,63718,Deutschland,54.8713305,9.4986516,SHP-500522,DemoLogistik,397.61,angekuendigt,2025-08-11,synthetic-normal
+log-000000523,523,  Spaltenweg   84,Nordhafen,71637,Deutschland,51.1352605,8.559163,SHP-500523,Musterfracht,453.19,unterwegs,2025/08/12,synthetic-normal
+log-000000524,524,Vektorallee 85,Datenheim,79556,deu,51.684009,7.7591658,SHP-500524,Beispielkurier,362.64,zugestellt,2025/08/13,synthetic-normal
+log-000000525,525,Qualitätsring 86,Südwinkel,87475,deu,52.9728947,12.8428768,SHP-500525,Beispielkurier,48,verloren,14/08/2025,synthetic-normal
+log-000000526,526,Prüfsummenstr. 87,Vektorstetten,15394,deu,49.2489944,11.3313369,SHP-500526,Beispielkurier,507.18,unterwegs,2025-08-15,synthetic-normal
+log-000000527,527,  Spaltenweg   88,Ostfeld,999999,D,52.2166076,6.1404344,SHP-500527,DemoLogistik,schwer,zugestellt,16.08.2025,synthetic-error
+log-000000528,528,  Datenstraße   89,Nordhafen,31232,DE,49.6856763,8.5414084,SHP-500528,SynthExpress,440.61,verloren,17/08/2025,synthetic-normal
+log-000000529,529,Vektorallee 90,Vektorstetten,39151,DE,51.2668774,13.4266306,SHP-500529,Musterfracht,317.58,verloren,2025-08-18,synthetic-normal
+log-000000530,530,  Koordinatenplatz   91,Vektorstetten,47070,deu,54.4098007,7.8056771,SHP-500530,SynthExpress,645.37,unterwegs,19.08.2025,synthetic-normal
+log-000000531,531,  Datenstraße   92, Vektorstetten ,54989,DE,49.7053236,9.6987881,SHP-500531,DemoLogistik,203.52,zugestellt,20.08.2025,synthetic-normal
+log-000000532,532,Datenstraße 93,Vektorstetten,62908,DE,52.5491867,13.0569849,SHP-500532,DemoLogistik,657.11,zugestellt,2025/08/21,synthetic-normal
+log-000000533,533,Pipelineweg 94,Ostfeld,70827,DE,54.2143972,9.4153752,SHP-500533,Musterfracht,290.35,zugestellt,2025-08-22,synthetic-normal
+log-000000534,534,  Vektorallee   95,Vektorstetten,78746,D,53.2988122,8.321136,SHP-500534,SynthExpress,238.01,verloren,2025/08/23,synthetic-normal
+log-000000535,535,Prüfsummenstraße 96,Vektorstetten,86665,Deutschland,51.1481423,9.0370784,SHP-500535,Musterfracht,266.24,verloren,2025-08-24,synthetic-normal
+log-000000536,536,Spaltenweg 97,Südwinkel,14584,Deutschland,49.6842857,6.5565349,SHP-500536,DemoLogistik,147.07,unterwegs,25.08.2025,synthetic-normal
+log-000000537,537,  Koordinatenplatz   98,Vektorstetten,22503,deu,49.2811671,12.1246952,SHP-500537,Musterfracht,634.13,zugestellt,26.08.2025,synthetic-normal
+log-000000538,538,Prüfsummenstrasse 99,Nordhafen,30422,deu,54.1920203,14.7619737,SHP-500538,DemoLogistik,314.86,zugestellt,27.08.2025,synthetic-normal
+log-000000539,539,Pipelineweg 136 ,SÜDWINKEL,21245,Deutschland,49.7082746,8.4804784,SHP-500355,Musterfracht,679.14,verloren,25/02/2025,synthetic-normal
+log-000000540,540,  Datenstraße   101, Ostfeld ,46260,D,48.2006939,-220.0,SHP-500540,DemoLogistik,-4,zugestellt,29/08/2025,synthetic-error
+log-000000541,541,Schemaweg 102,Ostfeld,54179,deu,47.5186757,14.7803791,SHP-500541,DemoLogistik,480.11,verloren,30.08.2025,synthetic-normal
+log-000000542,542,  Datenstraße   103,Westbogen,62098,D,52.5200786,12.3626907,SHP-500542,Beispielkurier,366.59,zugestellt,2025-08-31,synthetic-normal
+log-000000543,543,Spaltenweg 104,Vektorstetten,70017,DE,10.4417864,47.3407435,SHP-500543,Beispielkurier,100000,zugestellt,2025/09/01,synthetic-error
+log-000000544,544,Vektorallee 105,Ostfeld,77936,Deutschland,53.9720153,7.0136597,SHP-500544,Musterfracht,33,verloren,02.09.2025,synthetic-normal
+log-000000545,545,Spaltenweg 106,Ostfeld,85855,Deutschland,54.1612243,8.2215908,SHP-500545,Musterfracht,782.82,zugestellt,2025/09/03,synthetic-normal
+log-000000546,546,  Vektorallee   107,Südwinkel,13774,DE,49.0469401,6.1299327,SHP-500546,Musterfracht,795.65,unterwegs,2025/09/04,synthetic-normal
+log-000000547,547,  Datenstraße   108,Vektorstetten,21693,D,50.7789738,6.8349161,SHP-500547,DemoLogistik,741.77,angekuendigt,05/09/2025,synthetic-normal
+log-000000548,548,Vektorallee 109,Vektorstetten,29612,deu,51.7349602,14.7389717,SHP-500548,DemoLogistik,144.61,verloren,2025-09-06,synthetic-normal
+log-000000549,549,Koordinatenplatz 110, Vektorstetten ,37531,DE,50.2956905,11.2311142,SHP-500549,SynthExpress,75.53,zugestellt,07.09.2025,synthetic-normal
+log-000000550,550,Schemaweg 66,Westbogen,26915,Deutschland,6.718242,50.8285079,SHP-500285,DemoLogistik,-4,angekuendigt,13/10/2025,synthetic-error
+log-000000551,551,Datenstr. 112,Vektorstetten,53369,D,49.7693576,12.530216,SHP-500551,DemoLogistik,764.17,unterwegs,2025-09-09,synthetic-normal
+log-000000552,552,  Pipelineweg   113,Westbogen,61288,deu,49.124609,12.8920729,SHP-500552,Beispielkurier,638.54,angekuendigt,2025-09-10,synthetic-normal
+log-000000553,553,Schemaweg 114,Ostfeld,69207,D,52.8927586,14.2796382,SHP-500553,DemoLogistik,623.62,zugestellt,2025-09-11,synthetic-normal
+log-000000554,554,  Prüfsummenstraße   115,Datenheim,77126,D,47.9856899,9.6873344,SHP-500554,Musterfracht,391.75,unterwegs,2025/09/12,synthetic-normal
+log-000000555,555,Qualitätsring 116,Datenheim,85045,DE,not-a-number,9.8236708,SHP-500555,Beispielkurier,,zugestellt,13.09.2025,synthetic-error
+log-000000556,556,Datenstraße 117,Datenheim,12964,DE,51.180952,9.5997785,SHP-500556,Beispielkurier,236.46,zugestellt,14/09/2025,synthetic-normal
+log-000000557,557,Spaltenweg 118,Ostfeld,20883,DE,47.9330083,,SHP-500557,Musterfracht,-4,zugestellt,2025/09/15,synthetic-error
+log-000000558,558,Vektorallee 119, Vektorstetten ,28802,Deutschland,53.92428,6.7782421,SHP-500558,SynthExpress,734.5,angekuendigt,2025/09/16,synthetic-normal
+log-000000559,559,  Prüfsummenstraße   120,Datenheim,36721,Deutschland,52.5490334,14.6609028,SHP-500559,Beispielkurier,381.75,zugestellt,2025-09-17,synthetic-normal
+log-000000560,560,Qualitätsring 121,Vektorstetten,44640,deu,52.2380227,200.0,SHP-500560,DemoLogistik,-4,angekuendigt,18/09/2025,synthetic-error
+log-000000561,561,  Spaltenweg   122,Ostfeld,12,deu,48.830172,11.0387602,SHP-500561,Beispielkurier,100000,angekuendigt,19/09/2025,synthetic-error
+log-000000562,562,Spaltenweg 123,Ostfeld,60478,D,51.2015035,12.4664505,SHP-500562,Beispielkurier,783.59,unterwegs,2025-09-20,synthetic-normal
+log-000000563,563,Pipelineweg 124,Ostfeld,68397,D,48.1887496,11.5288095,SHP-500563,Musterfracht,252.75,verloren,2025/09/21,synthetic-normal
+log-000000564,564,Prüfsummenstr. 89,Datenheim,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000565,565,  Koordinatenplatz   126,Westbogen,84235,D,54.5945056,13.4643429,SHP-500565,Musterfracht,406.16,verloren,23.09.2025,synthetic-normal
+log-000000566,566,Spaltenweg 127,Südwinkel,12154,D,48.0668683,9.6270561,SHP-500566,Beispielkurier,599.43,zugestellt,24.09.2025,synthetic-normal
+log-000000567,567,Koordinatenplatz 128,,20073,DE,53.4317981,8.9071597,SHP-500567,SynthExpress,schwer,unterwegs,2025-09-25,synthetic-error
+log-000000568,568,Koordinatenplatz 129,Datenheim,27992,Deutschland,54.1120145,13.651355,SHP-500568,SynthExpress,272.33,angekuendigt,2025/09/26,synthetic-normal
+log-000000569,569,Pipelineweg 130,Nordhafen,35911,DE,48.5695519,6.886146,SHP-500569,DemoLogistik,604.64,zugestellt,27.09.2025,synthetic-normal
+log-000000570,570,Spaltenweg 131,Westbogen,43830,Deutschland,53.5256219,6.9314479,SHP-500570,DemoLogistik,609.6,verloren,2025/09/28,synthetic-normal
+log-000000571,571,Koordinatenplatz 132,,51749,Deutschland,50.1305163,12.744576,SHP-500571,Musterfracht,,unterwegs,29.09.2025,synthetic-error
+log-000000572,572,  Prüfsummenstraße   133,Datenheim,59668,Deutschland,54.4724259,9.8717239,SHP-500572,SynthExpress,641.43,angekuendigt,2025-09-30,synthetic-normal
+log-000000573,573,Prüfsummenstraße 134,Nordhafen,67587,deu,54.1590846,6.3318504,SHP-500573,Musterfracht,617.92,verloren,2025/10/01,synthetic-normal
+log-000000574,574,Koordinatenplatz 135,Westbogen,75506,deu,52.6222425,9.9049393,SHP-500574,DemoLogistik,698.85,verloren,02/10/2025,synthetic-normal
+log-000000575,575,Qualitätsring 136,Datenheim,83425,Deutschland,50.2639509,12.413701,SHP-500575,DemoLogistik,323.66,zugestellt,03.10.2025,synthetic-normal
+log-000000576,576,Vektorallee 137, Datenheim ,11344,Deutschland,49.1341823,12.9222516,SHP-500576,Beispielkurier,417.12,angekuendigt,2025-10-04,synthetic-normal
+log-000000577,577,Pipelineweg 138,Nordhafen,19263,D,49.5645045,12.5791,SHP-500577,Beispielkurier,406.05,zugestellt,05.10.2025,synthetic-normal
+log-000000578,578,Qualitätsring 139,Vektorstetten,27182,deu,52.7290674,10.5809332,SHP-500578,DemoLogistik,452.52,angekuendigt,06/10/2025,synthetic-normal
+log-000000579,579,Spaltenweg 140,Ostfeld,35101,D,47.9227984,6.3721818,SHP-500579,DemoLogistik,622.86,verloren,07.10.2025,synthetic-normal
+log-000000580,580,Prüfsummenstr. 141,Vektorstetten,43020,D,54.8734895,12.1389643,SHP-500580,Beispielkurier,421.05,verloren,08.10.2025,synthetic-normal
+log-000000581,581,Vektorallee 142,Ostfeld,50939,D,47.5478162,7.2429252,SHP-500581,Musterfracht,568.95,angekuendigt,2025/10/09,synthetic-normal
+log-000000582,582,Vektorallee 143,Westbogen,58858,Deutschland,49.5342578,6.0573956,SHP-500582,DemoLogistik,231.74,unterwegs,2025/10/10,synthetic-normal
+log-000000583,583,  Datenstrasse   101 , OSTFELD ,46260,D,48.2006939,-220.0,SHP-500540,DemoLogistik,-4,zugestellt,29/08/2025,synthetic-error
+log-000000584,584,Datenstraße 145,Nordhafen,74696,DE,50.4735712,11.0721436,SHP-500584,Beispielkurier,591.75,zugestellt,2025/10/12,synthetic-normal
+log-000000585,585,  Vektorallee   146, Vektorstetten ,82615,D,48.4322677,12.4963502,SHP-500585,SynthExpress,484.61,verloren,2025/10/13,synthetic-normal
+log-000000586,586,Spaltenweg 147,Südwinkel,10534,DE,51.6471604,13.1246608,SHP-500586,Musterfracht,432.84,angekuendigt,2025-10-14,synthetic-normal
+log-000000587,587,Datenstrasse 148,Datenheim,18453,DE,48.2141521,14.4128727,SHP-500587,DemoLogistik,461.53,angekuendigt,15/10/2025,synthetic-normal
+log-000000588,588,Spaltenweg 149,Datenheim,26372,Deutschland,50.3536638,6.2138495,SHP-500588,SynthExpress,564.52,zugestellt,2025/10/16,synthetic-normal
+log-000000589,589,Schemaweg 150,Nordhafen,34291,deu,49.4686731,,SHP-500589,SynthExpress,,unterwegs,17/10/2025,synthetic-error
+log-000000590,590,Datenstraße 151,Nordhafen,42210,Deutschland,48.3827002,14.0157014,SHP-500590,Musterfracht,260.3,verloren,2025-10-18,synthetic-normal
+log-000000591,591,Vektorallee 214,Westbogen,16747,deu,50.5621551,6.6390325,SHP-500213,SynthExpress,66.03,angekuendigt,02.08.2025,synthetic-normal
+log-000000592,592,Prüfsummenstraße 153,Westbogen,58048,D,51.5037202,6.4022155,SHP-500592,SynthExpress,601.94,verloren,20.10.2025,synthetic-normal
+log-000000593,593,Qualitätsring 154,,65967,D,47.9377035,11.6493507,SHP-500593,DemoLogistik,-4,unterwegs,21/10/2025,synthetic-error
+log-000000594,594,  Prüfsummenstraße   155, Ostfeld ,73886,Deutschland,52.2632473,7.3399114,SHP-500594,SynthExpress,430.07,verloren,22/10/2025,synthetic-normal
+log-000000595,595,Koordinatenplatz 156,Datenheim,81805,Deutschland,47.645684,12.6004831,SHP-500595,SynthExpress,304.18,zugestellt,2025-10-23,synthetic-normal
+log-000000596,596,  Schemaweg   157,Datenheim,89724,Deutschland,54.0178803,14.4977579,SHP-500596,Musterfracht,111.81,verloren,24/10/2025,synthetic-normal
+log-000000597,597,Spaltenweg 158,Vektorstetten,17643,deu,52.212969,5.8188371,SHP-500597,Beispielkurier,273.37,angekuendigt,2025-10-25,synthetic-normal
+log-000000598,598,  Spaltenweg   159,Vektorstetten,25562,DE,51.3937349,14.0116642,SHP-500598,Beispielkurier,716.23,angekuendigt,26/10/2025,synthetic-normal
+log-000000599,599,Prüfsummenstrasse 160,Vektorstetten,33481,DE,48.2482054,9.2084219,SHP-500599,DemoLogistik,481.09,verloren,2025-10-27,synthetic-normal
+log-000000600,600,Qualitätsring 161,Vektorstetten,41400,Deutschland,7.8345587,53.4439502,SHP-500600,Beispielkurier,schwer,zugestellt,2025-01-01,synthetic-error
+log-000000601,601,Datenstrasse 162,Vektorstetten,49319,D,48.1431936,8.3515975,SHP-500601,Beispielkurier,484.86,unterwegs,02.01.2025,synthetic-normal
+log-000000602,602,Vektorallee 163,Vektorstetten,57238,DE,48.2684749,14.3887833,SHP-500602,DemoLogistik,545.94,zugestellt,03.01.2025,synthetic-normal
+log-000000603,603,Spaltenweg 164,,65157,DE,53.7893346,8.7715932,SHP-500603,Beispielkurier,schwer,zugestellt,2025-01-04,synthetic-error
+log-000000604,604,Qualitätsring 165,Ostfeld,73076,D,49.7034389,9.4051017,SHP-500604,Musterfracht,607.24,angekuendigt,2025-01-05,synthetic-normal
+log-000000605,605,Pipelineweg 166,Westbogen,80995,Deutschland,47.7776153,11.5527112,SHP-500605,SynthExpress,551.67,verloren,2025/01/06,synthetic-normal
+log-000000606,606,Koordinatenplatz 167,Ostfeld,88914,deu,54.5869002,13.4591611,SHP-500606,Musterfracht,501.08,unterwegs,2025-01-07,synthetic-normal
+log-000000607,607,Spaltenweg 168,Nordhafen,16833,DE,50.168203,13.9887704,SHP-500607,SynthExpress,611.3,unterwegs,2025-01-08,synthetic-normal
+log-000000608,608,Prüfsummenstraße 169,Nordhafen,24752,DE,49.5413675,9.3093905,SHP-500608,SynthExpress,241.25,verloren,09.01.2025,synthetic-normal
+log-000000609,609,  Spaltenweg   170,Ostfeld,32671,DE,49.8810852,14.4257806,SHP-500609,SynthExpress,499.24,verloren,10/01/2025,synthetic-normal
+log-000000610,610,Qualitätsring 171,Westbogen,40590,Deutschland,120,12.4665319,SHP-500610,Beispielkurier,-4,unterwegs,11.01.2025,synthetic-error
+log-000000611,611,Schemaweg 51, Vektorstetten ,68130,D,51.7421024,5.8675977,SHP-500270,Musterfracht,279.03,zugestellt,28/09/2025,synthetic-normal
+log-000000612,612,Vektorallee 173, Datenheim ,56428,Deutschland,49.512086,14.7264937,SHP-500612,DemoLogistik,286.26,angekuendigt,13.01.2025,synthetic-normal
+log-000000613,613,Prüfsummenstr. 174,Südwinkel,64347,deu,53.2680049,8.9422777,SHP-500613,Beispielkurier,686.98,verloren,14/01/2025,synthetic-normal
+log-000000614,614,  Schemaweg   175,Nordhafen,72266,D,53.9584016,14.1769958,SHP-500614,Beispielkurier,268.59,unterwegs,2025-01-15,synthetic-normal
+log-000000615,615,Qualitätsring 176,Westbogen,80185,D,48.8604043,7.4950495,SHP-500615,SynthExpress,373.28,zugestellt,2025-01-16,synthetic-normal
+log-000000616,616,Schemaweg 132,Datenheim,87389,DE,51.1195559,7.3514503,SHP-500131,DemoLogistik,508.08,unterwegs,12/05/2025,synthetic-normal
+log-000000617,617,Koordinatenplatz 178,Südwinkel,16023,deu,49.4591667,7.8142944,SHP-500617,Musterfracht,505.1,unterwegs,18/01/2025,synthetic-normal
+log-000000618,618,Vektorallee 179,Nordhafen,23942,deu,50.179813,13.0442095,SHP-500618,SynthExpress,156.87,zugestellt,19.01.2025,synthetic-normal
+log-000000619,619,  Vektorallee   180,Nordhafen,31861,DE,48.3976851,14.3022303,SHP-500619,DemoLogistik,647.61,unterwegs,2025/01/20,synthetic-normal
+log-000000620,620,Qualitätsring 181,Datenheim,39780,deu,53.7937093,8.5064813,SHP-500620,DemoLogistik,343.69,zugestellt,21.01.2025,synthetic-normal
+log-000000621,621,  Datenstrasse   89 ,NORDHAFEN,31232,DE,49.6856763,8.5414084,SHP-500528,SynthExpress,440.61,verloren,17/08/2025,synthetic-normal
+log-000000622,622,Spaltenweg 183,Ostfeld,55618,DE,48.5724949,9.3706658,SHP-500622,Musterfracht,467.31,verloren,2025/01/23,synthetic-normal
+log-000000623,623,  Spaltenweg   184,Datenheim,63537,D,52.1496026,13.0737452,SHP-500623,SynthExpress,420.43,unterwegs,24.01.2025,synthetic-normal
+log-000000624,624,Qualitätsring 185,Ostfeld,71456,deu,54.4097917,9.2417877,SHP-500624,SynthExpress,187.58,unterwegs,2025-01-25,synthetic-normal
+log-000000625,625,  Datenstraße   186,Westbogen,79375,D,50.7287491,9.7790521,SHP-500625,Musterfracht,184.22,verloren,26/01/2025,synthetic-normal
+log-000000626,626,Pipelineweg 187,Westbogen,87294,DE,14.3247745,53.272637,SHP-500626,SynthExpress,schwer,angekuendigt,2025-01-27,synthetic-error
+log-000000627,627,Koordinatenplatz 10 ,OSTFELD,ABCDE,Deutschland,48.0900125,10.6742933,SHP-500229,DemoLogistik,-4,verloren,2025/08/18,synthetic-error
+log-000000628,628,Schemaweg 189,Südwinkel,23132,Deutschland,47.3648575,8.5551622,SHP-500628,Musterfracht,596.19,verloren,2025/01/29,synthetic-normal
+log-000000629,629,  Vektorallee   190,Vektorstetten,31051,deu,50.9057307,10.5455932,SHP-500629,Beispielkurier,9.61,verloren,30/01/2025,synthetic-normal
+log-000000630,630,Prüfsummenstrasse 191, Datenheim ,38970,DE,50.1477213,11.1130777,SHP-500630,DemoLogistik,150.36,zugestellt,2025-01-31,synthetic-normal
+log-000000631,631,  Qualitätsring   192,Ostfeld,46889,Deutschland,49.7782043,6.0138065,SHP-500631,SynthExpress,283.79,unterwegs,01.02.2025,synthetic-normal
+log-000000632,632,  Prüfsummenstraße   193,Ostfeld,54808,DE,51.3621284,7.5327158,SHP-500632,SynthExpress,454.6,zugestellt,2025/02/02,synthetic-normal
+log-000000633,633,Vektorallee 194,Datenheim,62727,D,47.5039726,7.6307884,SHP-500633,Beispielkurier,137.22,zugestellt,03.02.2025,synthetic-normal
+log-000000634,634,Datenstr. 195,Südwinkel,70646,Deutschland,53.8337758,9.5799234,SHP-500634,DemoLogistik,56.08,angekuendigt,04.02.2025,synthetic-normal
+log-000000635,635,Qualitätsring 196,Westbogen,78565,D,53.5160104,11.9160923,SHP-500635,DemoLogistik,55.1,zugestellt,05.02.2025,synthetic-normal
+log-000000636,636,Datenstrasse 197,Ostfeld,86484,deu,51.2965094,14.1747834,SHP-500636,Beispielkurier,220.43,verloren,2025/02/06,synthetic-normal
+log-000000637,637,Spaltenweg 198,Vektorstetten,14403,Deutschland,50.2722868,13.3755524,SHP-500637,DemoLogistik,230.4,verloren,07.02.2025,synthetic-normal
+log-000000638,638,Prüfsummenstrasse 199,Nordhafen,22322,D,52.6097002,6.2017131,SHP-500638,DemoLogistik,345.72,zugestellt,08/02/2025,synthetic-normal
+log-000000639,639,  Spaltenweg   200, Datenheim ,30241,DE,54.8644045,200.0,SHP-500639,SynthExpress,100000,zugestellt,2025/02/09,synthetic-error
+log-000000640,640,  Pipelineweg   201,Vektorstetten,38160,D,53.8038759,9.4494038,SHP-500640,SynthExpress,369.79,zugestellt,2025-02-10,synthetic-normal
+log-000000641,641,  Spaltenweg   202,Nordhafen,46079,deu,52.7232197,9.8270576,SHP-500641,Beispielkurier,536.27,zugestellt,11.02.2025,synthetic-normal
+log-000000642,642,  Pipelineweg   203,Vektorstetten,ABCDE,DE,52.4481119,7.2121676,SHP-500642,Musterfracht,schwer,unterwegs,12.02.2025,synthetic-error
+log-000000643,643,Prüfsummenstr. 204,Datenheim,61917,DE,-100,9.2720389,SHP-500643,DemoLogistik,-4,unterwegs,13/02/2025,synthetic-error
+log-000000644,644,Koordinatenplatz 205,Nordhafen,69836,deu,54.5864639,6.6887495,SHP-500644,DemoLogistik,791.43,unterwegs,2025-02-14,synthetic-normal
+log-000000645,645,  Qualitätsring   206,Nordhafen,77755,deu,9.0805022,48.9247279,SHP-500645,DemoLogistik,100000,angekuendigt,2025/02/15,synthetic-error
+log-000000646,646,Schemaweg 35 ,NORDHAFEN,21426,DE,50.2860568,10.8568962,SHP-500254,Beispielkurier,740.47,unterwegs,2025-09-12,synthetic-normal
+log-000000647,647,Prüfsummenstr. 89 ,DATENHEIM,66872,D,48.0537563,12.2563707,SHP-500088,DemoLogistik,569.75,verloren,2025/03/30,synthetic-normal
+log-000000648,648,  Schemaweg   209, Nordhafen ,21512,deu,6.67165,49.2147452,SHP-500648,Musterfracht,,verloren,18.02.2025,synthetic-error
+log-000000649,649,Spaltenweg 210,Datenheim,29431,D,50.2060226,11.693446,SHP-500649,DemoLogistik,550.13,angekuendigt,19.02.2025,synthetic-normal
+log-000000650,650,Prüfsummenstrasse 99,Nordhafen,30422,deu,54.1920203,14.7619737,SHP-500538,DemoLogistik,314.86,zugestellt,27.08.2025,synthetic-normal
+log-000000651,651,Pipelineweg 212,Ostfeld,45269,Deutschland,48.8352896,9.2568811,SHP-500651,SynthExpress,605.82,unterwegs,2025/02/21,synthetic-normal
+log-000000652,652,  Datenstraße   213,Westbogen,53188,DE,49.0404762,12.5424328,SHP-500652,Musterfracht,222.57,unterwegs,22.02.2025,synthetic-normal
+log-000000653,653,Qualitätsring 214,Ostfeld,61107,Deutschland,48.6949456,11.5939991,SHP-500653,SynthExpress,532.04,verloren,2025-02-23,synthetic-normal
+log-000000654,654,Vektorallee 215,Datenheim,69026,deu,-100,6.5191135,SHP-500654,Beispielkurier,100000,zugestellt,24.02.2025,synthetic-error
+log-000000655,655,Spaltenweg 216,Ostfeld,76945,DE,54.5277003,9.1081538,SHP-500655,Beispielkurier,242.55,unterwegs,2025/02/25,synthetic-normal
+log-000000656,656,  Vektorallee   217,Ostfeld,84864,D,53.7907208,12.7814966,SHP-500656,Musterfracht,587.97,unterwegs,26.02.2025,synthetic-normal
+log-000000657,657,  Prüfsummenstraße   218, Südwinkel ,12783,D,48.7874397,14.2284138,SHP-500657,SynthExpress,362.94,angekuendigt,27/02/2025,synthetic-normal
+log-000000658,658,  Koordinatenplatz   219,Vektorstetten,20702,DE,50.4067856,6.1572075,SHP-500658,SynthExpress,752.23,verloren,28.02.2025,synthetic-normal
+log-000000659,659,  Koordinatenplatz   220,Westbogen,28621,DE,52.2468881,14.3239726,SHP-500659,DemoLogistik,204.28,unterwegs,2025/03/01,synthetic-normal
+log-000000660,660,Vektorallee 137 , DATENHEIM ,11344,Deutschland,49.1341823,12.9222516,SHP-500576,Beispielkurier,417.12,angekuendigt,2025-10-04,synthetic-normal
+log-000000661,661,  Schemaweg   2,Südwinkel,,Deutschland,49.1803525,11.1207445,SHP-500661,DemoLogistik,100000,angekuendigt,2025-03-03,synthetic-error
+log-000000662,662,  Qualitätsring   3,Ostfeld,52378,Deutschland,52.5579597,10.4059508,SHP-500662,Beispielkurier,720.81,zugestellt,2025/03/04,synthetic-normal
+log-000000663,663,Pipelineweg 4,Westbogen,60297,deu,54.3681282,9.461326,SHP-500663,Musterfracht,695.55,angekuendigt,05.03.2025,synthetic-normal
+log-000000664,664,Prüfsummenstr. 5,,68216,deu,50.1473506,12.2772342,SHP-500664,DemoLogistik,,verloren,06.03.2025,synthetic-error
+log-000000665,665,Vektorallee 6,Südwinkel,76135,deu,49.2710746,14.1009143,SHP-500665,Beispielkurier,651.51,verloren,2025-03-07,synthetic-normal
+log-000000666,666,Prüfsummenstraße 7, Westbogen ,84054,DE,51.7509126,10.1966535,SHP-500666,SynthExpress,234.57,angekuendigt,2025-03-08,synthetic-normal
+log-000000667,667,Datenstraße 8,Nordhafen,11973,D,51.882685,14.879451,SHP-500667,Musterfracht,532.29,verloren,2025/03/09,synthetic-normal
+log-000000668,668,Koordinatenplatz 9,Westbogen,19892,D,50.1761113,6.3266222,SHP-500668,Musterfracht,269.31,zugestellt,2025-03-10,synthetic-normal
+log-000000669,669,  Schemaweg   175,Nordhafen,72266,D,53.9584016,14.1769958,SHP-500614,Beispielkurier,268.59,unterwegs,2025-01-15,synthetic-normal
+log-000000670,670,Pipelineweg 11,Südwinkel,35730,Deutschland,50.7345774,12.112901,SHP-500670,Beispielkurier,111.18,verloren,12.03.2025,synthetic-normal
+log-000000671,671,Pipelineweg 58,Nordhafen,25743,Deutschland,51.7160999,11.0032862,SHP-500497,Musterfracht,195.88,verloren,2025-07-17,synthetic-normal
+log-000000672,672,  Koordinatenplatz   13,Ostfeld,,D,52.9179552,13.1044355,SHP-500672,Musterfracht,-4,verloren,2025/03/14,synthetic-error
+log-000000673,673,Datenstrasse 14,Nordhafen,59487,Deutschland,53.6258912,14.9660036,SHP-500673,Beispielkurier,114.61,unterwegs,2025/03/15,synthetic-normal
+log-000000674,674,Qualitätsring 15,Vektorstetten,67406,DE,48.1015695,14.9389255,SHP-500674,SynthExpress,432.58,unterwegs,16/03/2025,synthetic-normal
+log-000000675,675,  Schemaweg   16, Vektorstetten ,75325,DE,52.3576204,14.2891729,SHP-500675,Beispielkurier,176.38,angekuendigt,17/03/2025,synthetic-normal
+log-000000676,676,Pipelineweg 17,Vektorstetten,83244,D,52.2697893,13.0227533,SHP-500676,Beispielkurier,613.09,unterwegs,18.03.2025,synthetic-normal
+log-000000677,677,Koordinatenplatz 18,Nordhafen,11163,Deutschland,48.2683727,8.6830251,SHP-500677,Beispielkurier,89.19,angekuendigt,19/03/2025,synthetic-normal
+log-000000678,678,Spaltenweg 13 ,VEKTORSTETTEN,69388,Deutschland,49.2557581,12.9827279,SHP-500452,Musterfracht,748.95,angekuendigt,2025/06/02,synthetic-normal
+log-000000679,679,Vektorallee 20,Nordhafen,27001,D,49.7010393,13.3085612,SHP-500679,Musterfracht,617.05,unterwegs,2025/03/21,synthetic-normal
+log-000000680,680,Datenstr. 21,Vektorstetten,34920,DE,49.3782393,13.5985572,SHP-500680,Beispielkurier,226.79,unterwegs,2025/03/22,synthetic-normal
+log-000000681,681,Koordinatenplatz 22,Südwinkel,42839,deu,52.6230963,6.28361,SHP-500681,DemoLogistik,47.14,verloren,2025/03/23,synthetic-normal
+log-000000682,682,Vektorallee 23,Westbogen,50758,D,52.45203,14.9108916,SHP-500682,Beispielkurier,729.91,verloren,2025-03-24,synthetic-normal
+log-000000683,683,  Qualitätsring   24,Westbogen,58677,DE,53.7585539,12.3282053,SHP-500683,Beispielkurier,557.13,unterwegs,25.03.2025,synthetic-normal
+log-000000684,684,Qualitätsring 25, Südwinkel ,66596,DE,50.0529159,13.6764999,SHP-500684,SynthExpress,717.78,unterwegs,2025/03/26,synthetic-normal
+log-000000685,685,Datenstraße 26,Ostfeld,74515,deu,54.4824803,6.879591,SHP-500685,Musterfracht,673.34,verloren,27.03.2025,synthetic-normal
+log-000000686,686,  Qualitätsring   27,Vektorstetten,82434,deu,52.2612569,9.2534191,SHP-500686,SynthExpress,27.29,verloren,2025/03/28,synthetic-normal
+log-000000687,687,Pipelineweg 28,Ostfeld,10353,deu,47.4750034,11.0714336,SHP-500687,Beispielkurier,293.92,zugestellt,2025-03-29,synthetic-normal
+log-000000688,688,Prüfsummenstr. 29,Nordhafen,18272,Deutschland,47.7825871,14.1617008,SHP-500688,DemoLogistik,387.4,verloren,2025-03-30,synthetic-normal
+log-000000689,689,Spaltenweg 30,Datenheim,26191,DE,53.0266624,7.7086667,SHP-500689,SynthExpress,626.8,unterwegs,31.03.2025,synthetic-normal
+log-000000690,690,Spaltenweg 199,Ostfeld,40142,deu,52.0667237,14.0069366,SHP-500418,Musterfracht,383.34,verloren,2025/04/29,synthetic-normal
+log-000000691,691,Vektorallee 32,Nordhafen,42029,DE,54.7474561,10.4565645,SHP-500691,Musterfracht,165.06,unterwegs,2025/04/02,synthetic-normal
+log-000000692,692,Datenstr. 33,Ostfeld,49948,deu,51.6857432,12.1949337,SHP-500692,Musterfracht,198.74,unterwegs,2025-04-03,synthetic-normal
+log-000000693,693,Schemaweg 34, Datenheim ,57867,deu,8.3520406,51.7975519,SHP-500693,Beispielkurier,100000,angekuendigt,04/04/2025,synthetic-error
+log-000000694,694,Pipelineweg 35,Vektorstetten,65786,deu,51.3728728,6.449134,SHP-500694,Musterfracht,320.11,unterwegs,05/04/2025,synthetic-normal
+log-000000695,695,  Vektorallee   36,Westbogen,73705,D,50.1799584,14.6689629,SHP-500695,DemoLogistik,409.19,angekuendigt,06/04/2025,synthetic-normal
+log-000000696,696,Koordinatenplatz 37,Westbogen,81624,Deutschland,48.4121052,200.0,SHP-500696,Musterfracht,-4,angekuendigt,2025-04-07,synthetic-error
+log-000000697,697,  Schemaweg   38,Westbogen,89543,Deutschland,51.491721,200.0,SHP-500697,SynthExpress,100000,unterwegs,08/04/2025,synthetic-error
+log-000000698,698,  Prüfsummenstraße   39,Westbogen,17462,DE,52.5186035,12.3616485,SHP-500698,DemoLogistik,774.4,unterwegs,2025/04/09,synthetic-normal
+log-000000699,699,Koordinatenplatz 40,Ostfeld,25381,D,48.6915944,14.8734657,SHP-500699,Beispielkurier,734.76,zugestellt,10/04/2025,synthetic-normal
+log-000000700,700,Qualitätsring 41,Nordhafen,33300,Deutschland,50.3895124,8.6771796,SHP-500700,SynthExpress,574.8,angekuendigt,2025-04-11,synthetic-normal
+log-000000701,701,Datenstraße 42,Datenheim,41219,D,53.4434366,5.8983911,SHP-500701,Beispielkurier,132.17,unterwegs,2025/04/12,synthetic-normal
+log-000000702,702,  Pipelineweg   43, Südwinkel ,49138,DE,52.7276166,12.2638438,SHP-500702,Musterfracht,541.45,unterwegs,2025-04-13,synthetic-normal
+log-000000703,703,Qualitätsring 44,Südwinkel,57057,Deutschland,54.5388754,9.6890449,SHP-500703,Beispielkurier,539.65,unterwegs,14/04/2025,synthetic-normal
+log-000000704,704,Pipelineweg 45,Westbogen,64976,Deutschland,48.9193012,12.5898366,SHP-500704,Beispielkurier,543.28,unterwegs,15/04/2025,synthetic-normal
+log-000000705,705,  Datenstraße   46,Ostfeld,72895,DE,50.0036549,11.4628783,SHP-500705,Musterfracht,412.47,zugestellt,16/04/2025,synthetic-normal
+log-000000706,706,Prüfsummenstr. 47,Ostfeld,80814,D,48.8013377,10.6676884,SHP-500706,DemoLogistik,577.97,verloren,2025-04-17,synthetic-normal
+log-000000707,707,  Qualitätsring   48,Westbogen,88733,Deutschland,50.5553952,200.0,SHP-500707,Musterfracht,schwer,angekuendigt,2025/04/18,synthetic-error
+log-000000708,708,Qualitätsring 49,Nordhafen,16652,deu,50.2985496,12.6441007,SHP-500708,SynthExpress,4.75,unterwegs,19.04.2025,synthetic-normal
+log-000000709,709,  Pipelineweg   50,Ostfeld,24571,deu,49.7691465,12.8324129,SHP-500709,Beispielkurier,786.34,verloren,20.04.2025,synthetic-normal
+log-000000710,710,Koordinatenplatz 51,Südwinkel,32490,DE,8.9476972,52.4551584,SHP-500710,SynthExpress,100000,verloren,2025/04/21,synthetic-error
+log-000000711,711,Vektorallee 52, Nordhafen ,ABCDE,Deutschland,54.8563537,8.0756602,SHP-500711,Beispielkurier,100000,unterwegs,2025/04/22,synthetic-error
+log-000000712,712,Vektorallee 53,Ostfeld,48328,DE,49.3813485,7.568032,SHP-500712,DemoLogistik,503.16,verloren,2025-04-23,synthetic-normal
+log-000000713,713,Schemaweg 54,Ostfeld,56247,D,9.72907,47.7662579,SHP-500713,SynthExpress,,zugestellt,2025-04-24,synthetic-error
+log-000000714,714,Qualitätsring 55,Südwinkel,64166,DE,47.3040731,11.875963,SHP-500714,Musterfracht,569.3,unterwegs,25/04/2025,synthetic-normal
+log-000000715,715,Vektorallee 56,Westbogen,72085,Deutschland,49.6131109,6.6913624,SHP-500715,SynthExpress,80.7,unterwegs,26/04/2025,synthetic-normal
+log-000000716,716,Koordinatenplatz 57,Südwinkel,80004,D,47.9629569,6.7785628,SHP-500716,SynthExpress,594.37,angekuendigt,27.04.2025,synthetic-normal
+log-000000717,717,Koordinatenplatz 58,Südwinkel,87923,deu,47.6329644,7.5637019,SHP-500717,Musterfracht,79,zugestellt,28/04/2025,synthetic-normal
+log-000000718,718,  Pipelineweg   59,Datenheim,15842,DE,48.568707,8.3221675,SHP-500718,DemoLogistik,728.69,zugestellt,2025-04-29,synthetic-normal
+log-000000719,719,  Prüfsummenstraße   60,,23761,DE,48.5579385,12.7066957,SHP-500719,Beispielkurier,100000,verloren,2025/04/30,synthetic-error
+log-000000720,720,Qualitätsring 61, Datenheim ,31680,D,51.129015,12.4293283,SHP-500720,Musterfracht,128.09,zugestellt,01.05.2025,synthetic-normal
+log-000000721,721,Qualitätsring 62,Westbogen,39599,DE,52.1610766,14.4668232,SHP-500721,Musterfracht,95.37,unterwegs,02/05/2025,synthetic-normal
+log-000000722,722,Pipelineweg 63,,47518,Deutschland,49.7666702,14.507136,SHP-500722,Musterfracht,100000,unterwegs,2025/05/03,synthetic-error
+log-000000723,723,Datenstr. 64,Westbogen,55437,deu,49.2455028,5.9438741,SHP-500723,SynthExpress,500.8,verloren,04/05/2025,synthetic-normal
+log-000000724,724,Spaltenweg 65,Südwinkel,63356,D,48.4828752,7.9318529,SHP-500724,Beispielkurier,440.75,zugestellt,05.05.2025,synthetic-normal
+log-000000725,725,Vektorallee 66,,71275,deu,52.2214885,5.9936352,SHP-500725,DemoLogistik,100000,unterwegs,2025/05/06,synthetic-error
+log-000000726,726,  Spaltenweg   67,Datenheim,79194,deu,52.8234111,13.2335331,SHP-500726,SynthExpress,341.17,verloren,2025/05/07,synthetic-normal
+log-000000727,727,Prüfsummenstrasse 99 ,NORDHAFEN,30422,deu,54.1920203,14.7619737,SHP-500538,DemoLogistik,314.86,zugestellt,27.08.2025,synthetic-normal
+log-000000728,728,Pipelineweg 69,Vektorstetten,15032,DE,53.3222433,5.8864448,SHP-500728,SynthExpress,105.83,zugestellt,2025-05-09,synthetic-normal
+log-000000729,729,Spaltenweg 70, Ostfeld ,22951,deu,49.1529473,10.8004432,SHP-500729,Musterfracht,450.32,angekuendigt,2025-05-10,synthetic-normal
+log-000000730,730,Vektorallee 71,Nordhafen,,deu,50.5462293,7.1558639,SHP-500730,Musterfracht,,unterwegs,2025/05/11,synthetic-error
+log-000000731,731,Koordinatenplatz 72,Nordhafen,38789,Deutschland,54.317229,,SHP-500731,SynthExpress,schwer,unterwegs,12.05.2025,synthetic-error
+log-000000732,732,Schemaweg 73,Nordhafen,46708,Deutschland,54.2633811,11.8879318,SHP-500732,Musterfracht,340.25,angekuendigt,2025-05-13,synthetic-normal
+log-000000733,733,Vektorallee 74,Ostfeld,54627,D,53.4913382,6.8411091,SHP-500733,Beispielkurier,622.25,zugestellt,14.05.2025,synthetic-normal
+log-000000734,734,Prüfsummenstr. 75,Ostfeld,62546,D,52.5699983,9.608288,SHP-500734,Musterfracht,145.58,unterwegs,15.05.2025,synthetic-normal
+log-000000735,735,Spaltenweg 76,Datenheim,70465,D,51.3047892,12.9446515,SHP-500735,DemoLogistik,431.04,angekuendigt,16.05.2025,synthetic-normal
+log-000000736,736,  Koordinatenplatz   77,Nordhafen,78384,DE,54.2263507,9.1198985,SHP-500736,DemoLogistik,680.49,zugestellt,2025/05/17,synthetic-normal
+log-000000737,737,Prüfsummenstrasse 78,Südwinkel,86303,DE,52.9771647,6.8785694,SHP-500737,DemoLogistik,777.46,verloren,2025-05-18,synthetic-normal
+log-000000738,738,Pipelineweg 79, Datenheim ,14222,deu,47.5294116,9.1602468,SHP-500738,SynthExpress,43.36,unterwegs,2025-05-19,synthetic-normal
+log-000000739,739,Prüfsummenstr. 5,,68216,deu,50.1473506,12.2772342,SHP-500664,DemoLogistik,,verloren,06.03.2025,synthetic-error
+log-000000740,740,  Schemaweg   81,Westbogen,30060,D,53.2386165,12.1962726,SHP-500740,Musterfracht,594.87,angekuendigt,21.05.2025,synthetic-normal
+log-000000741,741,Pipelineweg 130 ,NORDHAFEN,35911,DE,48.5695519,6.886146,SHP-500569,DemoLogistik,604.64,zugestellt,27.09.2025,synthetic-normal
+log-000000742,742,  Prüfsummenstraße   83,Westbogen,45898,Deutschland,52.6910814,9.6977664,SHP-500742,DemoLogistik,8.79,zugestellt,2025-05-23,synthetic-normal
+log-000000743,743,  Qualitätsring   84,Südwinkel,53817,D,48.6960727,12.6631608,SHP-500743,SynthExpress,100.19,verloren,2025/05/24,synthetic-normal
+log-000000744,744,Vektorallee 85,Vektorstetten,61736,D,48.7799525,6.7972881,SHP-500744,SynthExpress,661.82,zugestellt,25/05/2025,synthetic-normal
+log-000000745,745,Qualitätsring 170 ,OSTFELD,50491,Deutschland,52.5040086,11.0993678,SHP-500389,SynthExpress,156.96,verloren,2025/03/31,synthetic-normal
+log-000000746,746,Schemaweg 87,Vektorstetten,77574,DE,49.1265472,6.5823621,SHP-500746,SynthExpress,8.88,verloren,2025-05-27,synthetic-normal
+log-000000747,747,  Qualitätsring   75,Datenheim,18186,D,52.7466013,9.1423098,SHP-500294,Beispielkurier,43.51,angekuendigt,2025-10-22,synthetic-normal
+log-000000748,748,Koordinatenplatz 211,Datenheim,55170,D,53.2607862,9.8052541,SHP-500430,Musterfracht,307.11,unterwegs,11.05.2025,synthetic-normal
+log-000000749,749,Prüfsummenstr. 90,Vektorstetten,21331,DE,49.8180182,14.0479029,SHP-500749,SynthExpress,251.65,unterwegs,2025-05-30,synthetic-normal
+log-000000750,750,Datenstr. 91,Vektorstetten,29250,D,47.8985217,11.558765,SHP-500750,DemoLogistik,469.13,unterwegs,31.05.2025,synthetic-normal
+log-000000751,751,  Koordinatenplatz   92,Westbogen,37169,Deutschland,50.0384043,13.6747635,SHP-500751,Beispielkurier,770.94,angekuendigt,2025/06/01,synthetic-normal
+log-000000752,752,  Vektorallee   93,Nordhafen,45088,deu,53.1240116,8.6477893,SHP-500752,SynthExpress,485.54,verloren,2025-06-02,synthetic-normal
+log-000000753,753,Pipelineweg 94,Westbogen,53007,DE,47.8406178,12.3380263,SHP-500753,Beispielkurier,236.56,zugestellt,2025/06/03,synthetic-normal
+log-000000754,754,Vektorallee 95,Ostfeld,60926,DE,50.062388,8.4369506,SHP-500754,Beispielkurier,353.69,unterwegs,2025/06/04,synthetic-normal
+log-000000755,755,Koordinatenplatz 96,Datenheim,68845,D,49.2974885,13.8549354,SHP-500755,SynthExpress,761.64,angekuendigt,05.06.2025,synthetic-normal
+log-000000756,756,Pipelineweg 97, Datenheim ,76764,D,53.7891018,7.8520719,SHP-500756,Beispielkurier,123.73,angekuendigt,06/06/2025,synthetic-normal
+log-000000757,757,Spaltenweg 98,Vektorstetten,84683,DE,54.2726987,14.2869149,SHP-500757,Beispielkurier,720.11,unterwegs,2025/06/07,synthetic-normal
+log-000000758,758,Spaltenweg 99,Ostfeld,12602,DE,49.4156505,6.1521975,SHP-500758,DemoLogistik,797.15,verloren,08.06.2025,synthetic-normal
+log-000000759,759,Prüfsummenstraße 100,Westbogen,20521,D,54.7370623,7.7634716,SHP-500759,DemoLogistik,25.16,angekuendigt,2025/06/09,synthetic-normal
+log-000000760,760,Pipelineweg 101,Westbogen,28440,D,53.9217974,10.6279571,SHP-500760,Musterfracht,66.96,unterwegs,2025-06-10,synthetic-normal
+log-000000761,761,Schemaweg 102,Ostfeld,36359,D,50.9137956,12.1372405,SHP-500761,DemoLogistik,273.68,verloren,11/06/2025,synthetic-normal
+log-000000762,762,Qualitätsring 103,Datenheim,44278,deu,49.7603676,14.8745851,SHP-500762,Musterfracht,658.43,angekuendigt,12.06.2025,synthetic-normal
+log-000000763,763,Koordinatenplatz 104,Vektorstetten,52197,D,49.2973005,12.4450316,SHP-500763,Beispielkurier,399.61,unterwegs,2025/06/13,synthetic-normal
+log-000000764,764,  Qualitätsring   105,Südwinkel,60116,D,48.9426434,7.7298203,SHP-500764,DemoLogistik,29.29,angekuendigt,14/06/2025,synthetic-normal
+log-000000765,765,  Spaltenweg   106, Westbogen ,68035,Deutschland,53.5942125,-220.0,SHP-500765,Musterfracht,-4,angekuendigt,15.06.2025,synthetic-error
+log-000000766,766,  Prüfsummenstraße   107,Vektorstetten,75954,D,52.119215,12.2592521,SHP-500766,SynthExpress,130.21,angekuendigt,2025-06-16,synthetic-normal
+log-000000767,767,Spaltenweg 108,,83873,DE,52.374597,13.6356884,SHP-500767,DemoLogistik,-4,unterwegs,2025/06/17,synthetic-error
+log-000000768,768,Pipelineweg 109,Ostfeld,11792,D,54.2007511,11.7327066,SHP-500768,Beispielkurier,375.71,angekuendigt,18/06/2025,synthetic-normal
+log-000000769,769,Schemaweg 110,Ostfeld,19711,deu,47.3315974,14.1633433,SHP-500769,SynthExpress,214.16,angekuendigt,2025-06-19,synthetic-normal
+log-000000770,770,Koordinatenplatz 111,Datenheim,27630,D,49.1379165,14.756111,SHP-500770,DemoLogistik,653.38,verloren,2025-06-20,synthetic-normal
+log-000000771,771,Prüfsummenstrasse 112,Westbogen,35549,deu,50.6242521,6.7161169,SHP-500771,DemoLogistik,103.18,angekuendigt,2025/06/21,synthetic-normal
+log-000000772,772,Vektorallee 113,Nordhafen,43468,DE,50.6243999,11.585826,SHP-500772,DemoLogistik,208.26,angekuendigt,2025-06-22,synthetic-normal
+log-000000773,773,Koordinatenplatz 114,Südwinkel,51387,Deutschland,13.5322025,48.7730998,SHP-500773,Beispielkurier,,zugestellt,2025-06-23,synthetic-error
+log-000000774,774,Pipelineweg 115, Datenheim ,59306,DE,48.1137826,8.39866,SHP-500774,DemoLogistik,18.61,angekuendigt,2025-06-24,synthetic-normal
+log-000000775,775,Prüfsummenstraße 116,Nordhafen,67225,D,47.8591774,14.624798,SHP-500775,SynthExpress,670.67,unterwegs,2025/06/25,synthetic-normal
+log-000000776,776,Vektorallee 117,Südwinkel,75144,DE,48.1907743,8.9538562,SHP-500776,Musterfracht,726.65,verloren,2025-06-26,synthetic-normal
+log-000000777,777,Qualitätsring 118,Datenheim,83063,deu,48.9439296,9.1569939,SHP-500777,DemoLogistik,741.27,angekuendigt,27/06/2025,synthetic-normal
+log-000000778,778,Schemaweg 119,,10982,Deutschland,52.6814352,11.7977057,SHP-500778,Beispielkurier,100000,verloren,2025/06/28,synthetic-error
+log-000000779,779,Qualitätsring 120,Nordhafen,18901,Deutschland,48.5589637,7.6936526,SHP-500779,Beispielkurier,200.15,verloren,2025/06/29,synthetic-normal
+log-000000780,780,  Pipelineweg   121,Datenheim,26820,Deutschland,50.1420997,11.6208259,SHP-500780,SynthExpress,652.73,verloren,30.06.2025,synthetic-normal
+log-000000781,781,Prüfsummenstr. 122,Vektorstetten,34739,Deutschland,50.3271307,6.8547796,SHP-500781,Musterfracht,202.53,verloren,01.07.2025,synthetic-normal
+log-000000782,782,Vektorallee 123,Westbogen,42658,DE,52.7476999,-220.0,SHP-500782,Musterfracht,schwer,unterwegs,2025-07-02,synthetic-error
+log-000000783,783,Schemaweg 124, Vektorstetten ,50577,D,52.4842026,9.8038912,SHP-500783,Musterfracht,82.43,unterwegs,03.07.2025,synthetic-normal
+log-000000784,784,Spaltenweg 97 ,SÜDWINKEL,14584,Deutschland,49.6842857,6.5565349,SHP-500536,DemoLogistik,147.07,unterwegs,25.08.2025,synthetic-normal
+log-000000785,785,Vektorallee 126,Südwinkel,66415,DE,49.4662805,11.7217328,SHP-500785,SynthExpress,99.36,verloren,05/07/2025,synthetic-normal
+log-000000786,786,Datenstr. 127,Nordhafen,74334,D,48.0229106,13.1831222,SHP-500786,Musterfracht,29.7,zugestellt,06/07/2025,synthetic-normal
+log-000000787,787,  Koordinatenplatz   128,Ostfeld,82253,Deutschland,52.5930727,9.982152,SHP-500787,SynthExpress,445.2,zugestellt,2025-07-07,synthetic-normal
+log-000000788,788,Schemaweg 93,Südwinkel,,Deutschland,50.3980091,9.9503561,SHP-500312,Beispielkurier,100000,verloren,13/01/2025,synthetic-error
+log-000000789,789,Prüfsummenstrasse 130,Südwinkel,18091,Deutschland,53.5027219,10.745537,SHP-500789,SynthExpress,689.12,angekuendigt,09/07/2025,synthetic-normal
+log-000000790,790,Pipelineweg 131,Datenheim,26010,D,not-a-number,7.3671154,SHP-500790,DemoLogistik,schwer,verloren,2025-07-10,synthetic-error
+log-000000791,791,  Prüfsummenstraße   132,Datenheim,33929,deu,51.6919239,11.8836746,SHP-500791,Musterfracht,710.25,zugestellt,2025/07/11,synthetic-normal
+log-000000792,792,Pipelineweg 133, Südwinkel ,41848,deu,52.5817345,6.4913285,SHP-500792,Beispielkurier,237.06,angekuendigt,12.07.2025,synthetic-normal
+log-000000793,793,  Koordinatenplatz   184 ,VEKTORSTETTEN,81357,DE,51.2569331,9.9548083,SHP-500403,SynthExpress,659.48,unterwegs,2025/04/14,synthetic-normal
+log-000000794,794,Koordinatenplatz 135,Vektorstetten,57686,deu,53.743333,6.7720764,SHP-500794,DemoLogistik,272.43,unterwegs,14/07/2025,synthetic-normal
+log-000000795,795,  Qualitätsring   136,Westbogen,65605,D,48.5478921,8.6257504,SHP-500795,SynthExpress,496.42,unterwegs,2025/07/15,synthetic-normal
+log-000000796,796,Spaltenweg 137,Ostfeld,73524,D,49.9748719,6.888601,SHP-500796,SynthExpress,192.53,zugestellt,2025/07/16,synthetic-normal
+log-000000797,797,Koordinatenplatz 138,Westbogen,81443,DE,47.6734214,9.3192073,SHP-500797,Beispielkurier,344.74,unterwegs,17/07/2025,synthetic-normal
+log-000000798,798,  Spaltenweg   139,Nordhafen,89362,deu,54.5881851,7.8201338,SHP-500798,SynthExpress,220.81,angekuendigt,18/07/2025,synthetic-normal
+log-000000799,799,  Prüfsummenstraße   140,Südwinkel,17281,Deutschland,51.0633046,7.3734679,SHP-500799,DemoLogistik,220.44,zugestellt,19/07/2025,synthetic-normal
+log-000000800,800,  Vektorallee   141,Vektorstetten,25200,deu,48.5937676,12.0692709,SHP-500800,DemoLogistik,2.59,unterwegs,20/07/2025,synthetic-normal
+log-000000801,801,  Spaltenweg   142, Südwinkel ,33119,Deutschland,53.9975572,7.370671,SHP-500801,SynthExpress,10.29,zugestellt,2025/07/21,synthetic-normal
+log-000000802,802,Pipelineweg 143,Datenheim,41038,Deutschland,53.6487286,10.6324765,SHP-500802,DemoLogistik,198.08,unterwegs,2025-07-22,synthetic-normal
+log-000000803,803,Spaltenweg 144,Westbogen,48957,D,49.22688,10.020507,SHP-500803,Musterfracht,268.61,zugestellt,23/07/2025,synthetic-normal
+log-000000804,804,Spaltenweg 145,Datenheim,56876,DE,48.4240429,9.5749343,SHP-500804,DemoLogistik,685.58,unterwegs,24/07/2025,synthetic-normal
+log-000000805,805,Prüfsummenstr. 146,Nordhafen,64795,deu,54.2969191,9.27556,SHP-500805,SynthExpress,592.84,zugestellt,2025/07/25,synthetic-normal
+log-000000806,806,Koordinatenplatz 147,Ostfeld,72714,Deutschland,49.6508571,6.1781198,SHP-500806,Musterfracht,140.04,angekuendigt,2025/07/26,synthetic-normal
+log-000000807,807,Koordinatenplatz 148,Nordhafen,80633,D,54.346971,7.153606,SHP-500807,DemoLogistik,634.04,zugestellt,27.07.2025,synthetic-normal
+log-000000808,808,  Datenstraße   149,Westbogen,88552,DE,47.7042689,8.6135578,SHP-500808,Beispielkurier,639.85,zugestellt,2025-07-28,synthetic-normal
+log-000000809,809,Qualitätsring 160 ,DATENHEIM,51301,D,52.9704237,12.8498075,SHP-500379,Musterfracht,421,verloren,2025/03/21,synthetic-normal
+log-000000810,810,Vektorallee 151, Südwinkel ,24390,deu,50.583586,14.2479905,SHP-500810,Musterfracht,532.29,unterwegs,2025-07-30,synthetic-normal
+log-000000811,811,  Prüfsummenstraße   152,Nordhafen,32309,Deutschland,54.2934754,11.2927569,SHP-500811,DemoLogistik,649.39,verloren,31/07/2025,synthetic-normal
+log-000000812,812,Schemaweg 153,Südwinkel,40228,Deutschland,49.6179703,8.5354741,SHP-500812,Beispielkurier,614.15,unterwegs,2025/08/01,synthetic-normal
+log-000000813,813,Spaltenweg 154,Vektorstetten,48147,Deutschland,50.8596794,9.7345564,SHP-500813,Beispielkurier,76.92,verloren,2025/08/02,synthetic-normal
+log-000000814,814,Qualitätsring 161 ,VEKTORSTETTEN,41400,Deutschland,7.8345587,53.4439502,SHP-500600,Beispielkurier,schwer,zugestellt,2025-01-01,synthetic-error
+log-000000815,815,Qualitätsring 156,Datenheim,63985,Deutschland,47.7068738,,SHP-500815,DemoLogistik,schwer,verloren,2025-08-04,synthetic-error
+log-000000816,816,Koordinatenplatz 157,,71904,D,52.5485061,13.7516899,SHP-500816,SynthExpress,-4,angekuendigt,05.08.2025,synthetic-error
+log-000000817,817,Qualitätsring 158,Westbogen,79823,DE,53.422688,11.5377081,SHP-500817,DemoLogistik,396.29,angekuendigt,2025-08-06,synthetic-normal
+log-000000818,818,Koordinatenplatz 10 ,OSTFELD,ABCDE,Deutschland,48.0900125,10.6742933,SHP-500229,DemoLogistik,-4,verloren,2025/08/18,synthetic-error
+log-000000819,819,  Datenstraße   160, Nordhafen ,15661,Deutschland,50.3746358,14.8408057,SHP-500819,DemoLogistik,82.98,zugestellt,2025/08/08,synthetic-normal
+log-000000820,820,Datenstrasse 161,Vektorstetten,23580,deu,48.5978937,12.6233154,SHP-500820,DemoLogistik,345.94,verloren,2025/08/09,synthetic-normal
+log-000000821,821,Spaltenweg 162,Ostfeld,31499,D,52.6021605,6.7874897,SHP-500821,Beispielkurier,767.28,verloren,10.08.2025,synthetic-normal
+log-000000822,822,Datenstrasse 117 ,DATENHEIM,12964,DE,51.180952,9.5997785,SHP-500556,Beispielkurier,236.46,zugestellt,14/09/2025,synthetic-normal
+log-000000823,823,Spaltenweg 164,Westbogen,47337,deu,50.856094,12.4522005,SHP-500823,Musterfracht,27.36,angekuendigt,12.08.2025,synthetic-normal
+log-000000824,824,  Koordinatenplatz   165,Südwinkel,55256,deu,49.9741892,12.4167238,SHP-500824,Musterfracht,402.61,verloren,13.08.2025,synthetic-normal
+log-000000825,825,Prüfsummenstraße 166,Vektorstetten,63175,D,50.1615728,10.1401213,SHP-500825,DemoLogistik,242.41,zugestellt,14.08.2025,synthetic-normal
+log-000000826,826,Prüfsummenstraße 167,Vektorstetten,71094,deu,49.0609528,11.9204009,SHP-500826,Beispielkurier,464.62,verloren,15/08/2025,synthetic-normal
+log-000000827,827,Qualitätsring 168,Südwinkel,79013,D,53.0441854,9.6645166,SHP-500827,SynthExpress,646.86,angekuendigt,16/08/2025,synthetic-normal
+log-000000828,828,Koordinatenplatz 169, Westbogen ,86932,DE,52.6103155,9.2741863,SHP-500828,DemoLogistik,58.4,unterwegs,17/08/2025,synthetic-normal
+log-000000829,829,  Vektorallee   170,Südwinkel,14851,DE,51.7240204,11.5878641,SHP-500829,SynthExpress,180.47,unterwegs,2025-08-18,synthetic-normal
+log-000000830,830,Prüfsummenstraße 171,Vektorstetten,22770,D,48.7450404,7.708768,SHP-500830,Beispielkurier,287.71,zugestellt,19/08/2025,synthetic-normal
+log-000000831,831,  Pipelineweg   172,Ostfeld,30689,DE,51.6255584,6.9701699,SHP-500831,Musterfracht,110.39,angekuendigt,2025-08-20,synthetic-normal
+log-000000832,832,Qualitätsring 173,,38608,D,52.6448772,6.4251659,SHP-500832,DemoLogistik,-4,zugestellt,2025-08-21,synthetic-error
+log-000000833,833,  Schemaweg   174,Datenheim,46527,DE,51.7290711,14.4197273,SHP-500833,Musterfracht,745.45,angekuendigt,2025-08-22,synthetic-normal
+log-000000834,834,Datenstrasse 175,Vektorstetten,54446,Deutschland,54.3237244,11.9026924,SHP-500834,SynthExpress,267.7,unterwegs,2025/08/23,synthetic-normal
+log-000000835,835,Datenstrasse 161,Vektorstetten,23580,deu,48.5978937,12.6233154,SHP-500820,DemoLogistik,345.94,verloren,2025/08/09,synthetic-normal
+log-000000836,836,Koordinatenplatz 177,Datenheim,70284,DE,54.0451416,10.2046977,SHP-500836,DemoLogistik,646.01,zugestellt,2025-08-25,synthetic-normal
+log-000000837,837,  Koordinatenplatz   178, Südwinkel ,78203,DE,54.3774737,6.0424551,SHP-500837,DemoLogistik,180.27,verloren,2025-08-26,synthetic-normal
+log-000000838,838,  Prüfsummenstraße   179,Nordhafen,86122,D,11.4640095,48.1967434,SHP-500838,Musterfracht,100000,zugestellt,27.08.2025,synthetic-error
+log-000000839,839,  Qualitätsring   180,Datenheim,ABCDE,DE,54.8311344,5.9370668,SHP-500839,DemoLogistik,-4,angekuendigt,2025-08-28,synthetic-error
+log-000000840,840,Qualitätsring 181,Ostfeld,21960,D,52.2976294,11.8406306,SHP-500840,SynthExpress,251.37,zugestellt,29.08.2025,synthetic-normal
+log-000000841,841,  Qualitätsring   182,Westbogen,29879,Deutschland,53.9041792,8.0466933,SHP-500841,Musterfracht,285.63,zugestellt,2025-08-30,synthetic-normal
+log-000000842,842,Spaltenweg 144 ,WESTBOGEN,48957,D,49.22688,10.020507,SHP-500803,Musterfracht,268.61,zugestellt,23/07/2025,synthetic-normal
+log-000000843,843,Vektorallee 184,Datenheim,45717,deu,48.2328852,12.469179,SHP-500843,DemoLogistik,62.85,angekuendigt,01.09.2025,synthetic-normal
+log-000000844,844,Pipelineweg 185,Nordhafen,53636,Deutschland,49.4125517,9.3344253,SHP-500844,SynthExpress,363.07,angekuendigt,02/09/2025,synthetic-normal
+log-000000845,845,  Prüfsummenstraße   186,Südwinkel,61555,deu,50.182885,11.8713164,SHP-500845,SynthExpress,15.18,zugestellt,2025-09-03,synthetic-normal
+log-000000846,846,Koordinatenplatz 187, Datenheim ,69474,deu,53.0551168,8.9366883,SHP-500846,Beispielkurier,20.89,verloren,2025-09-04,synthetic-normal
+log-000000847,847,  Schemaweg   188,Vektorstetten,77393,Deutschland,48.5353714,9.3078775,SHP-500847,DemoLogistik,761.98,unterwegs,2025-09-05,synthetic-normal
+log-000000848,848,Qualitätsring 189,Ostfeld,85312,DE,51.9781591,9.1275928,SHP-500848,Musterfracht,219.59,angekuendigt,2025-09-06,synthetic-normal
+log-000000849,849,  Vektorallee   190,Ostfeld,13231,DE,50.8449402,14.6861465,SHP-500849,Beispielkurier,668.82,unterwegs,2025/09/07,synthetic-normal
+log-000000850,850,Prüfsummenstrasse 171 ,VEKTORSTETTEN,22770,D,48.7450404,7.708768,SHP-500830,Beispielkurier,287.71,zugestellt,19/08/2025,synthetic-normal
+log-000000851,851,Spaltenweg 192,Westbogen,29069,Deutschland,53.9048208,6.9704468,SHP-500851,DemoLogistik,762.64,unterwegs,2025-09-09,synthetic-normal
+log-000000852,852,Spaltenweg 193,Vektorstetten,36988,deu,47.7621778,12.373856,SHP-500852,Musterfracht,147.49,zugestellt,2025-09-10,synthetic-normal
+log-000000853,853,Datenstrasse 194,Nordhafen,44907,D,48.1601875,6.5125421,SHP-500853,DemoLogistik,282.73,zugestellt,11/09/2025,synthetic-normal
+log-000000854,854,Prüfsummenstr. 195,Westbogen,52826,Deutschland,49.845892,9.5548655,SHP-500854,Musterfracht,57.21,verloren,12/09/2025,synthetic-normal
+log-000000855,855,Vektorallee 196, Südwinkel ,60745,Deutschland,51.1820507,12.9840385,SHP-500855,Musterfracht,35.78,unterwegs,2025/09/13,synthetic-normal
+log-000000856,856,Pipelineweg 197,Südwinkel,68664,D,6.9154298,51.3961521,SHP-500856,SynthExpress,,verloren,2025/09/14,synthetic-error
+log-000000857,857,Qualitätsring 198,Westbogen,76583,deu,50.7642409,12.6833322,SHP-500857,SynthExpress,234.52,unterwegs,2025/09/15,synthetic-normal
+log-000000858,858,Koordinatenplatz 199,Vektorstetten,84502,D,51.8996612,9.9305058,SHP-500858,Beispielkurier,289.57,unterwegs,16.09.2025,synthetic-normal
+log-000000859,859,Vektorallee 200,Westbogen,12421,Deutschland,48.1965266,9.5582257,SHP-500859,DemoLogistik,727.42,verloren,17.09.2025,synthetic-normal
+log-000000860,860,  Pipelineweg   201,Datenheim,20340,D,52.9456903,6.9628612,SHP-500860,SynthExpress,12.51,verloren,2025-09-18,synthetic-normal
+log-000000861,861,  Prüfsummenstraße   202,Ostfeld,28259,deu,52.7110747,6.8950727,SHP-500861,Musterfracht,105.99,angekuendigt,2025-09-19,synthetic-normal
+log-000000862,862,  Schemaweg   174 ,DATENHEIM,46527,DE,51.7290711,14.4197273,SHP-500833,Musterfracht,745.45,angekuendigt,2025-08-22,synthetic-normal
+log-000000863,863,Prüfsummenstr. 204,Vektorstetten,44097,deu,52.8741678,12.4581087,SHP-500863,SynthExpress,359.86,unterwegs,2025-09-21,synthetic-normal
+log-000000864,864,Prüfsummenstr. 205, Datenheim ,52016,Deutschland,54.4802376,6.6914671,SHP-500864,Musterfracht,519.56,verloren,22/09/2025,synthetic-normal
+log-000000865,865,Prüfsummenstrasse 191, Datenheim ,38970,DE,50.1477213,11.1130777,SHP-500630,DemoLogistik,150.36,zugestellt,2025-01-31,synthetic-normal
+log-000000866,866,  Koordinatenplatz   207,Südwinkel,67854,deu,47.6187017,14.4944845,SHP-500866,DemoLogistik,341.41,verloren,24/09/2025,synthetic-normal
+log-000000867,867,Schemaweg 208,Westbogen,75773,D,50.6357673,13.9452123,SHP-500867,Musterfracht,79.66,zugestellt,2025-09-25,synthetic-normal
+log-000000868,868,Qualitätsring 209,Nordhafen,83692,deu,47.3506548,13.4590414,SHP-500868,SynthExpress,112.89,zugestellt,26.09.2025,synthetic-normal
+log-000000869,869,Spaltenweg 210,Westbogen,11611,DE,52.7435069,14.2564898,SHP-500869,SynthExpress,341.26,verloren,2025/09/27,synthetic-normal
+log-000000870,870,Pipelineweg 211,,19530,deu,52.8279481,8.8094646,SHP-500870,Musterfracht,schwer,zugestellt,2025/09/28,synthetic-error
+log-000000871,871,Prüfsummenstraße 212,Datenheim,27449,Deutschland,,10.9351666,SHP-500871,SynthExpress,-4,angekuendigt,29.09.2025,synthetic-error
+log-000000872,872,Spaltenweg 213,Südwinkel,35368,D,49.4477575,7.6268713,SHP-500872,SynthExpress,156.62,unterwegs,2025-09-30,synthetic-normal
+log-000000873,873,Vektorallee 214, Westbogen ,43287,D,52.0958005,7.9593852,SHP-500873,Musterfracht,489.01,verloren,01.10.2025,synthetic-normal
+log-000000874,874,  Spaltenweg   215,Ostfeld,51206,Deutschland,51.4299412,8.5178384,SHP-500874,DemoLogistik,700.04,angekuendigt,02/10/2025,synthetic-normal
+log-000000875,875,Prüfsummenstraße 216,Westbogen,59125,DE,49.9415972,9.4624217,SHP-500875,DemoLogistik,197.99,verloren,2025/10/03,synthetic-normal
+log-000000876,876,Schemaweg 217,Ostfeld,67044,DE,51.5731556,8.7733666,SHP-500876,Musterfracht,23.27,verloren,2025/10/04,synthetic-normal
+log-000000877,877,Datenstr. 218,Südwinkel,74963,Deutschland,52.1356231,6.2197825,SHP-500877,Beispielkurier,208.63,verloren,05.10.2025,synthetic-normal
+log-000000878,878,Pipelineweg 219,Datenheim,82882,DE,54.5221171,5.9942828,SHP-500878,Beispielkurier,165.04,angekuendigt,06/10/2025,synthetic-normal
+log-000000879,879,Datenstrasse 220,Südwinkel,10801,deu,53.6699328,9.4388419,SHP-500879,DemoLogistik,442.36,zugestellt,07.10.2025,synthetic-normal
+log-000000880,880,Qualitätsring 1,Nordhafen,18720,DE,51.1113948,13.0803598,SHP-500880,SynthExpress,172.57,unterwegs,08/10/2025,synthetic-normal
+log-000000881,881,Qualitätsring 2,Nordhafen,26639,D,52.2800973,7.0069773,SHP-500881,Musterfracht,617.95,angekuendigt,2025-10-09,synthetic-normal
+log-000000882,882,  Koordinatenplatz   92,Westbogen,37169,Deutschland,50.0384043,13.6747635,SHP-500751,Beispielkurier,770.94,angekuendigt,2025/06/01,synthetic-normal
+log-000000883,883,  Pipelineweg   4,Datenheim,42477,Deutschland,53.2642654,200.0,SHP-500883,SynthExpress,100000,zugestellt,11/10/2025,synthetic-error
+log-000000884,884,Prüfsummenstr. 5,Südwinkel,50396,D,51.5635716,10.2468156,SHP-500884,DemoLogistik,461,verloren,2025-10-12,synthetic-normal
+log-000000885,885,  Pipelineweg   6,Nordhafen,58315,D,53.161164,9.9131846,SHP-500885,Beispielkurier,761.17,angekuendigt,13/10/2025,synthetic-normal
+log-000000886,886,Pipelineweg 7,Ostfeld,66234,deu,47.9375547,9.5093947,SHP-500886,Beispielkurier,780.66,unterwegs,2025-10-14,synthetic-normal
+log-000000887,887,Koordinatenplatz 8,Vektorstetten,74153,D,53.9228522,8.266933,SHP-500887,DemoLogistik,249.23,verloren,2025/10/15,synthetic-normal
+log-000000888,888,Spaltenweg 9,Ostfeld,82072,DE,50.155214,12.7633577,SHP-500888,DemoLogistik,257.54,angekuendigt,16.10.2025,synthetic-normal
+log-000000889,889,  Prüfsummenstraße   10,Datenheim,89991,D,48.362977,13.8427784,SHP-500889,Beispielkurier,91.02,verloren,2025-10-17,synthetic-normal
+log-000000890,890,Schemaweg 11,Westbogen,17910,deu,48.3755337,10.6139114,SHP-500890,DemoLogistik,235.45,zugestellt,18/10/2025,synthetic-normal
+log-000000891,891,Vektorallee 12, Ostfeld ,25829,DE,49.714429,7.4488772,SHP-500891,Beispielkurier,264.21,angekuendigt,2025-10-19,synthetic-normal
+log-000000892,892,Spaltenweg 13,Datenheim,33748,D,51.8178539,6.4143024,SHP-500892,DemoLogistik,555.27,zugestellt,2025-10-20,synthetic-normal
+log-000000893,893,Prüfsummenstr. 14,Ostfeld,41667,Deutschland,51.5644535,11.7027141,SHP-500893,DemoLogistik,656.62,angekuendigt,21.10.2025,synthetic-normal
+log-000000894,894,Pipelineweg 15,Datenheim,49586,D,49.8092174,12.9022039,SHP-500894,Musterfracht,142.74,verloren,22.10.2025,synthetic-normal
+log-000000895,895,Pipelineweg 16,Ostfeld,57505,DE,49.7573679,14.0427707,SHP-500895,SynthExpress,791.27,unterwegs,2025/10/23,synthetic-normal
+log-000000896,896,Pipelineweg 17,Ostfeld,65424,D,52.6674589,9.065923,SHP-500896,Musterfracht,242.12,angekuendigt,24.10.2025,synthetic-normal
+log-000000897,897,  Vektorallee   18,Ostfeld,73343,Deutschland,52.5087936,10.9327268,SHP-500897,Beispielkurier,666.9,zugestellt,25.10.2025,synthetic-normal
+log-000000898,898,  Vektorallee   146, Vektorstetten ,82615,D,48.4322677,12.4963502,SHP-500585,SynthExpress,484.61,verloren,2025/10/13,synthetic-normal
+log-000000899,899,  Qualitätsring   20,Vektorstetten,89181,DE,48.7883542,9.1211207,SHP-500899,DemoLogistik,339.32,angekuendigt,27/10/2025,synthetic-normal
+log-000000900,900,Datenstr. 21, Westbogen ,17100,D,50.3270344,14.9607882,SHP-500900,Musterfracht,732.65,zugestellt,2025-01-01,synthetic-normal
+log-000000901,901,  Spaltenweg   22,Ostfeld,25019,DE,47.5902713,6.0653001,SHP-500901,DemoLogistik,690.56,unterwegs,02.01.2025,synthetic-normal
+log-000000902,902,Spaltenweg 23,Datenheim,32938,Deutschland,54.7738661,7.5864779,SHP-500902,SynthExpress,95.63,zugestellt,03/01/2025,synthetic-normal
+log-000000903,903,Koordinatenplatz 24,Ostfeld,40857,D,53.6666467,11.9606988,SHP-500903,SynthExpress,789.02,unterwegs,04.01.2025,synthetic-normal
+log-000000904,904,  Qualitätsring   25,,48776,DE,49.6648504,10.9571464,SHP-500904,SynthExpress,schwer,zugestellt,2025/01/05,synthetic-error
+log-000000905,905,Pipelineweg 26,Nordhafen,56695,deu,not-a-number,11.5649495,SHP-500905,SynthExpress,-4,unterwegs,2025-01-06,synthetic-error
+log-000000906,906,Schemaweg 27,Vektorstetten,64614,deu,49.6597017,9.2896562,SHP-500906,Musterfracht,754.6,unterwegs,07/01/2025,synthetic-normal
+log-000000907,907,Qualitätsring 28,Südwinkel,72533,Deutschland,49.2710911,9.8443046,SHP-500907,SynthExpress,180.85,verloren,08/01/2025,synthetic-normal
+log-000000908,908,Spaltenweg 29,Datenheim,80452,D,48.4833521,11.032144,SHP-500908,Beispielkurier,513.5,zugestellt,09/01/2025,synthetic-normal
+log-000000909,909,Schemaweg 30, Südwinkel ,88371,Deutschland,48.9587374,8.1997824,SHP-500909,SynthExpress,403.06,unterwegs,2025/01/10,synthetic-normal
+log-000000910,910,Prüfsummenstraße 31,Nordhafen,16290,Deutschland,53.9069012,5.8726644,SHP-500910,Beispielkurier,297.89,verloren,11/01/2025,synthetic-normal
+log-000000911,911,Koordinatenplatz 32,Datenheim,24209,deu,53.0155433,9.8388801,SHP-500911,Beispielkurier,149.77,verloren,2025/01/12,synthetic-normal
+log-000000912,912,  Koordinatenplatz   33,Westbogen,32128,DE,54.6778191,13.872381,SHP-500912,SynthExpress,578.73,verloren,2025/01/13,synthetic-normal
+log-000000913,913,Datenstrasse 34,Westbogen,40047,deu,54.5313535,11.0254921,SHP-500913,DemoLogistik,320.66,unterwegs,14/01/2025,synthetic-normal
+log-000000914,914,  Koordinatenplatz   35,Ostfeld,ABCDE,DE,52.3054254,7.6437401,SHP-500914,DemoLogistik,100000,zugestellt,15/01/2025,synthetic-error
+log-000000915,915,Qualitätsring 36,Westbogen,55885,DE,50.9278151,8.9713491,SHP-500915,Beispielkurier,72.22,verloren,16.01.2025,synthetic-normal
+log-000000916,916,Qualitätsring 37,Westbogen,63804,deu,50.339115,8.8094289,SHP-500916,Musterfracht,665.09,verloren,2025/01/17,synthetic-normal
+log-000000917,917,Datenstrasse 38,Südwinkel,71723,deu,50.1054075,8.9266287,SHP-500917,SynthExpress,535.93,verloren,2025-01-18,synthetic-normal
+log-000000918,918,Qualitätsring 39, Westbogen ,79642,D,52.2707415,9.7165441,SHP-500918,Musterfracht,150.46,zugestellt,2025/01/19,synthetic-normal
+log-000000919,919,Prüfsummenstrasse 40,Vektorstetten,87561,DE,50.8334125,6.5602923,SHP-500919,SynthExpress,208.89,verloren,2025-01-20,synthetic-normal
+log-000000920,920,Spaltenweg 41,Vektorstetten,15480,D,50.5106737,6.3015039,SHP-500920,Beispielkurier,405.63,zugestellt,2025-01-21,synthetic-normal
+log-000000921,921,  Koordinatenplatz   42,Datenheim,23399,Deutschland,48.1487083,7.445324,SHP-500921,Beispielkurier,360.27,verloren,2025-01-22,synthetic-normal
+log-000000922,922,Schemaweg 43,Datenheim,31318,D,50.6051491,10.0758212,SHP-500922,SynthExpress,747.35,angekuendigt,2025/01/23,synthetic-normal
+log-000000923,923,  Schemaweg   44,Westbogen,39237,DE,51.4248886,-220.0,SHP-500923,Musterfracht,schwer,verloren,2025-01-24,synthetic-error
+log-000000924,924,Prüfsummenstrasse 45,Datenheim,47156,DE,7.1307277,48.2580152,SHP-500924,Beispielkurier,-4,verloren,25/01/2025,synthetic-error
+log-000000925,925,Spaltenweg 46,Westbogen,55075,DE,48.4153034,14.7869587,SHP-500925,SynthExpress,195.36,verloren,2025-01-26,synthetic-normal
+log-000000926,926,Prüfsummenstraße 47,Vektorstetten,62994,Deutschland,52.7841141,12.6327012,SHP-500926,SynthExpress,241.66,verloren,2025-01-27,synthetic-normal
+log-000000927,927,Qualitätsring 48, Ostfeld ,70913,deu,53.0814647,9.8198998,SHP-500927,DemoLogistik,795.94,zugestellt,2025-01-28,synthetic-normal
+log-000000928,928,Schemaweg 49,Nordhafen,78832,D,52.2948172,8.3278717,SHP-500928,Beispielkurier,542.6,zugestellt,2025-01-29,synthetic-normal
+log-000000929,929,  Schemaweg   50,Vektorstetten,86751,Deutschland,10.1755466,51.4150802,SHP-500929,SynthExpress,-4,zugestellt,30/01/2025,synthetic-error
+log-000000930,930,Spaltenweg 51,Südwinkel,14670,D,49.2432637,6.0968519,SHP-500930,SynthExpress,369.61,verloren,31/01/2025,synthetic-normal
+log-000000931,931,Schemaweg 52,Ostfeld,22589,D,47.5246907,11.5487368,SHP-500931,DemoLogistik,423.72,zugestellt,2025/02/01,synthetic-normal
+log-000000932,932,  Schemaweg   53,Ostfeld,30508,deu,50.1760592,14.5291356,SHP-500932,SynthExpress,601.14,angekuendigt,2025/02/02,synthetic-normal
+log-000000933,933,Vektorallee 54,Vektorstetten,38427,D,51.4805347,9.0386265,SHP-500933,DemoLogistik,456.64,verloren,03/02/2025,synthetic-normal
+log-000000934,934,  Koordinatenplatz   55,Ostfeld,46346,D,53.0518942,8.4338075,SHP-500934,Beispielkurier,84.6,unterwegs,04.02.2025,synthetic-normal
+log-000000935,935,Vektorallee 56,,54265,D,54.7042802,9.574703,SHP-500935,SynthExpress,,unterwegs,05.02.2025,synthetic-error
+log-000000936,936,Prüfsummenstraße 57, Südwinkel ,62184,deu,51.6267267,10.1416046,SHP-500936,SynthExpress,479.69,zugestellt,2025-02-06,synthetic-normal
+log-000000937,937,Qualitätsring 58,Vektorstetten,70103,deu,48.6316036,14.4216962,SHP-500937,DemoLogistik,523.33,zugestellt,07.02.2025,synthetic-normal
+log-000000938,938,  Spaltenweg   59,Datenheim,78022,D,54.8218213,13.1301327,SHP-500938,Beispielkurier,165.69,angekuendigt,08/02/2025,synthetic-normal
+log-000000939,939,Pipelineweg 60,Vektorstetten,85941,D,53.8896766,14.9589179,SHP-500939,Beispielkurier,195.97,angekuendigt,2025/02/09,synthetic-normal
+log-000000940,940,  Datenstraße   61,Vektorstetten,13860,DE,49.5265193,9.46525,SHP-500940,SynthExpress,429.92,zugestellt,2025/02/10,synthetic-normal
+log-000000941,941,Prüfsummenstraße 62,Westbogen,21779,DE,52.787156,9.1714735,SHP-500941,Musterfracht,519.74,unterwegs,11.02.2025,synthetic-normal
+log-000000942,942,  Pipelineweg   63,Ostfeld,29698,deu,53.0530524,8.9504747,SHP-500942,Beispielkurier,77.79,zugestellt,2025/02/12,synthetic-normal
+log-000000943,943,Vektorallee 64,Nordhafen,37617,deu,53.9892965,10.9845628,SHP-500943,Musterfracht,475.58,zugestellt,13.02.2025,synthetic-normal
+log-000000944,944,Schemaweg 65,Vektorstetten,45536,deu,48.4135987,8.4894625,SHP-500944,Beispielkurier,570.49,zugestellt,14.02.2025,synthetic-normal
+log-000000945,945,Schemaweg 114,Ostfeld,69207,D,52.8927586,14.2796382,SHP-500553,DemoLogistik,623.62,zugestellt,2025-09-11,synthetic-normal
+log-000000946,946,Spaltenweg 67,Vektorstetten,61374,deu,,10.4100767,SHP-500946,Musterfracht,,verloren,2025/02/16,synthetic-error
+log-000000947,947,Pipelineweg 68,Südwinkel,69293,deu,48.4406728,11.3994994,SHP-500947,SynthExpress,11.48,unterwegs,17/02/2025,synthetic-normal
+log-000000948,948,Datenstrasse 69,Westbogen,77212,DE,50.3285333,6.7093282,SHP-500948,Musterfracht,510.95,angekuendigt,18/02/2025,synthetic-normal
+log-000000949,949,Pipelineweg 70,Datenheim,85131,deu,49.1596611,13.1348827,SHP-500949,DemoLogistik,593.03,unterwegs,19.02.2025,synthetic-normal
+log-000000950,950,Schemaweg 71,Südwinkel,13050,DE,54.1866714,7.0194502,SHP-500950,Musterfracht,32.28,angekuendigt,20.02.2025,synthetic-normal
+log-000000951,951,Spaltenweg 72,Nordhafen,20969,Deutschland,53.3041226,6.4721018,SHP-500951,Beispielkurier,465.06,angekuendigt,2025/02/21,synthetic-normal
+log-000000952,952,  Qualitätsring   73,Nordhafen,28888,D,53.8446572,6.8260199,SHP-500952,Beispielkurier,433.94,unterwegs,2025/02/22,synthetic-normal
+log-000000953,953,  Schemaweg   74,Westbogen,36807,D,51.2079218,14.5532084,SHP-500953,Musterfracht,325.79,zugestellt,23.02.2025,synthetic-normal
+log-000000954,954,Spaltenweg 75, Südwinkel ,44726,D,47.3495314,14.0189782,SHP-500954,Beispielkurier,402.5,verloren,24.02.2025,synthetic-normal
+log-000000955,955,  Pipelineweg   76,Vektorstetten,52645,deu,48.7713258,6.8001477,SHP-500955,DemoLogistik,538.41,unterwegs,25/02/2025,synthetic-normal
+log-000000956,956,Pipelineweg 77,Südwinkel,60564,deu,49.7606173,7.5655174,SHP-500956,Beispielkurier,424.37,unterwegs,26.02.2025,synthetic-normal
+log-000000957,957,  Spaltenweg   78,Westbogen,68483,deu,54.3896109,10.1422314,SHP-500957,Musterfracht,765.37,zugestellt,27.02.2025,synthetic-normal
+log-000000958,958,  Koordinatenplatz   79,Datenheim,76402,D,53.0964839,5.8521873,SHP-500958,Beispielkurier,663.4,angekuendigt,2025/02/28,synthetic-normal
+log-000000959,959,Schemaweg 80,Südwinkel,84321,deu,52.3316152,8.1545498,SHP-500959,Musterfracht,779.99,angekuendigt,01/03/2025,synthetic-normal
+log-000000960,960,Qualitätsring 81,Ostfeld,12240,Deutschland,48.1119428,8.0368679,SHP-500960,Musterfracht,446.5,verloren,2025/03/02,synthetic-normal
+log-000000961,961,  Prüfsummenstraße   82,Datenheim,20159,D,47.7508078,6.316254,SHP-500961,Musterfracht,625,zugestellt,03/03/2025,synthetic-normal
+log-000000962,962,Pipelineweg 83,Vektorstetten,28078,D,53.5647613,13.8403457,SHP-500962,Musterfracht,377.53,unterwegs,2025-03-04,synthetic-normal
+log-000000963,963,Schemaweg 84, Südwinkel ,35997,DE,53.9175125,12.2331121,SHP-500963,Musterfracht,437.31,zugestellt,2025/03/05,synthetic-normal
+log-000000964,964,  Qualitätsring   85,Südwinkel,43916,Deutschland,49.2407191,12.6783826,SHP-500964,SynthExpress,257.08,unterwegs,2025-03-06,synthetic-normal
+log-000000965,965,Datenstraße 86,Datenheim,51835,Deutschland,47.4231296,9.8223036,SHP-500965,SynthExpress,644.87,zugestellt,2025/03/07,synthetic-normal
+log-000000966,966,Pipelineweg 87,Nordhafen,59754,deu,53.3692914,13.5859539,SHP-500966,SynthExpress,53.78,verloren,08.03.2025,synthetic-normal
+log-000000967,967,  Schemaweg   88,Vektorstetten,67673,deu,52.2433721,6.4718372,SHP-500967,Musterfracht,344.81,verloren,2025/03/09,synthetic-normal
+log-000000968,968,Prüfsummenstraße 89,Westbogen,75592,D,48.4437614,13.6712866,SHP-500968,Musterfracht,235.12,verloren,10.03.2025,synthetic-normal
+log-000000969,969,Vektorallee 90,Südwinkel,83511,Deutschland,48.6800591,6.0412653,SHP-500969,SynthExpress,283.78,unterwegs,11/03/2025,synthetic-normal
+log-000000970,970,Qualitätsring 91,Südwinkel,11430,D,54.8316276,7.9434054,SHP-500970,DemoLogistik,252.34,zugestellt,2025-03-12,synthetic-normal
+log-000000971,971,Prüfsummenstraße 92,Vektorstetten,19349,deu,50.1911659,9.910674,SHP-500971,Beispielkurier,351.77,unterwegs,13.03.2025,synthetic-normal
+log-000000972,972,Vektorallee 93, Südwinkel ,27268,DE,54.4492878,12.6139064,SHP-500972,Musterfracht,99.81,zugestellt,2025/03/14,synthetic-normal
+log-000000973,973,  Koordinatenplatz   94,Nordhafen,35187,D,47.4227055,9.296268,SHP-500973,Beispielkurier,639.85,verloren,2025-03-15,synthetic-normal
+log-000000974,974,Prüfsummenstr. 95,Vektorstetten,43106,DE,52.2432881,13.2535587,SHP-500974,Beispielkurier,669.24,angekuendigt,16/03/2025,synthetic-normal
+log-000000975,975,Qualitätsring 96,Südwinkel,51025,deu,48.3656748,10.1222769,SHP-500975,SynthExpress,36.39,angekuendigt,17.03.2025,synthetic-normal
+log-000000976,976,Prüfsummenstrasse 97,Südwinkel,58944,deu,52.9389467,13.254941,SHP-500976,DemoLogistik,297.43,zugestellt,2025-03-18,synthetic-normal
+log-000000977,977,Koordinatenplatz 98,Nordhafen,,DE,49.8200236,13.9771481,SHP-500977,SynthExpress,,unterwegs,2025/03/19,synthetic-error
+log-000000978,978,Pipelineweg 99,Südwinkel,74782,DE,50.4911099,6.4101967,SHP-500978,Beispielkurier,135.88,verloren,2025/03/20,synthetic-normal
+log-000000979,979,Datenstr. 100,Westbogen,82701,deu,49.7538611,10.767872,SHP-500979,SynthExpress,107.61,verloren,2025/03/21,synthetic-normal
+log-000000980,980,Qualitätsring 101,Südwinkel,10620,deu,52.3099955,12.6373042,SHP-500980,Beispielkurier,157.11,zugestellt,2025-03-22,synthetic-normal
+log-000000981,981,Schemaweg 102, Ostfeld ,18539,Deutschland,53.0751915,7.0117053,SHP-500981,Beispielkurier,584.05,zugestellt,23.03.2025,synthetic-normal
+log-000000982,982,Prüfsummenstraße 103,Südwinkel,26458,DE,48.3864539,6.1138492,SHP-500982,DemoLogistik,27.48,unterwegs,2025/03/24,synthetic-normal
+log-000000983,983,Koordinatenplatz 104,Datenheim,34377,D,50.7359913,7.776493,SHP-500983,Musterfracht,387.13,verloren,2025-03-25,synthetic-normal
+log-000000984,984,Koordinatenplatz 105,Südwinkel,42296,Deutschland,49.8914708,13.8221342,SHP-500984,Beispielkurier,411.64,angekuendigt,26/03/2025,synthetic-normal
+log-000000985,985,Prüfsummenstraße 106,Südwinkel,50215,DE,49.0261504,10.0083876,SHP-500985,SynthExpress,625.59,angekuendigt,27/03/2025,synthetic-normal
+log-000000986,986,Pipelineweg 107,Datenheim,58134,deu,48.376984,12.0612842,SHP-500986,SynthExpress,362.11,unterwegs,28/03/2025,synthetic-normal
+log-000000987,987,Datenstr. 108,Vektorstetten,66053,deu,50.1459881,6.7212703,SHP-500987,DemoLogistik,450.35,unterwegs,29.03.2025,synthetic-normal
+log-000000988,988,Qualitätsring 109,Ostfeld,73972,Deutschland,50.2622702,10.6000868,SHP-500988,Beispielkurier,339.27,verloren,2025/03/30,synthetic-normal
+log-000000989,989,Pipelineweg 110,Vektorstetten,81891,Deutschland,48.8865365,12.5478365,SHP-500989,SynthExpress,240.06,angekuendigt,2025/03/31,synthetic-normal
+log-000000990,990,  Qualitätsring   111, Vektorstetten ,89810,D,50.2715974,7.5790159,SHP-500990,Musterfracht,128.29,angekuendigt,01.04.2025,synthetic-normal
+log-000000991,991,Pipelineweg 112,Südwinkel,17729,Deutschland,53.0804429,5.8990751,SHP-500991,SynthExpress,714.12,zugestellt,2025-04-02,synthetic-normal
+log-000000992,992,Spaltenweg 113,Datenheim,25648,D,48.4679422,13.8980873,SHP-500992,Musterfracht,185.82,zugestellt,2025-04-03,synthetic-normal
+log-000000993,993,  Spaltenweg   114,Vektorstetten,33567,D,53.0642925,7.8666274,SHP-500993,SynthExpress,90.36,angekuendigt,04/04/2025,synthetic-normal
+log-000000994,994,  Prüfsummenstraße   115,Nordhafen,41486,Deutschland,53.70167,12.5384722,SHP-500994,Musterfracht,395.68,zugestellt,2025/04/05,synthetic-normal
+log-000000995,995,Datenstraße 116,Ostfeld,49405,deu,51.7519593,7.8367708,SHP-500995,Beispielkurier,285.39,zugestellt,2025-04-06,synthetic-normal
+log-000000996,996,  Prüfsummenstraße   117,Nordhafen,57324,DE,51.674754,6.8807549,SHP-500996,DemoLogistik,390.34,zugestellt,2025/04/07,synthetic-normal
+log-000000997,997,  Spaltenweg   118,Datenheim,65243,DE,54.4454972,13.2810782,SHP-500997,Beispielkurier,31.99,angekuendigt,08.04.2025,synthetic-normal
+log-000000998,998,  Schemaweg   119,Vektorstetten,73162,D,8.1323309,53.7556686,SHP-500998,Musterfracht,-4,zugestellt,09.04.2025,synthetic-error
+log-000000999,999,Vektorallee 120, Datenheim ,81081,Deutschland,12.7305362,52.9293563,SHP-500999,DemoLogistik,schwer,verloren,2025-04-10,synthetic-error
